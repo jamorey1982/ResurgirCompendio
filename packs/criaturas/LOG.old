@@ -1,0 +1,7 @@
+2024/02/22-17:21:58.712 1868 Recovering log #346
+2024/02/22-17:21:58.797 1868 Delete type=0 #346
+2024/02/22-17:21:58.801 1868 Delete type=3 #345
+2024/02/22-17:49:43.091 24cc Level-0 table #350: started
+2024/02/22-17:49:43.091 24cc Level-0 table #350: 0 bytes OK
+2024/02/22-17:49:43.094 24cc Delete type=0 #348
+2024/02/22-17:49:43.099 24cc Manual compaction at level-0 from '!actors!09Etr1sWZSDkpz60' @ 72057594037927935 : 1 .. '!actors.items.effects!z2uoNvaTD2ApFTSi.tPtMWQgMtBSbXktQ.q7t0tzXAM5sdqBWT' @ 0 : 0; will stop at (end)

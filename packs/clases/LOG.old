@@ -1,0 +1,7 @@
+2024/02/22-17:21:56.730 2490 Recovering log #340
+2024/02/22-17:21:56.833 2490 Delete type=0 #340
+2024/02/22-17:21:56.960 2490 Delete type=3 #339
+2024/02/22-17:49:42.885 24cc Level-0 table #344: started
+2024/02/22-17:49:42.885 24cc Level-0 table #344: 0 bytes OK
+2024/02/22-17:49:42.888 24cc Delete type=0 #342
+2024/02/22-17:49:42.921 24cc Manual compaction at level-0 from '!items!1R1xidXF6xoL4Spv' @ 72057594037927935 : 1 .. '!items!yvacLlRHZtpLvYFD' @ 0 : 0; will stop at (end)

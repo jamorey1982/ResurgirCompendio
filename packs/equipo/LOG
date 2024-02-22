@@ -1,0 +1,23 @@
+2024/02/22-17:55:54.178 2490 Recovering log #344
+2024/02/22-17:55:54.188 2490 Delete type=0 #344
+2024/02/22-17:55:54.190 2490 Delete type=3 #342
+2024/02/22-17:56:44.761 24cc Level-0 table #350: started
+2024/02/22-17:56:45.179 24cc Level-0 table #350: 2263345 bytes OK
+2024/02/22-17:56:45.183 24cc Delete type=0 #348
+2024/02/22-17:56:47.099 24cc Compacting 1@0 + 1@1 files
+2024/02/22-17:56:47.250 24cc Generated table #351@0: 964 keys, 1251921 bytes
+2024/02/22-17:56:47.251 24cc Compacted 1@0 + 1@1 files => 1251921 bytes
+2024/02/22-17:56:47.253 24cc compacted to: files[ 0 1 0 0 0 0 0 ]
+2024/02/22-18:10:52.382 24cc Level-0 table #353: started
+2024/02/22-18:10:52.398 24cc Level-0 table #353: 91912 bytes OK
+2024/02/22-18:10:52.401 24cc Delete type=2 #346
+2024/02/22-18:10:52.404 24cc Delete type=0 #349
+2024/02/22-18:10:52.445 24cc Delete type=2 #350
+2024/02/22-18:10:52.579 24cc Manual compaction at level-0 from '!folders!4W2cYe803tYhYpf8' @ 72057594037927935 : 1 .. '!items.effects!ywc2NfaDmzw8OMxu.qz7znP2SPjDunkbI' @ 0 : 0; will stop at '!items.effects!qVsBZA7OTMJJ50lV.GETkSLNIgOMIsvhE' @ 7016 : 1
+2024/02/22-18:10:52.579 24cc Compacting 1@0 + 1@1 files
+2024/02/22-18:10:52.700 24cc Generated table #354@0: 964 keys, 1252188 bytes
+2024/02/22-18:10:52.700 24cc Compacted 1@0 + 1@1 files => 1252188 bytes
+2024/02/22-18:10:52.703 24cc compacted to: files[ 0 1 0 0 0 0 0 ]
+2024/02/22-18:10:52.703 24cc Delete type=2 #351
+2024/02/22-18:10:52.705 24cc Delete type=2 #353
+2024/02/22-18:10:52.773 24cc Manual compaction at level-0 from '!items.effects!qVsBZA7OTMJJ50lV.GETkSLNIgOMIsvhE' @ 7016 : 1 .. '!items.effects!ywc2NfaDmzw8OMxu.qz7znP2SPjDunkbI' @ 0 : 0; will stop at (end)
