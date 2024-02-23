@@ -1,14 +1,10 @@
-2024/02/21-13:31:45.953998 ffff977ef0a0 Recovering log #376
-2024/02/21-13:31:45.961092 ffff977ef0a0 Delete type=0 #376
-2024/02/21-13:31:45.961121 ffff977ef0a0 Delete type=3 #374
-2024/02/22-10:35:28.094833 ffff95bc10a0 Level-0 table #382: started
-2024/02/22-10:35:28.098349 ffff95bc10a0 Level-0 table #382: 60500 bytes OK
-2024/02/22-10:35:28.100692 ffff95bc10a0 Delete type=0 #380
-2024/02/22-10:35:28.109707 ffff95bc10a0 Manual compaction at level-0 from '!folders!0GF6QBLewtBpCn8T' @ 72057594037927935 : 1 .. '!items.effects!ySMwqBLH1hVcpcYM.iZLFr3Zh9miheVAS' @ 0 : 0; will stop at '!items!zM5boaR3A2ItmkYE' @ 8840 : 1
-2024/02/22-10:35:28.109715 ffff95bc10a0 Compacting 1@0 + 1@1 files
-2024/02/22-10:35:28.118402 ffff95bc10a0 Generated table #383@0: 502 keys, 369476 bytes
-2024/02/22-10:35:28.118414 ffff95bc10a0 Compacted 1@0 + 1@1 files => 369476 bytes
-2024/02/22-10:35:28.120847 ffff95bc10a0 compacted to: files[ 0 1 0 0 0 0 0 ]
-2024/02/22-10:35:28.120974 ffff95bc10a0 Delete type=2 #378
-2024/02/22-10:35:28.121087 ffff95bc10a0 Delete type=2 #382
-2024/02/22-10:35:28.127875 ffff95bc10a0 Manual compaction at level-0 from '!items!zM5boaR3A2ItmkYE' @ 8840 : 1 .. '!items.effects!ySMwqBLH1hVcpcYM.iZLFr3Zh9miheVAS' @ 0 : 0; will stop at (end)
+2024/02/23-21:57:09.004 2e38 Log #358: 0 ops saved to Table #386 OK
+2024/02/23-21:57:09.006 2e38 Archiving G:\Rol\FoundryVtt\Contenido\Data\worlds\test\packs\rasgos-de-clase/000358.log: OK
+2024/02/23-21:57:09.018 2e38 Log #385: 129 ops saved to Table #387 OK
+2024/02/23-21:57:09.019 2e38 Archiving G:\Rol\FoundryVtt\Contenido\Data\worlds\test\packs\rasgos-de-clase/000385.log: OK
+2024/02/23-21:57:09.151 2e38 Table #360: 378 entries OK
+2024/02/23-21:57:09.164 2e38 Table #383: 502 entries OK
+2024/02/23-21:57:09.168 2e38 Table #387: 129 entries OK
+2024/02/23-21:57:09.178 2e38 Archiving G:\Rol\FoundryVtt\Contenido\Data\worlds\test\packs\rasgos-de-clase/MANIFEST-000356: OK
+2024/02/23-21:57:09.181 2e38 Archiving G:\Rol\FoundryVtt\Contenido\Data\worlds\test\packs\rasgos-de-clase/MANIFEST-000384: OK
+2024/02/23-21:57:09.188 2e38 **** Repaired leveldb G:\Rol\FoundryVtt\Contenido\Data\worlds\test\packs\rasgos-de-clase; recovered 3 files; 788490 bytes. Some data may have been lost. ****
