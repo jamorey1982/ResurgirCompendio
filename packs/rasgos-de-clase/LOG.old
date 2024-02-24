@@ -1,10 +1,13 @@
-2024/02/23-21:57:09.004 2e38 Log #358: 0 ops saved to Table #386 OK
-2024/02/23-21:57:09.006 2e38 Archiving G:\Rol\FoundryVtt\Contenido\Data\worlds\test\packs\rasgos-de-clase/000358.log: OK
-2024/02/23-21:57:09.018 2e38 Log #385: 129 ops saved to Table #387 OK
-2024/02/23-21:57:09.019 2e38 Archiving G:\Rol\FoundryVtt\Contenido\Data\worlds\test\packs\rasgos-de-clase/000385.log: OK
-2024/02/23-21:57:09.151 2e38 Table #360: 378 entries OK
-2024/02/23-21:57:09.164 2e38 Table #383: 502 entries OK
-2024/02/23-21:57:09.168 2e38 Table #387: 129 entries OK
-2024/02/23-21:57:09.178 2e38 Archiving G:\Rol\FoundryVtt\Contenido\Data\worlds\test\packs\rasgos-de-clase/MANIFEST-000356: OK
-2024/02/23-21:57:09.181 2e38 Archiving G:\Rol\FoundryVtt\Contenido\Data\worlds\test\packs\rasgos-de-clase/MANIFEST-000384: OK
-2024/02/23-21:57:09.188 2e38 **** Repaired leveldb G:\Rol\FoundryVtt\Contenido\Data\worlds\test\packs\rasgos-de-clase; recovered 3 files; 788490 bytes. Some data may have been lost. ****
+2024/02/23-21:57:09.210 2e38 Delete type=3 #1
+2024/02/23-22:29:34.860 838 Level-0 table #391: started
+2024/02/23-22:29:34.861 838 Level-0 table #391: 0 bytes OK
+2024/02/23-22:29:34.863 838 Delete type=0 #389
+2024/02/23-22:29:34.868 838 Manual compaction at level-0 from '!folders!0GF6QBLewtBpCn8T' @ 72057594037927935 : 1 .. '!items.effects!ySMwqBLH1hVcpcYM.iZLFr3Zh9miheVAS' @ 0 : 0; will stop at '!items.effects!mY4Y0ZhlNOmzDplV.zMzSX5EkR4Xkkh2o' @ 8909 : 1
+2024/02/23-22:29:34.868 838 Compacting 3@0 + 0@1 files
+2024/02/23-22:29:34.911 838 Generated table #392@0: 505 keys, 373157 bytes
+2024/02/23-22:29:34.911 838 Compacted 3@0 + 0@1 files => 373157 bytes
+2024/02/23-22:29:34.914 838 compacted to: files[ 0 1 0 0 0 0 0 ]
+2024/02/23-22:29:34.915 838 Delete type=2 #360
+2024/02/23-22:29:34.917 838 Delete type=2 #383
+2024/02/23-22:29:34.918 838 Delete type=2 #387
+2024/02/23-22:29:34.947 838 Manual compaction at level-0 from '!items.effects!mY4Y0ZhlNOmzDplV.zMzSX5EkR4Xkkh2o' @ 8909 : 1 .. '!items.effects!ySMwqBLH1hVcpcYM.iZLFr3Zh9miheVAS' @ 0 : 0; will stop at (end)
