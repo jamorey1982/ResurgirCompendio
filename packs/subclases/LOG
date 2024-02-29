@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+2024/02/29-09:06:18.871348 ffff97fff0a0 Recovering log #399
+2024/02/29-09:06:18.878711 ffff97fff0a0 Delete type=0 #399
+2024/02/29-09:06:18.878734 ffff97fff0a0 Delete type=3 #397
+=======
 2024/02/28-08:41:43.178 8bc Recovering log #394
 2024/02/28-08:41:43.190 8bc Delete type=2 #378
 2024/02/28-08:41:43.191 8bc Delete type=0 #380
@@ -12,3 +17,4 @@
 2024/02/28-09:36:13.306 410 Level-0 table #399: 0 bytes OK
 2024/02/28-09:36:13.313 410 Delete type=0 #397
 2024/02/28-09:36:13.640 410 Manual compaction at level-0 from '!folders!IrXIYFIyNyC0OAaw' @ 72057594037927935 : 1 .. '!items!ytMgnfFEjRTAKxmk' @ 0 : 0; will stop at (end)
+>>>>>>> 7b27bc17a7c26047b0874a28f9e7ca250d0e6066
