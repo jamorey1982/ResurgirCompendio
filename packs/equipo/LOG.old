@@ -1,14 +1,14 @@
-2024/02/24-12:00:55.336 648 Recovering log #362
-2024/02/24-12:00:55.346 648 Delete type=0 #362
-2024/02/24-12:00:55.347 648 Delete type=3 #360
-2024/02/24-12:12:19.976 c48 Level-0 table #367: started
-2024/02/24-12:12:19.983 c48 Level-0 table #367: 10816 bytes OK
-2024/02/24-12:12:19.986 c48 Delete type=0 #365
-2024/02/24-12:12:20.002 c48 Manual compaction at level-0 from '!folders!4W2cYe803tYhYpf8' @ 72057594037927935 : 1 .. '!items.effects!ywc2NfaDmzw8OMxu.qz7znP2SPjDunkbI' @ 0 : 0; will stop at '!items!rUdQCIspL6TNo6jM' @ 7088 : 1
-2024/02/24-12:12:20.002 c48 Compacting 1@0 + 1@1 files
-2024/02/24-12:12:20.101 c48 Generated table #368@0: 967 keys, 1253895 bytes
-2024/02/24-12:12:20.102 c48 Compacted 1@0 + 1@1 files => 1253895 bytes
-2024/02/24-12:12:20.105 c48 compacted to: files[ 0 1 0 0 0 0 0 ]
-2024/02/24-12:12:20.105 c48 Delete type=2 #359
-2024/02/24-12:12:20.106 c48 Delete type=2 #367
-2024/02/24-12:12:20.116 c48 Manual compaction at level-0 from '!items!rUdQCIspL6TNo6jM' @ 7088 : 1 .. '!items.effects!ywc2NfaDmzw8OMxu.qz7znP2SPjDunkbI' @ 0 : 0; will stop at (end)
+2024/03/10-01:23:16.382 1698 Recovering log #412
+2024/03/10-01:23:16.394 1698 Delete type=0 #412
+2024/03/10-01:23:16.395 1698 Delete type=3 #410
+2024/03/10-01:57:08.792 295c Level-0 table #417: started
+2024/03/10-01:57:08.795 295c Level-0 table #417: 9163 bytes OK
+2024/03/10-01:57:08.797 295c Delete type=0 #415
+2024/03/10-01:57:08.797 295c Manual compaction at level-0 from '!folders!4W2cYe803tYhYpf8' @ 72057594037927935 : 1 .. '!items.effects!ywc2NfaDmzw8OMxu.qz7znP2SPjDunkbI' @ 0 : 0; will stop at '!items!yDW1BCER0wwsKcJ7' @ 7090 : 1
+2024/03/10-01:57:08.797 295c Compacting 1@0 + 1@1 files
+2024/03/10-01:57:08.864 295c Generated table #418@0: 967 keys, 1254294 bytes
+2024/03/10-01:57:08.864 295c Compacted 1@0 + 1@1 files => 1254294 bytes
+2024/03/10-01:57:08.877 295c compacted to: files[ 0 1 0 0 0 0 0 ]
+2024/03/10-01:57:08.877 295c Delete type=2 #409
+2024/03/10-01:57:08.901 295c Delete type=2 #417
+2024/03/10-01:57:08.908 295c Manual compaction at level-0 from '!items!yDW1BCER0wwsKcJ7' @ 7090 : 1 .. '!items.effects!ywc2NfaDmzw8OMxu.qz7znP2SPjDunkbI' @ 0 : 0; will stop at (end)
