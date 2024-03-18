@@ -1,32 +1,52 @@
 Especies/Razas
-  Todas deberían tener su descripción, imagen de raza, manual y página de referencia, y los rasgos, atributos, equipo y competencias adecuados en la pestaña de Avance.
-  Los atributos de Personaje han sido configurados en base a la regla "Personaliza tu origen" del "Caldero de Tasha para Todo", pero equiparando a todas las razas, sin hacer distinción. Así, los semielfos por ejemplo, sólo reciben 3 puntos a repartir en atributo, y no 4 como debería ser (+2 a un atributo/+1 a dos).
-  HAcer revisión de los Rasgos de Raza.
+  HECHO:
+    Todas deberían tener su descripción, imagen de raza, manual y página de referencia, y los rasgos, atributos, equipo y competencias adecuados en la pestaña de Avance.
+    Los atributos de Personaje han sido configurados en base a la regla "Personaliza tu origen" del "Caldero de Tasha para Todo", pero equiparando a todas las razas, sin hacer distinción. Así, los semielfos por ejemplo, sólo reciben 3 puntos a repartir en atributo, y no 4 como debería ser (+2 a un atributo/+1 a dos).
+  POR HACER:
+    Hacer revisión y corrección de posibles errores.
 
 Clases
-  Las clases ahora tienen imágenes unificadas (estilo mosaico), descripciones mínimas, referencias a los manuales de Resurgir y deberían tener vinculadas los rasgos de clase propios, y no los del SRD (comprobar).
-  Faltaría, y es algo que ya hice en una versión anterior pero se perdió, añadir el equipo inicial.
+  HECHO:
+    Las clases ahora tienen imágenes unificadas (estilo mosaico), descripciones mínimas, referencias a los manuales de Resurgir (añadido que hago al código base del programa) y deberían tener vinculadas los rasgos de clase propios, y no los del SRD.
+  POR HACER:
+    Comprobar que los rasgos de todas las clases corresponden a los rasgos propios, y no a los del SRD.    
+    Faltaría, y es algo que ya hice en una versión anterior pero se perdió, añadir el equipo inicial.
+    Hacer revisión y corrección de posibles errores.
 
 Subclases/Arquetipos
-  Todas las subclases existentes están creadas, pero muchas están vacías aún a la espera de que sus rasgos sean creados y vinculados del modo correcto. 
-  Es un trabajo en el que estoy inmerso ahora mismo (y de hecho, no falta mucho para quedar completo).
-  He decidido poner las descipciones de las Subclases con formato H3 para una mejor lectura, pensar si hacer lo mismo con las descripciones de Raza y Clase.
-
+  HECHO:
+    Todas las subclases existentes están creadas.
+  POR HACER:
+    Crear los rasgos de las subclases restantes (bardo, brujo, clérigo, druida y explorador).
+    Vincular los rasgos a la subclase y nivel correspondiente.
+    Corregir los vínculos a conjuros en aquellas clase que ofrezcan listas de conjuro.
+    Hacer revisión y corrección de posibles errores.
+  
 Trasfondos
-  Los Trasfondos es un trabajo que debería estar ya hecho.
-  Sólo restaría hacer comprobación de que esté correctamente configurado, y aporte las competencias y equipo adecuado (que debería).
+  HECHO:
+    Los Trasfondos es un trabajo que debería estar ya hecho.
+  POR HACER:
+    Hacer revisión y corrección de posibles errores.
 
 Dotes
-  Es un trabajo en proceso.
-  Revisar las dotes existentes, creas las restantes si es que hay (teniendo en cuenta las de los suplementos), pensar si añadir las de D&D.
-  Añadir Efectos a las que sea posible.
-  Revisar las referencias y dar formato a las descripciones.
+  HECHO:
+    Creadas todas o casi todas las dotes.
+  POR HACER:
+    Darle formato al texto, configurarlas como DOTE y revisar vínculos.
+    Crear Dotes restantes, si las hay.
+    Añadir Efectos Activos a las que sea posible.
+    Hacer revisión y corrección de posibles errores.    
 
 Equipo
-  Mucho del equipo estaba ya creado, pero con uno de mis últimos patinazos han perdido la vinculación de su imagen. Hay que volver a vincularlo.
-  Crear el equipo propio de Resurgir que aún no lo esté (página 309-313 del manual básico), y el adicional encontrado en suplementos y aventuras.
-  Pensar si usar las imágenes oficiales de D&D para el equipo mágico más característico (las imágenes pesan más).
-
+  HECHO:
+    Mucho del equipo está ya creado.
+  POR HACER:
+    Volver a vincular sus imágenes, decidiendo si se emplearán imágenes genéricas de Foundry Vtt, o si se usarán, en aquellos casos en los que se puedan, imágenes oficiales de D&D.
+    Crear el equipo restante (página 309-313 del manual básico, y suplementos y aventuras).
+    Comprobar que su configuración (daño, ataque, tipo de arma, etc), estén bien.
+    Hacer revisión y corrección de posibles errores.    
+    
 Aventuras
-  Tengo intención de volver a crear todas las aventuras de la 1ª Temporada de Resurgir (digo volver, porque ya he dirigido esta campaña una vez, pero no guardé las escenas, aunque conservo todos los recursos en mi HDD).
-  Creo que sería buena idea exportar las aventuras como módulos, si es que hacerlo de ese modo permite que se exporten iluminación, sonidos, objetos, pnjs, etc. A tantear esta opción.
+  POR HACER:
+    Tengo intención de volver a crear todas las aventuras de la 1ª Temporada de Resurgir (digo volver, porque ya he dirigido esta campaña una vez, pero no guardé las escenas, aunque conservo todos los recursos en mi HDD).
+    Creo que sería buena idea exportar las aventuras como módulos, si es que hacerlo de ese modo permite que se exporten iluminación, sonidos, objetos, pnjs, etc. A tantear esta opción.
