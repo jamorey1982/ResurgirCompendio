@@ -1,14 +1,14 @@
-2024/03/10-01:23:16.382 1698 Recovering log #412
-2024/03/10-01:23:16.394 1698 Delete type=0 #412
-2024/03/10-01:23:16.395 1698 Delete type=3 #410
-2024/03/10-01:57:08.792 295c Level-0 table #417: started
-2024/03/10-01:57:08.795 295c Level-0 table #417: 9163 bytes OK
-2024/03/10-01:57:08.797 295c Delete type=0 #415
-2024/03/10-01:57:08.797 295c Manual compaction at level-0 from '!folders!4W2cYe803tYhYpf8' @ 72057594037927935 : 1 .. '!items.effects!ywc2NfaDmzw8OMxu.qz7znP2SPjDunkbI' @ 0 : 0; will stop at '!items!yDW1BCER0wwsKcJ7' @ 7090 : 1
-2024/03/10-01:57:08.797 295c Compacting 1@0 + 1@1 files
-2024/03/10-01:57:08.864 295c Generated table #418@0: 967 keys, 1254294 bytes
-2024/03/10-01:57:08.864 295c Compacted 1@0 + 1@1 files => 1254294 bytes
-2024/03/10-01:57:08.877 295c compacted to: files[ 0 1 0 0 0 0 0 ]
-2024/03/10-01:57:08.877 295c Delete type=2 #409
-2024/03/10-01:57:08.901 295c Delete type=2 #417
-2024/03/10-01:57:08.908 295c Manual compaction at level-0 from '!items!yDW1BCER0wwsKcJ7' @ 7090 : 1 .. '!items.effects!ywc2NfaDmzw8OMxu.qz7znP2SPjDunkbI' @ 0 : 0; will stop at (end)
+2024/03/21-16:47:11.899 4d60 Recovering log #430
+2024/03/21-16:47:11.904 4d60 Delete type=0 #430
+2024/03/21-16:47:11.912 4d60 Delete type=3 #424
+2024/03/21-16:56:36.022 b4c Level-0 table #436: started
+2024/03/21-16:56:36.044 b4c Level-0 table #436: 2946 bytes OK
+2024/03/21-16:56:36.055 b4c Delete type=0 #434
+2024/03/21-16:56:36.056 b4c Manual compaction at level-0 from '!folders!4W2cYe803tYhYpf8' @ 72057594037927935 : 1 .. '!items.effects!ywc2NfaDmzw8OMxu.qz7znP2SPjDunkbI' @ 0 : 0; will stop at '!items!2XT7vGI4cy4RQZdC' @ 7126 : 1
+2024/03/21-16:56:36.056 b4c Compacting 1@0 + 1@1 files
+2024/03/21-16:56:36.134 b4c Generated table #437@0: 967 keys, 1254319 bytes
+2024/03/21-16:56:36.134 b4c Compacted 1@0 + 1@1 files => 1254319 bytes
+2024/03/21-16:56:36.140 b4c compacted to: files[ 0 1 0 0 0 0 0 ]
+2024/03/21-16:56:36.140 b4c Delete type=2 #432
+2024/03/21-16:56:36.143 b4c Delete type=2 #436
+2024/03/21-16:56:36.159 b4c Manual compaction at level-0 from '!items!2XT7vGI4cy4RQZdC' @ 7126 : 1 .. '!items.effects!ywc2NfaDmzw8OMxu.qz7znP2SPjDunkbI' @ 0 : 0; will stop at (end)
