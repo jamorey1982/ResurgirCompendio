@@ -1,14 +1,14 @@
-2024/03/22-16:07:13.209 3ea8 Recovering log #435
-2024/03/22-16:07:13.213 3ea8 Delete type=0 #435
-2024/03/22-16:07:13.214 3ea8 Delete type=3 #433
-2024/03/22-16:45:22.630 3314 Level-0 table #441: started
-2024/03/22-16:45:22.817 3314 Level-0 table #441: 1353711 bytes OK
-2024/03/22-16:45:22.819 3314 Delete type=0 #439
-2024/03/22-16:45:22.837 3314 Manual compaction at level-0 from '!folders!4W2cYe803tYhYpf8' @ 72057594037927935 : 1 .. '!items.effects!ywc2NfaDmzw8OMxu.qz7znP2SPjDunkbI' @ 0 : 0; will stop at '!items.effects!ywc2NfaDmzw8OMxu.qz7znP2SPjDunkbI' @ 8050 : 1
-2024/03/22-16:45:22.837 3314 Compacting 1@0 + 1@1 files
-2024/03/22-16:45:22.912 3314 Generated table #442@0: 967 keys, 1256322 bytes
-2024/03/22-16:45:22.912 3314 Compacted 1@0 + 1@1 files => 1256322 bytes
-2024/03/22-16:45:22.914 3314 compacted to: files[ 0 1 0 0 0 0 0 ]
-2024/03/22-16:45:22.914 3314 Delete type=2 #437
-2024/03/22-16:45:22.916 3314 Delete type=2 #441
-2024/03/22-16:45:22.993 3314 Manual compaction at level-0 from '!items.effects!ywc2NfaDmzw8OMxu.qz7znP2SPjDunkbI' @ 8050 : 1 .. '!items.effects!ywc2NfaDmzw8OMxu.qz7znP2SPjDunkbI' @ 0 : 0; will stop at (end)
+2024/03/23-14:02:54.339 b0 Recovering log #453
+2024/03/23-14:02:54.343 b0 Delete type=0 #453
+2024/03/23-14:02:54.343 b0 Delete type=3 #451
+2024/03/23-15:04:15.221 3ac8 Level-0 table #458: started
+2024/03/23-15:04:15.230 3ac8 Level-0 table #458: 11454 bytes OK
+2024/03/23-15:04:15.232 3ac8 Delete type=0 #456
+2024/03/23-15:04:15.411 3ac8 Manual compaction at level-0 from '!folders!4W2cYe803tYhYpf8' @ 72057594037927935 : 1 .. '!items.effects!ywc2NfaDmzw8OMxu.qz7znP2SPjDunkbI' @ 0 : 0; will stop at '!items!stNHkkzKKepRbe5I' @ 8172 : 1
+2024/03/23-15:04:15.411 3ac8 Compacting 1@0 + 1@1 files
+2024/03/23-15:04:15.471 3ac8 Generated table #459@0: 967 keys, 1255913 bytes
+2024/03/23-15:04:15.472 3ac8 Compacted 1@0 + 1@1 files => 1255913 bytes
+2024/03/23-15:04:15.473 3ac8 compacted to: files[ 0 1 0 0 0 0 0 ]
+2024/03/23-15:04:15.474 3ac8 Delete type=2 #442
+2024/03/23-15:04:15.476 3ac8 Delete type=2 #458
+2024/03/23-15:04:15.479 3ac8 Manual compaction at level-0 from '!items!stNHkkzKKepRbe5I' @ 8172 : 1 .. '!items.effects!ywc2NfaDmzw8OMxu.qz7znP2SPjDunkbI' @ 0 : 0; will stop at (end)
