@@ -1,8 +1,17 @@
-2024/03/14-11:38:05.987536 e894a532e0a0 Recovering log #29
-2024/03/14-11:38:05.993204 e894a532e0a0 Delete type=3 #28
-2024/03/14-11:38:05.993227 e894a532e0a0 Delete type=0 #29
-2024/03/15-09:07:58.446300 e89495fff0a0 Level-0 table #33: started
-2024/03/15-09:07:58.446316 e89495fff0a0 Level-0 table #33: 0 bytes OK
-2024/03/15-09:07:58.448355 e89495fff0a0 Delete type=0 #31
-2024/03/15-09:07:58.450654 e89495fff0a0 Manual compaction at level-0 from '!actors!01b5cEXvlV6VcenN' @ 72057594037927935 : 1 .. '!folders!wuu2pvg6PAtGeGwF' @ 0 : 0; will stop at (end)
-2024/03/15-09:07:58.450703 e89495fff0a0 Manual compaction at level-1 from '!actors!01b5cEXvlV6VcenN' @ 72057594037927935 : 1 .. '!folders!wuu2pvg6PAtGeGwF' @ 0 : 0; will stop at (end)
+2024/03/26-17:27:34.735 30b0 Log #4: 14 ops saved to Table #36 OK
+2024/03/26-17:27:34.741 30b0 Archiving G:\Rol\FoundryVtt\Contenido\Data\worlds\erddgrupomazmorreo\packs\criaturas-por-tipo/000004.log: OK
+2024/03/26-17:27:34.781 30b0 Log #11: 68 ops saved to Table #37 OK
+2024/03/26-17:27:34.782 30b0 Archiving G:\Rol\FoundryVtt\Contenido\Data\worlds\erddgrupomazmorreo\packs\criaturas-por-tipo/000011.log: OK
+2024/03/26-17:27:34.782 30b0 Log #35: 0 ops saved to Table #38 OK
+2024/03/26-17:27:34.783 30b0 Archiving G:\Rol\FoundryVtt\Contenido\Data\worlds\erddgrupomazmorreo\packs\criaturas-por-tipo/000035.log: OK
+2024/03/26-17:27:34.822 30b0 Table #5: 2286 entries OK
+2024/03/26-17:27:34.858 30b0 Table #8: 1656 entries OK
+2024/03/26-17:27:34.868 30b0 Table #9: 630 entries OK
+2024/03/26-17:27:34.902 30b0 Table #24: 1606 entries OK
+2024/03/26-17:27:34.912 30b0 Table #25: 808 entries OK
+2024/03/26-17:27:34.912 30b0 Table #36: 14 entries OK
+2024/03/26-17:27:34.913 30b0 Table #37: 68 entries OK
+2024/03/26-17:27:34.914 30b0 Archiving G:\Rol\FoundryVtt\Contenido\Data\worlds\erddgrupomazmorreo\packs\criaturas-por-tipo/MANIFEST-000002: OK
+2024/03/26-17:27:34.915 30b0 Archiving G:\Rol\FoundryVtt\Contenido\Data\worlds\erddgrupomazmorreo\packs\criaturas-por-tipo/MANIFEST-000010: OK
+2024/03/26-17:27:34.916 30b0 Archiving G:\Rol\FoundryVtt\Contenido\Data\worlds\erddgrupomazmorreo\packs\criaturas-por-tipo/MANIFEST-000034: OK
+2024/03/26-17:27:34.919 30b0 **** Repaired leveldb G:\Rol\FoundryVtt\Contenido\Data\worlds\erddgrupomazmorreo\packs\criaturas-por-tipo; recovered 7 files; 8211290 bytes. Some data may have been lost. ****

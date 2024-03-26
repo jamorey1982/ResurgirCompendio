@@ -1,8 +1,12 @@
-2024/03/14-11:38:06.025089 e89497fff0a0 Recovering log #27
-2024/03/14-11:38:06.031135 e89497fff0a0 Delete type=0 #27
-2024/03/14-11:38:06.031155 e89497fff0a0 Delete type=3 #26
-2024/03/15-09:07:58.448508 e89495fff0a0 Level-0 table #31: started
-2024/03/15-09:07:58.448528 e89495fff0a0 Level-0 table #31: 0 bytes OK
-2024/03/15-09:07:58.450619 e89495fff0a0 Delete type=0 #29
-2024/03/15-09:07:58.450692 e89495fff0a0 Manual compaction at level-0 from '!actors!00Au6gKILyK1DzB1' @ 72057594037927935 : 1 .. '!folders!yyQjj05CV1usKGIc' @ 0 : 0; will stop at (end)
-2024/03/15-09:07:58.450864 e89495fff0a0 Manual compaction at level-1 from '!actors!00Au6gKILyK1DzB1' @ 72057594037927935 : 1 .. '!folders!yyQjj05CV1usKGIc' @ 0 : 0; will stop at (end)
+2024/03/26-17:27:35.056 30b0 Log #9: 81 ops saved to Table #34 OK
+2024/03/26-17:27:35.057 30b0 Archiving G:\Rol\FoundryVtt\Contenido\Data\worlds\erddgrupomazmorreo\packs\criaturas-por-vd/000009.log: OK
+2024/03/26-17:27:35.057 30b0 Log #33: 0 ops saved to Table #35 OK
+2024/03/26-17:27:35.058 30b0 Archiving G:\Rol\FoundryVtt\Contenido\Data\worlds\erddgrupomazmorreo\packs\criaturas-por-vd/000033.log: OK
+2024/03/26-17:27:35.091 30b0 Table #8: 1626 entries OK
+2024/03/26-17:27:35.117 30b0 Table #10: 1065 entries OK
+2024/03/26-17:27:35.153 30b0 Table #14: 1699 entries OK
+2024/03/26-17:27:35.160 30b0 Table #15: 552 entries OK
+2024/03/26-17:27:35.161 30b0 Table #34: 81 entries OK
+2024/03/26-17:27:35.163 30b0 Archiving G:\Rol\FoundryVtt\Contenido\Data\worlds\erddgrupomazmorreo\packs\criaturas-por-vd/MANIFEST-000002: OK
+2024/03/26-17:27:35.163 30b0 Archiving G:\Rol\FoundryVtt\Contenido\Data\worlds\erddgrupomazmorreo\packs\criaturas-por-vd/MANIFEST-000032: OK
+2024/03/26-17:27:35.165 30b0 **** Repaired leveldb G:\Rol\FoundryVtt\Contenido\Data\worlds\erddgrupomazmorreo\packs\criaturas-por-vd; recovered 5 files; 6604259 bytes. Some data may have been lost. ****
