@@ -1,14 +1,14 @@
-2024/03/30-09:22:07.567 1204 Recovering log #582
-2024/03/30-09:22:07.572 1204 Delete type=0 #582
-2024/03/30-09:22:07.572 1204 Delete type=3 #581
-2024/03/30-09:24:24.078 1ed8 Level-0 table #586: started
-2024/03/30-09:24:24.119 1ed8 Level-0 table #586: 1286 bytes OK
-2024/03/30-09:24:24.121 1ed8 Delete type=0 #584
-2024/03/30-09:24:24.130 1ed8 Manual compaction at level-0 from '!folders!0GF6QBLewtBpCn8T' @ 72057594037927935 : 1 .. '!items.effects!ySMwqBLH1hVcpcYM.iZLFr3Zh9miheVAS' @ 0 : 0; will stop at '!items!B1iIlDJ5CkpJkx0U' @ 11164 : 1
-2024/03/30-09:24:24.130 1ed8 Compacting 2@0 + 0@1 files
-2024/03/30-09:24:24.162 1ed8 Generated table #587@0: 562 keys, 448135 bytes
-2024/03/30-09:24:24.162 1ed8 Compacted 2@0 + 0@1 files => 448135 bytes
-2024/03/30-09:24:24.168 1ed8 compacted to: files[ 0 1 0 0 0 0 0 ]
-2024/03/30-09:24:24.168 1ed8 Delete type=2 #580
-2024/03/30-09:24:24.169 1ed8 Delete type=2 #586
-2024/03/30-09:24:24.172 1ed8 Manual compaction at level-0 from '!items!B1iIlDJ5CkpJkx0U' @ 11164 : 1 .. '!items.effects!ySMwqBLH1hVcpcYM.iZLFr3Zh9miheVAS' @ 0 : 0; will stop at (end)
+2024/03/28-12:36:29.316717 e73adb7ef0a0 Recovering log #578
+2024/03/28-12:36:29.322765 e73adb7ef0a0 Delete type=0 #578
+2024/03/28-12:36:29.322786 e73adb7ef0a0 Delete type=3 #576
+2024/03/29-13:19:14.384163 e739bbfff0a0 Level-0 table #584: started
+2024/03/29-13:19:14.388762 e739bbfff0a0 Level-0 table #584: 145240 bytes OK
+2024/03/29-13:19:14.390814 e739bbfff0a0 Delete type=0 #582
+2024/03/29-13:19:14.397982 e739bbfff0a0 Manual compaction at level-0 from '!folders!0GF6QBLewtBpCn8T' @ 72057594037927935 : 1 .. '!items.effects!ySMwqBLH1hVcpcYM.iZLFr3Zh9miheVAS' @ 0 : 0; will stop at '!items.effects!fuD3a03FgHtgkHZf.mL2vnUxr19KUnhsx' @ 11237 : 1
+2024/03/29-13:19:14.397997 e739bbfff0a0 Compacting 1@0 + 1@1 files
+2024/03/29-13:19:14.408121 e739bbfff0a0 Generated table #585@0: 565 keys, 454720 bytes
+2024/03/29-13:19:14.408140 e739bbfff0a0 Compacted 1@0 + 1@1 files => 454720 bytes
+2024/03/29-13:19:14.410160 e739bbfff0a0 compacted to: files[ 0 1 0 0 0 0 0 ]
+2024/03/29-13:19:14.410224 e739bbfff0a0 Delete type=2 #584
+2024/03/29-13:19:14.410339 e739bbfff0a0 Delete type=2 #580
+2024/03/29-13:19:14.422708 e739bbfff0a0 Manual compaction at level-0 from '!items.effects!fuD3a03FgHtgkHZf.mL2vnUxr19KUnhsx' @ 11237 : 1 .. '!items.effects!ySMwqBLH1hVcpcYM.iZLFr3Zh9miheVAS' @ 0 : 0; will stop at (end)
