@@ -1,8 +1,0 @@
-2024/03/25-20:21:23.045 3d70 Recovering log #56
-2024/03/25-20:21:23.058 3d70 Delete type=0 #56
-2024/03/25-20:21:23.059 3d70 Delete type=3 #48
-2024/03/25-20:21:23.059 3d70 Delete type=3 #52
-2024/03/25-20:22:32.027 3cfc Level-0 table #61: started
-2024/03/25-20:22:32.027 3cfc Level-0 table #61: 0 bytes OK
-2024/03/25-20:22:32.028 3cfc Delete type=0 #59
-2024/03/25-20:22:32.031 3cfc Manual compaction at level-0 from 'undefined' @ 72057594037927935 : 1 .. 'undefined' @ 0 : 0; will stop at (end)

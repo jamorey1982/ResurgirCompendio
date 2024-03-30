@@ -1,5 +1,7 @@
-2024/03/26-17:27:34.591 b18 Log #214: 0 ops saved to Table #215 OK
-2024/03/26-17:27:34.593 b18 Archiving G:\Rol\FoundryVtt\Contenido\Data\worlds\erddgrupomazmorreo\packs\rasgos-raciales/000214.log: OK
-2024/03/26-17:27:34.594 b18 Table #156: 87 entries OK
-2024/03/26-17:27:34.600 b18 Archiving G:\Rol\FoundryVtt\Contenido\Data\worlds\erddgrupomazmorreo\packs\rasgos-raciales/MANIFEST-000213: OK
-2024/03/26-17:27:34.602 b18 **** Repaired leveldb G:\Rol\FoundryVtt\Contenido\Data\worlds\erddgrupomazmorreo\packs\rasgos-raciales; recovered 1 files; 73711 bytes. Some data may have been lost. ****
+2024/03/30-09:22:07.624 508 Recovering log #222
+2024/03/30-09:22:07.627 508 Delete type=0 #222
+2024/03/30-09:22:07.627 508 Delete type=3 #221
+2024/03/30-09:24:24.174 1ed8 Level-0 table #226: started
+2024/03/30-09:24:24.175 1ed8 Level-0 table #226: 0 bytes OK
+2024/03/30-09:24:24.177 1ed8 Delete type=0 #224
+2024/03/30-09:24:24.186 1ed8 Manual compaction at level-0 from '!items!0hmMa2NnvvhsoCGH' @ 72057594037927935 : 1 .. '!items.effects!b6CIJLXbrQcWW0qi.6KUFypgDJpOBI27P' @ 0 : 0; will stop at (end)
