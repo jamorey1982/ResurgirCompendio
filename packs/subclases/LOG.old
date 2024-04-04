@@ -1,14 +1,11 @@
-2024/03/28-12:36:29.308552 e73ada7cf0a0 Recovering log #549
-2024/03/28-12:36:29.314512 e73ada7cf0a0 Delete type=3 #547
-2024/03/28-12:36:29.314554 e73ada7cf0a0 Delete type=0 #549
-2024/03/29-13:19:14.391047 e739bbfff0a0 Level-0 table #555: started
-2024/03/29-13:19:14.394686 e739bbfff0a0 Level-0 table #555: 73949 bytes OK
-2024/03/29-13:19:14.397746 e739bbfff0a0 Delete type=0 #553
-2024/03/29-13:19:14.410473 e739bbfff0a0 Manual compaction at level-0 from '!folders!IrXIYFIyNyC0OAaw' @ 72057594037927935 : 1 .. '!items!ytMgnfFEjRTAKxmk' @ 0 : 0; will stop at '!items!tz3KawHKlP834NAO' @ 2828 : 1
-2024/03/29-13:19:14.410483 e739bbfff0a0 Compacting 1@0 + 1@1 files
-2024/03/29-13:19:14.414854 e739bbfff0a0 Generated table #556@0: 77 keys, 94139 bytes
-2024/03/29-13:19:14.414865 e739bbfff0a0 Compacted 1@0 + 1@1 files => 94139 bytes
-2024/03/29-13:19:14.417112 e739bbfff0a0 compacted to: files[ 0 1 0 0 0 0 0 ]
-2024/03/29-13:19:14.417176 e739bbfff0a0 Delete type=2 #551
-2024/03/29-13:19:14.417292 e739bbfff0a0 Delete type=2 #555
-2024/03/29-13:19:14.422834 e739bbfff0a0 Manual compaction at level-0 from '!items!tz3KawHKlP834NAO' @ 2828 : 1 .. '!items!ytMgnfFEjRTAKxmk' @ 0 : 0; will stop at (end)
+2024/03/30-08:56:51.288776 e73ada7cf0a0 Delete type=3 #1
+2024/03/30-08:56:57.135135 e739bbfff0a0 Level-0 table #566: started
+2024/03/30-08:56:57.135161 e739bbfff0a0 Level-0 table #566: 0 bytes OK
+2024/03/30-08:56:57.137249 e739bbfff0a0 Delete type=0 #564
+2024/03/30-08:56:57.139902 e739bbfff0a0 Manual compaction at level-0 from '!folders!IrXIYFIyNyC0OAaw' @ 72057594037927935 : 1 .. '!items!ytMgnfFEjRTAKxmk' @ 0 : 0; will stop at '!items!ytMgnfFEjRTAKxmk' @ 2825 : 1
+2024/03/30-08:56:57.139906 e739bbfff0a0 Compacting 1@0 + 0@1 files
+2024/03/30-08:56:57.143841 e739bbfff0a0 Generated table #567@0: 77 keys, 93270 bytes
+2024/03/30-08:56:57.143852 e739bbfff0a0 Compacted 1@0 + 0@1 files => 93270 bytes
+2024/03/30-08:56:57.145826 e739bbfff0a0 compacted to: files[ 0 1 0 0 0 0 0 ]
+2024/03/30-08:56:57.145905 e739bbfff0a0 Delete type=2 #558
+2024/03/30-08:56:57.157031 e739bbfff0a0 Manual compaction at level-0 from '!items!ytMgnfFEjRTAKxmk' @ 2825 : 1 .. '!items!ytMgnfFEjRTAKxmk' @ 0 : 0; will stop at (end)

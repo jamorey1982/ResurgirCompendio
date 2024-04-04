@@ -1,9 +1,5 @@
-2024/03/30-08:36:47.791 3818 Recovering log #120
-2024/03/30-08:36:47.791 3818 Delete type=0 #120
-2024/03/30-08:36:47.791 3818 Delete type=3 #108
-2024/03/30-08:36:47.791 3818 Delete type=3 #116
-2024/03/30-08:45:57.271 27f0 Level-0 table #125: started
-2024/03/30-08:45:57.271 27f0 Level-0 table #125: 0 bytes OK
-2024/03/30-08:45:57.273 27f0 Delete type=0 #123
-2024/03/30-08:45:57.278 27f0 Manual compaction at level-0 from '!macros!2tbVKz2PKiYbLjiN' @ 72057594037927935 : 1 .. '!macros!2tbVKz2PKiYbLjiN' @ 0 : 0; will stop at (end)
-2024/03/30-08:45:57.280 27f0 Manual compaction at level-1 from '!macros!2tbVKz2PKiYbLjiN' @ 72057594037927935 : 1 .. '!macros!2tbVKz2PKiYbLjiN' @ 0 : 0; will stop at (end)
+2024/03/30-08:59:14.089100 e73ada7cf0a0 Log #128: 0 ops saved to Table #129 OK
+2024/03/30-08:59:14.089156 e73ada7cf0a0 Archiving /home/ubuntu/foundryuserdata/Data/worlds/pruebas/packs/macros-utiles/000128.log: OK
+2024/03/30-08:59:14.089200 e73ada7cf0a0 Table #5: 3 entries OK
+2024/03/30-08:59:14.089245 e73ada7cf0a0 Archiving /home/ubuntu/foundryuserdata/Data/worlds/pruebas/packs/macros-utiles/MANIFEST-000126: OK
+2024/03/30-08:59:14.092092 e73ada7cf0a0 **** Repaired leveldb /home/ubuntu/foundryuserdata/Data/worlds/pruebas/packs/macros-utiles; recovered 1 files; 1123 bytes. Some data may have been lost. ****

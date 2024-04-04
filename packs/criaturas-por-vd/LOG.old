@@ -1,5 +1,6 @@
-2024/03/30-09:22:08.387 1204 Delete type=3 #36
-2024/03/30-09:24:24.178 1ed8 Level-0 table #45: started
-2024/03/30-09:24:24.178 1ed8 Level-0 table #45: 0 bytes OK
-2024/03/30-09:24:24.180 1ed8 Delete type=0 #43
-2024/03/30-09:24:24.186 1ed8 Manual compaction at level-0 from '!actors!00Au6gKILyK1DzB1' @ 72057594037927935 : 1 .. '!folders!yyQjj05CV1usKGIc' @ 0 : 0; will stop at (end)
+2024/03/30-08:59:01.332740 e73adafdf0a0 Log #48: 0 ops saved to Table #49 OK
+2024/03/30-08:59:01.332807 e73adafdf0a0 Archiving /home/ubuntu/foundryuserdata/Data/worlds/pruebas/packs/criaturas-por-vd/000048.log: OK
+2024/03/30-08:59:01.333741 e73adafdf0a0 Table #39: 552 entries OK
+2024/03/30-08:59:01.338206 e73adafdf0a0 Table #38: 1699 entries OK
+2024/03/30-08:59:01.338337 e73adafdf0a0 Archiving /home/ubuntu/foundryuserdata/Data/worlds/pruebas/packs/criaturas-por-vd/MANIFEST-000046: OK
+2024/03/30-08:59:01.341134 e73adafdf0a0 **** Repaired leveldb /home/ubuntu/foundryuserdata/Data/worlds/pruebas/packs/criaturas-por-vd; recovered 2 files; 2577485 bytes. Some data may have been lost. ****

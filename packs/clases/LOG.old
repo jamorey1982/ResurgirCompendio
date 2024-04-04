@@ -1,16 +1,11 @@
-2024/03/30-09:22:07.487 1204 Recovering log #513
-2024/03/30-09:22:07.487 1204 Level-0 table #515: started
-2024/03/30-09:22:07.507 1204 Level-0 table #515: 3505 bytes OK
-2024/03/30-09:22:07.528 1204 Delete type=0 #513
-2024/03/30-09:22:07.528 1204 Delete type=3 #512
-2024/03/30-09:24:23.985 1ed8 Level-0 table #518: started
-2024/03/30-09:24:23.986 1ed8 Level-0 table #518: 0 bytes OK
-2024/03/30-09:24:23.988 1ed8 Delete type=0 #516
-2024/03/30-09:24:23.997 1ed8 Manual compaction at level-0 from '!items!1R1xidXF6xoL4Spv' @ 72057594037927935 : 1 .. '!items!yvacLlRHZtpLvYFD' @ 0 : 0; will stop at '!items!yvacLlRHZtpLvYFD' @ 365 : 1
-2024/03/30-09:24:23.997 1ed8 Compacting 1@0 + 1@1 files
-2024/03/30-09:24:24.024 1ed8 Generated table #519@0: 14 keys, 39778 bytes
-2024/03/30-09:24:24.024 1ed8 Compacted 1@0 + 1@1 files => 39778 bytes
-2024/03/30-09:24:24.031 1ed8 compacted to: files[ 0 1 0 0 0 0 0 ]
-2024/03/30-09:24:24.032 1ed8 Delete type=2 #511
-2024/03/30-09:24:24.033 1ed8 Delete type=2 #515
-2024/03/30-09:24:24.078 1ed8 Manual compaction at level-0 from '!items!yvacLlRHZtpLvYFD' @ 365 : 1 .. '!items!yvacLlRHZtpLvYFD' @ 0 : 0; will stop at (end)
+2024/03/30-08:56:51.139677 e73adb7ef0a0 Delete type=3 #1
+2024/03/30-08:56:57.010413 e739bbfff0a0 Level-0 table #527: started
+2024/03/30-08:56:57.010431 e739bbfff0a0 Level-0 table #527: 0 bytes OK
+2024/03/30-08:56:57.012733 e739bbfff0a0 Delete type=0 #525
+2024/03/30-08:56:57.015001 e739bbfff0a0 Manual compaction at level-0 from '!items!1R1xidXF6xoL4Spv' @ 72057594037927935 : 1 .. '!items!yvacLlRHZtpLvYFD' @ 0 : 0; will stop at '!items!yvacLlRHZtpLvYFD' @ 365 : 1
+2024/03/30-08:56:57.015005 e739bbfff0a0 Compacting 1@0 + 0@1 files
+2024/03/30-08:56:57.017835 e739bbfff0a0 Generated table #528@0: 14 keys, 39778 bytes
+2024/03/30-08:56:57.017843 e739bbfff0a0 Compacted 1@0 + 0@1 files => 39778 bytes
+2024/03/30-08:56:57.019548 e739bbfff0a0 compacted to: files[ 0 1 0 0 0 0 0 ]
+2024/03/30-08:56:57.019611 e739bbfff0a0 Delete type=2 #519
+2024/03/30-08:56:57.035004 e739bbfff0a0 Manual compaction at level-0 from '!items!yvacLlRHZtpLvYFD' @ 365 : 1 .. '!items!yvacLlRHZtpLvYFD' @ 0 : 0; will stop at (end)
