@@ -1,6 +1,8 @@
-2024/03/30-08:58:50.073474 e73adb7ef0a0 Log #51: 0 ops saved to Table #52 OK
-2024/03/30-08:58:50.073534 e73adb7ef0a0 Archiving /home/ubuntu/foundryuserdata/Data/worlds/pruebas/packs/criaturas-por-tipo/000051.log: OK
-2024/03/30-08:58:50.077385 e73adb7ef0a0 Table #41: 1606 entries OK
-2024/03/30-08:58:50.078758 e73adb7ef0a0 Table #42: 808 entries OK
-2024/03/30-08:58:50.078868 e73adb7ef0a0 Archiving /home/ubuntu/foundryuserdata/Data/worlds/pruebas/packs/criaturas-por-tipo/MANIFEST-000049: OK
-2024/03/30-08:58:50.081376 e73adb7ef0a0 **** Repaired leveldb /home/ubuntu/foundryuserdata/Data/worlds/pruebas/packs/criaturas-por-tipo; recovered 2 files; 2788239 bytes. Some data may have been lost. ****
+2024/04/05-14:44:34.479164 e73adb7ef0a0 Recovering log #129
+2024/04/05-14:44:34.486196 e73adb7ef0a0 Delete type=0 #129
+2024/04/05-14:44:34.486232 e73adb7ef0a0 Delete type=3 #127
+2024/04/07-16:19:08.838577 e739bbfff0a0 Level-0 table #134: started
+2024/04/07-16:19:08.838603 e739bbfff0a0 Level-0 table #134: 0 bytes OK
+2024/04/07-16:19:08.841079 e739bbfff0a0 Delete type=0 #132
+2024/04/07-16:19:08.845676 e739bbfff0a0 Manual compaction at level-0 from '!actors!01b5cEXvlV6VcenN' @ 72057594037927935 : 1 .. '!folders!wuu2pvg6PAtGeGwF' @ 0 : 0; will stop at (end)
+2024/04/07-16:19:08.851134 e739bbfff0a0 Manual compaction at level-1 from '!actors!01b5cEXvlV6VcenN' @ 72057594037927935 : 1 .. '!folders!wuu2pvg6PAtGeGwF' @ 0 : 0; will stop at (end)

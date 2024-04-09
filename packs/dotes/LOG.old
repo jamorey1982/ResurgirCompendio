@@ -1,11 +1,14 @@
-2024/03/30-08:56:51.207933 e73ada7cf0a0 Delete type=3 #1
-2024/03/30-08:56:57.032751 e739bbfff0a0 Level-0 table #519: started
-2024/03/30-08:56:57.032774 e739bbfff0a0 Level-0 table #519: 0 bytes OK
-2024/03/30-08:56:57.034970 e739bbfff0a0 Delete type=0 #517
-2024/03/30-08:56:57.076792 e739bbfff0a0 Manual compaction at level-0 from '!items!2xhVSidpOSbnX8Hj' @ 72057594037927935 : 1 .. '!items.effects!sADtxTMZUr1S91U0.fDNqCKysij18ARiR' @ 0 : 0; will stop at '!items.effects!sADtxTMZUr1S91U0.fDNqCKysij18ARiR' @ 554 : 1
-2024/03/30-08:56:57.076801 e739bbfff0a0 Compacting 1@0 + 0@1 files
-2024/03/30-08:56:57.080203 e739bbfff0a0 Generated table #520@0: 56 keys, 39426 bytes
-2024/03/30-08:56:57.080213 e739bbfff0a0 Compacted 1@0 + 0@1 files => 39426 bytes
-2024/03/30-08:56:57.082263 e739bbfff0a0 compacted to: files[ 0 1 0 0 0 0 0 ]
-2024/03/30-08:56:57.082319 e739bbfff0a0 Delete type=2 #427
-2024/03/30-08:56:57.087047 e739bbfff0a0 Manual compaction at level-0 from '!items.effects!sADtxTMZUr1S91U0.fDNqCKysij18ARiR' @ 554 : 1 .. '!items.effects!sADtxTMZUr1S91U0.fDNqCKysij18ARiR' @ 0 : 0; will stop at (end)
+2024/04/05-14:44:34.389039 e73adb7ef0a0 Recovering log #544
+2024/04/05-14:44:34.394988 e73adb7ef0a0 Delete type=0 #544
+2024/04/05-14:44:34.395009 e73adb7ef0a0 Delete type=3 #542
+2024/04/07-16:19:08.740757 e739bbfff0a0 Level-0 table #549: started
+2024/04/07-16:19:08.743100 e739bbfff0a0 Level-0 table #549: 8861 bytes OK
+2024/04/07-16:19:08.745154 e739bbfff0a0 Delete type=0 #547
+2024/04/07-16:19:08.747479 e739bbfff0a0 Manual compaction at level-0 from '!items!2xhVSidpOSbnX8Hj' @ 72057594037927935 : 1 .. '!items.effects!sADtxTMZUr1S91U0.fDNqCKysij18ARiR' @ 0 : 0; will stop at '!items!rHm9bNElOohtQtTE' @ 550 : 1
+2024/04/07-16:19:08.747484 e739bbfff0a0 Compacting 1@0 + 1@1 files
+2024/04/07-16:19:08.751039 e739bbfff0a0 Generated table #550@0: 56 keys, 39508 bytes
+2024/04/07-16:19:08.751053 e739bbfff0a0 Compacted 1@0 + 1@1 files => 39508 bytes
+2024/04/07-16:19:08.753110 e739bbfff0a0 compacted to: files[ 0 1 0 0 0 0 0 ]
+2024/04/07-16:19:08.753188 e739bbfff0a0 Delete type=2 #509
+2024/04/07-16:19:08.753248 e739bbfff0a0 Delete type=2 #549
+2024/04/07-16:19:08.766171 e739bbfff0a0 Manual compaction at level-0 from '!items!rHm9bNElOohtQtTE' @ 550 : 1 .. '!items.effects!sADtxTMZUr1S91U0.fDNqCKysij18ARiR' @ 0 : 0; will stop at (end)
