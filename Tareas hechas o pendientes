@@ -16,11 +16,10 @@ Clases
 Subclases/Arquetipos
   HECHO:
     Todas las subclases existentes están creadas.
+    Todos los rasgos de Subclases creados.
   POR HACER:
-    Crear los rasgos de las subclases restantes (bardo, brujo, clérigo, druida y explorador).
-    Vincular los rasgos a la subclase y nivel correspondiente.
-    Corregir los vínculos a conjuros en aquellas clase que ofrezcan listas de conjuro.
-    Hacer revisión y corrección de posibles errores.
+    Pensar si añadir las Competencias Adicionales de Clérigo como parte del Avance, y no sólo como Rasgo.
+    Hacer revisión y corrección de posibles errores (conjuros faltantes, manual y página de referencia, tipo de Rasgo (de clase), requisito correcto, tipo de acción que necesita el rasgo para usarse y demás cuestiones numéricas (daño, TS), etc).
   
 Trasfondos
   HECHO:
@@ -45,7 +44,15 @@ Equipo
     Crear el equipo restante (página 309-313 del manual básico, y suplementos y aventuras).
     Comprobar que su configuración (daño, ataque, tipo de arma, etc), estén bien.
     Hacer revisión y corrección de posibles errores.    
-    
+
+Reglamento
+  HECHO:
+    Copia realizada al manual del SRD.
+    Comienzo a traducir el Reglamento.
+  POR HACER:
+    Terminar de traducirlo.
+    Hacer revisión y corrección de posibles errores.
+
 Aventuras
   POR HACER:
     Tengo intención de volver a crear todas las aventuras de la 1ª Temporada de Resurgir (digo volver, porque ya he dirigido esta campaña una vez, pero no guardé las escenas, aunque conservo todos los recursos en mi HDD).
