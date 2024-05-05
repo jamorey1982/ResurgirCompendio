@@ -1,9 +1,12 @@
-2024/05/05-08:44:56.548 43a4 Log #627: 0 ops saved to Table #659 OK
-2024/05/05-08:44:56.553 43a4 Archiving G:\Rol\FoundryVtt\Contenido\Data\worlds\test\packs\rasgos-de-monstruos/000627.log: OK
-2024/05/05-08:44:56.553 43a4 Log #658: 0 ops saved to Table #660 OK
-2024/05/05-08:44:56.553 43a4 Archiving G:\Rol\FoundryVtt\Contenido\Data\worlds\test\packs\rasgos-de-monstruos/000658.log: OK
-2024/05/05-08:44:56.564 43a4 Table #500: 272 entries OK
-2024/05/05-08:44:56.575 43a4 Table #629: 272 entries OK
-2024/05/05-08:44:56.580 43a4 Archiving G:\Rol\FoundryVtt\Contenido\Data\worlds\test\packs\rasgos-de-monstruos/MANIFEST-000625: OK
-2024/05/05-08:44:56.583 43a4 Archiving G:\Rol\FoundryVtt\Contenido\Data\worlds\test\packs\rasgos-de-monstruos/MANIFEST-000657: OK
-2024/05/05-08:44:56.587 43a4 **** Repaired leveldb G:\Rol\FoundryVtt\Contenido\Data\worlds\test\packs\rasgos-de-monstruos; recovered 2 files; 472496 bytes. Some data may have been lost. ****
+2024/05/05-08:44:56.613 43a4 Delete type=3 #1
+2024/05/05-09:57:31.194 3e2c Level-0 table #664: started
+2024/05/05-09:57:31.194 3e2c Level-0 table #664: 0 bytes OK
+2024/05/05-09:57:31.198 3e2c Delete type=0 #662
+2024/05/05-09:57:31.277 3e2c Manual compaction at level-0 from '!items!03qzIAzPNqM3qlQf' @ 72057594037927935 : 1 .. '!items.effects!yKhBPhDNOqwaNS10.0PiSu11RhtqwU3It' @ 0 : 0; will stop at '!items.effects!yKhBPhDNOqwaNS10.0PiSu11RhtqwU3It' @ 1902 : 1
+2024/05/05-09:57:31.277 3e2c Compacting 2@0 + 0@1 files
+2024/05/05-09:57:31.329 3e2c Generated table #665@0: 272 keys, 237014 bytes
+2024/05/05-09:57:31.329 3e2c Compacted 2@0 + 0@1 files => 237014 bytes
+2024/05/05-09:57:31.332 3e2c compacted to: files[ 0 1 0 0 0 0 0 ]
+2024/05/05-09:57:31.333 3e2c Delete type=2 #500
+2024/05/05-09:57:31.336 3e2c Delete type=2 #629
+2024/05/05-09:57:31.349 3e2c Manual compaction at level-0 from '!items.effects!yKhBPhDNOqwaNS10.0PiSu11RhtqwU3It' @ 1902 : 1 .. '!items.effects!yKhBPhDNOqwaNS10.0PiSu11RhtqwU3It' @ 0 : 0; will stop at (end)

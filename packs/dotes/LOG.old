@@ -1,9 +1,12 @@
-2024/05/05-08:44:56.052 10fc Log #639: 0 ops saved to Table #671 OK
-2024/05/05-08:44:56.057 10fc Archiving G:\Rol\FoundryVtt\Contenido\Data\worlds\test\packs\dotes/000639.log: OK
-2024/05/05-08:44:56.057 10fc Log #670: 0 ops saved to Table #672 OK
-2024/05/05-08:44:56.057 10fc Archiving G:\Rol\FoundryVtt\Contenido\Data\worlds\test\packs\dotes/000670.log: OK
-2024/05/05-08:44:56.057 10fc Table #612: 81 entries OK
-2024/05/05-08:44:56.057 10fc Table #641: 81 entries OK
-2024/05/05-08:44:56.063 10fc Archiving G:\Rol\FoundryVtt\Contenido\Data\worlds\test\packs\dotes/MANIFEST-000637: OK
-2024/05/05-08:44:56.063 10fc Archiving G:\Rol\FoundryVtt\Contenido\Data\worlds\test\packs\dotes/MANIFEST-000669: OK
-2024/05/05-08:44:56.066 10fc **** Repaired leveldb G:\Rol\FoundryVtt\Contenido\Data\worlds\test\packs\dotes; recovered 2 files; 99783 bytes. Some data may have been lost. ****
+2024/05/05-08:44:56.084 10fc Delete type=3 #1
+2024/05/05-09:57:30.649 3e2c Level-0 table #676: started
+2024/05/05-09:57:30.649 3e2c Level-0 table #676: 0 bytes OK
+2024/05/05-09:57:30.652 3e2c Delete type=0 #674
+2024/05/05-09:57:30.665 3e2c Manual compaction at level-0 from '!folders!S7XMJyuQm1EyljOe' @ 72057594037927935 : 1 .. '!items.effects!z04etkcZ36wvWbdN.3O3jGdIyxQjwJ3H1' @ 0 : 0; will stop at '!items.effects!z04etkcZ36wvWbdN.3O3jGdIyxQjwJ3H1' @ 563 : 1
+2024/05/05-09:57:30.665 3e2c Compacting 2@0 + 0@1 files
+2024/05/05-09:57:30.684 3e2c Generated table #677@0: 81 keys, 49898 bytes
+2024/05/05-09:57:30.684 3e2c Compacted 2@0 + 0@1 files => 49898 bytes
+2024/05/05-09:57:30.688 3e2c compacted to: files[ 0 1 0 0 0 0 0 ]
+2024/05/05-09:57:30.689 3e2c Delete type=2 #612
+2024/05/05-09:57:30.692 3e2c Delete type=2 #641
+2024/05/05-09:57:30.768 3e2c Manual compaction at level-0 from '!items.effects!z04etkcZ36wvWbdN.3O3jGdIyxQjwJ3H1' @ 563 : 1 .. '!items.effects!z04etkcZ36wvWbdN.3O3jGdIyxQjwJ3H1' @ 0 : 0; will stop at (end)
