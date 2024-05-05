@@ -1,8 +1,9 @@
-2024/05/02-16:08:08.787575 e73adb7ef0a0 Recovering log #730
-2024/05/02-16:08:08.794063 e73adb7ef0a0 Delete type=3 #728
-2024/05/02-16:08:08.794096 e73adb7ef0a0 Delete type=0 #730
-2024/05/03-10:52:46.631974 e739bbfff0a0 Level-0 table #735: started
-2024/05/03-10:52:46.631992 e739bbfff0a0 Level-0 table #735: 0 bytes OK
-2024/05/03-10:52:46.634714 e739bbfff0a0 Delete type=0 #733
-2024/05/03-10:52:46.643584 e739bbfff0a0 Manual compaction at level-0 from '!folders!0pdesvXqKd55VOh2' @ 72057594037927935 : 1 .. '!items.effects!z9Li960UoBarKh73.cSVCA9h5OEo5lfBE' @ 0 : 0; will stop at (end)
-2024/05/03-10:52:46.678224 e739bbfff0a0 Manual compaction at level-1 from '!folders!0pdesvXqKd55VOh2' @ 72057594037927935 : 1 .. '!items.effects!z9Li960UoBarKh73.cSVCA9h5OEo5lfBE' @ 0 : 0; will stop at (end)
+2024/05/05-08:44:56.765 2dcc Log #703: 0 ops saved to Table #738 OK
+2024/05/05-08:44:56.767 2dcc Archiving G:\Rol\FoundryVtt\Contenido\Data\worlds\test\packs\conjuros/000703.log: OK
+2024/05/05-08:44:56.767 2dcc Log #737: 0 ops saved to Table #739 OK
+2024/05/05-08:44:56.771 2dcc Archiving G:\Rol\FoundryVtt\Contenido\Data\worlds\test\packs\conjuros/000737.log: OK
+2024/05/05-08:44:56.797 2dcc Table #705: 415 entries OK
+2024/05/05-08:44:56.813 2dcc Table #715: 415 entries OK
+2024/05/05-08:44:56.822 2dcc Archiving G:\Rol\FoundryVtt\Contenido\Data\worlds\test\packs\conjuros/MANIFEST-000701: OK
+2024/05/05-08:44:56.822 2dcc Archiving G:\Rol\FoundryVtt\Contenido\Data\worlds\test\packs\conjuros/MANIFEST-000736: OK
+2024/05/05-08:44:56.830 2dcc **** Repaired leveldb G:\Rol\FoundryVtt\Contenido\Data\worlds\test\packs\conjuros; recovered 2 files; 1034810 bytes. Some data may have been lost. ****

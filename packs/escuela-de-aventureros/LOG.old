@@ -1,7 +1,9 @@
-2024/05/02-16:08:08.711209 e73adb7ef0a0 Recovering log #654
-2024/05/02-16:08:08.717928 e73adb7ef0a0 Delete type=3 #652
-2024/05/02-16:08:08.717961 e73adb7ef0a0 Delete type=0 #654
-2024/05/03-10:52:46.616397 e739bbfff0a0 Level-0 table #659: started
-2024/05/03-10:52:46.616416 e739bbfff0a0 Level-0 table #659: 0 bytes OK
-2024/05/03-10:52:46.618771 e739bbfff0a0 Delete type=0 #657
-2024/05/03-10:52:46.621378 e739bbfff0a0 Manual compaction at level-0 from '!items!2DoElnsA67ie4tsN' @ 72057594037927935 : 1 .. '!items!ziUXeg4362ZoblxC' @ 0 : 0; will stop at (end)
+2024/05/05-08:44:56.100 43a4 Log #630: 0 ops saved to Table #662 OK
+2024/05/05-08:44:56.101 43a4 Archiving G:\Rol\FoundryVtt\Contenido\Data\worlds\test\packs\escuela-de-aventureros/000630.log: OK
+2024/05/05-08:44:56.101 43a4 Log #661: 0 ops saved to Table #663 OK
+2024/05/05-08:44:56.102 43a4 Archiving G:\Rol\FoundryVtt\Contenido\Data\worlds\test\packs\escuela-de-aventureros/000661.log: OK
+2024/05/05-08:44:56.102 43a4 Table #483: 33 entries OK
+2024/05/05-08:44:56.103 43a4 Table #632: 33 entries OK
+2024/05/05-08:44:56.106 43a4 Archiving G:\Rol\FoundryVtt\Contenido\Data\worlds\test\packs\escuela-de-aventureros/MANIFEST-000628: OK
+2024/05/05-08:44:56.106 43a4 Archiving G:\Rol\FoundryVtt\Contenido\Data\worlds\test\packs\escuela-de-aventureros/MANIFEST-000660: OK
+2024/05/05-08:44:56.109 43a4 **** Repaired leveldb G:\Rol\FoundryVtt\Contenido\Data\worlds\test\packs\escuela-de-aventureros; recovered 2 files; 13845 bytes. Some data may have been lost. ****

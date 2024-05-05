@@ -1,3 +1,12 @@
-2024/05/03-10:57:24.535421 e73adafdf0a0 Recovering log #658
-2024/05/03-10:57:24.541677 e73adafdf0a0 Delete type=3 #656
-2024/05/03-10:57:24.541709 e73adafdf0a0 Delete type=0 #658
+2024/05/05-08:44:56.132 43a4 Delete type=3 #1
+2024/05/05-09:57:30.654 3e2c Level-0 table #667: started
+2024/05/05-09:57:30.655 3e2c Level-0 table #667: 0 bytes OK
+2024/05/05-09:57:30.657 3e2c Delete type=0 #665
+2024/05/05-09:57:30.693 3e2c Manual compaction at level-0 from '!items!2DoElnsA67ie4tsN' @ 72057594037927935 : 1 .. '!items!ziUXeg4362ZoblxC' @ 0 : 0; will stop at '!items!ziUXeg4362ZoblxC' @ 231 : 1
+2024/05/05-09:57:30.693 3e2c Compacting 2@0 + 0@1 files
+2024/05/05-09:57:30.702 3e2c Generated table #668@0: 33 keys, 6948 bytes
+2024/05/05-09:57:30.703 3e2c Compacted 2@0 + 0@1 files => 6948 bytes
+2024/05/05-09:57:30.706 3e2c compacted to: files[ 0 1 0 0 0 0 0 ]
+2024/05/05-09:57:30.706 3e2c Delete type=2 #483
+2024/05/05-09:57:30.708 3e2c Delete type=2 #632
+2024/05/05-09:57:30.768 3e2c Manual compaction at level-0 from '!items!ziUXeg4362ZoblxC' @ 231 : 1 .. '!items!ziUXeg4362ZoblxC' @ 0 : 0; will stop at (end)

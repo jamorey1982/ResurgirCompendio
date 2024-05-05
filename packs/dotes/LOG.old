@@ -1,7 +1,9 @@
-2024/05/02-16:08:08.703070 e73ad9fbf0a0 Recovering log #663
-2024/05/02-16:08:08.709019 e73ad9fbf0a0 Delete type=3 #661
-2024/05/02-16:08:08.709046 e73ad9fbf0a0 Delete type=0 #663
-2024/05/03-10:52:46.611190 e739bbfff0a0 Level-0 table #668: started
-2024/05/03-10:52:46.611213 e739bbfff0a0 Level-0 table #668: 0 bytes OK
-2024/05/03-10:52:46.613720 e739bbfff0a0 Delete type=0 #666
-2024/05/03-10:52:46.618808 e739bbfff0a0 Manual compaction at level-0 from '!folders!S7XMJyuQm1EyljOe' @ 72057594037927935 : 1 .. '!items.effects!z04etkcZ36wvWbdN.3O3jGdIyxQjwJ3H1' @ 0 : 0; will stop at (end)
+2024/05/05-08:44:56.052 10fc Log #639: 0 ops saved to Table #671 OK
+2024/05/05-08:44:56.057 10fc Archiving G:\Rol\FoundryVtt\Contenido\Data\worlds\test\packs\dotes/000639.log: OK
+2024/05/05-08:44:56.057 10fc Log #670: 0 ops saved to Table #672 OK
+2024/05/05-08:44:56.057 10fc Archiving G:\Rol\FoundryVtt\Contenido\Data\worlds\test\packs\dotes/000670.log: OK
+2024/05/05-08:44:56.057 10fc Table #612: 81 entries OK
+2024/05/05-08:44:56.057 10fc Table #641: 81 entries OK
+2024/05/05-08:44:56.063 10fc Archiving G:\Rol\FoundryVtt\Contenido\Data\worlds\test\packs\dotes/MANIFEST-000637: OK
+2024/05/05-08:44:56.063 10fc Archiving G:\Rol\FoundryVtt\Contenido\Data\worlds\test\packs\dotes/MANIFEST-000669: OK
+2024/05/05-08:44:56.066 10fc **** Repaired leveldb G:\Rol\FoundryVtt\Contenido\Data\worlds\test\packs\dotes; recovered 2 files; 99783 bytes. Some data may have been lost. ****

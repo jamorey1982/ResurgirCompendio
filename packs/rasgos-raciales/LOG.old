@@ -1,8 +1,9 @@
-2024/05/02-16:08:08.778002 e73ad9fbf0a0 Recovering log #551
-2024/05/02-16:08:08.784271 e73ad9fbf0a0 Delete type=3 #549
-2024/05/02-16:08:08.784308 e73ad9fbf0a0 Delete type=0 #551
-2024/05/03-10:52:46.629320 e739bbfff0a0 Level-0 table #556: started
-2024/05/03-10:52:46.629355 e739bbfff0a0 Level-0 table #556: 0 bytes OK
-2024/05/03-10:52:46.631917 e739bbfff0a0 Delete type=0 #554
-2024/05/03-10:52:46.634771 e739bbfff0a0 Manual compaction at level-0 from '!items!0hmMa2NnvvhsoCGH' @ 72057594037927935 : 1 .. '!items.effects!b6CIJLXbrQcWW0qi.6KUFypgDJpOBI27P' @ 0 : 0; will stop at (end)
-2024/05/03-10:52:46.643599 e739bbfff0a0 Manual compaction at level-1 from '!items!0hmMa2NnvvhsoCGH' @ 72057594037927935 : 1 .. '!items.effects!b6CIJLXbrQcWW0qi.6KUFypgDJpOBI27P' @ 0 : 0; will stop at (end)
+2024/05/05-08:44:56.644 43a4 Log #527: 0 ops saved to Table #559 OK
+2024/05/05-08:44:56.644 43a4 Archiving G:\Rol\FoundryVtt\Contenido\Data\worlds\test\packs\rasgos-raciales/000527.log: OK
+2024/05/05-08:44:56.644 43a4 Log #558: 0 ops saved to Table #560 OK
+2024/05/05-08:44:56.644 43a4 Archiving G:\Rol\FoundryVtt\Contenido\Data\worlds\test\packs\rasgos-raciales/000558.log: OK
+2024/05/05-08:44:56.649 43a4 Table #380: 87 entries OK
+2024/05/05-08:44:56.651 43a4 Table #529: 88 entries OK
+2024/05/05-08:44:56.654 43a4 Archiving G:\Rol\FoundryVtt\Contenido\Data\worlds\test\packs\rasgos-raciales/MANIFEST-000525: OK
+2024/05/05-08:44:56.655 43a4 Archiving G:\Rol\FoundryVtt\Contenido\Data\worlds\test\packs\rasgos-raciales/MANIFEST-000557: OK
+2024/05/05-08:44:56.659 43a4 **** Repaired leveldb G:\Rol\FoundryVtt\Contenido\Data\worlds\test\packs\rasgos-raciales; recovered 2 files; 150039 bytes. Some data may have been lost. ****

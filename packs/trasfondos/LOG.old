@@ -1,7 +1,9 @@
-2024/05/02-16:08:08.741232 e73ad9fbf0a0 Recovering log #660
-2024/05/02-16:08:08.748796 e73ad9fbf0a0 Delete type=3 #658
-2024/05/02-16:08:08.748829 e73ad9fbf0a0 Delete type=0 #660
-2024/05/03-10:52:46.621388 e739bbfff0a0 Level-0 table #665: started
-2024/05/03-10:52:46.621406 e739bbfff0a0 Level-0 table #665: 0 bytes OK
-2024/05/03-10:52:46.624213 e739bbfff0a0 Delete type=0 #663
-2024/05/03-10:52:46.629306 e739bbfff0a0 Manual compaction at level-0 from '!items!0gHA2X0dC0Di76h7' @ 72057594037927935 : 1 .. '!items!yfb5TiuxckULwKSR' @ 0 : 0; will stop at (end)
+2024/05/05-08:44:56.377 10fc Log #636: 0 ops saved to Table #668 OK
+2024/05/05-08:44:56.377 10fc Archiving G:\Rol\FoundryVtt\Contenido\Data\worlds\test\packs\trasfondos/000636.log: OK
+2024/05/05-08:44:56.377 10fc Log #667: 0 ops saved to Table #669 OK
+2024/05/05-08:44:56.377 10fc Archiving G:\Rol\FoundryVtt\Contenido\Data\worlds\test\packs\trasfondos/000667.log: OK
+2024/05/05-08:44:56.377 10fc Table #517: 33 entries OK
+2024/05/05-08:44:56.382 10fc Table #638: 33 entries OK
+2024/05/05-08:44:56.382 10fc Archiving G:\Rol\FoundryVtt\Contenido\Data\worlds\test\packs\trasfondos/MANIFEST-000634: OK
+2024/05/05-08:44:56.382 10fc Archiving G:\Rol\FoundryVtt\Contenido\Data\worlds\test\packs\trasfondos/MANIFEST-000666: OK
+2024/05/05-08:44:56.388 10fc **** Repaired leveldb G:\Rol\FoundryVtt\Contenido\Data\worlds\test\packs\trasfondos; recovered 2 files; 158515 bytes. Some data may have been lost. ****
