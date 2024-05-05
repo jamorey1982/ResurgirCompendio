@@ -1,15 +1,16 @@
-2024/05/05-08:44:57.083 43a4 Delete type=3 #1
-2024/05/05-08:44:57.092 3e2c Compacting 5@0 + 0@1 files
-2024/05/05-08:44:57.402 3e2c Generated table #260@0: 1598 keys, 2127075 bytes
-2024/05/05-08:44:57.492 3e2c Generated table #261@0: 832 keys, 686539 bytes
-2024/05/05-08:44:57.492 3e2c Compacted 5@0 + 0@1 files => 2813614 bytes
-2024/05/05-08:44:57.492 3e2c compacted to: files[ 0 2 0 0 0 0 0 ]
-2024/05/05-08:44:57.495 3e2c Delete type=2 #73
-2024/05/05-08:44:57.495 3e2c Delete type=2 #221
-2024/05/05-08:44:57.495 3e2c Delete type=2 #222
-2024/05/05-08:44:57.495 3e2c Delete type=2 #248
-2024/05/05-08:44:57.495 3e2c Delete type=2 #253
-2024/05/05-09:57:31.626 3e2c Level-0 table #263: started
-2024/05/05-09:57:31.627 3e2c Level-0 table #263: 0 bytes OK
-2024/05/05-09:57:31.629 3e2c Delete type=0 #259
-2024/05/05-09:57:31.630 3e2c Manual compaction at level-0 from '!actors!01b5cEXvlV6VcenN' @ 72057594037927935 : 1 .. '!folders!wuu2pvg6PAtGeGwF' @ 0 : 0; will stop at (end)
+2024/05/05-11:25:58.934 4494 Recovering log #266
+2024/05/05-11:25:58.939 4494 Delete type=2 #73
+2024/05/05-11:25:58.939 4494 Delete type=2 #242
+2024/05/05-11:25:58.940 4494 Delete type=2 #243
+2024/05/05-11:25:58.940 4494 Delete type=2 #248
+2024/05/05-11:25:58.940 4494 Delete type=2 #253
+2024/05/05-11:25:58.941 4494 Delete type=0 #255
+2024/05/05-11:25:58.941 4494 Delete type=0 #264
+2024/05/05-11:25:58.942 4494 Delete type=0 #266
+2024/05/05-11:25:58.942 4494 Delete type=3 #254
+2024/05/05-11:25:58.942 4494 Delete type=3 #262
+2024/05/05-11:25:58.943 4494 Delete type=3 #264
+2024/05/05-12:11:07.931 42cc Level-0 table #271: started
+2024/05/05-12:11:07.931 42cc Level-0 table #271: 0 bytes OK
+2024/05/05-12:11:07.933 42cc Delete type=0 #269
+2024/05/05-12:11:07.944 42cc Manual compaction at level-0 from '!actors!01b5cEXvlV6VcenN' @ 72057594037927935 : 1 .. '!folders!wuu2pvg6PAtGeGwF' @ 0 : 0; will stop at (end)
