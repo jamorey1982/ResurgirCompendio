@@ -1,14 +1,13 @@
-2024/05/05-18:54:08.483046 e73adafdf0a0 Log #671: 0 ops saved to Table #699 OK
-2024/05/05-18:54:08.483085 e73adafdf0a0 Archiving /home/ubuntu/foundryuserdata/Data/worlds/resurgir/packs/escuela-de-aventureros/000671.log: OK
-2024/05/05-18:54:08.483102 e73adafdf0a0 Log #661: 0 ops saved to Table #700 OK
-2024/05/05-18:54:08.483122 e73adafdf0a0 Archiving /home/ubuntu/foundryuserdata/Data/worlds/resurgir/packs/escuela-de-aventureros/000661.log: OK
-2024/05/05-18:54:08.483138 e73adafdf0a0 Log #698: 0 ops saved to Table #701 OK
-2024/05/05-18:54:08.483150 e73adafdf0a0 Archiving /home/ubuntu/foundryuserdata/Data/worlds/resurgir/packs/escuela-de-aventureros/000698.log: OK
-2024/05/05-18:54:08.483164 e73adafdf0a0 Log #666: 0 ops saved to Table #702 OK
-2024/05/05-18:54:08.483176 e73adafdf0a0 Archiving /home/ubuntu/foundryuserdata/Data/worlds/resurgir/packs/escuela-de-aventureros/000666.log: OK
-2024/05/05-18:54:08.483229 e73adafdf0a0 Table #668: 33 entries OK
-2024/05/05-18:54:08.483266 e73adafdf0a0 Table #483: 33 entries OK
-2024/05/05-18:54:08.483339 e73adafdf0a0 Archiving /home/ubuntu/foundryuserdata/Data/worlds/resurgir/packs/escuela-de-aventureros/MANIFEST-000669: OK
-2024/05/05-18:54:08.483356 e73adafdf0a0 Archiving /home/ubuntu/foundryuserdata/Data/worlds/resurgir/packs/escuela-de-aventureros/MANIFEST-000664: OK
-2024/05/05-18:54:08.483391 e73adafdf0a0 Archiving /home/ubuntu/foundryuserdata/Data/worlds/resurgir/packs/escuela-de-aventureros/MANIFEST-000660: OK
-2024/05/05-18:54:08.486056 e73adafdf0a0 **** Repaired leveldb /home/ubuntu/foundryuserdata/Data/worlds/resurgir/packs/escuela-de-aventureros; recovered 2 files; 13845 bytes. Some data may have been lost. ****
+2024/05/05-18:54:08.493973 e73adafdf0a0 Delete type=3 #1
+2024/05/06-09:13:37.463350 e739bbfff0a0 Level-0 table #706: started
+2024/05/06-09:13:37.465595 e739bbfff0a0 Level-0 table #706: 7164 bytes OK
+2024/05/06-09:13:37.467521 e739bbfff0a0 Delete type=0 #704
+2024/05/06-09:13:37.469998 e739bbfff0a0 Manual compaction at level-0 from '!items!2DoElnsA67ie4tsN' @ 72057594037927935 : 1 .. '!items!ziUXeg4362ZoblxC' @ 0 : 0; will stop at '!items!ziUXeg4362ZoblxC' @ 231 : 1
+2024/05/06-09:13:37.470003 e739bbfff0a0 Compacting 3@0 + 0@1 files
+2024/05/06-09:13:37.472980 e739bbfff0a0 Generated table #707@0: 33 keys, 6557 bytes
+2024/05/06-09:13:37.472991 e739bbfff0a0 Compacted 3@0 + 0@1 files => 6557 bytes
+2024/05/06-09:13:37.474899 e739bbfff0a0 compacted to: files[ 0 1 0 0 0 0 0 ]
+2024/05/06-09:13:37.474973 e739bbfff0a0 Delete type=2 #668
+2024/05/06-09:13:37.475093 e739bbfff0a0 Delete type=2 #706
+2024/05/06-09:13:37.475142 e739bbfff0a0 Delete type=2 #483
+2024/05/06-09:13:37.479978 e739bbfff0a0 Manual compaction at level-0 from '!items!ziUXeg4362ZoblxC' @ 231 : 1 .. '!items!ziUXeg4362ZoblxC' @ 0 : 0; will stop at (end)
