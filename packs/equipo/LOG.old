@@ -1,7 +1,12 @@
-2024/06/03-08:19:27.174939 e73ad9fbf0a0 Recovering log #820
-2024/06/03-08:19:27.180590 e73ad9fbf0a0 Delete type=0 #820
-2024/06/03-08:19:27.180623 e73ad9fbf0a0 Delete type=3 #818
-2024/06/03-10:39:16.540349 e739bbfff0a0 Level-0 table #825: started
-2024/06/03-10:39:16.540368 e739bbfff0a0 Level-0 table #825: 0 bytes OK
-2024/06/03-10:39:16.542699 e739bbfff0a0 Delete type=0 #823
-2024/06/03-10:39:16.544963 e739bbfff0a0 Manual compaction at level-0 from '!folders!4W2cYe803tYhYpf8' @ 72057594037927935 : 1 .. '!items.effects!ywc2NfaDmzw8OMxu.qz7znP2SPjDunkbI' @ 0 : 0; will stop at (end)
+2024/06/04-06:52:14.859 2254 Log #766: 0 ops saved to Table #828 OK
+2024/06/04-06:52:14.859 2254 Archiving G:\Rol\FoundryVtt\Contenido\Data\worlds\erddgrupomazmorreo\packs\equipo/000766.log: OK
+2024/06/04-06:52:14.860 2254 Log #807: 0 ops saved to Table #829 OK
+2024/06/04-06:52:14.860 2254 Archiving G:\Rol\FoundryVtt\Contenido\Data\worlds\erddgrupomazmorreo\packs\equipo/000807.log: OK
+2024/06/04-06:52:14.860 2254 Log #827: 0 ops saved to Table #830 OK
+2024/06/04-06:52:14.861 2254 Archiving G:\Rol\FoundryVtt\Contenido\Data\worlds\erddgrupomazmorreo\packs\equipo/000827.log: OK
+2024/06/04-06:52:14.921 2254 Table #759: 991 entries OK
+2024/06/04-06:52:14.927 2254 Table #805: 989 entries OK
+2024/06/04-06:52:14.931 2254 Archiving G:\Rol\FoundryVtt\Contenido\Data\worlds\erddgrupomazmorreo\packs\equipo/MANIFEST-000764: OK
+2024/06/04-06:52:14.933 2254 Archiving G:\Rol\FoundryVtt\Contenido\Data\worlds\erddgrupomazmorreo\packs\equipo/MANIFEST-000806: OK
+2024/06/04-06:52:14.934 2254 Archiving G:\Rol\FoundryVtt\Contenido\Data\worlds\erddgrupomazmorreo\packs\equipo/MANIFEST-000826: OK
+2024/06/04-06:52:14.939 2254 **** Repaired leveldb G:\Rol\FoundryVtt\Contenido\Data\worlds\erddgrupomazmorreo\packs\equipo; recovered 2 files; 2691869 bytes. Some data may have been lost. ****
