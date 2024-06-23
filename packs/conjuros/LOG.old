@@ -1,14 +1,14 @@
-2024/06/16-10:20:34.788316 e73adafdf0a0 Recovering log #945
-2024/06/16-10:20:34.794260 e73adafdf0a0 Delete type=0 #945
-2024/06/16-10:20:34.794281 e73adafdf0a0 Delete type=3 #943
-2024/06/17-12:59:33.264350 e739bbfff0a0 Level-0 table #951: started
-2024/06/17-12:59:33.269569 e739bbfff0a0 Level-0 table #951: 217448 bytes OK
-2024/06/17-12:59:33.271683 e739bbfff0a0 Delete type=0 #949
-2024/06/17-12:59:33.271957 e739bbfff0a0 Manual compaction at level-0 from '!folders!0pdesvXqKd55VOh2' @ 72057594037927935 : 1 .. '!items.effects!z9Li960UoBarKh73.cSVCA9h5OEo5lfBE' @ 0 : 0; will stop at '!items.effects!tWisUsQUkSgyuF5Y.mVqFBzC5qYpFnZFV' @ 12670 : 1
-2024/06/17-12:59:33.271961 e739bbfff0a0 Compacting 1@0 + 1@1 files
-2024/06/17-12:59:33.283576 e739bbfff0a0 Generated table #952@0: 417 keys, 595089 bytes
-2024/06/17-12:59:33.283592 e739bbfff0a0 Compacted 1@0 + 1@1 files => 595089 bytes
-2024/06/17-12:59:33.285769 e739bbfff0a0 compacted to: files[ 0 1 0 0 0 0 0 ]
-2024/06/17-12:59:33.285931 e739bbfff0a0 Delete type=2 #947
-2024/06/17-12:59:33.286169 e739bbfff0a0 Delete type=2 #951
-2024/06/17-12:59:33.292939 e739bbfff0a0 Manual compaction at level-0 from '!items.effects!tWisUsQUkSgyuF5Y.mVqFBzC5qYpFnZFV' @ 12670 : 1 .. '!items.effects!z9Li960UoBarKh73.cSVCA9h5OEo5lfBE' @ 0 : 0; will stop at (end)
+2024/06/19-14:43:16.257322 e73ad9fbf0a0 Recovering log #955
+2024/06/19-14:43:16.263714 e73ad9fbf0a0 Delete type=3 #953
+2024/06/19-14:43:16.263744 e73ad9fbf0a0 Delete type=0 #955
+2024/06/22-13:40:18.072454 e739bbfff0a0 Level-0 table #961: started
+2024/06/22-13:40:18.075040 e739bbfff0a0 Level-0 table #961: 2197 bytes OK
+2024/06/22-13:40:18.077547 e739bbfff0a0 Delete type=0 #959
+2024/06/22-13:40:18.084843 e739bbfff0a0 Manual compaction at level-0 from '!folders!0pdesvXqKd55VOh2' @ 72057594037927935 : 1 .. '!items.effects!z9Li960UoBarKh73.cSVCA9h5OEo5lfBE' @ 0 : 0; will stop at '!items!JPPaTRtzwU1mwA0I' @ 12791 : 1
+2024/06/22-13:40:18.084849 e739bbfff0a0 Compacting 1@0 + 1@1 files
+2024/06/22-13:40:18.096256 e739bbfff0a0 Generated table #962@0: 417 keys, 596033 bytes
+2024/06/22-13:40:18.096271 e739bbfff0a0 Compacted 1@0 + 1@1 files => 596033 bytes
+2024/06/22-13:40:18.098447 e739bbfff0a0 compacted to: files[ 0 1 0 0 0 0 0 ]
+2024/06/22-13:40:18.098594 e739bbfff0a0 Delete type=2 #957
+2024/06/22-13:40:18.098788 e739bbfff0a0 Delete type=2 #961
+2024/06/22-13:40:18.098941 e739bbfff0a0 Manual compaction at level-0 from '!items!JPPaTRtzwU1mwA0I' @ 12791 : 1 .. '!items.effects!z9Li960UoBarKh73.cSVCA9h5OEo5lfBE' @ 0 : 0; will stop at (end)
