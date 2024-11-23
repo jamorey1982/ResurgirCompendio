@@ -1,0 +1,25 @@
+<fieldset>
+    <legend>
+        <span>{{ localize "RESURGIRDRAGON.StartingEquipment.Title" }}</span>
+        {{#if editable}}
+        <a class="config-button" data-action="starting-equipment"
+           data-tooltip="RESURGIRDRAGON.StartingEquipment.Action.Configure"
+           aria-label="{{ localize "RESURGIRDRAGON.StartingEquipment.Action.Configure" }}">
+            <i class="fas fa-cog" inert></i>
+        </a>
+        {{/if}}
+    </legend>
+
+    {{!-- Starting Equipment --}}
+    <section class="starting-equipment {{#unless system.startingEquipmentDescription}}empty{{/unless}}">
+        {{#if system.startingEquipmentDescription}}
+            {{{ system.startingEquipmentDescription }}}
+        {{else}}
+            {{ localize "None" }}
+        {{/if}}
+    </section>
+
+    {{!-- Starting Wealth --}}
+    {{ formField fields.wealth value=source.wealth localize=true }}
+
+</fieldset>

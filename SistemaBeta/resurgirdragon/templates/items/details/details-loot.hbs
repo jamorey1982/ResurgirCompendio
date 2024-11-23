@@ -1,0 +1,18 @@
+<fieldset>
+    <legend>{{ localize "RESURGIRDRAGON.ItemLootDetails" }}</legend>
+
+    {{!-- Loot Type --}}
+    {{ formField fields.type.fields.value label="RESURGIRDRAGON.ItemLootType" value=source.type.value choices=config.lootTypes
+                 labelAttr="label" blank="" localize=true }}
+
+    {{!-- Loot Subtype --}}
+    {{#if itemSubtypes}}
+    {{ formField fields.type.fields.subtype value=source.type.subtype choices=itemSubtypes blank=""
+                 label=(localize "RESURGIRDRAGON.ItemLootSubtype" category=(lookup (lookup config.lootTypes source.type.value) "label")) }}
+    {{/if}}
+
+    {{!-- Loot Properties --}}
+    {{ formField fields.properties options=properties.options label="RESURGIRDRAGON.ItemLootProperties" localize=true
+                 input=inputs.createMultiCheckboxInput stacked=true classes="checkbox-grid" }}
+
+</fieldset>

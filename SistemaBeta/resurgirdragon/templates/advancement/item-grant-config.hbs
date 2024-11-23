@@ -1,0 +1,47 @@
+<form autocomplete="off">
+    {{> "resurgirdragon.advancement-controls" }}
+    <div class="form-group">
+        <label>{{ localize "RESURGIRDRAGON.AdvancementItemGrantOptional" }}</label>
+        <div class="form-fields">
+            <input type="checkbox" name="configuration.optional" {{ checked configuration.optional }}>
+        </div>
+        <p class="hint">{{ localize "RESURGIRDRAGON.AdvancementItemGrantOptionalHint" }}</p>
+    </div>
+
+    {{#if showSpellConfig}}
+    {{> "resurgirdragon.advancement-spell-config" }}
+    {{/if}}
+
+    <div class="drop-target">
+        <ol class="items-list">
+            <li class="items-header flexrow">
+                <h3 class="item-optional">{{ localize "RESURGIRDRAGON.AdvancementItemGrantOptional" }}</h3>
+                <h3 class="item-name">{{ localize "DOCUMENT.Items" }}</h3>
+            </li>
+            <ol class="item-list">
+            {{#each configuration.items}}
+            <li class="item flexrow" data-item-uuid="{{ uuid }}">
+                <div class="item-optional">
+                    <input type="checkbox" name="configuration.items.{{ @index }}.optional" {{ checked optional }}>
+                </div>
+                <div class="item-name">
+                    {{{ resurgirdragon-linkForUuid uuid renderBroken=true }}}
+                    <input type="hidden" name="configuration.items.{{ @index }}.uuid" value="{{ uuid }}">
+                </div>
+                <div class="item-controls flexrow">
+                    <a class="item-control item-action" data-action="delete" data-tooltip="RESURGIRDRAGON.ItemDelete"
+                       aria-label="{{ localize 'RESURGIRDRAGON.ItemDelete' }}">
+                        <i class="fas fa-trash" inert></i>
+                    </a>
+                </div>
+            </li>
+            {{/each}}
+            </ol>
+        </ol>
+
+        {{#if showContainerWarning}}
+        <p class="hint centered warning">{{ localize "RESURGIRDRAGON.AdvancementItemGrantContainerWarning" }}</p>
+        {{/if}}
+        <p class="hint centered">{{ localize "RESURGIRDRAGON.AdvancementItemGrantDropHint" }}</p>
+    </div>
+</form>

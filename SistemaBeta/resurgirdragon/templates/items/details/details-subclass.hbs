@@ -1,0 +1,11 @@
+<fieldset>
+    <legend>{{ localize "RESURGIRDRAGON.ItemSubclassDetails" }}</legend>
+
+    {{!-- Identifier --}}
+    {{ formField fields.identifier value=source.identifier placeholder=item.identifier hint="RESURGIRDRAGON.IdentifierError"
+                 localize=true }}
+
+    {{!-- Class Identifier --}}
+    {{ formField fields.classIdentifier value=source.classIdentifier hint="RESURGIRDRAGON.SubclassIdentifierHint"
+                 localize=true }}
+</fieldset>

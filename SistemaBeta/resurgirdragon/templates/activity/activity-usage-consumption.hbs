@@ -1,0 +1,23 @@
+<section>
+    {{~#if hasConsumption}}
+    <fieldset>
+        <legend>{{ localize "RESURGIRDRAGON.USAGE.SECTION.Consumption" }}</legend>
+        {{#if spellSlot}}
+            {{ formField spellSlot.field name=spellSlot.name value=spellSlot.value input=inputs.createCheckboxInput }}
+        {{/if}}
+        {{#each resources}}
+        <div class="form-group">
+            <label>
+                {{ field.label }}
+                {{#if warn}}<i class="fa-solid fa-triangle-exclamation warning"></i>{{/if}}
+            </label>
+            <div class="form-fields">
+                {{ formInput field name=name value=value input=input }}
+            </div>
+            {{#if field.hint}}<p class="hint">{{{ field.hint }}}{{/if}}
+        </div>
+        {{/each}}
+    </fieldset>
+    {{> "resurgirdragon.activity-usage-notes" }}
+    {{/if~}}
+</section>

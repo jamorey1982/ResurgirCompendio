@@ -1,0 +1,2180 @@
+{
+  "resurgirdragon.monsters": {
+    "irz834sqAxRihtSG": {
+      "actor":"systems/resurgirdragon/tokens/dragon/CopperDragonAdult.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/dragon/CopperDragonAdult.webp",
+          "scaleX": 2.33,
+          "scaleY": 2.33
+        }
+      }
+    },
+    "vFeFRlF2FOgf2HIL": {
+      "actor":"systems/resurgirdragon/tokens/dragon/RedDragonAncient.webp",
+      "token": {
+        "width": 13,
+        "height": 13,
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/dragon/RedDragonAncient.webp",
+          "scaleX": 3,
+          "scaleY": 3
+        }
+      }
+    },
+    "1vaBSMUfOy6JPJ14": {
+      "actor":"systems/resurgirdragon/tokens/humanoid/Drow.webp",
+      "token": "systems/resurgirdragon/tokens/humanoid/Drow.webp"
+    },
+    "3o2rQBqpzjIHmrBW": {
+      "actor":"systems/resurgirdragon/tokens/fiend/Erinyes.webp",
+      "token": {
+        "texture": {
+          "src":"systems/resurgirdragon/tokens/fiend/Erinyes.webp",
+          "scaleX":1.8,
+          "scaleY":1.8
+        }
+      }
+    },
+    "lOYt73eaJojBDxAV": {
+      "actor":"systems/resurgirdragon/tokens/celestial/Solar.webp",
+      "token": "systems/resurgirdragon/tokens/celestial/Solar.webp"
+    },
+    "Hm4o2FgPZsdbXjLq": {
+      "actor":"systems/resurgirdragon/tokens/construct/FleshGolem.webp",
+      "token": "systems/resurgirdragon/tokens/construct/FleshGolem.webp"
+    },
+    "mNijwXPMhwR7yYfc": {
+      "actor":"systems/resurgirdragon/tokens/dragon/YoungBlueDragon.webp",
+      "token": {
+        "texture": {
+          "src":"systems/resurgirdragon/tokens/dragon/YoungBlueDragon.webp",
+          "scaleX":2,
+          "scaleY":2
+        }
+      }
+    },
+    "FzvZ6xl3U9GoL9ju": {
+      "actor":"systems/resurgirdragon/tokens/dragon/YoungBrassDragon.webp",
+      "token": {
+        "texture": {
+          "src":"systems/resurgirdragon/tokens/dragon/YoungBrassDragon.webp",
+          "scaleX":2,
+          "scaleY":2
+        }
+      }
+    },
+    "qW8cBwg7ghCA4Cw6": {
+      "actor":"systems/resurgirdragon/tokens/dragon/YoungCopperDragon.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/dragon/YoungCopperDragon.webp",
+          "scaleX":2,
+          "scaleY":2
+        }
+      }
+    },
+    "7198siHjPJf8g0cG": {
+      "actor":"systems/resurgirdragon/tokens/dragon/Wyvern.webp",
+      "token": {
+        "texture": {
+          "src":"systems/resurgirdragon/tokens/dragon/Wyvern.webp",
+          "scaleX":2,
+          "scaleY":2
+        }
+      }
+    },
+    "sLdpiuaZF8lujJQy": {
+      "actor":"systems/resurgirdragon/tokens/fiend/Barbed.webp",
+      "token": "systems/resurgirdragon/tokens/fiend/Barbed.webp"
+    },
+    "Aw2wmqGIatxe2ImI": {
+      "actor":"systems/resurgirdragon/tokens/giant/CloudGiant.webp",
+      "token": {
+        "texture": {
+          "src":"systems/resurgirdragon/tokens/giant/CloudGiant.webp",
+          "scaleX":1.66,
+          "scaleY":1.66
+        }
+      }
+    },
+    "KLCkHep28HBfdsky": {
+      "actor":"systems/resurgirdragon/tokens/giant/Ettin.webp",
+      "token": {
+        "texture": {
+          "src":"systems/resurgirdragon/tokens/giant/Ettin.webp",
+          "scaleX":1.5,
+          "scaleY":1.5
+        }
+      }
+    },
+    "9g4N9sjyh8Ql46to": {
+      "actor":"systems/resurgirdragon/tokens/giant/HillGiant.webp",
+      "token": {
+        "texture": {
+          "src":"systems/resurgirdragon/tokens/giant/HillGiant.webp",
+          "scaleX":1.66,
+          "scaleY":1.66
+        }
+      }
+    },
+    "5TmstVMURpVtmNR3": {
+      "actor":"systems/resurgirdragon/tokens/humanoid/HalfRedDragonVeteran.webp",
+      "token": "systems/resurgirdragon/tokens/humanoid/HalfRedDragonVeteran.webp"
+    },
+    "zIr3NaNF0mWz5Ahq": {
+      "actor":"systems/resurgirdragon/tokens/humanoid/Weretiger.webp",
+      "token": "systems/resurgirdragon/tokens/humanoid/Weretiger.webp"
+    },
+    "nEC1BRwM8Lx9hLXW": {
+      "actor":"systems/resurgirdragon/tokens/monstrosity/Androsphinx.webp",
+      "token": "systems/resurgirdragon/tokens/monstrosity/Androsphinx.webp"
+    },
+    "gGeLeV411iQ5Yijs": {
+      "actor":"systems/resurgirdragon/tokens/plant/ShamblingMound.webp",
+      "token": "systems/resurgirdragon/tokens/plant/ShamblingMound.webp"
+    },
+    "NB6wUgVqeOQtsQKu": {
+      "actor":"systems/resurgirdragon/tokens/plant/Treant.webp",
+      "token": "systems/resurgirdragon/tokens/plant/Treant.webp"
+    },
+    "RenLfmDT2XlbCF4x": {
+      "actor":"systems/resurgirdragon/tokens/undead/OgreZombie.webp",
+      "token": "systems/resurgirdragon/tokens/undead/OgreZombie.webp"
+    },
+    "shhHtE7b92PefCWB": {
+      "actor": "systems/resurgirdragon/tokens/aberration/Aboleth.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/aberration/Aboleth.webp",
+          "scaleX": 2,
+          "scaleY": 2
+        }
+      }
+    },
+    "P6qC8jB3pnEH0tIE": {
+      "actor": "systems/resurgirdragon/tokens/aberration/Chuul.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/aberration/Chuul.webp",
+          "scaleX": 2,
+          "scaleY": 2
+        }
+      }
+    },
+    "HPUO3weiwRQnql0d": {
+      "actor": "systems/resurgirdragon/tokens/aberration/Cloaker.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/aberration/Cloaker.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        }
+      }
+    },
+    "8pX2JhWUpTNNRBVx": {
+      "actor": "systems/resurgirdragon/tokens/aberration/GibberingMouther.webp",
+      "token": "systems/resurgirdragon/tokens/aberration/GibberingMouther.webp"
+    },
+    "jcZblJ6lqtW0ePxe": {
+      "actor": "systems/resurgirdragon/tokens/aberration/Otyugh.webp",
+      "token": "systems/resurgirdragon/tokens/aberration/Otyugh.webp"
+    },
+    "K5cKmPoFkpuOotis": {
+      "actor": "systems/resurgirdragon/tokens/beast/Ape.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/beast/Ape.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        }
+      }
+    },
+    "SXXvwaLBNuzBymp3": {
+      "actor": "systems/resurgirdragon/tokens/beast/AxeBeak.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/beast/AxeBeak.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        }
+      }
+    },
+    "JW8bXggOMBx1S6tF": {
+      "actor": "systems/resurgirdragon/tokens/beast/Baboon.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/beast/Baboon.webp",
+          "scaleX": 0.8,
+          "scaleY": 0.8
+        }
+      }
+    },
+    "oQvORD924obyPdCc": {
+      "actor": "systems/resurgirdragon/tokens/beast/Badger.webp",
+      "token": "systems/resurgirdragon/tokens/beast/Badger.webp"
+    },
+    "qav2dvMIUiMQCCsy": {
+      "actor": "systems/resurgirdragon/tokens/beast/Bat.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/beast/Bat.webp",
+          "scaleX": 0.6,
+          "scaleY": 0.6
+        }
+      }
+    },
+    "D5WjGwKskeUT8HXa": {
+      "actor": "systems/resurgirdragon/tokens/beast/BlackBear.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/beast/BlackBear.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        }
+      }
+    },
+    "AJiJW7K957aJJCN6": {
+      "actor": "systems/resurgirdragon/tokens/beast/BloodHawk.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/beast/BloodHawk.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        }
+      }
+    },
+    "lZR4lhNmYSf89s4Q": {
+      "actor": "systems/resurgirdragon/tokens/beast/Boar.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/beast/Boar.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        }
+      }
+    },
+    "omcDpBoB69esCXeM": {
+      "actor": "systems/resurgirdragon/tokens/beast/BrownBear.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/beast/BrownBear.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        }
+      }
+    },
+    "FQMFuzzSh73d0Nrd": {
+      "actor": "systems/resurgirdragon/tokens/beast/Camel.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/beast/Camel.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        }
+      }
+    },
+    "hIf83RD3ZVW4Egfi": {
+      "actor": "systems/resurgirdragon/tokens/beast/CatOrange.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/beast/CatOrange.webp",
+          "scaleX": 0.7,
+          "scaleY": 0.7
+        }
+      }
+    },
+    "UTuKdTah1DKfPwWe": {
+      "actor": "systems/resurgirdragon/tokens/beast/ConstrictorSnake.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/beast/ConstrictorSnake.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        }
+      }
+    },
+    "8RgUhb31VvjUNZU1": {
+      "actor": "systems/resurgirdragon/tokens/beast/CrabOrange.webp",
+      "token": "systems/resurgirdragon/tokens/beast/CrabOrange.webp"
+    },
+    "8aCTKP5qaBPFOqxM": {
+      "actor": "systems/resurgirdragon/tokens/beast/Crocodile.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/beast/Crocodile.webp",
+          "scaleX": 1.2,
+          "scaleY": 1.2
+        }
+      }
+    },
+    "4EODJbmPlpnNGVR7": {
+      "actor": "systems/resurgirdragon/tokens/beast/Deer.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/beast/Deer.webp",
+          "scaleX": 1.1,
+          "scaleY": 1.1
+        }
+      }
+    },
+    "EYiQZ3rFL25fEJY5": {
+      "actor": "systems/resurgirdragon/tokens/beast/DireWolf.webp",
+      "token": "systems/resurgirdragon/tokens/beast/DireWolf.webp"
+    },
+    "Bupo3E9X5Ptx6XeT": {
+      "actor": "systems/resurgirdragon/tokens/beast/DraftHorse.webp",
+      "token": "systems/resurgirdragon/tokens/beast/DraftHorse.webp"
+    },
+    "EI8w6XjzCZICkox9": {
+      "actor": "systems/resurgirdragon/tokens/beast/Eagle.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/beast/Eagle.webp",
+          "scaleX": 1.4,
+          "scaleY": 1.4
+        }
+      }
+    },
+    "jLPhaBnMtAbB5dp1": {
+      "actor": "systems/resurgirdragon/tokens/beast/Elephant.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/beast/Elephant.webp",
+          "scaleX": 1.2,
+          "scaleY": 1.2
+        }
+      }
+    },
+    "55PkbskG5iBZGrgR": {
+      "actor": "systems/resurgirdragon/tokens/beast/Elk.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/beast/Elk.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        }
+      }
+    },
+    "SMfgOsfPgf6rb01k": {
+      "actor": "systems/resurgirdragon/tokens/beast/FlyingSnake.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/beast/FlyingSnake.webp",
+          "scaleX": 0.8,
+          "scaleY": 0.8
+        }
+      }
+    },
+    "EZgiprHXA2D7Uyb3": {
+      "actor": "systems/resurgirdragon/tokens/beast/Frog.webp",
+      "token": "systems/resurgirdragon/tokens/beast/Frog.webp"
+    },
+    "8MuL8xisavJW9bnw": {
+      "actor": "systems/resurgirdragon/tokens/beast/GiantApe.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/beast/GiantApe.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        }
+      }
+    },
+    "cJGY1ZywUOo6heNR": {
+      "actor": "systems/resurgirdragon/tokens/beast/GiantBadger.webp",
+      "token": "systems/resurgirdragon/tokens/beast/GiantBadger.webp"
+    },
+    "SoK7l5zJQKxTVgLL": {
+      "actor": "systems/resurgirdragon/tokens/beast/GiantBat.webp",
+      "token": "systems/resurgirdragon/tokens/beast/GiantBat.webp"
+    },
+    "SsuCaF2fIEoDdFA3": {
+      "actor": "systems/resurgirdragon/tokens/beast/GiantBoar.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/beast/GiantBoar.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        }
+      }
+    },
+    "Hn8FFLEzscgT7azz": {
+      "actor": "systems/resurgirdragon/tokens/beast/GiantCentipede.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/beast/GiantCentipede.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        }
+      }
+    },
+    "NpvwE1feOHyEqAbP": {
+      "actor": "systems/resurgirdragon/tokens/beast/GiantConstrictorSnake.webp",
+      "token": "systems/resurgirdragon/tokens/beast/GiantConstrictorSnake.webp"
+    },
+    "AOJvmk1IchxNxQzP": {
+      "actor": "systems/resurgirdragon/tokens/beast/GiantCrab.webp",
+      "token": "systems/resurgirdragon/tokens/beast/GiantCrab.webp"
+    },
+    "3YwmvDupMwycWNCO": {
+      "actor": "systems/resurgirdragon/tokens/beast/GiantCrocodile.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/beast/GiantCrocodile.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        }
+      }
+    },
+    "9bHoR8k5D2DKHaF3": {
+      "actor": "systems/resurgirdragon/tokens/beast/GiantEagle.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/beast/GiantEagle.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        }
+      }
+    },
+    "hQt3qIahnB1Odb40": {
+      "actor": "systems/resurgirdragon/tokens/beast/GiantElk.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/beast/GiantElk.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        }
+      }
+    },
+    "Z0GiAv3bJxTjUfjM": {
+      "actor": "systems/resurgirdragon/tokens/beast/GiantFireBeetle.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/beast/GiantFireBeetle.webp",
+          "scaleX": 0.7,
+          "scaleY": 0.7
+        }
+      }
+    },
+    "kSAi2KRonL4G4JpO": {
+      "actor": "systems/resurgirdragon/tokens/beast/GiantFrog.webp",
+      "token": "systems/resurgirdragon/tokens/beast/GiantFrog.webp"
+    },
+    "rjqk7ToMD8sGr3n4": {
+      "actor": "systems/resurgirdragon/tokens/beast/GiantGoat.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/beast/GiantGoat.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        }
+      }
+    },
+    "aAqfEHPiVbhMwZ6j": {
+      "actor": "systems/resurgirdragon/tokens/beast/GiantHyena.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/beast/GiantHyena.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        }
+      }
+    },
+    "pLzSh4dA517Tn73E": {
+      "actor": "systems/resurgirdragon/tokens/beast/GiantLizard.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/beast/GiantLizard.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        }
+      }
+    },
+    "p9Xnr820UAZBOIVN": {
+      "actor": "systems/resurgirdragon/tokens/beast/GiantOctopus.webp",
+      "token": "systems/resurgirdragon/tokens/beast/GiantOctopus.webp"
+    },
+    "VVXly3ue0i3YgGrB": {
+      "actor": "systems/resurgirdragon/tokens/beast/GiantOwl.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/beast/GiantOwl.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        }
+      }
+    },
+    "ZW39DE2zI3TXVYC9": {
+      "actor": "systems/resurgirdragon/tokens/beast/GiantPoisonousSnake.webp",
+      "token": "systems/resurgirdragon/tokens/beast/GiantPoisonousSnake.webp"
+    },
+    "q1YJIeIt6rK8fCKn": {
+      "actor": "systems/resurgirdragon/tokens/beast/GiantRat.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/beast/GiantRat.webp",
+          "scaleX": 0.9,
+          "scaleY": 0.9
+        }
+      }
+    },
+    "z0zvgcIugizwcuxJ": {
+      "actor": "systems/resurgirdragon/tokens/beast/GiantRat.webp",
+      "token": "systems/resurgirdragon/tokens/beast/GiantRat.webp"
+    },
+    "GxgIVRX5GbVTifiF": {
+      "actor": "systems/resurgirdragon/tokens/beast/GiantScorpion.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/beast/GiantScorpion.webp",
+          "scaleX": 1.4,
+          "scaleY": 1.4
+        }
+      }
+    },
+    "c9XDGsTJRy9HUaxQ": {
+      "actor": "systems/resurgirdragon/tokens/beast/GiantSeaHorse.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/beast/GiantSeaHorse.webp",
+          "scaleX": 1.2,
+          "scaleY": 1.2
+        }
+      }
+    },
+    "MWlwLlKXh8jUUxOL": {
+      "actor": "systems/resurgirdragon/tokens/beast/GiantShark.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/beast/GiantShark.webp",
+          "scaleX": 1.3,
+          "scaleY": 1.3
+        }
+      }
+    },
+    "v99wOosUJjUgcUNF": {
+      "actor": "systems/resurgirdragon/tokens/beast/GiantSpider.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/beast/GiantSpider.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        }
+      }
+    },
+    "Ixo5shumxy4I9qyD": {
+      "actor": "systems/resurgirdragon/tokens/beast/GiantToad.webp",
+      "token": "systems/resurgirdragon/tokens/beast/GiantToad.webp"
+    },
+    "4ZlUHt4xmB7GdPfk": {
+      "actor": "systems/resurgirdragon/tokens/beast/GiantVulture.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/beast/GiantVulture.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        }
+      }
+    },
+    "4tl0s2SnaLjkoDiI": {
+      "actor": "systems/resurgirdragon/tokens/beast/GiantWasp.webp",
+      "token": "systems/resurgirdragon/tokens/beast/GiantWasp.webp"
+    },
+    "8VXxqeBvN54rPh81": {
+      "actor": "systems/resurgirdragon/tokens/beast/GiantWeasel.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/beast/GiantWeasel.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        }
+      }
+    },
+    "f9JbhBfWucrY2eDA": {
+      "actor": "systems/resurgirdragon/tokens/beast/GiantWolfSpider.webp",
+      "token": "systems/resurgirdragon/tokens/beast/GiantWolfSpider.webp"
+    },
+    "y8sRU8Ks2lcrGsaf": {
+      "actor": "systems/resurgirdragon/tokens/beast/Goat.webp",
+      "token": "systems/resurgirdragon/tokens/beast/Goat.webp"
+    },
+    "fnkPNfIpS62LqOu4": {
+      "actor": "systems/resurgirdragon/tokens/beast/Hawk.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/beast/Hawk.webp",
+          "scaleX": 0.8,
+          "scaleY": 0.8
+        }
+      }
+    },
+    "siBUEAj4UVdaiH6p": {
+      "actor": "systems/resurgirdragon/tokens/beast/HunterShark.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/beast/HunterShark.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        }
+      }
+    },
+    "cDr1JtzEV26bP5Ym": {
+      "actor": "systems/resurgirdragon/tokens/beast/Hyena.webp",
+      "token": "systems/resurgirdragon/tokens/beast/Hyena.webp"
+    },
+    "MZYCPIVoBs918qGZ": {
+      "actor": "systems/resurgirdragon/tokens/beast/Jackal.webp",
+      "token": "systems/resurgirdragon/tokens/beast/Jackal.webp"
+    },
+    "ciLSItjCpwT7nMmk": {
+      "actor": "systems/resurgirdragon/tokens/beast/KillerWhale.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/beast/KillerWhale.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        }
+      }
+    },
+    "hjhERRzafCiFFVLA": {
+      "actor": "systems/resurgirdragon/tokens/beast/Lion.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/beast/Lion.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        }
+      }
+    },
+    "I2x01hzOjVN4NUjf": {
+      "actor": "systems/resurgirdragon/tokens/beast/Lizard.webp",
+      "token": "systems/resurgirdragon/tokens/beast/Lizard.webp"
+    },
+    "MiYRAIHwm9It1in8": {
+      "actor": "systems/resurgirdragon/tokens/beast/Mammoth.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/beast/Mammoth.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        }
+      }
+    },
+    "YTpL2c3NO4sOn2UA": {
+      "actor": "systems/resurgirdragon/tokens/beast/Mastiff.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/beast/Mastiff.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        }
+      }
+    },
+    "Vk7uHVkJ5b26gaTh": {
+      "actor": "systems/resurgirdragon/tokens/beast/Mule.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/beast/Mule.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        }
+      }
+    },
+    "3UUNbGiG2Yf1ZPxM": {
+      "actor": "systems/resurgirdragon/tokens/beast/Octopus.webp",
+      "token": "systems/resurgirdragon/tokens/beast/Octopus.webp"
+    },
+    "d0prpsGSAorDadec": {
+      "actor": "systems/resurgirdragon/tokens/beast/Owl.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/beast/Owl.webp",
+          "scaleX": 0.8,
+          "scaleY": 0.8
+        }
+      }
+    },
+    "AijNdqMurWxDxUSl": {
+      "actor": "systems/resurgirdragon/tokens/beast/Panther.webp",
+      "token": "systems/resurgirdragon/tokens/beast/Panther.webp"
+    },
+    "4OeZZguYgJcsZoM9": {
+      "actor": "systems/resurgirdragon/tokens/beast/Plesiosaurus.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/beast/Plesiosaurus.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        }
+      }
+    },
+    "D5rwVIxmfFrdyyxT": {
+      "actor": "systems/resurgirdragon/tokens/beast/PoisonousSnake.webp",
+      "token": "systems/resurgirdragon/tokens/beast/PoisonousSnake.webp"
+    },
+    "hb6pjvdCNYmLLp8V": {
+      "actor": "systems/resurgirdragon/tokens/beast/PolarBear.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/beast/PolarBear.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        }
+      }
+    },
+    "PHO4J98zK2p4KNyc": {
+      "actor": "systems/resurgirdragon/tokens/beast/Pony.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/beast/Pony.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        }
+      }
+    },
+    "nkyCGJ9wXeAZkyyz": {
+      "actor": "systems/resurgirdragon/tokens/beast/Quipper.webp",
+      "token": "systems/resurgirdragon/tokens/beast/Quipper.webp"
+    },
+    "pozQUPTnLZW8epox": {
+      "actor": "systems/resurgirdragon/tokens/beast/Rat.webp",
+      "token": "systems/resurgirdragon/tokens/beast/Rat.webp"
+    },
+    "LPdX5YLlwci0NDZx": {
+      "actor": "systems/resurgirdragon/tokens/beast/Raven.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/beast/Raven.webp",
+          "scaleX": 0.8,
+          "scaleY": 0.8
+        }
+      }
+    },
+    "F0yILX4xKKt4dxKY": {
+      "actor": "systems/resurgirdragon/tokens/beast/ReefShark.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/beast/ReefShark.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        }
+      }
+    },
+    "SBCe2BSa6opTS5M4": {
+      "actor": "systems/resurgirdragon/tokens/beast/Rhinoceros.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/beast/Rhinoceros.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        }
+      }
+    },
+    "rz8UTUnFT87BsAFR": {
+      "actor": "systems/resurgirdragon/tokens/beast/RidingHorse.webp",
+      "token": "systems/resurgirdragon/tokens/beast/RidingHorse.webp"
+    },
+    "tYYoifu9teGLetVI": {
+      "actor": "systems/resurgirdragon/tokens/beast/SaberToothedTiger.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/beast/SaberToothedTiger.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        }
+      }
+    },
+    "Y0vxQVF7w2P38FK2": {
+      "actor": "systems/resurgirdragon/tokens/beast/Scorpion.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/beast/Scorpion.webp",
+          "scaleX": 0.8,
+          "scaleY": 0.8
+        }
+      }
+    },
+    "FWSDiq9SZsdiBAa8": {
+      "actor": "systems/resurgirdragon/tokens/beast/SeaHorse.webp",
+      "token": "systems/resurgirdragon/tokens/beast/SeaHorse.webp"
+    },
+    "28gU50HtG8Kp7uIz": {
+      "actor": "systems/resurgirdragon/tokens/beast/Spider.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/beast/Spider.webp",
+          "scaleX": 0.8,
+          "scaleY": 0.8
+        }
+      }
+    },
+    "gKRtiMNAjZiCVfwz": {
+      "actor": "systems/resurgirdragon/tokens/beast/Stirge.webp",
+      "token": "systems/resurgirdragon/tokens/beast/Stirge.webp"
+    },
+    "PcZ0QjIG6bHpffp9": {
+      "actor": "systems/resurgirdragon/tokens/beast/SwarmBats.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/beast/SwarmBats.webp",
+          "scaleX": 1.25,
+          "scaleY": 1.25
+        }
+      }
+    },
+    "XfQMBoTh892XSnCX": {
+      "actor": "systems/resurgirdragon/tokens/beast/SwarmPoisonousSnakes.webp",
+      "token": "systems/resurgirdragon/tokens/beast/SwarmPoisonousSnakes.webp"
+    },
+    "dZZFmG8LiBlgWi76": {
+      "actor": "systems/resurgirdragon/tokens/beast/SwarmBeetles.webp",
+      "token": "systems/resurgirdragon/tokens/beast/SwarmBeetles.webp"
+    },
+    "KC4tYOolARhajP18": {
+      "actor": "systems/resurgirdragon/tokens/beast/SwarmCentipedes.webp",
+      "token": "systems/resurgirdragon/tokens/beast/SwarmCentipedes.webp"
+    },
+    "S0zDrv6lbnwWaz9E": {
+      "actor": "systems/resurgirdragon/tokens/beast/SwarmInsects.webp",
+      "token": "systems/resurgirdragon/tokens/beast/SwarmInsects.webp"
+    },
+    "KXG5XLIwKhn1V0Y5": {
+      "actor": "systems/resurgirdragon/tokens/beast/SwarmQuippers.webp",
+      "token": "systems/resurgirdragon/tokens/beast/SwarmQuippers.webp"
+    },
+    "8ihbbjkaOFTPbI73": {
+      "actor": "systems/resurgirdragon/tokens/beast/SwarmRats.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/beast/SwarmRats.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        }
+      }
+    },
+    "g40zN6xMye6bSS94": {
+      "actor": "systems/resurgirdragon/tokens/beast/SwarmRavens.webp",
+      "token": "systems/resurgirdragon/tokens/beast/SwarmRavens.webp"
+    },
+    "4udpeEneFSZK9NTB": {
+      "actor": "systems/resurgirdragon/tokens/beast/SwarmSpiders.webp",
+      "token": "systems/resurgirdragon/tokens/beast/SwarmSpiders.webp"
+    },
+    "YUaprnengdFDNG8P": {
+      "actor": "systems/resurgirdragon/tokens/beast/SwarmWasps.webp",
+      "token": "systems/resurgirdragon/tokens/beast/SwarmWasps.webp"
+    },
+    "FayqbnjBMszO6Pat": {
+      "actor": "systems/resurgirdragon/tokens/beast/Tiger.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/beast/Tiger.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        }
+      }
+    },
+    "HlddcPm4cWptj3ka": {
+      "actor": "systems/resurgirdragon/tokens/beast/TyrannosaurusRex.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/beast/TyrannosaurusRex.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        }
+      }
+    },
+    "e5IQxSJO7ySEDdSH": {
+      "actor": "systems/resurgirdragon/tokens/beast/Triceratops.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/beast/Triceratops.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        }
+      }
+    },
+    "fkJ8Z8zi2JtlcHh9": {
+      "actor": "systems/resurgirdragon/tokens/beast/Vulture.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/beast/Vulture.webp",
+          "scaleX": 1.8,
+          "scaleY": 1.8
+        }
+      }
+    },
+    "T1xZTDCGuvMBSq8d": {
+      "actor": "systems/resurgirdragon/tokens/beast/Warhorse.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/beast/Warhorse.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        }
+      }
+    },
+    "WOdeacKCYVhgLDuN": {
+      "actor": "systems/resurgirdragon/tokens/beast/Weasel.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/beast/Weasel.webp",
+          "scaleX": 0.8,
+          "scaleY": 0.8
+        }
+      }
+    },
+    "yawTeS8u2FCfzzZH": {
+      "actor": "systems/resurgirdragon/tokens/beast/Wolf.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/beast/Wolf.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        }
+      }
+    },
+    "ZaP1H91t4FzbRqR5": {
+      "actor": "systems/resurgirdragon/tokens/celestial/Couatl.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/celestial/Couatl.webp",
+          "scaleX": 3,
+          "scaleY": 3
+        }
+      }
+    },
+    "m4H3hjamBNMH09S9": {
+      "actor": "systems/resurgirdragon/tokens/celestial/Deva.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/celestial/Deva.webp",
+          "scaleX": 3,
+          "scaleY": 3
+        }
+      }
+    },
+    "EIgAW1dWVPpyWLUh": {
+      "actor": "systems/resurgirdragon/tokens/celestial/Pegasus.webp",
+      "token": "systems/resurgirdragon/tokens/celestial/Pegasus.webp"
+    },
+    "XEByBLeOkDgL3mrr": {
+      "actor": "systems/resurgirdragon/tokens/celestial/Planetar.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/celestial/Planetar.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        }
+      }
+    },
+    "G9PENY6nw0xRxCJW": {
+      "actor": "systems/resurgirdragon/tokens/celestial/Unicorn.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/celestial/Unicorn.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        }
+      }
+    },
+    "eORmAXuV5v3nWsQL": {
+      "actor": "systems/resurgirdragon/tokens/construct/AnimatedArmor.webp",
+      "token": "systems/resurgirdragon/tokens/construct/AnimatedArmor.webp"
+    },
+    "YOqhbf8WsX0jH9Fu": {
+      "actor": "systems/resurgirdragon/tokens/construct/ClayGolem.webp",
+      "token": "systems/resurgirdragon/tokens/construct/ClayGolem.webp"
+    },
+    "EqJUA3Z3181RSSFU": {
+      "actor": "systems/resurgirdragon/tokens/construct/FlyingSword.webp",
+      "token": "systems/resurgirdragon/tokens/construct/FlyingSword.webp"
+    },
+    "ZQTCZfTV9ZoTjNCU": {
+      "actor": "systems/resurgirdragon/tokens/construct/Homonculus.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/construct/Homonculus.webp",
+          "scaleX": 0.8,
+          "scaleY": 0.8
+        }
+      }
+    },
+    "h98AuPfomEPcCibP": {
+      "actor": "systems/resurgirdragon/tokens/construct/IronGolem.webp",
+      "token": "systems/resurgirdragon/tokens/construct/IronGolem.webp"
+    },
+    "f6HaKROPIcBRmSd1": {
+      "actor": "systems/resurgirdragon/tokens/construct/RugOfSmothering.webp",
+      "token": "systems/resurgirdragon/tokens/construct/RugOfSmothering.webp"
+    },
+    "z85EsGS2GVWj46qE": {
+      "actor": "systems/resurgirdragon/tokens/construct/ShieldGuardian.webp",
+      "token": "systems/resurgirdragon/tokens/construct/ShieldGuardian.webp"
+    },
+    "z3gSIXHHWYaHjfBT": {
+      "actor": "systems/resurgirdragon/tokens/construct/StoneGolem.webp",
+      "token": "systems/resurgirdragon/tokens/construct/StoneGolem.webp"
+    },
+    "IZMbiAHqQpzPo0CX": {
+      "actor": "systems/resurgirdragon/tokens/dragon/BlackDragonWyrmling.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/dragon/BlackDragonWyrmling.webp",
+          "scaleX": 3,
+          "scaleY": 3
+        }
+      }
+    },
+    "najtPRiHLR6buSWe": {
+      "actor": "systems/resurgirdragon/tokens/dragon/BlueDragonWyrmling.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/dragon/BlueDragonWyrmling.webp",
+          "scaleX": 3,
+          "scaleY": 3
+        }
+      }
+    },
+    "azCbLQt5LAYwTI7U": {
+      "actor": "systems/resurgirdragon/tokens/dragon/BrassDragonWyrmling.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/dragon/BrassDragonWyrmling.webp",
+          "scaleX": 3,
+          "scaleY": 3
+        }
+      }
+    },
+    "hY9ptpO5Xl2tfkcj": {
+      "actor": "systems/resurgirdragon/tokens/dragon/BronzeDragonWyrmling.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/dragon/BronzeDragonWyrmling.webp",
+          "scaleX": 3,
+          "scaleY": 3
+        }
+      }
+    },
+    "AyvniEKtyroOe83p": {
+      "actor": "systems/resurgirdragon/tokens/dragon/CopperDragonWyrmling.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/dragon/CopperDragonWyrmling.webp",
+          "scaleX": 3,
+          "scaleY": 3
+        }
+      }
+    },
+    "naSoHU9KbkgeNIwB": {
+      "actor": "systems/resurgirdragon/tokens/dragon/GoldDragonWyrmling.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/dragon/GoldDragonWyrmling.webp",
+          "scaleX": 3,
+          "scaleY": 3
+        }
+      }
+    },
+    "KH6ZrUiUOKQCOlRH": {
+      "actor": "systems/resurgirdragon/tokens/dragon/GreenDragonWyrmling.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/dragon/GreenDragonWyrmling.webp",
+          "scaleX": 3,
+          "scaleY": 3
+        }
+      }
+    },
+    "fkCNtbvPOMd7mipF": {
+      "actor": "systems/resurgirdragon/tokens/dragon/Pseudodragon.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/dragon/Pseudodragon.webp",
+          "scaleX": 1.4,
+          "scaleY": 1.4
+        }
+      }
+    },
+    "zgWkII3VoE4AHCND": {
+      "actor": "systems/resurgirdragon/tokens/dragon/RedDragonWyrmling.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/dragon/RedDragonWyrmling.webp",
+          "scaleX": 3,
+          "scaleY": 3
+        }
+      }
+    },
+    "J1QVPd8POvcPaqx4": {
+      "actor": "systems/resurgirdragon/tokens/dragon/SilverDragonWyrmling.webp",
+      "token": "systems/resurgirdragon/tokens/dragon/SilverDragonWyrmling.webp"
+    },
+    "vc2TAgIuq4yInjbf": {
+      "actor": "systems/resurgirdragon/tokens/dragon/WhiteDragonWyrmling.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/dragon/WhiteDragonWyrmling.webp",
+          "scaleX": 3,
+          "scaleY": 3
+        }
+      }
+    },
+    "bcapsJdIhY5WktpT": {
+      "actor": "systems/resurgirdragon/tokens/dragon/YoungBlackDragon.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/dragon/YoungBlackDragon.webp",
+          "scaleX": 2,
+          "scaleY": 2
+        }
+      }
+    },
+    "NmQLj0zv4FmfuSan": {
+      "actor": "systems/resurgirdragon/tokens/dragon/YoungBronzeDragon.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/dragon/YoungBronzeDragon.webp",
+          "scaleX": 2,
+          "scaleY": 2
+        }
+      }
+    },
+    "QSytPah5WKoFJ1zt": {
+      "actor": "systems/resurgirdragon/tokens/dragon/YoungGoldDragon.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/dragon/YoungGoldDragon.webp",
+          "scaleX": 2,
+          "scaleY": 2
+        }
+      }
+    },
+    "85ahD1jEo9B3POaQ": {
+      "actor": "systems/resurgirdragon/tokens/dragon/YoungGreenDragon.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/dragon/YoungGreenDragon.webp",
+          "scaleX": 2,
+          "scaleY": 2
+        }
+      }
+    },
+    "qrasJNDC7SGj7xzG": {
+      "actor": "systems/resurgirdragon/tokens/dragon/YoungRedDragon.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/dragon/YoungRedDragon.webp",
+          "scaleX": 2,
+          "scaleY": 2
+        }
+      }
+    },
+    "eykRfV85DQJoCkmc": {
+      "actor": "systems/resurgirdragon/tokens/dragon/YoungSilverDragon.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/dragon/YoungSilverDragon.webp",
+          "scaleX": 2,
+          "scaleY": 2
+        }
+      }
+    },
+    "u1UQfHutP5eEKkjM": {
+      "actor": "systems/resurgirdragon/tokens/dragon/YoungWhiteDragon.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/dragon/YoungWhiteDragon.webp",
+          "scaleX": 2,
+          "scaleY": 2
+        }
+      }
+    },
+    "IiEDPMWqBlzkggYD": {
+      "actor": "systems/resurgirdragon/tokens/elemental/Azer.webp",
+      "token": "systems/resurgirdragon/tokens/elemental/Azer.webp"
+    },
+    "5P1VGAZQwOilwZQf": {
+      "actor": "systems/resurgirdragon/tokens/elemental/Djinni.webp",
+      "token": "systems/resurgirdragon/tokens/elemental/Djinni.webp"
+    },
+    "BUCfQ7ihaXX75Vai": {
+      "actor": "systems/resurgirdragon/tokens/elemental/DustMephit.webp",
+      "token": "systems/resurgirdragon/tokens/elemental/DustMephit.webp"
+    },
+    "sApYLZj9PTZ40wJr": {
+      "actor": "systems/resurgirdragon/tokens/elemental/EarthElemental.webp",
+      "token": "systems/resurgirdragon/tokens/elemental/EarthElemental.webp"
+    },
+    "LTomFUTBrkRi0Pj5": {
+      "actor": "systems/resurgirdragon/tokens/elemental/Efreeti.webp",
+      "token": "systems/resurgirdragon/tokens/elemental/Efreeti.webp"
+    },
+    "8SMQl75HLjhuSeau": {
+      "actor": "systems/resurgirdragon/tokens/elemental/FireElemental.webp",
+      "token": "systems/resurgirdragon/tokens/elemental/FireElemental.webp"
+    },
+    "0m8QyDN52qw9zzOM": {
+      "actor": "systems/resurgirdragon/tokens/elemental/Gargoyle.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/elemental/Gargoyle.webp",
+          "scaleX": 3,
+          "scaleY": 3
+        }
+      }
+    },
+    "ESEm3fGUfSKjzVUc": {
+      "actor": "systems/resurgirdragon/tokens/elemental/IceMephit.webp",
+      "token": "systems/resurgirdragon/tokens/elemental/IceMephit.webp"
+    },
+    "oJCOB9X2BPsBkWW5": {
+      "actor": "systems/resurgirdragon/tokens/elemental/MagmaMephit.webp",
+      "token": "systems/resurgirdragon/tokens/elemental/MagmaMephit.webp"
+    },
+    "8MD1vRBTcgSXXk3u": {
+      "actor": "systems/resurgirdragon/tokens/elemental/Magmin.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/elemental/Magmin.webp",
+          "scaleX": 0.8,
+          "scaleY": 0.8
+        }
+      }
+    },
+    "yVNPVJIBpQ2Mp3Xa": {
+      "actor": "systems/resurgirdragon/tokens/elemental/Salamander.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/elemental/Salamander.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        }
+      }
+    },
+    "UthHOT7QfZfEIUue": {
+      "actor": "systems/resurgirdragon/tokens/elemental/SteamMephit.webp",
+      "token": "systems/resurgirdragon/tokens/elemental/SteamMephit.webp"
+    },
+    "namJz755U1EhvEJa": {
+      "actor": "systems/resurgirdragon/tokens/elemental/WaterElemental.webp",
+      "token": "systems/resurgirdragon/tokens/elemental/WaterElemental.webp"
+    },
+    "banHjKDMCegbUwYE": {
+      "actor": "systems/resurgirdragon/tokens/elemental/WindElemental.webp",
+      "token": "systems/resurgirdragon/tokens/elemental/WindElemental.webp"
+    },
+    "2MZNHeOZweXAYbv1": {
+      "actor": "systems/resurgirdragon/tokens/elemental/Xorn.webp",
+      "token": "systems/resurgirdragon/tokens/elemental/Xorn.webp"
+    },
+    "jOANE6M0My6UJF4e": {
+      "actor": "systems/resurgirdragon/tokens/fey/BlinkDog.webp",
+      "token": "systems/resurgirdragon/tokens/fey/BlinkDog.webp"
+    },
+    "KOHVWl5RU9XBR8Jb": {
+      "actor": "systems/resurgirdragon/tokens/fey/Dryad.webp",
+      "token": "systems/resurgirdragon/tokens/fey/Dryad.webp"
+    },
+    "saq6WM959pKHuaqP": {
+      "actor": "systems/resurgirdragon/tokens/fey/GreenHag.webp",
+      "token": "systems/resurgirdragon/tokens/fey/GreenHag.webp"
+    },
+    "8xhuJXYMnlQD7LF6": {
+      "actor": "systems/resurgirdragon/tokens/fey/Satyr.webp",
+      "token": "systems/resurgirdragon/tokens/fey/Satyr.webp"
+    },
+    "OQqybZoMeDFn5AFD": {
+      "actor": "systems/resurgirdragon/tokens/fey/SeaHag.webp",
+      "token": "systems/resurgirdragon/tokens/fey/SeaHag.webp"
+    },
+    "MUpBNDoJEr09bLaO": {
+      "actor": "systems/resurgirdragon/tokens/fey/Sprite.webp",
+      "token": "systems/resurgirdragon/tokens/fey/Sprite.webp"
+    },
+    "uZ8NrRenwYZ4qNf6": {
+      "actor": "systems/resurgirdragon/tokens/fiend/Balor.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/fiend/Balor.webp",
+          "scaleX": 2.3,
+          "scaleY": 2.3
+        }
+      }
+    },
+    "9ggQBmAKXraOtz7S": {
+      "actor": "systems/resurgirdragon/tokens/fiend/BeardedDevil.webp",
+      "token": "systems/resurgirdragon/tokens/fiend/BeardedDevil.webp"
+    },
+    "AnseLn7HwuP97grf": {
+      "actor": "systems/resurgirdragon/tokens/fiend/BoneDevil.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/fiend/BoneDevil.webp",
+          "scaleX": 2,
+          "scaleY": 2
+        }
+      }
+    },
+    "KtM6IV9I5l1MWUDk": {
+      "actor": "systems/resurgirdragon/tokens/fiend/ChainDevil.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/fiend/ChainDevil.webp",
+          "scaleX": 3,
+          "scaleY": 3
+        }
+      }
+    },
+    "kz2fW9xb5CcvXLX4": {
+      "actor": "systems/resurgirdragon/tokens/fiend/Dretch.webp",
+      "token": "systems/resurgirdragon/tokens/fiend/Dretch.webp"
+    },
+    "OGPHF4sCVOAi87TU": {
+      "actor": "systems/resurgirdragon/tokens/fiend/Glabrezu.webp",
+      "token": "systems/resurgirdragon/tokens/fiend/Glabrezu.webp"
+    },
+    "iSCL4Q82ivnYelzc": {
+      "actor": "systems/resurgirdragon/tokens/fiend/HellHound.webp",
+      "token": "systems/resurgirdragon/tokens/fiend/HellHound.webp"
+    },
+    "ec3lhsNv1ZRu7Qaq": {
+      "actor": "systems/resurgirdragon/tokens/fiend/Hezrou.webp",
+      "token": "systems/resurgirdragon/tokens/fiend/Hezrou.webp"
+    },
+    "MADGs8pWMVyyFOf1": {
+      "actor": "systems/resurgirdragon/tokens/fiend/HornedDevil.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/fiend/HornedDevil.webp",
+          "scaleX": 2,
+          "scaleY": 2
+        }
+      }
+    },
+    "1zzRQps9jZdLZGqI": {
+      "actor": "systems/resurgirdragon/tokens/fiend/IceDevil.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/fiend/IceDevil.webp",
+          "scaleX": 2,
+          "scaleY": 2
+        }
+      }
+    },
+    "dLQiESMsfsXijD5c": {
+      "actor": "systems/resurgirdragon/tokens/fiend/Imp.webp",
+      "token": "systems/resurgirdragon/tokens/fiend/Imp.webp"
+    },
+    "tubcO7kaQ4w0soxS": {
+      "actor": "systems/resurgirdragon/tokens/fiend/Lemure.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/fiend/Lemure.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        }
+      }
+    },
+    "egsSDYbqoLCelb0J": {
+      "actor": "systems/resurgirdragon/tokens/fiend/Marilith.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/fiend/Marilith.webp",
+          "scaleX": 2,
+          "scaleY": 2
+        }
+      }
+    },
+    "rUg5JMnKNnZNBAq9": {
+      "actor": "systems/resurgirdragon/tokens/fiend/Nalfeshnee.webp",
+      "token": "systems/resurgirdragon/tokens/fiend/Nalfeshnee.webp"
+    },
+    "xvh2UOKv1bh03Gih": {
+      "actor": "systems/resurgirdragon/tokens/fiend/NightHag.webp",
+      "token": "systems/resurgirdragon/tokens/fiend/NightHag.webp"
+    },
+    "5SgVGhQBswgWRwsF": {
+      "actor": "systems/resurgirdragon/tokens/fiend/Nightmare.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/fiend/Nightmare.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        }
+      }
+    },
+    "RCv5y7iWlfNxkinx": {
+      "actor": "systems/resurgirdragon/tokens/fiend/PitFiend.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/fiend/PitFiend.webp",
+          "scaleX": 2,
+          "scaleY": 2
+        }
+      }
+    },
+    "bwtkdzavdNHISgp4": {
+      "actor": "systems/resurgirdragon/tokens/fiend/Quasit.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/fiend/Quasit.webp",
+          "scaleX": 2,
+          "scaleY": 2
+        }
+      }
+    },
+    "qXzMsRTHEodqO8l2": {
+      "actor": "systems/resurgirdragon/tokens/fiend/Rakshasa.webp",
+      "token": "systems/resurgirdragon/tokens/fiend/Rakshasa.webp"
+    },
+    "VmdyZDjqAc8vdncY": {
+      "actor": "systems/resurgirdragon/tokens/fiend/Succubus.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/fiend/Succubus.webp",
+          "scaleX": 3,
+          "scaleY": 3
+        }
+      }
+    },
+    "6oc29m5uzzzb0pk3": {
+      "actor": "systems/resurgirdragon/tokens/fiend/Vrock.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/fiend/Vrock.webp",
+          "scaleX": 2,
+          "scaleY": 2
+        }
+      }
+    },
+    "45Z5kogZEhawX1Ey": {
+      "actor": "systems/resurgirdragon/tokens/giant/FireGiant.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/giant/FireGiant.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        }
+      }
+    },
+    "Buxe6dDK5Mw7kxe6": {
+      "actor": "systems/resurgirdragon/tokens/giant/FrostGiant.webp",
+      "token": "systems/resurgirdragon/tokens/giant/FrostGiant.webp"
+    },
+    "eIGowKTkEBC9gUzx": {
+      "actor": "systems/resurgirdragon/tokens/giant/Ogre.webp",
+      "token": "systems/resurgirdragon/tokens/giant/Ogre.webp"
+    },
+    "L1w8yBkInMscfJ3F": {
+      "actor": "systems/resurgirdragon/tokens/giant/Oni.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/giant/Oni.webp",
+          "scaleX": 2,
+          "scaleY": 2
+        }
+      }
+    },
+    "SOin81NWijHRvXFK": {
+      "actor": "systems/resurgirdragon/tokens/giant/StoneGiant.webp",
+      "token": "systems/resurgirdragon/tokens/giant/StoneGiant.webp"
+    },
+    "68bAMIpe4jvDeR9G": {
+      "actor": "systems/resurgirdragon/tokens/giant/StormGiant.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/giant/StormGiant.webp",
+          "scaleX": 1.66,
+          "scaleY": 1.66
+        }
+      }
+    },
+    "ZHAFrnCwCz17dmLc": {
+      "actor": "systems/resurgirdragon/tokens/giant/Troll.webp",
+      "token": "systems/resurgirdragon/tokens/giant/Troll.webp"
+    },
+    "CHEUjiYrVM9X0vIT": {
+      "actor": "systems/resurgirdragon/tokens/humanoid/Acolyte.webp",
+      "token": "systems/resurgirdragon/tokens/humanoid/Acolyte.webp"
+    },
+    "B7lBOr1AahNZs4a6": {
+      "actor": "systems/resurgirdragon/tokens/humanoid/Archmage.webp",
+      "token": "systems/resurgirdragon/tokens/humanoid/Archmage.webp"
+    },
+    "EMvcuOpu7ABCmBWi": {
+      "actor": "systems/resurgirdragon/tokens/humanoid/Assassin.webp",
+      "token": "systems/resurgirdragon/tokens/humanoid/Assassin.webp"
+    },
+    "n4TEv7inVUkyZviN": {
+      "actor": "systems/resurgirdragon/tokens/humanoid/Bandit.webp",
+      "token": "systems/resurgirdragon/tokens/humanoid/Bandit.webp"
+    },
+    "rb7OJt822wIO52qY": {
+      "actor": "systems/resurgirdragon/tokens/humanoid/BanditCaptain.webp",
+      "token": "systems/resurgirdragon/tokens/humanoid/BanditCaptain.webp"
+    },
+    "kz1t6xeXVwODpYb2": {
+      "actor": "systems/resurgirdragon/tokens/humanoid/Berserker.webp",
+      "token": "systems/resurgirdragon/tokens/humanoid/Berserker.webp"
+    },
+    "QtJairF0h18BRhEM": {
+      "actor": "systems/resurgirdragon/tokens/humanoid/Bugbear.webp",
+      "token": "systems/resurgirdragon/tokens/humanoid/Bugbear.webp"
+    },
+    "SqZRuJ8lt2KGJBbq": {
+      "actor": "systems/resurgirdragon/tokens/humanoid/Commoner.webp",
+      "token": "systems/resurgirdragon/tokens/humanoid/Commoner.webp"
+    },
+    "tYfQIxCJT0WaaKmc": {
+      "actor": "systems/resurgirdragon/tokens/humanoid/CultFanatic.webp",
+      "token": "systems/resurgirdragon/tokens/humanoid/CultFanatic.webp"
+    },
+    "qkLNA1lKMMJpxuWg": {
+      "actor": "systems/resurgirdragon/tokens/humanoid/Cultist.webp",
+      "token": "systems/resurgirdragon/tokens/humanoid/Cultist.webp"
+    },
+    "ZM1P6LoYSwMiIJN9": {
+      "actor": "systems/resurgirdragon/tokens/humanoid/DeepGnome.webp",
+      "token": "systems/resurgirdragon/tokens/humanoid/DeepGnome.webp"
+    },
+    "K15Yl8JmB5iPircc": {
+      "actor": "systems/resurgirdragon/tokens/humanoid/Druid.webp",
+      "token": "systems/resurgirdragon/tokens/humanoid/Druid.webp"
+    },
+    "iGBdQA3IuKsurcUy": {
+      "actor": "systems/resurgirdragon/tokens/humanoid/Duergar.webp",
+      "token": "systems/resurgirdragon/tokens/humanoid/Duergar.webp"
+    },
+    "fsPruAIDOg4tVrgb": {
+      "actor": "systems/resurgirdragon/tokens/humanoid/Gladiator.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/humanoid/Gladiator.webp",
+          "scaleX": 3,
+          "scaleY": 3
+        }
+      }
+    },
+    "R2GPY9BhRmmwZwkh": {
+      "actor": "systems/resurgirdragon/tokens/humanoid/Gnoll.webp",
+      "token": "systems/resurgirdragon/tokens/humanoid/Gnoll.webp"
+    },
+    "TjWQOgI3A4UAl7lC": {
+      "actor": "systems/resurgirdragon/tokens/humanoid/Goblin.webp",
+      "token": "systems/resurgirdragon/tokens/humanoid/Goblin.webp"
+    },
+    "GpeQYtlo8oGvGlkM": {
+      "actor": "systems/resurgirdragon/tokens/humanoid/Grimlock.webp",
+      "token": "systems/resurgirdragon/tokens/humanoid/Grimlock.webp"
+    },
+    "E9CvDPDg5dFEpVjS": {
+      "actor": "systems/resurgirdragon/tokens/humanoid/Guard.webp",
+      "token": "systems/resurgirdragon/tokens/humanoid/Guard.webp"
+    },
+    "6qnT52lZtZblgGw8": {
+      "actor": "systems/resurgirdragon/tokens/humanoid/Hobgoblin.webp",
+      "token": "systems/resurgirdragon/tokens/humanoid/Hobgoblin.webp"
+    },
+    "D5UqYD1EnTrJaMTO": {
+      "actor": "systems/resurgirdragon/tokens/humanoid/Knight.webp",
+      "token": "systems/resurgirdragon/tokens/humanoid/Knight.webp"
+    },
+    "5ngbctIMeEnuC1p1": {
+      "actor": "systems/resurgirdragon/tokens/humanoid/Kobold.webp",
+      "token": "systems/resurgirdragon/tokens/humanoid/Kobold.webp"
+    },
+    "57DofLgRQx16ARoc": {
+      "actor": "systems/resurgirdragon/tokens/humanoid/Lizardfolk.webp",
+      "token": "systems/resurgirdragon/tokens/humanoid/Lizardfolk.webp"
+    },
+    "mQnsXanewsPiV7QE": {
+      "actor": "systems/resurgirdragon/tokens/humanoid/Mage.webp",
+      "token": "systems/resurgirdragon/tokens/humanoid/Mage.webp"
+    },
+    "KUpbXdn1XmHEeOPk": {
+      "actor": "systems/resurgirdragon/tokens/humanoid/Merfolk.webp",
+      "token": "systems/resurgirdragon/tokens/humanoid/Merfolk.webp"
+    },
+    "GlaCGcgIP6YjBjGc": {
+      "actor": "systems/resurgirdragon/tokens/humanoid/Noble.webp",
+      "token": "systems/resurgirdragon/tokens/humanoid/Noble.webp"
+    },
+    "HB49mCOVBXwWeKWQ": {
+      "actor": "systems/resurgirdragon/tokens/humanoid/Orc.webp",
+      "token": "systems/resurgirdragon/tokens/humanoid/Orc.webp"
+    },
+    "PVD5wRdyO7iCJPs1": {
+      "actor": "systems/resurgirdragon/tokens/humanoid/Priest.webp",
+      "token": "systems/resurgirdragon/tokens/humanoid/Priest.webp"
+    },
+    "lyNBFmJdbh4NLRzz": {
+      "actor": "systems/resurgirdragon/tokens/humanoid/Sahuagin.webp",
+      "token": "systems/resurgirdragon/tokens/humanoid/Sahuagin.webp"
+    },
+    "O3ABqI55Ir1du1Xa": {
+      "actor": "systems/resurgirdragon/tokens/humanoid/Scout.webp",
+      "token": "systems/resurgirdragon/tokens/humanoid/Scout.webp"
+    },
+    "13K3XK2A3wwxVKLD": {
+      "actor": "systems/resurgirdragon/tokens/humanoid/Spy.webp",
+      "token": "systems/resurgirdragon/tokens/humanoid/Spy.webp"
+    },
+    "Cy3A0rsNMPLZozam": {
+      "actor": "systems/resurgirdragon/tokens/humanoid/Thug.webp",
+      "token": "systems/resurgirdragon/tokens/humanoid/Thug.webp"
+    },
+    "nREPw9g94Bsb9sIl": {
+      "actor": "systems/resurgirdragon/tokens/humanoid/TribalWarrior.webp",
+      "token": "systems/resurgirdragon/tokens/humanoid/TribalWarrior.webp"
+    },
+    "J8xjoG4Dxb8WkHtV": {
+      "actor": "systems/resurgirdragon/tokens/humanoid/Veteran.webp",
+      "token": "systems/resurgirdragon/tokens/humanoid/Veteran.webp"
+    },
+    "oRBnO5OHoOZzlCOr": {
+      "actor": "systems/resurgirdragon/tokens/humanoid/Werebear.webp",
+      "token": "systems/resurgirdragon/tokens/humanoid/Werebear.webp"
+    },
+    "J9hgSaZODGjrNl9B": {
+      "actor": "systems/resurgirdragon/tokens/humanoid/Wereboar.webp",
+      "token": "systems/resurgirdragon/tokens/humanoid/Wereboar.webp"
+    },
+    "CrnUJhTbkdZjCZsH": {
+      "actor": "systems/resurgirdragon/tokens/humanoid/Wererat.webp",
+      "token": "systems/resurgirdragon/tokens/humanoid/Wererat.webp"
+    },
+    "7tRhrxuknTpHpYcA": {
+      "actor": "systems/resurgirdragon/tokens/humanoid/Werewolf.webp",
+      "token": "systems/resurgirdragon/tokens/humanoid/Werewolf.webp"
+    },
+    "Wcsjbl25uiUsyQwn": {
+      "actor": "systems/resurgirdragon/tokens/monstrosity/Ankheg.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/monstrosity/Ankheg.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        }
+      }
+    },
+    "hqj2yXtgwt64v3Lj": {
+      "actor": "systems/resurgirdragon/tokens/monstrosity/Basilisk.webp",
+      "token": "systems/resurgirdragon/tokens/monstrosity/Basilisk.webp"
+    },
+    "x47ZnpHfYl0ptDM9": {
+      "actor": "systems/resurgirdragon/tokens/monstrosity/Behir.webp",
+      "token": "systems/resurgirdragon/tokens/monstrosity/Behir.webp"
+    },
+    "1ES45ODWg3pCrkzv": {
+      "actor": "systems/resurgirdragon/tokens/monstrosity/Bulette.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/monstrosity/Bulette.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        }
+      }
+    },
+    "5kZNNWzZ6HrfKuWf": {
+      "actor": "systems/resurgirdragon/tokens/monstrosity/Centaur.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/monstrosity/Centaur.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        }
+      }
+    },
+    "kr6r8bhSehACPfZ8": {
+      "actor": "systems/resurgirdragon/tokens/monstrosity/Chimera.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/monstrosity/Chimera.webp",
+          "scaleX": 2,
+          "scaleY": 2
+        }
+      }
+    },
+    "EpYl7qifM5pq6W6B": {
+      "actor": "systems/resurgirdragon/tokens/monstrosity/Cockatrice.webp",
+      "token": "systems/resurgirdragon/tokens/monstrosity/Cockatrice.webp"
+    },
+    "g7FSu2oU4YHPgWNA": {
+      "actor": "systems/resurgirdragon/tokens/monstrosity/Darkmantle.webp",
+      "token": "systems/resurgirdragon/tokens/monstrosity/Darkmantle.webp"
+    },
+    "PH78NBdvoaszAb61": {
+      "actor": "systems/resurgirdragon/tokens/monstrosity/DeathDog.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/monstrosity/DeathDog.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        }
+      }
+    },
+    "mWbrPhcKOz6oLXMV": {
+      "actor": "systems/resurgirdragon/tokens/monstrosity/Doppelganger.webp",
+      "token": "systems/resurgirdragon/tokens/monstrosity/Doppelganger.webp"
+    },
+    "1OQbxoZI5BtlB2ME": {
+      "actor": "systems/resurgirdragon/tokens/monstrosity/Drider.webp",
+      "token": "systems/resurgirdragon/tokens/monstrosity/Drider.webp"
+    },
+    "aKt7vFAS1J0x3FQm": {
+      "actor": "systems/resurgirdragon/tokens/monstrosity/Ettercap.webp",
+      "token": "systems/resurgirdragon/tokens/monstrosity/Ettercap.webp"
+    },
+    "nZthq6WHLhcdu3te": {
+      "actor": "systems/resurgirdragon/tokens/monstrosity/Gorgon.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/monstrosity/Gorgon.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        }
+      }
+    },
+    "tFJX45zj3QDc3Zli": {
+      "actor": "systems/resurgirdragon/tokens/monstrosity/Grick.webp",
+      "token": "systems/resurgirdragon/tokens/monstrosity/Grick.webp"
+    },
+    "h052EIIUmRwJum65": {
+      "actor": "systems/resurgirdragon/tokens/monstrosity/Griffon.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/monstrosity/Griffon.webp",
+          "scaleX": 2.8,
+          "scaleY": 2.8
+        }
+      }
+    },
+    "8ExSFCar5Lbhdo7u": {
+      "actor": "systems/resurgirdragon/tokens/monstrosity/GuardianNaga.webp",
+      "token": "systems/resurgirdragon/tokens/monstrosity/GuardianNaga.webp"
+    },
+    "6wbasdWWqtXeIAyD": {
+      "actor": "systems/resurgirdragon/tokens/monstrosity/Gynosphinx.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/monstrosity/Gynosphinx.webp",
+          "scaleX": 2,
+          "scaleY": 2
+        }
+      }
+    },
+    "CqQ6pXQA5WXZNOm3": {
+      "actor": "systems/resurgirdragon/tokens/monstrosity/Harpy.webp",
+      "token": "systems/resurgirdragon/tokens/monstrosity/Harpy.webp"
+    },
+    "T2PExQE84ZcIbAXz": {
+      "actor": "systems/resurgirdragon/tokens/monstrosity/Hippogriff.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/monstrosity/Hippogriff.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        }
+      }
+    },
+    "MnoL59nOOfYatAkQ": {
+      "actor": "systems/resurgirdragon/tokens/monstrosity/Lamia.webp",
+      "token": "systems/resurgirdragon/tokens/monstrosity/Lamia.webp"
+    },
+    "MAoCGF5VkQwhmgvI": {
+      "actor": "systems/resurgirdragon/tokens/monstrosity/Manticore.webp",
+      "token": "systems/resurgirdragon/tokens/monstrosity/Manticore.webp"
+    },
+    "eiifqZwYGi71r2Yl": {
+      "actor": "systems/resurgirdragon/tokens/monstrosity/Medusa.webp",
+      "token": "systems/resurgirdragon/tokens/monstrosity/Medusa.webp"
+    },
+    "1cwfYaACm5F0l4y3": {
+      "actor": "systems/resurgirdragon/tokens/monstrosity/Merrow.webp",
+      "token": "systems/resurgirdragon/tokens/monstrosity/Merrow.webp"
+    },
+    "hx240PG5r5qpRet3": {
+      "actor": "systems/resurgirdragon/tokens/monstrosity/Mimic.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/monstrosity/Mimic.webp",
+          "scaleX": 1.2,
+          "scaleY": 1.2
+        }
+      }
+    },
+    "pOPQU4UnR27zA0jf": {
+      "actor": "systems/resurgirdragon/tokens/monstrosity/Minotaur.webp",
+      "token": "systems/resurgirdragon/tokens/monstrosity/Minotaur.webp"
+    },
+    "zY3W5MG7FjssENf6": {
+      "actor": "systems/resurgirdragon/tokens/monstrosity/Owlbear.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/monstrosity/Owlbear.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        }
+      }
+    },
+    "llSG0Hi4eGlRlQ4o": {
+      "actor": "systems/resurgirdragon/tokens/monstrosity/PhaseSpider.webp",
+      "token": "systems/resurgirdragon/tokens/monstrosity/PhaseSpider.webp"
+    },
+    "VBzqw2rOUvTuNOPI": {
+      "actor": "systems/resurgirdragon/tokens/monstrosity/Remorhaz.webp",
+      "token": "systems/resurgirdragon/tokens/monstrosity/Remorhaz.webp"
+    },
+    "p980augbCIdpK9ZX": {
+      "actor": "systems/resurgirdragon/tokens/monstrosity/Roc.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/monstrosity/Roc.webp",
+          "scaleX": 3,
+          "scaleY": 3
+        }
+      }
+    },
+    "qZyLwdx7lj5d1wfD": {
+      "actor": "systems/resurgirdragon/tokens/monstrosity/Roper.webp",
+      "token": "systems/resurgirdragon/tokens/monstrosity/Roper.webp"
+    },
+    "WJsxqbHU28D64lWT": {
+      "actor": "systems/resurgirdragon/tokens/monstrosity/RustMonster.webp",
+      "token": "systems/resurgirdragon/tokens/monstrosity/RustMonster.webp"
+    },
+    "BAT6ld8qJZetpycL": {
+      "actor": "systems/resurgirdragon/tokens/monstrosity/SpiritNaga.webp",
+      "token": "systems/resurgirdragon/tokens/monstrosity/SpiritNaga.webp"
+    },
+    "KCvt4FdOVJbuZ3T0": {
+      "actor": "systems/resurgirdragon/tokens/monstrosity/Tarrasque.webp",
+      "token": "systems/resurgirdragon/tokens/monstrosity/Tarrasque.webp"
+    },
+    "yGTh874etxUckmAf": {
+      "actor": "systems/resurgirdragon/tokens/monstrosity/WinterWolf.webp",
+      "token": "systems/resurgirdragon/tokens/monstrosity/WinterWolf.webp"
+    },
+    "VBkp2rGQKvMcCOus": {
+      "actor": "systems/resurgirdragon/tokens/monstrosity/Worg.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/monstrosity/Worg.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        }
+      }
+    },
+    "NwQpeeaMxAC3fRft": {
+      "actor": "systems/resurgirdragon/tokens/ooze/BlackPudding.webp",
+      "token": "systems/resurgirdragon/tokens/ooze/BlackPudding.webp"
+    },
+    "3fzQVYQhXxCXRa2o": {
+      "actor": "systems/resurgirdragon/tokens/ooze/GelatinousCube.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/ooze/GelatinousCube.webp",
+          "scaleX": 2,
+          "scaleY": 2
+        }
+      }
+    },
+    "fqbFYtbtkrL53FOC": {
+      "actor": "systems/resurgirdragon/tokens/ooze/GrayOoze.webp",
+      "token": "systems/resurgirdragon/tokens/ooze/GrayOoze.webp"
+    },
+    "xBhG7Dos3tkg9jWz": {
+      "actor": "systems/resurgirdragon/tokens/ooze/OchreJelly.webp",
+      "token": "systems/resurgirdragon/tokens/ooze/OchreJelly.webp"
+    },
+    "gaSTr7DFZJLmgI2J": {
+      "actor": "systems/resurgirdragon/tokens/plant/AwakenedShrub.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/plant/AwakenedShrub.webp",
+          "scaleX": 0.8,
+          "scaleY": 0.8
+        }
+      }
+    },
+    "TaK6nQMGqZ0y8gt7": {
+      "actor": "systems/resurgirdragon/tokens/plant/Shrieker.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/plant/Shrieker.webp",
+          "scaleX": 0.8,
+          "scaleY": 0.8
+        }
+      }
+    },
+    "7EmUVycEASn7SFL0": {
+      "actor": "systems/resurgirdragon/tokens/plant/VioletFungus.webp",
+      "token": "systems/resurgirdragon/tokens/plant/VioletFungus.webp"
+    },
+    "IyIybE5t2adMEVUM": {
+      "actor": "systems/resurgirdragon/tokens/undead/Ghast.webp",
+      "token": "systems/resurgirdragon/tokens/undead/Ghast.webp"
+    },
+    "qoFEjfrANBdrCP6m": {
+      "actor": "systems/resurgirdragon/tokens/undead/Ghost.webp",
+      "token": "systems/resurgirdragon/tokens/undead/Ghost.webp"
+    },
+    "OBujQLLPSmlJiZnL": {
+      "actor": "systems/resurgirdragon/tokens/undead/Ghoul.webp",
+      "token": "systems/resurgirdragon/tokens/undead/Ghoul.webp"
+    },
+    "bfh29vIEoGzI240e": {
+      "actor": "systems/resurgirdragon/tokens/undead/Lich.webp",
+      "token": "systems/resurgirdragon/tokens/undead/Lich.webp"
+    },
+    "xple5bvGj42uGgdd": {
+      "actor": "systems/resurgirdragon/tokens/undead/MinotaurSkeleton.webp",
+      "token": "systems/resurgirdragon/tokens/undead/MinotaurSkeleton.webp"
+    },
+    "t8WYD7ak07X7xpx8": {
+      "actor": "systems/resurgirdragon/tokens/undead/Mummy.webp",
+      "token": "systems/resurgirdragon/tokens/undead/Mummy.webp"
+    },
+    "UFW8M3JHzHkxUEGM": {
+      "actor": "systems/resurgirdragon/tokens/undead/MummyLord.webp",
+      "token": "systems/resurgirdragon/tokens/undead/MummyLord.webp"
+    },
+    "QGcQYZbVl4bWzi4E": {
+      "actor": "systems/resurgirdragon/tokens/undead/Shadow.webp",
+      "token": "systems/resurgirdragon/tokens/undead/Shadow.webp"
+    },
+    "nU8GN8La8DCt8SDb": {
+      "actor": "systems/resurgirdragon/tokens/undead/Skeleton.webp",
+      "token": "systems/resurgirdragon/tokens/undead/Skeleton.webp"
+    },
+    "PuPo4H4Dcxigf0fY": {
+      "actor": "systems/resurgirdragon/tokens/undead/Specter.webp",
+      "token": "systems/resurgirdragon/tokens/undead/Specter.webp"
+    },
+    "DDO9lDCDtNHkfShP": {
+      "actor": "systems/resurgirdragon/tokens/undead/Vampire.webp",
+      "token": "systems/resurgirdragon/tokens/undead/Vampire.webp"
+    },
+    "zpaZb7I8alY32vWV": {
+      "actor": "systems/resurgirdragon/tokens/undead/VampireSpawn.webp",
+      "token": "systems/resurgirdragon/tokens/undead/VampireSpawn.webp"
+    },
+    "7KJ5vjnp0FJrdu6T": {
+      "actor": "systems/resurgirdragon/tokens/undead/WarhorseSkeleton.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/undead/WarhorseSkeleton.webp",
+          "scaleX": 1.5,
+          "scaleY": 1.5
+        }
+      }
+    },
+    "rbyp54px2D0ql4QK": {
+      "actor": "systems/resurgirdragon/tokens/undead/Wight.webp",
+      "token": "systems/resurgirdragon/tokens/undead/Wight.webp"
+    },
+    "8KSVpQZyzius93ko": {
+      "actor": "systems/resurgirdragon/tokens/undead/WilloWisp.webp",
+      "token": "systems/resurgirdragon/tokens/undead/WilloWisp.webp"
+    },
+    "ET4PEVEiNJLU4f7c": {
+      "actor": "systems/resurgirdragon/tokens/undead/Wraith.webp",
+      "token": "systems/resurgirdragon/tokens/undead/Wraith.webp"
+    },
+    "NAISFPoNNgUCsEyW": {
+      "actor": "systems/resurgirdragon/tokens/undead/Zombie.webp",
+      "token": "systems/resurgirdragon/tokens/undead/Zombie.webp"
+    },
+    "ZyIBOoZZD0nDaO2s": {
+      "actor": "systems/resurgirdragon/tokens/dragon/RedDragonAdult.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/dragon/RedDragonAdult.webp",
+          "scaleX": 2.3,
+          "scaleY": 2.3
+        }
+      }
+    },
+    "GP8JMSDugRxuLOD2": {
+      "actor": "systems/resurgirdragon/tokens/dragon/GreenDragonAdult.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/dragon/GreenDragonAdult.webp",
+          "scaleX": 2.3,
+          "scaleY": 2.3
+        }
+      }
+    },
+    "geM2F7HvVGhtk3h4": {
+      "actor": "systems/resurgirdragon/tokens/dragon/SilverDragonAdult.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/dragon/SilverDragonAdult.webp",
+          "scaleX": 2.3,
+          "scaleY": 2.3
+        }
+      }
+    },
+    "7vswgicsiMfS4ZTS": {
+      "actor": "systems/resurgirdragon/tokens/dragon/BrassDragonAdult.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/dragon/BrassDragonAdult.webp",
+          "scaleX": 2.3,
+          "scaleY": 2.3
+        }
+      }
+    },
+    "K4vsSlHqbBAHUDHY": {
+      "actor": "systems/resurgirdragon/tokens/monstrosity/Hydra.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/monstrosity/Hydra.webp",
+          "scaleX": 1.6,
+          "scaleY": 1.6
+        }
+      }
+    },
+    "M4eX4Mu5IHCr3TMf": {
+      "actor": "systems/resurgirdragon/tokens/dragon/BlackDragonAdult.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/dragon/BlackDragonAdult.webp",
+          "scaleX": 2.33,
+          "scaleY": 2.33
+        }
+      }
+    },
+    "cGM3iVYTtCsYXjzO": {
+      "actor": "systems/resurgirdragon/tokens/dragon/BlueDragonAdult.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/dragon/BlueDragonAdult.webp",
+          "scaleX": 2.33,
+          "scaleY": 2.33
+        }
+      }
+    },
+    "SNT0JNVSngUTsj4m": {
+      "actor": "systems/resurgirdragon/tokens/dragon/BlueDragonAncient.webp",
+      "token": {
+        "width": 13,
+        "height": 13,
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/dragon/BlueDragonAncient.webp",
+          "scaleX": 3,
+          "scaleY": 3
+        }
+      }
+    },
+    "MO382D2sxtAIuUC5": {
+      "actor": "systems/resurgirdragon/tokens/dragon/GoldDragonAdult.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/dragon/GoldDragonAdult.webp",
+          "scaleX": 2.33,
+          "scaleY": 2.33
+        }
+      }
+    },
+    "3uIursokd3KdZrW3": {
+      "actor":"systems/resurgirdragon/tokens/dragon/WhiteDragonAdult.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/dragon/WhiteDragonAdult.webp",
+          "scaleX": 2.33,
+          "scaleY": 2.33
+        }
+      }
+    },
+    "oDspGxRQFBhE74L2": {
+      "actor": "systems/resurgirdragon/tokens/elemental/InvisibleStalker.webp",
+      "token": "systems/resurgirdragon/tokens/elemental/InvisibleStalker.webp"
+    },
+    "VCuG0Z3MrO8kfDU0": {
+      "actor": "systems/resurgirdragon/tokens/dragon/BronzeDragonAdult.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/dragon/BronzeDragonAdult.webp",
+          "scaleX": 2.33,
+          "scaleY": 2.33
+        }
+      }
+    }
+  },
+  "resurgirdragon.heroes": {
+    "125qFnXvT9z0iOic": {
+      "actor": "systems/resurgirdragon/tokens/heroes/MonkStaff.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/heroes/MonkStaff.webp",
+          "scaleX": 0.8,
+          "scaleY": 0.8
+        }
+      }
+    },
+    "2Pdtnswo8Nj2nafY": {
+      "actor": "systems/resurgirdragon/tokens/heroes/FighterShield.webp",
+      "token": "systems/resurgirdragon/tokens/heroes/FighterShield.webp"
+    },
+    "4Jsv5vYaJ1atUEDV": {
+      "actor": "systems/resurgirdragon/tokens/heroes/WizardTome.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/heroes/WizardTome.webp",
+          "scaleX": 0.7,
+          "scaleY": 0.7
+        }
+      }
+    },
+    "Dh1AA6w104V17V6w": {
+      "actor": "systems/resurgirdragon/tokens/heroes/PaladinHammer.webp",
+      "token": "systems/resurgirdragon/tokens/heroes/PaladinHammer.webp"
+    },
+    "Jw8DeuPjt1qpusdB": {
+      "actor": "systems/resurgirdragon/tokens/heroes/WarlockStaff.webp",
+      "token": "systems/resurgirdragon/tokens/heroes/WarlockStaff.webp"
+    },
+    "ZGDys30OS76uYaIO": {
+      "actor": "systems/resurgirdragon/tokens/heroes/DruidStaff.webp",
+      "token": "systems/resurgirdragon/tokens/heroes/DruidStaff.webp"
+    },
+    "bzlxBO5km3zCQA8G": {
+      "actor": "systems/resurgirdragon/tokens/heroes/RogueHalfling.webp",
+      "token": "systems/resurgirdragon/tokens/heroes/RogueHalfling.webp"
+    },
+    "cYD0wRXLW4B17aoY": {
+      "actor": "systems/resurgirdragon/tokens/heroes/RangerBow.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/heroes/RangerBow.webp",
+          "scaleX": 0.9,
+          "scaleY": 0.9
+        }
+      }
+    },
+    "irWonyO6ZLh47sN7": {
+      "actor": "systems/resurgirdragon/tokens/heroes/BarbarianMaul.webp",
+      "token": {
+        "texture": {
+          "src": "systems/resurgirdragon/tokens/heroes/BarbarianMaul.webp",
+          "scaleX": 0.8,
+          "scaleY": 0.8
+        }
+      }
+    },
+    "kfzBL0q1Y7LgGs2x": {
+      "actor": "systems/resurgirdragon/tokens/heroes/ClericDragonborn.webp",
+      "token": "systems/resurgirdragon/tokens/heroes/ClericDragonborn.webp"
+    },
+    "xT2C2Itv2XambDYp": {
+      "actor": "systems/resurgirdragon/tokens/heroes/SorcererTiefling.webp",
+      "token": "systems/resurgirdragon/tokens/heroes/SorcererTiefling.webp"
+    },
+    "xVmbM44RXyI2Eqq3": {
+      "actor": "systems/resurgirdragon/tokens/heroes/BardLute.webp",
+      "token": "systems/resurgirdragon/tokens/heroes/BardLute.webp"
+    }
+  }
+}

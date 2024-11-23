@@ -1,0 +1,71 @@
+<form id="{{ appId }}" data-level="{{ level }}" data-id="{{ advancement.id }}" data-type="{{ type }}"
+      data-current="{{ choices.current }}" data-max="{{ choices.max }}">
+    <h3>{{{ title }}}</h3>
+
+    <div class="drop-target">
+        {{#if advancement.hint}}
+        <p>{{ advancement.hint }}</p>
+        {{/if}}
+
+        {{#if replaceable}}
+        <div class="item-name">
+            <label class="flexrow">
+                <h4>{{ localize "RESURGIRDRAGON.AdvancementItemChoiceReplacementNone" }}</h4>
+                <input type="radio" name="replace" value="" {{ checked noReplacement }}>
+            </label>
+        </div>
+        {{/if}}
+
+        {{#if abilities.options}}
+        <div class="form-group">
+            <label>{{ localize "RESURGIRDRAGON.SpellAbility" }}</label>
+            <select name="ability" {{ disabled abilities.disabled }}>
+                {{ selectOptions abilities.options selected=abilities.selected }}
+            </select>
+        </div>
+        {{/if}}
+
+        {{#each previousLevels}}
+        <h4 class="form-header">{{ localize "RESURGIRDRAGON.AdvancementLevelHeader" level=@key }}</h4>
+        {{#each this}}
+        <div class="item-name flexrow {{#if replaced}}replaced{{/if}}">
+            <div class="item-image" style="background-image: url('{{ img }}');"></div>
+            <label class="flexrow">
+                <h4><a data-uuid="{{ uuid }}">{{ name }}</a></h4>
+                {{#if (and @root.replaceable (not replaced))}}
+                <input type="radio" name="replace" value="{{ id }}" {{ checked checked }}>
+                {{/if}}
+            </label>
+        </div>
+        {{/each}}
+        {{/each}}
+
+        <h4 class="form-header">
+            {{ localize "RESURGIRDRAGON.AdvancementItemChoiceChosen" current=choices.current max=choices.max }}
+        </h4>
+
+        {{#each items}}
+        <div class="item-name flexrow">
+            <div class="item-image" style="background-image: url({{ img }});"></div>
+            <label class="flexrow">
+                <h4>
+                    <a data-uuid="{{this.uuid}}">{{ name }}</a>
+                </h4>
+                {{#if dropped}}
+                <a class="item-control item-delete" data-tooltip="RESURGIRDRAGON.ItemDelete"
+                   aria-label="{{ localize 'RESURGIRDRAGON.ItemDelete' }}">
+                    <i class="fa-solid fa-trash" inert></i>
+                </a>
+                <input type="hidden" name="{{ uuid }}" value="true" data-dtype="Boolean">
+                {{else}}
+                <input type="checkbox" name="{{ uuid }}" {{ checked checked }} {{ disabled disabled }}>
+                {{/if}}
+            </label>
+        </div>
+        {{/each}}
+
+        {{#if advancement.configuration.allowDrops}}
+        <p class="hint centered">{{ localize "RESURGIRDRAGON.AdvancementFlowDropAreaHint" }}</p>
+        {{/if}}
+    </div>
+</form>

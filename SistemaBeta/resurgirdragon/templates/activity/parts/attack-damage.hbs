@@ -1,0 +1,15 @@
+<fieldset>
+    <legend>
+        <span>{{ localize "RESURGIRDRAGON.ATTACK.FIELDS.damage.label" }}</span>
+        <button type="button" class="unbutton control-button" data-action="addDamagePart"
+                data-tooltip="RESURGIRDRAGON.DAMAGE.Part.Action.Create"
+                aria-label="{{ localize "RESURGIRDRAGON.DAMAGE.Part.Action.Create" }}">
+            <i class="fas fa-plus" inert></i>
+        </button>
+    </legend>
+    {{#if hasBaseDamage}}
+    {{ formField fields.damage.fields.includeBase value=source.damage.includeBase input=inputs.createCheckboxInput }}
+    {{/if}}
+    {{ formField fields.damage.fields.critical.fields.bonus value=source.damage.critical.bonus }}
+    {{> "systems/resurgirdragon/templates/activity/parts/damage-parts.hbs" }}
+</fieldset>

@@ -1,0 +1,102 @@
+<form class="{{cssClass}} flexcol" autocomplete="off">
+
+    {{!-- Item Sheet Header --}}
+    <header class="sheet-header loot-header flexrow">
+        <img class="profile" src="{{item.img}}" data-tooltip="{{item.name}}" data-edit="img"/>
+
+        <div class="header-details flexrow">
+            <h1 class="charname">
+                {{#if system.identified}}
+                <input name="name" type="text" value="{{item.name}}" placeholder="{{ localize 'RESURGIRDRAGON.ItemName' }}">
+                {{else}}
+                <input name="system.unidentified.name" type="text" value="{{system.unidentified.name}}"
+                       placeholder="{{ localize 'RESURGIRDRAGON.NameUnidentified' }}">
+                {{/if}}
+            </h1>
+
+            <div class="item-subtitle">
+                <h4 class="item-type">{{itemType}}</h4>
+                <span class="item-status">{{itemStatus}}</span>
+                <label class="identified">
+                    <input type="checkbox" name="system.identified" {{checked system.identified}}>
+                    {{#if system.identified}}
+                        {{ localize "RESURGIRDRAGON.Identified" }}
+                        {{#if editable}}<i class="fa-solid fa-toggle-on"></i>{{/if}}
+                    {{else}}
+                        {{ localize "RESURGIRDRAGON.Unidentified.Title" }}
+                        {{#if editable}}<i class="fa-solid fa-toggle-off"></i>{{/if}}
+                    {{/if}}
+                </label>
+            </div>
+
+            <ul class="summary flexrow">
+                <li>
+                    {{#if concealDetails}}
+                    <span>{{ localize "RESURGIRDRAGON.Unidentified.Title" }}</span>
+                    {{else}}
+                    <select name="system.rarity" {{~#if concealDetails}} inert{{/if}}>
+                        {{selectOptions config.itemRarity selected=system.rarity blank=""}}
+                    </select>
+                    {{/if}}
+                </li>
+                <li>
+                    {{> "resurgirdragon.item-source"}}
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    {{!-- Item Sheet Navigation --}}
+    <nav class="sheet-navigation tabs" data-group="primary">
+        <a class="item active" data-tab="description">{{ localize "RESURGIRDRAGON.Description" }}</a>
+        <a class="item" data-tab="details">{{ localize "RESURGIRDRAGON.Details" }}</a>
+    </nav>
+
+    {{!-- Item Sheet Body --}}
+    <section class="sheet-body">
+
+        {{!-- Description Tab --}}
+        {{> "resurgirdragon.item-description"}}
+
+        {{!-- Details Tab --}}
+        <div class="tab details" data-group="primary" data-tab="details">
+            {{#resurgirdragon-concealSection concealDetails}}
+
+            <h3 class="form-header">{{ localize "RESURGIRDRAGON.ItemLootDetails" }}</h3>
+
+            {{!-- Loot Type --}}
+            <div class="form-group">
+                <label>{{ localize "RESURGIRDRAGON.ItemLootType" }}</label>
+                <select name="system.type.value">
+                    {{selectOptions config.lootTypes selected=system.type.value labelAttr="label" blank=""}}
+                </select>
+            </div>
+
+            {{#if itemSubtypes}}
+            <div class="form-group">
+                <label>
+                    {{localize "RESURGIRDRAGON.ItemLootSubtype"
+                               category=(lookup (lookup config.lootTypes system.type.value) "label")}}
+                </label>
+                <select name="system.type.subtype">
+                    {{selectOptions itemSubtypes selected=system.type.subtype blank=""}}
+                </select>
+            </div>
+            {{/if}}
+
+            {{!-- Loot Properties --}}
+            <div class="form-group stacked loot-properties">
+                <label>{{ localize "RESURGIRDRAGON.ItemLootProperties" }}</label>
+                {{#each properties}}
+                <label class="checkbox">
+                    <input type="checkbox" name="system.properties.{{ @key }}" {{ checked selected }}>
+                    {{ label }}
+                </label>
+                {{/each}}
+            </div>
+
+            {{/resurgirdragon-concealSection}}
+        </div>
+
+    </section>
+</form>

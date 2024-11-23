@@ -1,0 +1,12 @@
+<fieldset>
+    <legend>
+        <span>{{ localize "RESURGIRDRAGON.SAVE.FIELDS.damage.label" }}</span>
+        <button type="button" class="unbutton control-button" data-action="addDamagePart"
+                data-tooltip="RESURGIRDRAGON.DAMAGE.Part.Action.Create"
+                aria-label="{{ localize "RESURGIRDRAGON.DAMAGE.Part.Action.Create" }}">
+            <i class="fas fa-plus" inert></i>
+        </button>
+    </legend>
+    {{ formField fields.damage.fields.onSave value=activity.damage.onSave options=onSaveOptions }}
+    {{> "systems/resurgirdragon/templates/activity/parts/damage-parts.hbs" }}
+</fieldset>

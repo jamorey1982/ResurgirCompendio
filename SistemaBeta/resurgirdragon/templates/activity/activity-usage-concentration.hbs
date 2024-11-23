@@ -1,0 +1,11 @@
+<section>
+    {{~#if hasConcentration}}
+    <fieldset>
+        <legend>{{ localize "RESURGIRDRAGON.Concentration" }}</legend>
+        {{#each fields}}
+            {{ formField field name=name value=value options=options input=input }}
+        {{/each}}
+    </fieldset>
+    {{> "resurgirdragon.activity-usage-notes" }}
+    {{/if~}}
+</section>

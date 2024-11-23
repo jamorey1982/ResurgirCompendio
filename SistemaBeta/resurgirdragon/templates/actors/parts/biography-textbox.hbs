@@ -1,0 +1,12 @@
+<div class="textbox {{ class }}">
+    <h3 class="icon">
+        {{#if icon}}<i class="{{ icon }}"></i>
+        {{~else if svg}}<resurgirdragon-icon src="systems/resurgirdragon/icons/svg/{{ svg }}.svg"></resurgirdragon-icon>{{/if}}
+        <span class="roboto-upper">{{ localize label }}</span>
+    </h3>
+    {{#if @root.editable}}
+    <textarea class="untext" name="{{ name }}">{{ value }}</textarea>
+    {{else}}
+    <p>{{ resurgirdragon-textFormat value }}</p>
+    {{/if}}
+</div>

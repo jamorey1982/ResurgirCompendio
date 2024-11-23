@@ -1,0 +1,3856 @@
+{
+"DOCUMENT.RESURGIRDRAGON": {
+  "Activity": "Activity",
+  "Warning": {
+    "SelectType": "{name} type must be selected for creation."
+  }
+},
+
+"TYPES.Actor.character": "Player Character",
+"TYPES.Actor.characterPl": "Player Characters",
+"TYPES.Actor.npc": "Non-Player Character",
+"TYPES.Actor.npcPl": "Non-Player Characters",
+"TYPES.Actor.vehicle": "Vehicle",
+"TYPES.Actor.vehiclePl": "Vehicles",
+"TYPES.Actor.group": "Group",
+"TYPES.Actor.groupPl": "Groups",
+
+"TYPES.ActiveEffect.enchantment": "Enchantment",
+"TYPES.ActiveEffect.enchantmentPl": "Enchantments",
+
+"TYPES.Item.background": "Background",
+"TYPES.Item.backgroundPl": "Backgrounds",
+"TYPES.Item.container": "Container",
+"TYPES.Item.containerPl": "Containers",
+"TYPES.Item.class": "Class",
+"TYPES.Item.classPl": "Classes",
+"TYPES.Item.consumable": "Consumable",
+"TYPES.Item.consumablePl": "Consumables",
+"TYPES.Item.equipment": "Equipment",
+"TYPES.Item.equipmentPl": "Equipment",
+"TYPES.Item.facility": "Facility",
+"TYPES.Item.facilityPl": "Facilities",
+"TYPES.Item.feat": "Feature",
+"TYPES.Item.featurePl": "Features",
+"TYPES.Item.loot": "Loot",
+"TYPES.Item.lootPl": "Loot",
+"TYPES.Item.race": "Species",
+"TYPES.Item.racePl": "Species",
+"TYPES.Item.raceLegacy": "Race",
+"TYPES.Item.raceLegacyPl": "Races",
+"TYPES.Item.spell": "Spell",
+"TYPES.Item.spellPl": "Spells",
+"TYPES.Item.subclass": "Subclass",
+"TYPES.Item.subclassPl": "Subclasses",
+"TYPES.Item.tool": "Tool",
+"TYPES.Item.toolPl": "Tools",
+"TYPES.Item.weapon": "Weapon",
+"TYPES.Item.weaponPl": "Weapons",
+
+"RESURGIRDRAGON.title": "Dungeon & Dragons Fifth Edition",
+"RESURGIRDRAGON.AbbreviationCR": "CR",
+"RESURGIRDRAGON.AbbreviationConc": "Conc.",
+"RESURGIRDRAGON.AbbreviationDC": "DC",
+"RESURGIRDRAGON.AbbreviationKg": "kg",
+"RESURGIRDRAGON.AbbreviationLR": "LR",
+"RESURGIRDRAGON.AbbreviationLevel": "Lvl.",
+"RESURGIRDRAGON.AbbreviationLbs": "lbs.",
+"RESURGIRDRAGON.AbbreviationSR": "SR",
+
+"RESURGIRDRAGON.ABILITY": {
+  "Configure": {
+    "Title": "Configure {ability}"
+  },
+  "SECTIONS": {
+    "Bonuses": {
+      "Label": "{ability} Bonuses",
+      "Hint": "These bonuses apply to checks & saves made with {ability}."
+    },
+    "Global": {
+      "Label": "Global Bonuses",
+      "Hint": "These bonuses apply to checks & saves made with any ability."
+    },
+    "Score": "{ability} Score"
+  }
+},
+
+"RESURGIRDRAGON.Ability": "Ability",
+"RESURGIRDRAGON.Abilities": "Abilities",
+"RESURGIRDRAGON.AbilityStr": "Strength",
+"RESURGIRDRAGON.AbilityStrAbbr": "str",
+"RESURGIRDRAGON.AbilityCon": "Constitution",
+"RESURGIRDRAGON.AbilityConAbbr": "con",
+"RESURGIRDRAGON.AbilityDex": "Dexterity",
+"RESURGIRDRAGON.AbilityDexAbbr": "dex",
+"RESURGIRDRAGON.AbilityInt": "Intelligence",
+"RESURGIRDRAGON.AbilityIntAbbr": "int",
+"RESURGIRDRAGON.AbilityWis": "Wisdom",
+"RESURGIRDRAGON.AbilityWisAbbr": "wis",
+"RESURGIRDRAGON.AbilityCha": "Charisma",
+"RESURGIRDRAGON.AbilityChaAbbr": "cha",
+"RESURGIRDRAGON.AbilityHon": "Honor",
+"RESURGIRDRAGON.AbilityHonAbbr": "hon",
+"RESURGIRDRAGON.AbilitySan": "Sanity",
+"RESURGIRDRAGON.AbilitySanAbbr": "san",
+"RESURGIRDRAGON.AbilityScore": "Ability Score",
+"RESURGIRDRAGON.AbilityScoreShort": "Score",
+"RESURGIRDRAGON.AbilityScorePl": "Ability Scores",
+"RESURGIRDRAGON.AbilityScoreL": "{ability} Score",
+"RESURGIRDRAGON.AbilityScoreMax": "Maximum Ability Score",
+"RESURGIRDRAGON.AbilityScoreMaxShort": "Maximum",
+"RESURGIRDRAGON.AbilityModifier": "Ability Modifier",
+"RESURGIRDRAGON.AbilityPromptText": "What type of {ability} check?",
+"RESURGIRDRAGON.AbilityPromptTitle": "{ability} Ability Check",
+"RESURGIRDRAGON.AbilityUseChargesLabel": "{value} Charges",
+"RESURGIRDRAGON.AbilityUseConsumableLabel": "{max} per {per}",
+"RESURGIRDRAGON.AbilityUseCast": "Cast Spell",
+"RESURGIRDRAGON.AbilityUseUse": "Use Ability",
+"RESURGIRDRAGON.AbilityUseConfig": "Usage Configuration",
+"RESURGIRDRAGON.AbilityBonuses": "Ability Bonuses",
+"RESURGIRDRAGON.AbilityConfigure": "Configure {ability}",
+"RESURGIRDRAGON.AbilityConfigureTitle": "Configure {ability} Saving Throws and Checks",
+"RESURGIRDRAGON.AbilitySaveConfigure": "{ability} Saving Throws",
+"RESURGIRDRAGON.AbilityCheckConfigure": "{ability} Ability Checks",
+"RESURGIRDRAGON.AbilityCheckConfigurationHint": "Configure check bonuses.",
+"RESURGIRDRAGON.AbilityConfigurationHint": "Configure ability saving throw proficiency, saving throw bonuses, and check bonuses.",
+"RESURGIRDRAGON.AbilityCheckBonus": "Check Bonus",
+"RESURGIRDRAGON.AbilityCheckGlobalBonusHint": "This bonus applies to all ability checks made by this actor.",
+"RESURGIRDRAGON.Action": "Action",
+"RESURGIRDRAGON.ActionAbbr": "A",
+"RESURGIRDRAGON.ActionPl": "Actions",
+"RESURGIRDRAGON.ActionAbil": "Ability Check",
+"RESURGIRDRAGON.ActionEnch": "Enchant",
+"RESURGIRDRAGON.ActionHeal": "Heal",
+"RESURGIRDRAGON.ActionMSAK": "Melee Spell Attack",
+"RESURGIRDRAGON.ActionMWAK": "Melee Weapon Attack",
+"RESURGIRDRAGON.ActionOther": "Other",
+"RESURGIRDRAGON.ActionRSAK": "Ranged Spell Attack",
+"RESURGIRDRAGON.ActionRWAK": "Ranged Weapon Attack",
+"RESURGIRDRAGON.ActionSave": "Saving Throw",
+"RESURGIRDRAGON.ActionSumm": "Summon",
+"RESURGIRDRAGON.ActionUtil": "Utility",
+"RESURGIRDRAGON.ActionWarningNoItem": "The requested item {item} no longer exists on Actor {name}",
+"RESURGIRDRAGON.ActionWarningNoToken": "You must have one or more controlled Tokens in order to use this option.",
+
+"RESURGIRDRAGON.ACTIVATION": {
+  "FIELDS": {
+    "activation": {
+      "label": "Activation",
+      "condition": {
+        "label": "Activation Condition",
+        "hint": "Condition required to activate this activity."
+      },
+      "override": {
+        "label": "Override Activation",
+        "hint": "Use these activation values instead of the item's when using this activity."
+      },
+      "type": {
+        "label": "Activation Cost",
+        "hint": "Activation type (e.g. action, legendary action, minutes)."
+      },
+      "value": {
+        "label": "Activation Value",
+        "hint": "Scalar value associated with the activation."
+      }
+    }
+  },
+  "Category": {
+    "Standard": "Standard",
+    "Time": "Time",
+    "Monster": "Monster",
+    "Vehicle": "Vehicle"
+  }
+},
+
+"RESURGIRDRAGON.ACTIVITY": {
+  "Action": {
+    "Create": "Create Activity",
+    "Delete": "Delete Activity"
+  },
+  "Title": {
+    "one": "Activity",
+    "other": "Activities"
+  },
+  "FIELDS": {
+    "description": {
+      "label": "Description",
+      "chatFlavor": {
+        "label": "Chat Flavor",
+        "hint": "Additional text displayed in the activation chat message."
+      }
+    },
+    "effects": {
+      "label": "Applied Effects"
+    },
+    "img": {
+      "label": "Icon"
+    },
+    "name": {
+      "label": "Name"
+    }
+  },
+  "SECTIONS": {
+    "Activation": "Activation",
+    "Behavior": "Behavior",
+    "Effect": "Effect",
+    "Identity": "Identity",
+    "Time": "Time"
+  }
+},
+
+"RESURGIRDRAGON.ActorWarningInvalidItem": "{itemType} items cannot be added to a {actorType}.",
+"RESURGIRDRAGON.ActorWarningSingleton": "Only a single {itemType} can be added to a {actorType}.",
+"RESURGIRDRAGON.ActiveEffectOverrideWarning": "This value is being modified by an Active Effect and cannot be edited. Disable the effect to edit it.",
+"RESURGIRDRAGON.Add": "Add",
+"RESURGIRDRAGON.AdditionalControls": "Additional Controls",
+"RESURGIRDRAGON.AdditionalSettings": "Additional Settings",
+"RESURGIRDRAGON.AddEmbeddedItemPromptHint": "Do you want to add these items to your character sheet?",
+"RESURGIRDRAGON.Advanced": "Advanced",
+
+"RESURGIRDRAGON.ADVANCEMENT": {
+  "AbilityScoreImprovement": {
+    "Title": "Ability Score Improvement",
+    "Hint": "Allow the player to increase one or more ability scores or take an optional feat.",
+    "CapDisplay": {
+      "one": "Max {points} point per score",
+      "other": "Max {points} points per score"
+    },
+    "Feat": {
+      "Hint": "Drop a feat here to choose one instead of an ability score improvement."
+    },
+    "FIELDS": {
+      "cap": {
+        "label": "Point Cap",
+        "hint": "Maximum number of points a player can assign to a single score."
+      },
+      "locked": {
+        "label": "Locked",
+        "hint": "Ability cannot be improved."
+      },
+      "fixed": {
+        "label": "Fixed Improvement",
+        "hint": "Abilities that are improved by a fixed amount and cannot be manually improved during the process."
+      },
+      "points": {
+        "label": "Points",
+        "hint": "Number of points that can be assigned to any unlocked ability score.",
+        "decrease": "Decrease Points",
+        "increase": "Increase Points"
+      }
+    },
+    "LockedHint": "Scores cannot be modified with a feat selected.",
+    "PointsRemaining": {
+      "one": "{points} Point Remaining",
+      "other": "{points} Points Remaining"
+    },
+    "Warning": {
+      "Level": "Must be at least level {level} to take this feat.",
+      "Type": "Only features with the \"feat\" type can be selected."
+    }
+  },
+  "SPELLCONFIG": {
+    "FIELDS": {
+      "uses": {
+        "requireSlot": {
+          "label": "Require Slot",
+          "hint": "Require a spell slot to be spent when using the limited uses. If not checked then the uses will be additional free uses that don't consume a slot."
+        }
+      }
+    },
+    "FreeCasting": "Free Casting"
+  },
+  "Subclass": {
+    "Title": "Subclass",
+    "Hint": "Specify what level this class receives its subclass.",
+    "FlowHint": "Select a subclass in the Features tab after level up has completed."
+  }
+},
+
+"RESURGIRDRAGON.AdvancementChoices": "choices",
+"RESURGIRDRAGON.AdvancementClassRestriction": "Class Restriction",
+"RESURGIRDRAGON.AdvancementClassRestrictionNone": "All Classes",
+"RESURGIRDRAGON.AdvancementClassRestrictionPrimary": "Original Class Only",
+"RESURGIRDRAGON.AdvancementClassRestrictionSecondary": "Multiclass Only",
+"RESURGIRDRAGON.AdvancementConfigurationActionDisable": "Disable Configuration",
+"RESURGIRDRAGON.AdvancementConfigurationActionEnable": "Enable Configuration",
+"RESURGIRDRAGON.AdvancementConfigurationModeDisabled": "Configuration Disabled",
+"RESURGIRDRAGON.AdvancementConfigurationModeEnabled": "Configuration Enabled",
+"RESURGIRDRAGON.AdvancementConfigureTitle": "Configure {item} Advancement",
+"RESURGIRDRAGON.AdvancementConfigureAllowDrops": "Allow Drops",
+"RESURGIRDRAGON.AdvancementConfigureAllowDropsHint": "Should players be able to drop their own choices into this advancement?",
+"RESURGIRDRAGON.AdvancementConfigureDropAreaHint": "Drop Items here to add them to the pool from which a player can choose.",
+"RESURGIRDRAGON.AdvancementConfiguredComplete": "Fully Configured",
+"RESURGIRDRAGON.AdvancementConfiguredIncomplete": "Not Configured",
+"RESURGIRDRAGON.AdvancementControlCreate": "Create Advancement",
+"RESURGIRDRAGON.AdvancementControlDelete": "Delete Advancement",
+"RESURGIRDRAGON.AdvancementControlDuplicate": "Duplicate Advancement",
+"RESURGIRDRAGON.AdvancementControlEdit": "Edit Advancement",
+"RESURGIRDRAGON.AdvancementCustomIcon": "Custom Icon",
+"RESURGIRDRAGON.AdvancementCustomTitle": "Custom Title",
+"RESURGIRDRAGON.AdvancementDeleteConfirmationLabel": "Remove advancement changes",
+"RESURGIRDRAGON.AdvancementDeleteConfirmationMessage": "Deleting this item will also delete all advancement choices made for it. These changes will be removed from your character as long as the checkbox below is checked.",
+"RESURGIRDRAGON.AdvancementDeleteConfirmationTitle": "Confirm Deletion",
+"RESURGIRDRAGON.AdvancementFlowDropAreaHint": "Drop an Item here to choose it.",
+"RESURGIRDRAGON.AdvancementHint": "Hint",
+"RESURGIRDRAGON.AdvancementHitPointsTitle": "Hit Points",
+"RESURGIRDRAGON.AdvancementHitPointsHint": "Track the player's hit points for each level in the class.",
+"RESURGIRDRAGON.AdvancementHitPointsAverage": "Take Average",
+"RESURGIRDRAGON.AdvancementHitPointsEmptyError": "Hit points must be rolled or the average value must be taken.",
+"RESURGIRDRAGON.AdvancementHitPointsInvalidError": "Hit points must be a valid whole number.",
+"RESURGIRDRAGON.AdvancementHitPointsMaxAtFirstLevel": "Max at 1st Level: <strong>{max}</strong>",
+"RESURGIRDRAGON.AdvancementHitPointsRollMessage": "Roll {class} Hit Points",
+"RESURGIRDRAGON.AdvancementHitPointsRollButton": "Roll {die}",
+"RESURGIRDRAGON.AdvancementItemChoiceTitle": "Choose Items",
+"RESURGIRDRAGON.AdvancementItemChoiceHint": "Present the player with a choice of items (such as equipment, features, or spells) that they can choose for their character at one or more levels.",
+"RESURGIRDRAGON.AdvancementItemChoiceChoices": "Choices",
+"RESURGIRDRAGON.AdvancementItemChoiceChoose": "choose {count}",
+"RESURGIRDRAGON.AdvancementItemChoiceChosen": "Chosen: {current} of {max}",
+"RESURGIRDRAGON.AdvancementItemChoiceFeatureLevelWarning": "Must be at least level {level} to take this feature.",
+"RESURGIRDRAGON.AdvancementItemChoiceLevelsHint": "Specify how many choices are allowed at each level.",
+"RESURGIRDRAGON.AdvancementItemChoiceNoOriginalError": "Previously selected choice no longer available for replacement.",
+"RESURGIRDRAGON.AdvancementItemChoicePreviouslyChosenWarning": "This item has already been chosen at a previous level.",
+"RESURGIRDRAGON.AdvancementItemChoiceReplacement": "Allow Replacement",
+"RESURGIRDRAGON.AdvancementItemChoiceReplacementNone": "No Replacement",
+"RESURGIRDRAGON.AdvancementItemChoiceReplacementTitle": "replace",
+"RESURGIRDRAGON.AdvancementItemChoiceSpellLevelAvailable": "Any Available Level",
+"RESURGIRDRAGON.AdvancementItemChoiceSpellLevelAvailableWarning": "Only {level} or lower spells can be chosen for this advancement.",
+"RESURGIRDRAGON.AdvancementItemChoiceSpellLevelSpecificWarning": "Only {level} spells can be chosen for this advancement.",
+"RESURGIRDRAGON.AdvancementItemChoiceSpellLevelHint": "Only allow choices from spells of this level.",
+"RESURGIRDRAGON.AdvancementItemChoiceType": "Item Type",
+"RESURGIRDRAGON.AdvancementItemChoiceTypeHint": "Restrict what Item types can be chosen.",
+"RESURGIRDRAGON.AdvancementItemChoiceTypeAny": "Anything",
+"RESURGIRDRAGON.AdvancementItemChoiceTypeWarning": "Only {type} items can be selected for this choice.",
+"RESURGIRDRAGON.AdvancementItemGrantTitle": "Grant Items",
+"RESURGIRDRAGON.AdvancementItemGrantHint": "Grant the character items (such as equipment, features, or spells) when they reach a certain level.",
+"RESURGIRDRAGON.AdvancementItemGrantDropHint": "Drop Items here to add them to the list granted by this advancement.",
+"RESURGIRDRAGON.AdvancementItemGrantContainerWarning": "Container contents will not be added with containers.",
+"RESURGIRDRAGON.AdvancementItemGrantDuplicateWarning": "That item already exists on this advancement.",
+"RESURGIRDRAGON.AdvancementItemGrantRecursiveWarning": "You cannot grant an item in its own advancement.",
+"RESURGIRDRAGON.AdvancementItemGrantOptional": "Optional",
+"RESURGIRDRAGON.AdvancementItemGrantOptionalHint": "If the whole advancement is marked optional, players may opt out of any of the following items, otherwise all non-optional items are granted.",
+"RESURGIRDRAGON.AdvancementItemTypeInvalidWarning": "{type} items cannot be added with this advancement type.",
+"RESURGIRDRAGON.AdvancementLevelHeader": "Level {level}",
+"RESURGIRDRAGON.AdvancementLevelAnyHeader": "Any Level",
+"RESURGIRDRAGON.AdvancementLevelNoneHeader": "No Level",
+"RESURGIRDRAGON.AdvancementLevelDownConfirmationMessage": "Leveling this class down will also undo all advancement choices made for it. These changes will be removed from your character as long as the checkbox below is checked.",
+"RESURGIRDRAGON.AdvancementLevelDownConfirmationTitle": "Confirm Leveling Down",
+"RESURGIRDRAGON.AdvancementManagerCloseTitle": "Stop Advancement",
+"RESURGIRDRAGON.AdvancementManagerCloseMessage": "<p>If the advancement process is cancelled, choices made so far will be discarded and no changes will be made to the actor.</p>",
+"RESURGIRDRAGON.AdvancementManagerCloseButtonContinue": "Continue",
+"RESURGIRDRAGON.AdvancementManagerCloseButtonStop": "Stop Advancement",
+"RESURGIRDRAGON.AdvancementManagerComplete": "Complete",
+"RESURGIRDRAGON.AdvancementManagerLevelIncreasedTitle": "Level Up Character",
+"RESURGIRDRAGON.AdvancementManagerLevelNewClassTitle": "Add Class",
+"RESURGIRDRAGON.AdvancementManagerModifyChoicesTitle": "Modify Choices",
+"RESURGIRDRAGON.AdvancementManagerNextStep": "Next",
+"RESURGIRDRAGON.AdvancementManagerPreviousStep": "Previous",
+"RESURGIRDRAGON.AdvancementManagerRestart": "Restart",
+"RESURGIRDRAGON.AdvancementManagerRestartConfirm": "Are you sure you wish to undo all choices so far?",
+"RESURGIRDRAGON.AdvancementManagerRestartConfirmTitle": "Restart Advancement Choices",
+"RESURGIRDRAGON.AdvancementManagerSteps": "Step {current} of {total}",
+"RESURGIRDRAGON.AdvancementManagerTitle": "Advancement",
+"RESURGIRDRAGON.AdvancementMigrationConfirm": "Apply Migrations",
+"RESURGIRDRAGON.AdvancementMigrationHint": "Select which of the following advancements will be added to {name}.",
+"RESURGIRDRAGON.AdvancementMigrationTitle": "Migrate Advancement",
+"RESURGIRDRAGON.AdvancementModifyChoices": "Modify Choices",
+"RESURGIRDRAGON.AdvancementSaveButton": "Save Advancement",
+"RESURGIRDRAGON.AdvancementScaleValueTitle": "Scale Value",
+"RESURGIRDRAGON.AdvancementScaleValueHint": "A single value that changes as a class increases in level that is made available in roll formulas (such as a Monk's martial arts die).",
+"RESURGIRDRAGON.AdvancementScaleValueIdentifierHint": "This scale value for the current level will be available in a formula using:<br><copyable-text>@scale.{class}.{identifier}</copyable-text>",
+"RESURGIRDRAGON.AdvancementScaleValueIdentifierDiceHint": "This scale value for the current level will be available in a formula using:<br><copyable-text>@scale.{class}.{identifier}</copyable-text> - whole formula (<code>4d6</code>)<br><copyable-text>@scale.{class}.{identifier}.die</copyable-text> - whole die (<code>d6</code>)<br><copyable-text>@scale.{class}.{identifier}.number</copyable-text> - number of dice (<code>4</code>)<br><copyable-text>@scale.{class}.{identifier}.faces</copyable-text> - number of faces (<code>6</code>)",
+"RESURGIRDRAGON.AdvancementScaleValueTypeCR": "Challenge Rating",
+"RESURGIRDRAGON.AdvancementScaleValueTypeDice": "Dice",
+"RESURGIRDRAGON.AdvancementScaleValueTypeDistance": "Distance",
+"RESURGIRDRAGON.AdvancementScaleValueTypeHintCR": "Use this for representing creature challenge ratings for features like Wild Shape.",
+"RESURGIRDRAGON.AdvancementScaleValueTypeHintDice": "Use this for dice values like bardic inspiration, sneak attack, or superiority dice.",
+"RESURGIRDRAGON.AdvancementScaleValueTypeHintDistance": "Use this for numerical values that represent a distance, such as unarmored movement speed, or aura of protection radius.",
+"RESURGIRDRAGON.AdvancementScaleValueTypeHintNumber": "Use this for purely numerical values like rage damage bonus or number of uses per day.",
+"RESURGIRDRAGON.AdvancementScaleValueTypeHintString": "Use this if you are unsure of the type of the scale values, or if the type does not matter.",
+"RESURGIRDRAGON.AdvancementScaleValueTypeLabel": "Scale Type",
+"RESURGIRDRAGON.AdvancementScaleValueTypeNumber": "Numeric",
+"RESURGIRDRAGON.AdvancementScaleValueTypeString": "Anything",
+"RESURGIRDRAGON.AdvancementSelectionCreateButton": "Create Advancement",
+"RESURGIRDRAGON.AdvancementSelectionTitle": "Select Advancement Type",
+"RESURGIRDRAGON.AdvancementSizeTitle": "Size",
+"RESURGIRDRAGON.AdvancementSizeHint": "Set a character's size.",
+"RESURGIRDRAGON.AdvancementSizeFlowHintSingle": "Your size is {size}.",
+"RESURGIRDRAGON.AdvancementSizeflowHintMultiple": "Choose your size from either {sizes}.",
+"RESURGIRDRAGON.AdvancementTitle": "Advancement",
+"RESURGIRDRAGON.AdvancementTraitTitle": "Traits",
+"RESURGIRDRAGON.AdvancementTraitHint": "Grant a character certain traits or give them an option to select traits (such as proficiencies, skills, languages).",
+"RESURGIRDRAGON.AdvancementTraitActionAddChoice": "Add Choice",
+"RESURGIRDRAGON.AdvancementTraitActionRemoveChoice": "Remove Choice",
+"RESURGIRDRAGON.AdvancementTraitAllowReplacements": "Allow Replacements",
+"RESURGIRDRAGON.AdvancementTraitAllowReplacementsHint": "If a trait is already set on the actor, allow the player to choose from any other trait as a replacement.",
+"RESURGIRDRAGON.AdvancementTraitChoices": "Choices",
+"RESURGIRDRAGON.AdvancementTraitChoicesHint": "The following traits will be presented as a choice to the player.",
+"RESURGIRDRAGON.AdvancementTraitChoicesRemaining": "Select {count} more {type}",
+"RESURGIRDRAGON.AdvancementTraitCount": "Count",
+"RESURGIRDRAGON.AdvancementTraitGrants": "Guaranteed",
+"RESURGIRDRAGON.AdvancementTraitGrantsHint": "The following traits will be granted to the character as long as they don't already possess that trait.",
+"RESURGIRDRAGON.AdvancementTraitMode": "Mode",
+"RESURGIRDRAGON.AdvancementTraitModeDefaultLabel": "Default",
+"RESURGIRDRAGON.AdvancementTraitModeDefaultHint": "Gain a trait or proficiency.",
+"RESURGIRDRAGON.AdvancementTraitModeExpertiseLabel": "Expertise",
+"RESURGIRDRAGON.AdvancementTraitModeExpertiseHint": "Gain expertise in a trait in which you already have proficiency.",
+"RESURGIRDRAGON.AdvancementTraitModeForceLabel": "Forced Expertise",
+"RESURGIRDRAGON.AdvancementTraitModeForceHint": "Gain expertise in a trait regardless of your previous proficiency level.",
+"RESURGIRDRAGON.AdvancementTraitModeMasteryLabel": "Mastery",
+"RESURGIRDRAGON.AdvancementTraitModeMasteryHint": "Gain mastery with a weapon in which you already have proficiency.",
+"RESURGIRDRAGON.AdvancementTraitModeUpgradeLabel": "Upgrade",
+"RESURGIRDRAGON.AdvancementTraitModeUpgradeHint": "Gain proficiency in a trait unless you already have it, otherwise gain expertise.",
+"RESURGIRDRAGON.AdvancementTraitType": "Trait Type",
+"RESURGIRDRAGON.Advantage": "Advantage",
+"RESURGIRDRAGON.AdvantageMode": "Advantage Mode",
+"RESURGIRDRAGON.Age": "Age",
+"RESURGIRDRAGON.Alignment": "Alignment",
+"RESURGIRDRAGON.AlignmentCE": "Chaotic Evil",
+"RESURGIRDRAGON.AlignmentCG": "Chaotic Good",
+"RESURGIRDRAGON.AlignmentCN": "Chaotic Neutral",
+"RESURGIRDRAGON.AlignmentLE": "Lawful Evil",
+"RESURGIRDRAGON.AlignmentLG": "Lawful Good",
+"RESURGIRDRAGON.AlignmentLN": "Lawful Neutral",
+"RESURGIRDRAGON.AlignmentNE": "Neutral Evil",
+"RESURGIRDRAGON.AlignmentNG": "Neutral Good",
+"RESURGIRDRAGON.AlignmentTN": "True Neutral",
+"RESURGIRDRAGON.Amount": "Amount",
+"RESURGIRDRAGON.Appearance": "Appearance",
+"RESURGIRDRAGON.Apply": "Apply",
+"RESURGIRDRAGON.Attunement": "Attunement",
+"RESURGIRDRAGON.AttunementMax": "Maximum Attuned Items",
+"RESURGIRDRAGON.AttunementNone": "Attunement Not Required",
+"RESURGIRDRAGON.AttunementOptional": "Optional Attunement",
+"RESURGIRDRAGON.AttunementRequired": "Attunement Required",
+"RESURGIRDRAGON.AttunementAttuned": "Attuned",
+"RESURGIRDRAGON.AttunementOverride": "Override attunement",
+"RESURGIRDRAGON.Attuned": "Attuned",
+"RESURGIRDRAGON.AreaOfEffect": {
+  "Label": "Area of Effect",
+  "Size": {
+    "Label": "Size",
+    "Height": "Height",
+    "Length": "Length",
+    "Radius": "Radius",
+    "Thickness": "Thickness",
+    "Width": "Width"
+  }
+},
+"RESURGIRDRAGON.Armor": "Armor",
+"RESURGIRDRAGON.ArmorClass": "Armor Class",
+"RESURGIRDRAGON.ArmorClassEquipment": "Equipped Armor",
+"RESURGIRDRAGON.ArmorClassFlat": "Flat",
+"RESURGIRDRAGON.ArmorClassUnarmored": "Unarmored",
+"RESURGIRDRAGON.ArmorClassNatural": "Natural Armor",
+"RESURGIRDRAGON.ArmorClassMage": "Mage Armor",
+"RESURGIRDRAGON.ArmorClassMotionless": "Armor Class while Motionless",
+"RESURGIRDRAGON.ArmorClassDraconic": "Draconic Resilience",
+"RESURGIRDRAGON.ArmorClassUnarmoredMonk": "Unarmored Defense (Monk)",
+"RESURGIRDRAGON.ArmorClassUnarmoredBarbarian": "Unarmored Defense (Barbarian)",
+"RESURGIRDRAGON.ArmorClassUnarmoredBard": "Unarmored Defense (Bard)",
+"RESURGIRDRAGON.ArmorClassCustom": "Custom Formula",
+"RESURGIRDRAGON.ArmorConfig": "Configure Armor",
+"RESURGIRDRAGON.ArmorConfigHint": "Fill in the above box to override automatically calculated armor class.",
+"RESURGIRDRAGON.ArmorClassCalculation": "Calculation",
+"RESURGIRDRAGON.ArmorClassFormula": "Formula",
+"RESURGIRDRAGON.ArmorHeavyProficiency": "Heavy",
+"RESURGIRDRAGON.ArmorLightProficiency": "Light",
+"RESURGIRDRAGON.ArmorMediumProficiency": "Medium",
+"RESURGIRDRAGON.ArmorValue": "Armor Value",
+"RESURGIRDRAGON.AC": "AC",
+
+"RESURGIRDRAGON.ATTACK": {
+  "Title": {
+    "one": "Attack",
+    "other": "Attacks"
+  },
+  "FIELDS": {
+    "attack": {
+      "label": "Attack Details",
+      "ability": {
+        "label": "Attack Ability",
+        "hint": "Ability used for make the attack and determine damage. Available using @mod in formulas."
+      },
+      "bonus": {
+        "label": "To Hit Bonus",
+        "hint": "Bonus added to the to hit roll for the attack."
+      },
+      "critical": {
+        "threshold": {
+          "label": "Critical Threshold",
+          "hint": "Minimum value on the D20 needed to roll a critical hit."
+        }
+      },
+      "flat": {
+        "label": "Flat To Hit",
+        "hint": "Ignore the ability modifier, proficiency, and any other bonuses from the actor and only use the bonus defined by the activity when calculating to hit."
+      },
+      "type": {
+        "label": "Attack Type",
+        "value": {
+          "label": "Attack Type",
+          "hint": "Is this a melee or ranged attack?"
+        },
+        "classification": {
+          "label": "Attack Classification",
+          "hint": "Is this an unarmed, weapon, or spell attack?"
+        }
+      }
+    },
+    "damage": {
+      "label": "Attack Damage",
+      "critical": {
+        "bonus": {
+          "label": "Extra Critical Damage",
+          "hint": "Extra damage applied when a critical is rolled. Added to the base damage or first damage part."
+        }
+      },
+      "includeBase": {
+        "label": "Include Base Damage",
+        "hint": "Include the item's base damage with any additional damage parts."
+      },
+      "parts": {
+        "label": "Damage Parts",
+        "hint": "Individual damage parts to include with the roll."
+      }
+    }
+  },
+  "Attack": {
+    "mwak": "Melee Attack",
+    "rwak": "Ranged Attack"
+  },
+  "Classification": {
+    "Spell": "Spell",
+    "Unarmed": "Unarmed",
+    "Weapon": "Weapon"
+  },
+  "Mode": {
+    "Label": "Attack Mode",
+    "Offhand": "Offhand",
+    "OneHanded": "One-Handed",
+    "Thrown": "Thrown",
+    "ThrownOffhand": "Offhand Throw",
+    "TwoHanded": "Two-Handed"
+  },
+  "Type": {
+    "Melee": "Melee",
+    "Ranged": "Ranged"
+  },
+  "Warning": {
+    "NoQuantity": "Attempting to attack with a weapon with a quantity of zero."
+  },
+  "Weapon": {
+    "Melee": "Melee Weapon",
+    "Ranged": "Ranged Weapon"
+  }
+},
+
+"RESURGIRDRAGON.Attack": "Attack",
+"RESURGIRDRAGON.AttackPl": "Attacks",
+"RESURGIRDRAGON.AttackRoll": "Attack Roll",
+"RESURGIRDRAGON.Attributes": "Attributes",
+"RESURGIRDRAGON.AttrConcentration": {
+  "Limit": "Limit"
+},
+"RESURGIRDRAGON.Automatic": "Automatic",
+"RESURGIRDRAGON.AutomaticValue": "Automatic ({value})",
+"RESURGIRDRAGON.Award": {
+  "Title": "Distribute Award",
+  "Action": "Award",
+  "Distribution": {
+    "Split": "Split",
+    "Each": "Each"
+  },
+  "Message": "{name} has been awarded {award}.",
+  "NoDestinations": "No Destinations Available",
+  "NoPrimaryParty": "No primary party set, displaying characters assigned to players instead.",
+  "NotGMError": "The /award command is only available to GMs.",
+  "UnrecognizedWarning": "Unable to parse {commands}. The /award command should be used with XP & currencies values such as '/award 10gp 50xp'."
+},
+"RESURGIRDRAGON.Background": "Background",
+"RESURGIRDRAGON.BackgroundAdd": "Add Background",
+"RESURGIRDRAGON.BackgroundName": "Background Name",
+
+"RESURGIRDRAGON.Bastion": {
+  "Action": {
+    "BastionTurn": "Advance Bastion Turn"
+  },
+  "Attack": {
+    "Automatic": "Resolve Automatically",
+    "Formula": "Attack Formula",
+    "NoActorWarning": "No character selected as target of the attack. Either select a token, or open their character sheet.",
+    "Resolve": "Resolve Attack",
+    "Result": {
+      "Damaged": "{link} damaged in the attack.",
+      "Deaths": {
+        "one": "<strong>{deaths}</strong> defender was slain in an attack on their bastion!",
+        "other": "<strong>{deaths}</strong> defenders were slain in an attack on their bastion!"
+      },
+      "NoDeaths": "Fended off an attack on their bastion with no casualties!",
+      "Undefended": "Undefended bastion attacked!"
+    },
+    "Title": "Bastion Attack"
+  },
+  "Button": {
+    "Label": "Show Bastion Turn Button",
+    "Hint": "Display a button for advancing bastion turns in the main game interface."
+  },
+  "Configuration": {
+    "Name": "Bastions",
+    "Label": "Configure Bastions",
+    "Hint": "Various configuration options for the Bastion system as presented in the DMG 2024."
+  },
+  "Confirm": "Advance one bastion turn?",
+  "Duration": {
+    "Label": "Bastion Turn Duration (days)"
+  },
+  "Enabled": {
+    "Label": "Enable Bastion Functionality",
+    "Hint": "When enabled, player characters will have access to a new Bastion tab on their character sheets when reaching level 5, and will be able to build facilities and issue orders to them."
+  },
+  "Gold": {
+    "Claim": "Claim Income",
+    "Claimed": "claimed",
+    "Unclaimed": "unclaimed"
+  },
+  "Label": "Bastion",
+  "Summary": {
+    "Gold": "{value} ({claimed})",
+    "NoOrders": "No orders issued to special facilities this turn.",
+    "Order": "{link} completed the <strong>{order}</strong> order."
+  }
+},
+
+"RESURGIRDRAGON.Biography": "Biography",
+"RESURGIRDRAGON.BiographyPublic": "Public Biography",
+"RESURGIRDRAGON.BiopgrahyPublicEdit": "Edit Public Biography",
+"RESURGIRDRAGON.Bonds": "Bonds",
+"RESURGIRDRAGON.Bonus": "Bonus",
+"RESURGIRDRAGON.BonusAbility": "Global Ability Bonuses",
+"RESURGIRDRAGON.BonusAbilityCheck": "Global Ability Check Bonus",
+"RESURGIRDRAGON.BonusAbilitySave": "Global Saving Throw Bonus",
+"RESURGIRDRAGON.BonusAbilitySaveTitle": "Global Saving Throws",
+"RESURGIRDRAGON.BonusAbilitySkill": "Global Skill Check Bonus",
+"RESURGIRDRAGON.BonusAction": "Bonus Action",
+"RESURGIRDRAGON.BonusActionAbbr": "BA",
+"RESURGIRDRAGON.BonusAttack": "Attack Bonus",
+"RESURGIRDRAGON.BonusDamage": "Damage Bonus",
+"RESURGIRDRAGON.BonusMSAttack": "Melee Spell Attack Bonus",
+"RESURGIRDRAGON.BonusMSDamage": "Melee Spell Damage Bonus",
+"RESURGIRDRAGON.BonusMWAttack": "Melee Weapon Attack Bonus",
+"RESURGIRDRAGON.BonusMWDamage": "Melee Weapon Damage Bonus",
+"RESURGIRDRAGON.BonusRSAttack": "Ranged Spell Attack Bonus",
+"RESURGIRDRAGON.BonusRSDamage": "Ranged Spell Damage Bonus",
+"RESURGIRDRAGON.BonusRWAttack": "Ranged Weapon Attack Bonus",
+"RESURGIRDRAGON.BonusRWDamage": "Ranged Weapon Damage Bonus",
+"RESURGIRDRAGON.BonusSaveForm": "Update Bonuses",
+"RESURGIRDRAGON.BonusSpell": "Global Spell Bonuses",
+"RESURGIRDRAGON.BonusSpellDC": "Global Spell DC Bonus",
+"RESURGIRDRAGON.BonusTitle": "Configure Actor Bonuses",
+"RESURGIRDRAGON.Bonuses": "Global Bonuses",
+"RESURGIRDRAGON.BonusesHint": "Define global bonuses as formulas which are added to certain rolls. For example: 1d4 + 2",
+"RESURGIRDRAGON.BonusesInstructions": "Configure character bonuses which are added to the appropriate dice roll",
+
+"RESURGIRDRAGON.CAST": {
+  "Title": "Cast",
+  "FIELDS": {
+    "spell": {
+      "label": "Casting Details",
+      "challenge": {
+        "attack": {
+          "label": "Attack Bonus",
+          "hint": "Flat to hit bonus in place of the spell's normal attack bonus."
+        },
+        "save": {
+          "label": "Save DC",
+          "hint": "Flat DC to use in place of the spell's normal save DC."
+        },
+        "override": {
+          "label": "Override Values",
+          "hint": "Override the spell's normal attack bonus & DC when casting."
+        }
+      },
+      "level": {
+        "label": "Casting Level",
+        "hint": "Base level to cast the spell, if different than the spell's level."
+      },
+      "properties": {
+        "label": "Ignored Properties",
+        "hint": "Spell components & tags to ignore while casting."
+      },
+      "spellbook": {
+        "label": "Display in Spellbook",
+        "hint": "Display spell in the Spells tab of the character sheet."
+      },
+      "uuid": {
+        "label": "Spell to Cast"
+      }
+    }
+  },
+  "SECTIONS": {
+    "Spell": "Spell",
+    "Spellbook": "Additional Spells"
+  },
+  "Action": {
+    "RemoveSpell": "Remove Spell"
+  },
+  "Enchantment": {
+    "Name": "Spell Changes"
+  }
+},
+
+"RESURGIRDRAGON.Casting": "Casting",
+"RESURGIRDRAGON.Conditions": "Conditions",
+"RESURGIRDRAGON.Controls": {
+  "Hint": "Enable various hints throughout the UI for certain mouse and keyboard controls.",
+  "LeftClick": "Left Click",
+  "LockHint": "Middle-click to lock",
+  "MiddleClick": "Middle Click",
+  "Name": "Enable Control Hints",
+  "Activity": {
+    "FastForwardHint": "<kbd>Shift</kbd> + <left-click> the item to skip this dialog"
+  }
+},
+"RESURGIRDRAGON.ChallengeRating": "Challenge Rating",
+"RESURGIRDRAGON.Charged": "Charged",
+"RESURGIRDRAGON.Charges": "Charges",
+"RESURGIRDRAGON.ChatContextDamage": "Apply Damage",
+"RESURGIRDRAGON.ChatContextHealing": "Apply Healing",
+"RESURGIRDRAGON.ChatContextTempHP": "Apply Temporary HP",
+"RESURGIRDRAGON.ChatContextDoubleDamage": "Apply Double Damage",
+"RESURGIRDRAGON.ChatContextHalfDamage": "Apply Half Damage",
+"RESURGIRDRAGON.ChatContextSelectHit": "Select Hit Targets",
+"RESURGIRDRAGON.ChatContextSelectMiss": "Select Missed Targets",
+"RESURGIRDRAGON.ChatFlavor": "Chat Message Flavor",
+
+"RESURGIRDRAGON.CHECK": {
+  "Title": "Check",
+  "FIELDS": {
+    "check": {
+      "label": "Check Details",
+      "ability": {
+        "label": "Check Ability",
+        "hint": "Ability to use when making the check."
+      },
+      "associated": {
+        "label": "Associated Skills or Tools",
+        "hint": "Present ability checks using proficiency and bonuses with these skills or tools."
+      },
+      "dc": {
+        "label": "Difficulty Class",
+        "calculation": {
+          "label": "DC Calculation",
+          "hint": "Method or ability used to calculate the difficulty class."
+        },
+        "formula": {
+          "label": "DC Formula",
+          "hint": "Custom formula or flat value for defining the check DC."
+        }
+      }
+    }
+  },
+  "ThisTool": "This Tool"
+},
+
+"RESURGIRDRAGON.CheckBonus": "Check Bonus",
+
+"RESURGIRDRAGON.CLASS": {
+  "Multiclass": {
+    "Title": "Multiclassing"
+  },
+  "FIELDS": {
+    "hitDice": {
+      "label": "Hit Point Die"
+    },
+    "hitDiceUsed": {
+      "label": "Spent Hit Dice"
+    },
+    "levels": {
+      "label": "Class Levels"
+    },
+    "primaryAbility": {
+      "all": {
+        "label": "Require All",
+        "hint": "Require all primary abilities to meet the minimum in order to multi-class."
+      },
+      "value": {
+        "label": "Primary Ability",
+        "hint": "Abilities used most by this class. Used to determine multi-classing restrictions."
+      }
+    }
+  }
+},
+
+"RESURGIRDRAGON.ClassAdd": "Add Class",
+"RESURGIRDRAGON.ClassIdentifier": "Class Identifier",
+"RESURGIRDRAGON.ClassIdentifierHint": "This class's data will be accessible using <strong>@classes.{identifier}</strong> in roll formulas.",
+"RESURGIRDRAGON.ClassLevels": "Class Levels",
+"RESURGIRDRAGON.ClassMakeOriginal": "Original Class",
+"RESURGIRDRAGON.ClassMakeOriginalHint": "First class taken by character used to determine certain class traits when multiclassing.",
+"RESURGIRDRAGON.ClassName": "Class Name",
+"RESURGIRDRAGON.ClassOriginal": "Original Class",
+"RESURGIRDRAGON.ClassSaves": "Saving Throws",
+"RESURGIRDRAGON.Confirm": "Confirm",
+"RESURGIRDRAGON.CompendiumBrowser": {
+  "Title": "Compendium Browser",
+  "Action": {
+    "Open": "Open Compendium Browser"
+  },
+  "Column": {
+    "Icon": "Icon",
+    "Name": "Name",
+    "Results": "Results",
+    "Source": "Source"
+  },
+  "Filters": {
+    "Label": "Filters",
+    "HasDarkvision": "Has Darkvision",
+    "HasSpellcasting": "Has Spellcasting",
+    "SearchResults": "Search results"
+  },
+  "Selection": {
+    "Label": "Selected: {summary}",
+    "Select": "Select",
+    "Summary": {
+      "Max": "<span class=\"value\">{value}</span> of up to {max}",
+      "Min": "<span class=\"value\">{value}</span> of at least {min}",
+      "Range": "<span class=\"value\">{value}</span> of {min} to {max}",
+      "Single": "<span class=\"value\">{value}</span> of {max}"
+    },
+    "Warning": {
+      "Document": {
+        "one": "document",
+        "other": "documents"
+      },
+      "Max": "Must select at most {max} {document}, {value} selected.",
+      "Min": "Must select at least {min} {document}, {value} selected.",
+      "Range": "Must select between {min} and {max} documents, {value} selected.",
+      "Single": "Must select {max} {document}, {value} selected."
+    }
+  },
+  "Sources": {
+    "Name": "Compendium Browser Sources",
+    "Label": "Configure Sources",
+    "FilterPackages": "Filter Packages",
+    "Hint": "Configure which compendium packs have their content available in the compendium browser."
+  },
+  "Tabs": {
+    "Feat.other": "Feats",
+    "Item.other": "Items",
+    "Monster.other": "Monsters"
+  },
+  "Types": {
+    "Label": "Types"
+  },
+  "Locked": "Locked"
+},
+"RESURGIRDRAGON.ComponentMaterial": "Material",
+"RESURGIRDRAGON.ComponentMaterialAbbr": "M",
+"RESURGIRDRAGON.ComponentSomatic": "Somatic",
+"RESURGIRDRAGON.ComponentSomaticAbbr": "S",
+"RESURGIRDRAGON.ComponentVerbal": "Verbal",
+"RESURGIRDRAGON.ComponentVerbalAbbr": "V",
+"RESURGIRDRAGON.Components": "Components",
+"RESURGIRDRAGON.Container": "Container",
+"RESURGIRDRAGON.ContainerDeleteMessage": "This container will be permanently deleted and cannot be recovered and the {count} items contained within will be moved out.",
+"RESURGIRDRAGON.ContainerDeleteContents": "Also delete all items within the container.",
+"RESURGIRDRAGON.ContainerMaxDepth": "Containers cannot be nested more than {depth} levels deep.",
+"RESURGIRDRAGON.ContainerRecursiveError": "Containers cannot contain themselves.",
+"RESURGIRDRAGON.Contents": "Contents",
+"RESURGIRDRAGON.ContextMenuActionEdit": "Edit",
+"RESURGIRDRAGON.ContextMenuActionDuplicate": "Duplicate",
+"RESURGIRDRAGON.ContextMenuActionDelete": "Delete",
+"RESURGIRDRAGON.ContextMenuActionEquip": "Equip",
+"RESURGIRDRAGON.ContextMenuActionUnequip": "Unequip",
+"RESURGIRDRAGON.ContextMenuActionPrepare": "Prepare",
+"RESURGIRDRAGON.ContextMenuActionExpendCharge": "Uncharge",
+"RESURGIRDRAGON.ContextMenuActionCharge": "Charge",
+"RESURGIRDRAGON.ContextMenuActionUnprepare": "Unprepare",
+"RESURGIRDRAGON.ContextMenuActionAttune": "Attune",
+"RESURGIRDRAGON.ContextMenuActionUnattune": "Unattune",
+"RESURGIRDRAGON.ContextMenuActionEnable": "Enable",
+"RESURGIRDRAGON.ContextMenuActionDisable": "Disable",
+"RESURGIRDRAGON.ContextMenuActionView": "View",
+"RESURGIRDRAGON.Contiguous": "Contiguous",
+"RESURGIRDRAGON.ConBlinded": "Blinded",
+"RESURGIRDRAGON.ConCharmed": "Charmed",
+"RESURGIRDRAGON.ConDeafened": "Deafened",
+"RESURGIRDRAGON.ConDiseased": "Diseased",
+"RESURGIRDRAGON.ConExhaustion": "Exhaustion",
+"RESURGIRDRAGON.ConFrightened": "Frightened",
+"RESURGIRDRAGON.ConGrappled": "Grappled",
+"RESURGIRDRAGON.ConImm": "Condition Immunities",
+"RESURGIRDRAGON.ConIncapacitated": "Incapacitated",
+"RESURGIRDRAGON.ConInvisible": "Invisible",
+"RESURGIRDRAGON.ConParalyzed": "Paralyzed",
+"RESURGIRDRAGON.ConPetrified": "Petrified",
+"RESURGIRDRAGON.ConPoisoned": "Poisoned",
+"RESURGIRDRAGON.ConProne": "Prone",
+"RESURGIRDRAGON.ConRestrained": "Restrained",
+"RESURGIRDRAGON.ConStunned": "Stunned",
+"RESURGIRDRAGON.ConUnconscious": "Unconscious",
+"RESURGIRDRAGON.Concentration": "Concentration",
+"RESURGIRDRAGON.ConcentrationAbbr": "C",
+"RESURGIRDRAGON.ConcentrationBreak": "Break Concentration",
+"RESURGIRDRAGON.ConcentrationBreakWarning": "Breaking concentration on an effect that is active on other creatures requires an active GM to be present.",
+"RESURGIRDRAGON.ConcentrationBonus": "Concentration Bonus",
+"RESURGIRDRAGON.ConcentrationDuration": "Concentration, up to {duration}",
+"RESURGIRDRAGON.ConcentratingOn": "You are maintaining concentration on the effects of the '{name}' {type}.",
+"RESURGIRDRAGON.ConcentratingEndChoice": "You are concentrating on effects from more than one source. Pick which effect to end.",
+"RESURGIRDRAGON.ConcentratingMissingItem": "The effect that is concentrated on and to be replaced does not exist.",
+"RESURGIRDRAGON.ConcentratingLimited": "You are not able to begin concentrating on an additional effect.",
+"RESURGIRDRAGON.ConcentrationLimit": "Concentration Limit",
+"RESURGIRDRAGON.ConcentratingEnd": "End Concentration",
+"RESURGIRDRAGON.ConcentratingItemless": "Concentration With No Source",
+"RESURGIRDRAGON.ConcentratingWarnLimit": "You cannot maintain concentration on more effects!",
+"RESURGIRDRAGON.ConcentratingWarnLimitOptional": "You may end concentration on one of your maintained effects to use this item.",
+"RESURGIRDRAGON.ConcentratingWarnLimitZero": "You are not able to maintain concentration on any effects!",
+"RESURGIRDRAGON.ConcentrationConfigurationHint": "Configure concentration modifiers and bonuses which apply to this creature.",
+"RESURGIRDRAGON.ConsumeTitle": "Resource Consumption",
+"RESURGIRDRAGON.ConsumeAmount": "Consumption Amount",
+"RESURGIRDRAGON.ConsumeHint": {
+  "Attribute": "Attribute to consume (e.g. currency.gp)",
+  "Item": "UUID of target in compendium"
+},
+"RESURGIRDRAGON.ConsumeTarget": "Consumption Target",
+"RESURGIRDRAGON.ConsumeType": "Consumption Category",
+"RESURGIRDRAGON.ConsumeAmmunition": "Ammunition",
+"RESURGIRDRAGON.ConsumeAttribute": "Attribute",
+"RESURGIRDRAGON.ConsumeHitDice": "Hit Dice",
+"RESURGIRDRAGON.ConsumeHitDiceLargest": "Largest Available",
+"RESURGIRDRAGON.ConsumeHitDiceLargestLong": "Largest Hit Dice Available",
+"RESURGIRDRAGON.ConsumeHitDiceSmallest": "Smallest Available",
+"RESURGIRDRAGON.ConsumeHitDiceSmallestLong": "Smallest Hit Dice Available",
+"RESURGIRDRAGON.ConsumeMaterial": "Material",
+"RESURGIRDRAGON.ConsumeCharges": "Item Uses",
+"RESURGIRDRAGON.ConsumeResource": "Consume Resource?",
+"RESURGIRDRAGON.ConsumeRecharge": "Consume Recharge?",
+"RESURGIRDRAGON.ConsumeScaling": "Resource Scaling",
+"RESURGIRDRAGON.ConsumeScalingLabel": "Use Resources",
+"RESURGIRDRAGON.ConsumeScalingTooltip": "If checked, consuming additional resources will increase the level the spell is cast at.",
+
+"RESURGIRDRAGON.CONSUMABLE": {
+  "FIELDS": {
+    "damage": {
+      "label": "Ammunition Damage",
+      "replace": {
+        "label": "Replace Weapon Damage",
+        "hint": "Replace base weapon damage with this damage rather than augmenting it."
+      }
+    },
+    "magicalBonus": {
+      "label": "Magical Bonus"
+    },
+    "properties": {
+      "label": "Consumable Properties"
+    },
+    "uses": {
+      "autoDestroy": {
+        "label": "Destroy on Empty",
+        "hint": "Reduce the item's quantity by 1 whenever all of its limited uses are expended."
+      }
+    }
+  },
+  "Category": {
+    "Poison": "Poison"
+  },
+  "Type": {
+    "Ammunition": {
+      "Label": "Ammunition",
+      "Arrow": "Arrow",
+      "Bolt": "Bolt",
+      "BulletFirearm": "Bullet, Firearm",
+      "BulletSling": "Bullet, Sling",
+      "Needle": "Needle"
+    },
+    "Food": {
+      "Label": "Food"
+    },
+    "Poison": {
+      "Label": "Poison",
+      "Contact": "Contact",
+      "Ingested": "Ingested",
+      "Inhaled": "Inhaled",
+      "Injury": "Injury"
+    },
+    "Potion": {
+      "Label": "Potion"
+    },
+    "Rod": {
+      "Label": "Rod"
+    },
+    "Scroll": {
+      "Label": "Scroll"
+    },
+    "Trinket": {
+      "Label": "Trinket"
+    },
+    "Wand": {
+      "Label": "Wand"
+    }
+  }
+},
+
+"RESURGIRDRAGON.ConsumableUseWarnStart": "This consumable has",
+"RESURGIRDRAGON.ConsumableUseWarnEnd": "of the current unit",
+"RESURGIRDRAGON.ConsumableUnitWarn": "units remaining",
+"RESURGIRDRAGON.ConsumableLastChargeWarn": "This is the last charge of this unit and consuming it will also reduce the item's quantity by 1",
+"RESURGIRDRAGON.ConsumableWithoutCharges": "available units to use",
+
+"RESURGIRDRAGON.CONSUMPTION": {
+  "FIELDS": {
+    "consumption": {
+      "label": "Consumption",
+      "scaling": {
+        "abbr": "Scaling",
+        "label": "Consumption Scaling",
+        "allowed": {
+          "label": "Allow Scaling",
+          "hint": "Can an activity not on a spell be activated at higher levels?"
+        },
+        "max": {
+          "label": "Max Scaling",
+          "hint": "Maximum number of scaling levels for this item, including the base level."
+        }
+      },
+      "spellSlot": {
+        "label": "Consume Spell Slot",
+        "hint": "Should using this activity consume a slot for this spell?"
+      },
+      "targets": {
+        "label": "Consumption Targets",
+        "hint": "Targets of possible consumption when this activity is activated.",
+        "FIELDS": {
+          "type": {
+            "label": "Consumption Type",
+            "hint": "Type of consumption target."
+          },
+          "target": {
+            "label": "Consumption Target",
+            "hint": "Specific target to be consumed."
+          },
+          "value": {
+            "label": "Consumption Amount",
+            "hint": "Enter a negative value to restore rather than consume."
+          },
+          "scaling": {
+            "label": "Consumption Scaling",
+            "mode": {
+              "label": "Scaling Mode",
+              "hint": "How consumption should be scaled."
+            },
+            "formula": {
+              "label": "Scaling Formula",
+              "hint": "Custom scaling of consumption amount per level."
+            }
+          }
+        }
+      }
+    }
+  },
+  "Action": {
+    "ConsumeResource": "Consume Resource",
+    "Create": "Create Consumption Target",
+    "Delete": "Delete Consumption Target",
+    "RefundResource": "Refund Resource"
+  },
+  "Scaling": {
+    "Amount": "Amount",
+    "Automatic": "Automatic",
+    "None": "No Scaling",
+    "SlotLevel": "Slot Level"
+  },
+  "Target": {
+    "ThisItem": "This Item"
+  },
+  "Type": {
+    "ActivityUses": {
+      "Label": "Activity Uses",
+      "PromptDecrease": "Consume Activity Use?",
+      "PromptIncrease": "Restore Activity Use?",
+      "PromptHintDecrease": "Spend <strong>{cost}</strong> {use} of this activity ({available} {availableUse} available).",
+      "PromptHintIncrease": "Recover <strong>{cost}</strong> {use} of this activity.",
+      "Warning": "uses on {item}'s activity {activity}"
+    },
+    "Attribute": {
+      "Label": "Attribute",
+      "PromptDecrease": "Consume Attribute?",
+      "PromptIncrease": "Restore Attribute?",
+      "PromptHintDecrease": "Decrease <code>{attribute}</code> by <strong>{cost}</strong> (currently {current}).",
+      "PromptHintIncrease": "Increase <code>{attribute}</code> by <strong>{cost}</strong> (currently {current}).",
+      "Warning": "{attribute} amount"
+    },
+    "HitDice": {
+      "Label": "Hit Dice",
+      "PromptDecrease": "Consume Hit Die?",
+      "PromptIncrease": "Restore Hit Die?",
+      "PromptHintDecrease": "Spend <strong>{cost}</strong> {denomination} {die} ({available} remaining).",
+      "PromptHintIncrease": "Recover <strong>{cost}</strong> {denomination} {die}.",
+      "Warning": "{denomination} hit dice"
+    },
+    "HitDie": {
+      "one": "hit die",
+      "other": "hit dice"
+    },
+    "ItemUses": {
+      "Label": "Item Uses",
+      "PromptDecrease": "Consume Item Use?",
+      "PromptIncrease": "Restore Item Use?",
+      "PromptHintDecrease": "Spend <strong>{cost}</strong> {use} of {item} ({available} {availableUse} available).",
+      "PromptHintIncrease": "Recover <strong>{cost}</strong> {use} of {item}.",
+      "Warning": "uses on {name}"
+    },
+    "Material": {
+      "Label": "Material",
+      "PromptDecrease": "Consume Material?",
+      "PromptIncrease": "Restore Material?",
+      "PromptHintDecrease": "Reduce quantity of {item} by <strong>{cost}</strong> ({quantity} remaining).",
+      "PromptHintIncrease": "Increase quantity of {item} by <strong>{cost}</strong>.",
+      "Warning": "of {name}"
+    },
+    "SpellSlot": {
+      "one": "{level} slot",
+      "other": "{level} slots"
+    },
+    "SpellSlots": {
+      "Label": "Spell Slots",
+      "PromptDecrease": "Consume Spell Slot?",
+      "PromptIncrease": "Restore Spell Slot?",
+      "PromptHintDecrease": "Spend <strong>{cost}</strong> {slot} ({available} remaining).",
+      "PromptHintIncrease": "Recover <strong>{cost}</strong> {slot}.",
+      "Warning": "{level} slots"
+    },
+    "Use": {
+      "one": "use",
+      "other": "uses"
+    }
+  },
+  "Warning": {
+    "MissingAttribute": "Attribute {attribute} configured to be consumed by {activity} activity on {item} could not be found.",
+    "MissingHitDice": "Actor does not have a class with a {denomination} hit die.",
+    "MissingItem": "Item configured to be consumed by {activity} activity on {item} could not be found.",
+    "MissingSpellSlot": "No {level} slots available.",
+    "None": "No {type} available to spend, {cost} required.",
+    "NotEnough": "Not enough {type} available to spend, {cost} required and only {available} available.",
+    "WillDestroy": "Consuming {item} will spend its final use and it will be destroyed."
+  }
+},
+
+"RESURGIRDRAGON.Consumed": "Consumed",
+"RESURGIRDRAGON.Copy": "Copy Text",
+"RESURGIRDRAGON.Copied": "Copied {value}",
+"RESURGIRDRAGON.Cover": "Cover",
+"RESURGIRDRAGON.CoverHalf": "Half",
+"RESURGIRDRAGON.CoverThreeQuarters": "Three Quarters",
+"RESURGIRDRAGON.CoverTotal": "Total",
+"RESURGIRDRAGON.Cost": "Cost",
+"RESURGIRDRAGON.CostGP": "Cost (GP)",
+"RESURGIRDRAGON.CreatureAberration": "Aberration",
+"RESURGIRDRAGON.CreatureAberrationPl": "Aberrations",
+"RESURGIRDRAGON.CreatureBeast": "Beast",
+"RESURGIRDRAGON.CreatureBeastPl": "Beasts",
+"RESURGIRDRAGON.CreatureCelestial": "Celestial",
+"RESURGIRDRAGON.CreatureCelestialPl": "Celestials",
+"RESURGIRDRAGON.CreatureConstruct": "Construct",
+"RESURGIRDRAGON.CreatureConstructPl": "Constructs",
+"RESURGIRDRAGON.CreatureDragon": "Dragon",
+"RESURGIRDRAGON.CreatureDragonPl": "Dragons",
+"RESURGIRDRAGON.CreatureElemental": "Elemental",
+"RESURGIRDRAGON.CreatureElementalPl": "Elementals",
+"RESURGIRDRAGON.CreatureFey": "Fey",
+"RESURGIRDRAGON.CreatureFeyPl": "Fey",
+"RESURGIRDRAGON.CreatureFiend": "Fiend",
+"RESURGIRDRAGON.CreatureFiendPl": "Fiends",
+"RESURGIRDRAGON.CreatureGiant": "Giant",
+"RESURGIRDRAGON.CreatureGiantPl": "Giants",
+"RESURGIRDRAGON.CreatureHumanoid": "Humanoid",
+"RESURGIRDRAGON.CreatureHumanoidPl": "Humanoids",
+"RESURGIRDRAGON.CreatureMonstrosity": "Monstrosity",
+"RESURGIRDRAGON.CreatureMonstrosityPl": "Monstrosities",
+"RESURGIRDRAGON.CreatureOoze": "Ooze",
+"RESURGIRDRAGON.CreatureOozePl": "Oozes",
+"RESURGIRDRAGON.CreaturePlant": "Plant",
+"RESURGIRDRAGON.CreaturePlantPl": "Plants",
+"RESURGIRDRAGON.CreatureType": "Creature Type",
+"RESURGIRDRAGON.CreatureTypeTitle": "Configure Creature Type",
+"RESURGIRDRAGON.CreatureSwarm": "Swarm",
+"RESURGIRDRAGON.CreatureSwarmSize": "Swarm Size",
+"RESURGIRDRAGON.CreatureSwarmPhrase": "Swarm of {size} {type}",
+"RESURGIRDRAGON.CreatureTypeConfig": "Configure Creature Type",
+"RESURGIRDRAGON.CreatureTypeSelectorCustom": "Custom Type",
+"RESURGIRDRAGON.CreatureTypeSelectorSubtype": "Subtype",
+"RESURGIRDRAGON.CreatureUndead": "Undead",
+"RESURGIRDRAGON.CreatureUndeadPl": "Undead",
+"RESURGIRDRAGON.Crewed": "Crewed",
+"RESURGIRDRAGON.Critical": "Critical",
+"RESURGIRDRAGON.CriticalHit": "Critical Hit",
+"RESURGIRDRAGON.PowerfulCritical": "Powerful Critical",
+"RESURGIRDRAGON.CRLabel": "CR {cr}",
+"RESURGIRDRAGON.Currency": "Currency",
+"RESURGIRDRAGON.CurrencyAbbrCP": "cp",
+"RESURGIRDRAGON.CurrencyAbbrEP": "ep",
+"RESURGIRDRAGON.CurrencyAbbrGP": "gp",
+"RESURGIRDRAGON.CurrencyAbbrPP": "pp",
+"RESURGIRDRAGON.CurrencyAbbrSP": "sp",
+"RESURGIRDRAGON.CurrencyCP": "Copper",
+"RESURGIRDRAGON.CurrencyEP": "Electrum",
+"RESURGIRDRAGON.CurrencyGP": "Gold",
+"RESURGIRDRAGON.CurrencyPP": "Platinum",
+"RESURGIRDRAGON.CurrencySP": "Silver",
+"RESURGIRDRAGON.CurrencyManager": {
+  "Title": "Manage Currency",
+  "Convert": {
+    "Label": "Convert",
+    "Action": "Convert All Currency",
+    "Hint": "Convert all carried currency to the highest possible denomination to reduce the amount of coinage carried by the character. Be wary, this action cannot be undone."
+  },
+  "Error": {
+    "InsufficientFunds": "Failed to deduct {amount}{denomination} from {name}. Insufficient funds."
+  },
+  "Transfer": {
+    "Label": "Transfer",
+    "Action": "Transfer Selected",
+    "All": "All",
+    "Half": "Half"
+  }
+},
+"RESURGIRDRAGON.Current": "Current",
+
+"RESURGIRDRAGON.DAMAGE": {
+  "Title": "Damage",
+  "FIELDS": {
+    "damage": {
+      "label": "Damage",
+      "critical": {
+        "allow": {
+          "label": "Allow Critical",
+          "hint": "Should the creature be able to roll critical damage?"
+        },
+        "bonus": {
+          "label": "Extra Critical Damage",
+          "hint": "Extra damage applied to the first damage part when a critical is rolled."
+        }
+      },
+      "parts": {
+        "label": "Damage Parts",
+        "hint": "Individual damage parts to include with the roll.",
+        "FIELDS": {
+          "bonus": {
+            "label": "Damage Bonus",
+            "hint": "Bonus added to the damage roll."
+          },
+          "custom": {
+            "label": "Custom Damage Formula",
+            "enabled": {
+              "label": "Enable Custom Formula",
+              "hint": "Use a custom formula rather than the default dice."
+            },
+            "formula": {
+              "label": "Damage Formula",
+              "hint": "Custom damage formula."
+            }
+          },
+          "denomination": {
+            "label": "Die Denomination",
+            "hint": "Denomination of the dice to roll."
+          },
+          "number": {
+            "label": "Die Number",
+            "hint": "Number of dice to roll."
+          },
+          "scaling": {
+            "label": "Damage Scaling",
+            "abbr": "Scaling",
+            "mode": {
+              "label": "Scaling Mode",
+              "abbr": "Mode",
+              "hint": "Method by which the scaling increase is calculated."
+            },
+            "number": {
+              "label": "Dice Scaling",
+              "abbr": "Dice",
+              "hint": "Number of dice to increase for each scaling step. Will be applied to the first die found in the damage formula if more than one is present."
+            },
+            "formula": {
+              "label": "Scaling Formula",
+              "hint": "Arbitrary scaling formula that will be multiplied for each scaling step and added to the original formula."
+            }
+          },
+          "types": {
+            "label": "Damage Types",
+            "hint": "Type of damage inflicted or multiple for the user to select from."
+          }
+        }
+      }
+    }
+  },
+  "Part": {
+    "Action": {
+      "Create": "Create Damage Part",
+      "Delete": "Delete Damage Part"
+    }
+  },
+  "Scaling": {
+    "Half": "Every Other Level",
+    "None": "No Scaling",
+    "Whole": "Every Level"
+  }
+},
+
+"RESURGIRDRAGON.DamImm": "Damage Immunities",
+"RESURGIRDRAGON.DamMod": "Damage Modification",
+"RESURGIRDRAGON.DamRes": "Damage Resistances",
+"RESURGIRDRAGON.DamVuln": "Damage Vulnerabilities",
+"RESURGIRDRAGON.Damage": "Damage",
+"RESURGIRDRAGON.DamageAcid": "Acid",
+"RESURGIRDRAGON.DamageAll": "All Damage",
+"RESURGIRDRAGON.DamageApplication": {
+  "Change": {
+    "Modification": "{type} Modification",
+    "Immunity": "{type} Immunity",
+    "Resistance": "{type} Resistance",
+    "Vulnerability": "{type} Vulnerability"
+  },
+  "Downgrading": "Downgrading {source} to Resistance",
+  "Ignoring": "Ignoring {source}"
+},
+"RESURGIRDRAGON.DamageBludgeoning": "Bludgeoning",
+"RESURGIRDRAGON.DamageCold": "Cold",
+"RESURGIRDRAGON.DamageFire": "Fire",
+"RESURGIRDRAGON.DamageForce": "Force",
+"RESURGIRDRAGON.DamageLightning": "Lightning",
+"RESURGIRDRAGON.DamageModification": {
+  "Label": "Damage Modification",
+  "Hint": "Formulas for amounts that will be added to typed damage applied to this actor. Negative values will reduce the damage taken.",
+  "BypassHint": "These weapon properties will bypass damage modification for physical damage."
+},
+"RESURGIRDRAGON.DamageNecrotic": "Necrotic",
+"RESURGIRDRAGON.DamagePiercing": "Piercing",
+"RESURGIRDRAGON.DamagePhysical": "Non-Magical Physical",
+"RESURGIRDRAGON.DamagePhysicalBypass": "Physical Bypasses",
+"RESURGIRDRAGON.DamagePhysicalBypassHint": "These weapon properties will bypass damage resistance for physical damage.",
+"RESURGIRDRAGON.DamagePhysicalBypasses": "{damageTypes} from attacks that are not {bypassTypes}",
+"RESURGIRDRAGON.DamagePhysicalBypassesShort": "Bypassed by {type} Sources",
+"RESURGIRDRAGON.DamagePoison": "Poison",
+"RESURGIRDRAGON.DamagePsychic": "Psychic",
+"RESURGIRDRAGON.DamageRadiant": "Radiant",
+"RESURGIRDRAGON.DamageRoll": "Damage Roll",
+"RESURGIRDRAGON.DamageSlashing": "Slashing",
+"RESURGIRDRAGON.DamageThreshold": "Damage Threshold",
+"RESURGIRDRAGON.DamageThunder": "Thunder",
+"RESURGIRDRAGON.DamageType": "Damage Type",
+"RESURGIRDRAGON.DamageTypes": "Damage Types",
+"RESURGIRDRAGON.Dawn": "Dawn",
+"RESURGIRDRAGON.Day": "Day",
+"RESURGIRDRAGON.DeathSave": "Death Saves",
+"RESURGIRDRAGON.DeathSaveCriticalSuccess": "{name} critically succeeded on a death saving throw and has regained 1 Hit Point!",
+"RESURGIRDRAGON.DeathSaveHide": "Hide Death Saves",
+"RESURGIRDRAGON.DeathSaveShow": "Show Death Saves",
+"RESURGIRDRAGON.DeathSaveSuccess": "{name} has survived with 3 death save successes and is now stable!",
+"RESURGIRDRAGON.DeathSaveSuccessLabel": "Death Save Success",
+"RESURGIRDRAGON.DeathSaveSuccessLabelN.one": "1st death save success",
+"RESURGIRDRAGON.DeathSaveSuccessLabelN.two": "2nd death save success",
+"RESURGIRDRAGON.DeathSaveSuccessLabelN.few": "3rd death save success",
+"RESURGIRDRAGON.DeathSaveSuccesses": "Successes",
+"RESURGIRDRAGON.DeathSaveFailure": "{name} has died with 3 death save failures!",
+"RESURGIRDRAGON.DeathSaveFailureLabel": "Death Save Failure",
+"RESURGIRDRAGON.DeathSaveFailureLabelN.one": "1st death save failure",
+"RESURGIRDRAGON.DeathSaveFailureLabelN.two": "2nd death save failure",
+"RESURGIRDRAGON.DeathSaveFailureLabelN.few": "3rd death save failure",
+"RESURGIRDRAGON.DeathSaveFailures": "Failures",
+"RESURGIRDRAGON.DeathSaveRoll": "Roll a Death Saving Throw",
+"RESURGIRDRAGON.DeathSavingThrow": "Death Saving Throw",
+"RESURGIRDRAGON.DeathSaveUnnecessary": "You do not need to roll death saves because you have a positive number of hit points or have already reached 3 successes or failures.",
+"RESURGIRDRAGON.Default": "Default",
+"RESURGIRDRAGON.DefaultSpecific": "Default ({default})",
+"RESURGIRDRAGON.DefaultAbilityCheck": "Default Ability Check",
+"RESURGIRDRAGON.Denomination": "Denomination",
+"RESURGIRDRAGON.Description": "Description",
+"RESURGIRDRAGON.DescriptionChat": "Chat Description",
+"RESURGIRDRAGON.DescriptionEdit": "Edit {description}",
+"RESURGIRDRAGON.DescriptionSummary": "Summary Description",
+"RESURGIRDRAGON.DescriptionUnidentified": "Unidentified Description",
+"RESURGIRDRAGON.Details": "Details",
+"RESURGIRDRAGON.DetailsEdit": "Edit Details",
+"RESURGIRDRAGON.Die": "Die",
+"RESURGIRDRAGON.Dimensions": "Dimensions",
+"RESURGIRDRAGON.Disadvantage": "Disadvantage",
+"RESURGIRDRAGON.Discord": "Discord",
+"RESURGIRDRAGON.Disclaimer": "Disclaimer",
+"RESURGIRDRAGON.DistAny": "Any",
+"RESURGIRDRAGON.DistFt": "Feet",
+"RESURGIRDRAGON.DistFtAbbr": "ft",
+"RESURGIRDRAGON.DistKm": "Kilometers",
+"RESURGIRDRAGON.DistKmAbbr": "km",
+"RESURGIRDRAGON.DistM": "Meters",
+"RESURGIRDRAGON.DistMAbbr": "m",
+"RESURGIRDRAGON.DistMi": "Miles",
+"RESURGIRDRAGON.DistMiAbbr": "mi",
+"RESURGIRDRAGON.DistSelf": "Self",
+"RESURGIRDRAGON.DistTouch": "Touch",
+"RESURGIRDRAGON.DocumentUseWarn": "You lack permission to use an item on this document.",
+"RESURGIRDRAGON.DocumentViewWarn": "You lack permission to view this document.",
+
+"RESURGIRDRAGON.DURATION": {
+  "FIELDS": {
+    "duration": {
+      "label": "Duration",
+      "concentration": {
+        "label": "Concentration",
+        "hint": "Creature must maintain concentration while active."
+      },
+      "override": {
+        "label": "Override Duration",
+        "hint": "Use these duration values instead of the item's when using this activity."
+      },
+      "special": {
+        "label": "Special Duration",
+        "hint": "Description of any special duration details."
+      },
+      "units": {
+        "label": "Duration Units",
+        "hint": "Units used to measure duration."
+      },
+      "value": {
+        "label": "Duration Value",
+        "hint": "Value of the duration in the specified units, if applicable."
+      }
+    }
+  }
+},
+
+"RESURGIRDRAGON.Duration": "Duration",
+"RESURGIRDRAGON.DurationPermanent": "Permanent",
+"RESURGIRDRAGON.DurationTime": "Time",
+"RESURGIRDRAGON.DurationType": "Duration Type",
+"RESURGIRDRAGON.DurationUnits": "Duration Units",
+"RESURGIRDRAGON.DurationValue": "Duration Value",
+"RESURGIRDRAGON.Dusk": "Dusk",
+"RESURGIRDRAGON.Effect": "Effect",
+"RESURGIRDRAGON.Effects": "Effects",
+"RESURGIRDRAGON.EFFECT": {
+  "Action": {
+    "Create": "Create Effect",
+    "Delete": "Delete Effect",
+    "Dissociate": "Dissociate Effect"
+  },
+  "Empty": "No associated effects. Use the <i class=\"fas fa-plus\"></i> button above to create one, or select an existing effect from the drop-down.",
+  "Label": "Available Effects"
+},
+"RESURGIRDRAGON.EffectsApplyTokens": "Apply to selected tokens",
+"RESURGIRDRAGON.EffectApplyWarningConcentration": "Applying an effect that is being concentrated on by another character requires GM permissions.",
+"RESURGIRDRAGON.EffectApplyWarningOwnership": "Effects cannot be applied to tokens you are not the owner of.",
+"RESURGIRDRAGON.EffectsSearch": "Search effects",
+
+"RESURGIRDRAGON.ENCHANT": {
+  "Title": "Enchant",
+  "FIELDS": {
+    "effects": {
+      "FIELDS": {
+        "level": {
+          "label": "Level Limit",
+          "hint": "Range of levels required to use this enchantment.",
+          "max": {
+            "label": "Maximum Level"
+          },
+          "min": {
+            "label": "Minimum Level"
+          }
+        },
+        "riders": {
+          "label": "Attached",
+          "activity": {
+            "label": "Additional Activities",
+            "hint": "These additional activities will be added to the enchanted item when this enchantment is applied, and removed when the enchantment is removed."
+          },
+          "effect": {
+            "label": "Additional Effects",
+            "hint": "These additional effects will be added to the enchanted item when this enchantment is applied, and removed when the enchantment is removed."
+          },
+          "item": {
+            "label": "Additional Items",
+            "hint": "These additional items will be added to the creature when one of its items is enchanted, and will be removed if the enchantment is ever removed."
+          }
+        }
+      }
+    },
+    "enchant": {
+      "label": "Enchantment Configuration",
+      "identifier": {
+        "label": "Class Identifier",
+        "hint": "Identifier used to determine whether the character level or a specific class level should be used for enchantment level limits."
+      }
+    },
+    "restrictions": {
+      "label": "Restrictions",
+      "hint": "Restrictions on the type of item to which this enchantment can be applied.",
+      "allowMagical": {
+        "label": "Allow Magical",
+        "hint": "Allow items that are already magical to be enchanted."
+      },
+      "categories": {
+        "label": "Valid Categories",
+        "hint": "Specific item categories to which this enchantment can be applied."
+      },
+      "properties": {
+        "label": "Valid Properties",
+        "hint": "Specific item properties which must be present for this enchantment to be applied."
+      },
+      "type": {
+        "label": "Item Type",
+        "hint": "Type of item to which this enchantment can be applied.",
+        "Any": "Any Enchantable Type"
+      }
+    }
+  },
+  "SECTIONS": {
+    "Enchanting": "Enchanting",
+    "Enchantments": "Enchantments",
+    "Restrictions": "Restrictions"
+  },
+  "DropArea": "Place item here to enchant it…",
+  "Enchanted": "{current} &sol; {max} enchanted",
+  "Enchantment": {
+    "Action": {
+      "Create": "Create Enchantment",
+      "Delete": "Delete Enchantment"
+    },
+    "Empty": "No associated enchantments. Use the <i class=\"fas fa-plus\"></i> button above to create one, or select an existing enchantment from the drop-down."
+  },
+  "Warning": {
+    "ConcentrationEnded": "Cannot apply this enchantment because concentration has ended.",
+    "MissingProperty": "Item must have one of these properties to be enchanted: {validProperties}.",
+    "NoMagicalItems": "Items that are already magical cannot be enchanted.",
+    "NoSubtype": "Only {allowedType} items can be enchanted by this enchantment, but this item doesn't have a sub-type.",
+    "WrongType": "{incorrectType} items cannot be enchanted by this enchantment, only {allowedType} items are allowed."
+  }
+},
+
+"RESURGIRDRAGON.ENCHANTMENT": {
+  "Action": {
+    "Apply": "Apply Enchantment",
+    "Disable": "Disable Enchantment",
+    "Edit": "Edit Enchantment",
+    "Enable": "Enable Enchantment",
+    "Remove": "Remove Enchantment"
+  },
+  "Category": {
+    "Active": "Active Enchantments",
+    "General": "Enchantments",
+    "Inactive": "Inactive Enchantments"
+  },
+  "FIELDS": {
+    "enchantment": {
+      "label": "Enchantment Configuration",
+      "items": {
+        "max": {
+          "label": "Item Limit",
+          "hint": "Formula for the maximum number of enchantments of this type that can be active at a time."
+        },
+        "period": {
+          "label": "Replacement Period",
+          "hint": "How frequently the enchantments of this type can be re-bound to different items."
+        }
+      }
+    }
+  },
+  "Items": {
+    "Entry": "{item} on <em>{actor}</em>"
+  },
+  "Label": "Enchantment",
+  "Warning": {
+    "NotOnActor": "Enchantments can only be added to items, not directly to actors.",
+    "Override": "This value is being modified by an Enchantment and cannot be edited. Disable the enchantment in the effects tab to edit it."
+  }
+},
+
+"RESURGIRDRAGON.Environment": "Environment",
+
+"RESURGIRDRAGON.EQUIPMENT": {
+  "Type": {
+    "Clothing": {
+      "Label": "Clothing"
+    },
+    "Ring": {
+      "Label": "Ring"
+    },
+    "Rod": {
+      "Label": "Rod"
+    },
+    "Trinket": {
+      "Label": "Trinket"
+    },
+    "Vehicle": {
+      "Label": "Vehicle Equipment"
+    },
+    "Wand": {
+      "Label": "Wand"
+    },
+    "Wondrous": {
+      "Label": "Wondrous Item"
+    }
+  }
+},
+
+"RESURGIRDRAGON.EquipmentBonus": "Magical Bonus",
+"RESURGIRDRAGON.EquipmentHeavy": "Heavy Armor",
+"RESURGIRDRAGON.EquipmentLight": "Light Armor",
+"RESURGIRDRAGON.EquipmentMedium": "Medium Armor",
+"RESURGIRDRAGON.EquipmentNatural": "Natural Armor",
+"RESURGIRDRAGON.EquipmentShield": "Shield",
+"RESURGIRDRAGON.EquipmentShieldProficiency": "Shields",
+"RESURGIRDRAGON.Equipped": "Equipped",
+"RESURGIRDRAGON.Exhaustion": "Exhaustion",
+"RESURGIRDRAGON.ExhaustionLevel": "Exhaustion Level {n}",
+"RESURGIRDRAGON.ExperiencePoints": "Experience Points",
+"RESURGIRDRAGON.ExperiencePointsAbbr": "XP",
+"RESURGIRDRAGON.ExperiencePointsBoons": {
+  "one": "{number} Boon",
+  "other": "{number} Boons"
+},
+"RESURGIRDRAGON.ExperiencePointsCurrent": "Current XP",
+"RESURGIRDRAGON.ExperiencePointsFormat": "{value} XP",
+"RESURGIRDRAGON.ExperiencePointsLabel": "Progress to next level",
+"RESURGIRDRAGON.ExperiencePointsMax": "XP for Next Level",
+"RESURGIRDRAGON.ExperiencePointsMin": "Minimum XP for This Level",
+"RESURGIRDRAGON.ExperiencePointsValue": "XP Value",
+"RESURGIRDRAGON.Expertise": "Expertise",
+
+"RESURGIRDRAGON.FACILITY": {
+  "Action": {
+    "DeleteDefender": "Delete Defender",
+    "DeleteOccupant": "Delete Occupant",
+    "RemoveCraft": "Remove Craft"
+  },
+  "AvailableFacility": {
+    "basic": {
+      "build": "Build Facility",
+      "free": "Free Facility"
+    },
+    "special": {
+      "free": "Add Facility"
+    }
+  },
+  "Build": {
+    "Unbuilt": "Unbuilt"
+  },
+  "Costs": {
+    "Automatic": "Deduct Automatically",
+    "Days": "{days} days",
+    "Label": "Costs",
+    "Manual": "Mark as Paid",
+    "Paid": "paid",
+    "Unpaid": "unpaid"
+  },
+  "Craft": {
+    "BaseItem": {
+      "Label": "Purchase Base Item",
+      "Hint": "If checked, the base item will be purchased at full price instead of crafted."
+    },
+    "Hint": "The items that this facility is currently in the process of crafting or harvesting, if any."
+  },
+  "Description": "Description",
+  "FIELDS": {
+    "building": {
+      "built": {
+        "label": "Built",
+        "hint": "Basic facilities must be built first before they can be used."
+      }
+    },
+    "defenders": {
+      "max": {
+        "label": "Defenders"
+      }
+    },
+    "disabled": {
+      "hint": "Disabled facilities cannot be issued orders and are repaired at the beginning of the next turn.",
+      "label": "Disabled"
+    },
+    "enlargeable": {
+      "hint": "Certain special facilities may have their size categories increased for a cost.",
+      "label": "Can Be Enlarged"
+    },
+    "free": {
+      "hint": "Free facilities do not count towards your special facilities cap.",
+      "label": "Free Facility"
+    },
+    "hirelings": {
+      "max": {
+        "label": "Hirelings"
+      }
+    },
+    "level": {
+      "label": "Level Requirement"
+    },
+    "order": {
+      "label": "Order"
+    },
+    "progress": {
+      "max": {
+        "label": "Total"
+      },
+      "order": {
+        "label": "Executing"
+      },
+      "value": {
+        "label": "Current"
+      }
+    },
+    "size": {
+      "label": "Size"
+    },
+    "trade": {
+      "creatures": {
+        "max": {
+          "label": "Creature Capacity"
+        }
+      },
+      "profit": {
+        "label": "Profit Factor"
+      },
+      "stock": {
+        "stocked": {
+          "hint": "Appropriate for facilities that do not store a variable value of goods, but are instead considered either stocked or empty.",
+          "label": "Stocked"
+        },
+        "value": {
+          "label": "Value"
+        },
+        "max": {
+          "label": "Max"
+        }
+      }
+    },
+    "type": {
+      "subtype": {
+        "label": "Type"
+      },
+      "value": {
+        "label": "Category"
+      }
+    }
+  },
+  "Goods": "Goods",
+  "NoDefenders": "Bastion is undefended.",
+  "Occupants": "Occupants",
+  "Order": {
+    "Execute": "Execute Order",
+    "Issue": "Issue Order: {order}"
+  },
+  "Orders": {
+    "Label": "Orders",
+    "build": {
+      "inf": "Build",
+      "present": "Building"
+    },
+    "change": {
+      "inf": "Change",
+      "present": "Changing"
+    },
+    "craft": {
+      "inf": "Craft",
+      "present": "Crafting"
+    },
+    "empower": {
+      "inf": "Empower",
+      "present": "Empowering"
+    },
+    "enlarge": {
+      "inf": "Enlarge",
+      "present": "Enlarging"
+    },
+    "harvest": {
+      "inf": "Harvest",
+      "present": "Harvesting"
+    },
+    "maintain": {
+      "inf": "Maintain",
+      "present": "Maintaining"
+    },
+    "recruit": {
+      "inf": "Recruit",
+      "present": "Recruiting"
+    },
+    "repair": {
+      "inf": "Repair",
+      "present": "Repairing"
+    },
+    "research": {
+      "inf": "Research",
+      "present": "Researching"
+    },
+    "trade": {
+      "inf": "Trade",
+      "present": "Trading"
+    }
+  },
+  "Progress": "Progress",
+  "Properties": "Properties",
+  "Sizes": {
+    "cramped": "Cramped",
+    "roomy": "Roomy",
+    "vast": "Vast"
+  },
+  "Squares": "{squares} squares",
+  "Trade": {
+    "Buy": {
+      "Supplement": "Buy"
+    },
+    "Creatures": {
+      "Buy": "Drop animals that you wish to purchase into the slots above, and update the cost appropriately below."
+    },
+    "Price": {
+      "Label": "Base Price",
+      "Hint": "Select which stock to sell, and input the base price above."
+    },
+    "Sell": {
+      "Label": "Sell Stock",
+      "Supplement": "Sell"
+    },
+    "Stock": {
+      "Buy": "Buying",
+      "Sell": "Selling"
+    },
+    "Stocked": {
+      "Label": "Fully Stock",
+      "Hint": "Input the required cost to fully stock this facility below."
+    }
+  },
+  "Types": {
+    "Basic": {
+      "Label": {
+        "one": "Basic Facility",
+        "other": "Basic Facilities"
+      },
+      "Bedroom": "Bedroom",
+      "DiningRoom": "Dining Room",
+      "Parlor": "Parlor",
+      "Courtyard": "Courtyard",
+      "Kitchen": "Kitchen",
+      "Storage": "Storage"
+    },
+    "Special": {
+      "Label": {
+        "one": "Special Facility",
+        "other": "Special Facilities"
+      },
+      "ArcaneStudy": "Arcane Study",
+      "Armory": "Armory",
+      "Barrack": "Barrack",
+      "Garden": "Garden",
+      "Library": "Library",
+      "Sanctuary": "Sanctuary",
+      "Smithy": "Smithy",
+      "Storehouse": "Storehouse",
+      "Workshop": "Workshop",
+      "GamingHall": "Gaming Hall",
+      "Greenhouse": "Greenhouse",
+      "Laboratory": "Laboratory",
+      "Sacristy": "Sacristy",
+      "Scriptorium": "Scriptorium",
+      "Stable": "Stable",
+      "TeleportationCircle": "Teleportation Circle",
+      "Theater": "Theater",
+      "TrainingArea": "Training Area",
+      "TrophyRoom": "Trophy Room",
+      "Archive": "Archive",
+      "MeditationChamber": "Meditation Chamber",
+      "Menagerie": "Menagerie",
+      "Observatory": "Observatory",
+      "Pub": "Pub",
+      "Reliquary": "Reliquary",
+      "Demiplane": "Demiplane",
+      "Guildhall": "Guildhall",
+      "Sanctum": "Sanctum",
+      "WarRoom": "War Room"
+    }
+  },
+  "Use": {
+    "Description": "Issued the <strong>{order}</strong> order to their {link} {facilityType}."
+  }
+},
+
+"RESURGIRDRAGON.Favorite": "Favorite",
+"RESURGIRDRAGON.FavoriteDrop": "Drop Favorite",
+"RESURGIRDRAGON.FavoriteRemove": "Remove Favorite",
+"RESURGIRDRAGON.Favorites": "Favorites",
+"RESURGIRDRAGON.FeatureActionRecharge": "Action Recharge",
+"RESURGIRDRAGON.Feature": {
+  "Background": "Background Feature",
+  "Class": {
+    "Label": "Class Feature",
+    "ArcaneShot": "Arcane Shot",
+    "ArtificerInfusion": "Artificer Infusion",
+    "ChannelDivinity": "Channel Divinity",
+    "DefensiveTactic": "Defensive Tactic",
+    "EldritchInvocation": "Eldritch Invocation",
+    "ElementalDiscipline": "Elemental Discipline",
+    "FightingStyle": "Fighting Style",
+    "HuntersPrey": "Hunter's Prey",
+    "Ki": "Ki Ability",
+    "Maneuver": "Maneuver",
+    "Metamagic": "Metamagic Option",
+    "Multiattack": "Multiattack",
+    "PactBoon": "Pact Boon",
+    "PsionicPower": "Psionic Power",
+    "Rune": "Rune",
+    "SuperiorHuntersDefense": "Superior Hunter's Defense"
+  },
+  "Feat": {
+    "Label": "Feat",
+    "EpicBoon": "Epic Boon Feat",
+    "FightingStyle": "Fighting Style Feat",
+    "General": "General Feat",
+    "Origin": "Origin Feat"
+  },
+  "Monster": "Monster Feature",
+  "Species": "Species Feature",
+  "SupernaturalGift": {
+    "Label": "Supernatural Gift",
+    "Blessing": "Blessing",
+    "Charm": "Charm",
+    "EpicBoon": "Epic Boon"
+  }
+},
+"RESURGIRDRAGON.Focus": {
+  "Label": "Spellcasting Focus",
+  "Arcane": "Arcane Focus",
+  "Druidic": "Druidic Focus",
+  "Holy": "Holy Focus"
+},
+"RESURGIRDRAGON.Loot.Art": "Art Object",
+"RESURGIRDRAGON.Loot.Gear": "Adventuring Gear",
+"RESURGIRDRAGON.Loot.Gem": "Gemstone",
+"RESURGIRDRAGON.Loot.Junk": "Junk",
+"RESURGIRDRAGON.Loot.Material": "Material",
+"RESURGIRDRAGON.Loot.Resource": "Resource",
+"RESURGIRDRAGON.Loot.Treasure": "Treasure",
+"RESURGIRDRAGON.Flaws": "Flaws",
+"RESURGIRDRAGON.FormulaCannotContainDiceError": "{name} formula cannot contain dice expressions.",
+
+"RESURGIRDRAGON.FORWARD": {
+  "Title": "Forward",
+  "FIELDS": {
+    "activity": {
+      "label": "Triggered Activity"
+    }
+  },
+  "Warning": {
+    "NoActivity": "Linked activity must be configured before Forward activity can be used."
+  }
+},
+
+"RESURGIRDRAGON.EffectCreate": "Create Effect",
+"RESURGIRDRAGON.EffectToggle": "Toggle Effect",
+"RESURGIRDRAGON.EffectEdit": "Edit Effect",
+"RESURGIRDRAGON.EffectEnable": "Enable Effect",
+"RESURGIRDRAGON.EffectDelete": "Delete Effect",
+"RESURGIRDRAGON.EffectDisable": "Disable Effect",
+"RESURGIRDRAGON.EffectTemporary": "Temporary Effects",
+"RESURGIRDRAGON.EffectPassive": "Passive Effects",
+"RESURGIRDRAGON.EffectInactive": "Inactive Effects",
+"RESURGIRDRAGON.EffectNew": "New Effect",
+"RESURGIRDRAGON.EffectType": {
+  "Inactive": "Inactive",
+  "Passive": "Passive",
+  "Temporary": "Temporary",
+  "Unavailable": "Unavailable"
+},
+"RESURGIRDRAGON.EffectUnavailable": "Unavailable Effects",
+"RESURGIRDRAGON.EffectUnavailableInfo": "Source item must be equipped or attuned to activate these",
+"RESURGIRDRAGON.Encumbrance": "Encumbrance",
+"RESURGIRDRAGON.ItemRarityCommon": "common",
+"RESURGIRDRAGON.ItemRarityMundane": "mundane",
+"RESURGIRDRAGON.ItemRarityUncommon": "uncommon",
+"RESURGIRDRAGON.ItemRarityRare": "rare",
+"RESURGIRDRAGON.ItemRarityVeryRare": "very rare",
+"RESURGIRDRAGON.ItemRarityLegendary": "legendary",
+"RESURGIRDRAGON.ItemRarityArtifact": "artifact",
+"RESURGIRDRAGON.Eyes": "Eyes",
+"RESURGIRDRAGON.Faith": "Faith",
+"RESURGIRDRAGON.FeatureActive": "Active Abilities",
+"RESURGIRDRAGON.FeatureAdd": "Create Feature",
+"RESURGIRDRAGON.FeatureAttack": "Feature Attack",
+"RESURGIRDRAGON.FeaturePassive": "Passive Abilities",
+"RESURGIRDRAGON.FeatureRechargeOn": "Recharge On",
+"RESURGIRDRAGON.FeatureRechargeResult": "1d6 Result",
+"RESURGIRDRAGON.FeatureSearch": "Search features",
+"RESURGIRDRAGON.FeatureUsage": "Feature Usage",
+"RESURGIRDRAGON.Features": "Features",
+"RESURGIRDRAGON.FeaturesBackground": "Background Features",
+"RESURGIRDRAGON.FeaturesClass": "{class} Features",
+"RESURGIRDRAGON.FeaturesOther": "Other Features",
+"RESURGIRDRAGON.Feats": "Feats",
+"RESURGIRDRAGON.FeetAbbr": "ft.",
+"RESURGIRDRAGON.Filter": "Filter",
+"RESURGIRDRAGON.FilterClear": "Clear Filters",
+"RESURGIRDRAGON.FilterGroupCategory": "Group by Category",
+"RESURGIRDRAGON.FilterGroupOrigin": "Group by Origin",
+"RESURGIRDRAGON.FilterGroupAction": "Group by Action",
+"RESURGIRDRAGON.FilterNoSpells": "No spells found for this set of filters.",
+"RESURGIRDRAGON.NoSpellLevels": "This character has no spellcaster levels, but you may add spells manually.",
+
+"RESURGIRDRAGON.FLAGS": {
+  "EnhancedDualWielding": {
+    "Name": "Enhanced Dual Wielding",
+    "Hint": "Allow bonus action extra attacks using any melee weapon without the Two-Handed property."
+  }
+},
+
+"RESURGIRDRAGON.FlagsInstructions": "Configure character features and traits which fine-tune behaviors of the ResurgirDragon system.",
+"RESURGIRDRAGON.FlagsSave": "Update Special Traits",
+"RESURGIRDRAGON.FlagsTitle": "Configure Special Traits",
+"RESURGIRDRAGON.FlagsDiamondSoul": "Diamond Soul",
+"RESURGIRDRAGON.FlagsDiamondSoulHint": "Gain proficiency to all saving throws.",
+"RESURGIRDRAGON.FlagsPowerfulBuild": "Powerful Build",
+"RESURGIRDRAGON.FlagsPowerfulBuildHint": "Provides increased carrying capacity.",
+"RESURGIRDRAGON.FlagsElvenAccuracy": "Elven Accuracy",
+"RESURGIRDRAGON.FlagsElvenAccuracyHint": "Roll an extra d20 with advantage to Dex, Int, Wis, or Cha.",
+"RESURGIRDRAGON.FlagsHalflingLucky": "Halfling Lucky",
+"RESURGIRDRAGON.FlagsHalflingLuckyHint": "Reroll ones when rolling d20 checks.",
+"RESURGIRDRAGON.FlagsInitiativeAdv": "Advantage on Initiative",
+"RESURGIRDRAGON.FlagsInitiativeAdvHint": "Provided by feats or magical items.",
+"RESURGIRDRAGON.FlagsAlert": "Alert Feat",
+"RESURGIRDRAGON.FlagsAlertHint": "Proficient in Initiative rolls.",
+"RESURGIRDRAGON.FlagsAlertHintLegacy": "Provides +5 to Initiative.",
+"RESURGIRDRAGON.FlagsJOAT": "Jack of All Trades",
+"RESURGIRDRAGON.FlagsJOATHint": "Half-Proficiency to Ability Checks in which you are not already Proficient.",
+"RESURGIRDRAGON.FlagsObservant": "Observant Feat",
+"RESURGIRDRAGON.FlagsObservantHint": "Provides a +5 to passive Perception and Investigation.",
+"RESURGIRDRAGON.FlagsTavernBrawler": "Tavern Brawler Feat",
+"RESURGIRDRAGON.FlagsTavernBrawlerHint": "Proficient with improvised weapons.",
+"RESURGIRDRAGON.FlagsReliableTalent": "Reliable Talent",
+"RESURGIRDRAGON.FlagsReliableTalentHint": "Rogues Reliable Talent Feature.",
+"RESURGIRDRAGON.FlagsRemarkableAthlete": "Remarkable Athlete",
+"RESURGIRDRAGON.FlagsRemarkableAthleteHint": "Half-Proficiency (rounded-up) to physical Ability Checks and Initiative.",
+"RESURGIRDRAGON.FlagsWeaponCritThreshold": "Weapon Critical Hit Threshold",
+"RESURGIRDRAGON.FlagsWeaponCritThresholdHint": "An expanded critical hit threshold for weapon attacks.",
+"RESURGIRDRAGON.FlagsSpellCritThreshold": "Spell Critical Hit Threshold",
+"RESURGIRDRAGON.FlagsSpellCritThresholdHint": "An expanded critical hit threshold for spell attacks.",
+"RESURGIRDRAGON.FlagsMeleeCriticalDice": "Melee Critical Damage Dice",
+"RESURGIRDRAGON.FlagsMeleeCriticalDiceHint": "A number of additional damage dice added to melee weapon critical hits.",
+"RESURGIRDRAGON.Flat": "Flat",
+"RESURGIRDRAGON.Formula": "Formula",
+"RESURGIRDRAGON.FormulaMalformedError": "Problem preparing the {property} formula within {name}.",
+"RESURGIRDRAGON.FormulaMissingReferenceWarn": "The {property} formula within {name} has references to missing data: {references}",
+"RESURGIRDRAGON.Gender": "Gender",
+"RESURGIRDRAGON.GlobalBonus": "Global Bonus",
+"RESURGIRDRAGON.GrantedAbilities": "Granted Abilities",
+"RESURGIRDRAGON.GroupInventory": "Inventory",
+"RESURGIRDRAGON.GroupHP": "Aggregate Hit Points",
+"RESURGIRDRAGON.GroupSummary": "A group of {members}",
+"RESURGIRDRAGON.GroupSummaryEmpty": "Empty group",
+"RESURGIRDRAGON.GroupControls": "Controls",
+"RESURGIRDRAGON.Group": {
+  "Challenge": "Challenge",
+  "Member": {
+    "one": "Member",
+    "other": "Members"
+  },
+  "PlaceMembers": "Place Members",
+  "Primary": {
+    "Remove": "Remove as Primary Party",
+    "Set": "Set as Primary Party"
+  },
+  "Type": "Group Type",
+  "TypeEncounter": "Encounter",
+  "TypeGeneric": "Group",
+  "TypeParty": "Party",
+  "Vehicle": {
+    "one": "Vehicle",
+    "other": "Vehicles"
+  }
+},
+"RESURGIRDRAGON.Hair": "Hair",
+"RESURGIRDRAGON.HalfProficient": "Half Proficient",
+
+"RESURGIRDRAGON.HEAL": {
+  "Title": "Heal",
+  "FIELDS": {
+    "healing": {
+      "label": "Healing",
+      "bonus": {
+        "label": "Healing Bonus",
+        "hint": "Bonus added to the healing roll."
+      },
+      "custom": {
+        "label": "Custom Healing Formula",
+        "enabled": {
+          "label": "Enable Custom Formula",
+          "hint": "Should the custom formula be used rather than the default dice."
+        },
+        "formula": {
+          "label": "Healing Formula",
+          "hint": "Custom healing formula."
+        }
+      },
+      "denomination": {
+        "label": "Die Denomination",
+        "hint": "Denomination of the dice to roll."
+      },
+      "number": {
+        "label": "Die Number",
+        "hint": "Number of dice to roll."
+      },
+      "scaling": {
+        "label": "Healing Scaling",
+        "mode": {
+          "label": "Scaling Mode",
+          "hint": "Method by which the scaling increase is calculated."
+        },
+        "number": {
+          "label": "Dice Scaling",
+          "hint": "Number of dice to increase for each scaling step. Will be applied to the first die found in the healing formula if more than one is present."
+        },
+        "formula": {
+          "label": "Scaling Formula",
+          "hint": "Arbitrary scaling formula that will be multiplied for each scaling step and added to the original formula."
+        }
+      },
+      "types": {
+        "label": "Healing Types",
+        "hint": "Type of healing inflicted or multiple for the user to select from."
+      }
+    }
+  }
+},
+
+"RESURGIRDRAGON.Healing": "Healing",
+"RESURGIRDRAGON.HealingRoll": "Healing Roll",
+"RESURGIRDRAGON.HealingTemp": "Healing (Temporary)",
+"RESURGIRDRAGON.Height": "Height",
+"RESURGIRDRAGON.HitPoints": "Hit Points",
+"RESURGIRDRAGON.HitPointsBonusLevel": "Per Level Bonus",
+"RESURGIRDRAGON.HitPointsBonusOverall": "Overall Bonus",
+"RESURGIRDRAGON.HitPointsConfig": "Configure Hit Points",
+"RESURGIRDRAGON.HitPointsCurrent": "Current Hit Points",
+"RESURGIRDRAGON.HitPointsMax": "Maximum Hit Points",
+"RESURGIRDRAGON.HitPointsMin": "Minimum Hit Points",
+"RESURGIRDRAGON.HitPointsOverride": "Maximum Override",
+"RESURGIRDRAGON.HitPointsOverrideHint": "Override automatically calculated hit points, ignoring any HP from classes, bonuses, and ability modifier.",
+"RESURGIRDRAGON.HitPointsTemp": "Temporary Hit Points",
+"RESURGIRDRAGON.HitPointsTempShort": "Temporary HP",
+"RESURGIRDRAGON.HitPointsTempMax": "Temporary Maximum",
+"RESURGIRDRAGON.HitPointsTempMaxHint": "Temporary change to the maximum HP.",
+"RESURGIRDRAGON.HitPointsTempMaxShort": "Temp Max HP",
+"RESURGIRDRAGON.HP": "HP",
+"RESURGIRDRAGON.HealthConditions": "Health Conditions",
+"RESURGIRDRAGON.HPFormula": "Health Formula",
+"RESURGIRDRAGON.HPFormulaError": "The provided hit point formula could not be evaluated.",
+"RESURGIRDRAGON.HPFormulaRollMessage": "Roll Hit Point Formula",
+
+"RESURGIRDRAGON.HITDICE": {
+  "Action": {
+    "Decrease": "Decrease",
+    "Increase": "Increase"
+  },
+  "Config": "Adjust Hit Dice"
+},
+
+"RESURGIRDRAGON.HitDie": "Hit Die",
+"RESURGIRDRAGON.HitDice": "Hit Dice",
+"RESURGIRDRAGON.HitDiceAutoSpend": {
+  "Label": "Auto Spend HD",
+  "Hint": "Automatically spend hit dice until they run out or health is full."
+},
+"RESURGIRDRAGON.HitDiceConfig": "Adjust Hit Dice",
+"RESURGIRDRAGON.HitDiceConfigHint": "Adjust remaining hit dice levels for each class.",
+"RESURGIRDRAGON.HitDiceMax": "Maximum Hit Dice",
+"RESURGIRDRAGON.HitDiceRemaining": "Remaining Hit Dice",
+"RESURGIRDRAGON.HitDiceRoll": "Roll Hit Dice",
+"RESURGIRDRAGON.HitDiceWarn": "{name} has no available {formula} Hit Dice remaining!",
+"RESURGIRDRAGON.HitDiceNPCWarn": "{name} has no available Hit Dice remaining!",
+"RESURGIRDRAGON.Ideals": "Ideals",
+"RESURGIRDRAGON.Identified": "Identified",
+"RESURGIRDRAGON.Identifier": "Identifier",
+"RESURGIRDRAGON.IdentifierError": "An identifier can only contain letters (a-z), numbers (0-9), dashes (-), and underscores (_).",
+"RESURGIRDRAGON.Identify": "Identify",
+"RESURGIRDRAGON.Immunities": "Immunities",
+"RESURGIRDRAGON.Initiative": "Initiative",
+"RESURGIRDRAGON.InitiativeAbbr": "Init",
+"RESURGIRDRAGON.InitiativeBonus": "Initiative Bonus",
+"RESURGIRDRAGON.InitiativeRoll": "Initiative Roll",
+"RESURGIRDRAGON.InitiativeConfig": "Configure Initiative",
+"RESURGIRDRAGON.InitiativeConfigHint": "Configure initiative modifiers and bonuses which apply to this Actor.",
+"RESURGIRDRAGON.Inspiration": "Inspiration",
+"RESURGIRDRAGON.Inventory": "Inventory",
+"RESURGIRDRAGON.InventorySearch": "Search inventory",
+"RESURGIRDRAGON.Issues": "Issues",
+"RESURGIRDRAGON.ItemActionType": "Action Type",
+"RESURGIRDRAGON.ItemActivation": "Activation",
+"RESURGIRDRAGON.ItemActivationCondition": "Activation Condition",
+"RESURGIRDRAGON.ItemActivationCost": "Activation Cost",
+"RESURGIRDRAGON.ItemActivationType": "Activation Type",
+"RESURGIRDRAGON.ItemAmmoProperties": "Ammunition Properties",
+"RESURGIRDRAGON.ItemAttackBonus": "Attack Roll Bonus",
+"RESURGIRDRAGON.ItemAttackFlat": "Flat Bonus",
+"RESURGIRDRAGON.ItemAttackFlatHint": "If checked, don't add proficiency, ability modifier, or any other bonuses to attack roll except what is included here.",
+"RESURGIRDRAGON.ItemBackgroundDetails": "Background Details",
+"RESURGIRDRAGON.ItemClassDetails": "Class Details",
+"RESURGIRDRAGON.ItemConsumableActivation": "Consumable Activation",
+"RESURGIRDRAGON.ItemConsumableUsage": "Consumable Usage",
+"RESURGIRDRAGON.ItemConsumableDetails": "Consumable Details",
+"RESURGIRDRAGON.ItemConsumableProperties": "Consumable Properties",
+"RESURGIRDRAGON.ItemConsumableStatus": "Consumable Status",
+"RESURGIRDRAGON.ItemConsumableSubtype": "{category} Type",
+"RESURGIRDRAGON.ItemConsumableType": "Consumable Type",
+"RESURGIRDRAGON.ItemContainerCapacity": "Capacity",
+"RESURGIRDRAGON.ItemContainerCapacityItems": "Items",
+"RESURGIRDRAGON.ItemContainerCapacityMax": "Max Capacity",
+"RESURGIRDRAGON.ItemContainerCapacityType": "Capacity Type",
+"RESURGIRDRAGON.ItemContainerCapacityWeight": "Weight",
+"RESURGIRDRAGON.ItemContainerDetails": "Container Details",
+"RESURGIRDRAGON.ItemContainerProperties": "Container Properties",
+"RESURGIRDRAGON.ItemContainerStatus": "Container Status",
+"RESURGIRDRAGON.ItemCreate": "Create Item",
+"RESURGIRDRAGON.ItemCritThreshold": "Critical Hit Threshold",
+"RESURGIRDRAGON.ItemCritExtraDamage": "Extra Critical Hit Damage",
+"RESURGIRDRAGON.ItemDelete": "Delete Item",
+"RESURGIRDRAGON.ItemEdit": "Edit Item",
+"RESURGIRDRAGON.ItemEquipmentAction": "Equipment Action",
+"RESURGIRDRAGON.ItemEquipmentBase": "Base Equipment",
+"RESURGIRDRAGON.ItemEquipmentDetails": "Equipment Details",
+"RESURGIRDRAGON.ItemEquipmentDexMod": "Max. Dexterity Modifier",
+"RESURGIRDRAGON.ItemEquipmentDexModAbbr": "Max Dex",
+"RESURGIRDRAGON.ItemEquipmentProperties": "Equipment Properties",
+"RESURGIRDRAGON.ItemEquipmentStatus": "Equipment Status",
+"RESURGIRDRAGON.ItemEquipmentStealthDisav": "Imposes Stealth Disadvantage",
+"RESURGIRDRAGON.ItemEquipmentType": "Equipment Type",
+"RESURGIRDRAGON.ItemEquipmentUsage": "Equipment Usage",
+"RESURGIRDRAGON.ItemFacilityDetails": "Facility Details",
+"RESURGIRDRAGON.ItemFeatureDetails": "Feature Details",
+"RESURGIRDRAGON.ItemFeatureProperties": "Feature Properties",
+"RESURGIRDRAGON.ItemFeatureSubtype": "{category} Type",
+"RESURGIRDRAGON.ItemFeatureType": "Feature Type",
+"RESURGIRDRAGON.ItemLootDetails": "Loot Details",
+"RESURGIRDRAGON.ItemLootProperties": "Loot Properties",
+"RESURGIRDRAGON.ItemLootSubtype": "{category} Type",
+"RESURGIRDRAGON.ItemLootType": "Loot Type",
+"RESURGIRDRAGON.ItemName": "Item Name",
+"RESURGIRDRAGON.ItemNew": "New {type}",
+"RESURGIRDRAGON.Item": {
+  "Category": {
+    "Label": "Category",
+    "Physical": "Physical"
+  },
+  "Property": {
+    "Adamantine": "Adamantine",
+    "Ammunition": "Ammunition",
+    "Concentration": "Concentration",
+    "Finesse": "Finesse",
+    "Firearm": "Firearm",
+    "Focus": "Focus",
+    "Heavy": "Heavy",
+    "Light": "Light",
+    "Loading": "Loading",
+    "Material": "Material",
+    "Magical": "Magical",
+    "Reach": "Reach",
+    "Reload": "Reload",
+    "Returning": "Returning",
+    "Ritual": "Ritual",
+    "Silvered": "Silvered",
+    "Somatic": "Somatic",
+    "Special": "Special",
+    "StealthDisadvantage": "Stealth Disadvantage",
+    "Thrown": "Thrown",
+    "TwoHanded": "Two-Handed",
+    "Versatile": "Versatile",
+    "Verbal": "Verbal",
+    "WeightlessContents": "Weightless Contents"
+  }
+},
+"RESURGIRDRAGON.ItemRechargeCheck": "{name} recharge check - {result}",
+"RESURGIRDRAGON.ItemRechargeFailure": "failure!",
+"RESURGIRDRAGON.ItemRechargeSuccess": "success!",
+"RESURGIRDRAGON.ItemRecoveryRoll": "{name} recovers {count} charges",
+"RESURGIRDRAGON.ItemLossRoll": "{name} loses {count} charges",
+"RESURGIRDRAGON.ItemRecoveryRollMax": "{name} recovers all charges",
+"RESURGIRDRAGON.ItemRecoveryFormulaWarning": "Unable to recover uses for {name}. Invalid recovery formula '{formula}' ({uuid}).",
+"RESURGIRDRAGON.ItemRequiredStr": "Required Strength",
+"RESURGIRDRAGON.ItemSiegeProperties": "Siege Properties",
+"RESURGIRDRAGON.ItemSpeciesDetails": "Species Details",
+"RESURGIRDRAGON.ItemSubclassDetails": "Subclass Details",
+"RESURGIRDRAGON.ItemToolBase": "Base Tool",
+"RESURGIRDRAGON.ItemToolBonus": "Tool Bonus",
+"RESURGIRDRAGON.ItemToolDetails": "Tool Details",
+"RESURGIRDRAGON.ItemToolProficiency": "Tool Proficiency",
+"RESURGIRDRAGON.ItemToolProperties": "Tool Properties",
+"RESURGIRDRAGON.ItemToolStatus": "Tool Status",
+"RESURGIRDRAGON.ItemToolType": "Tool Type",
+"RESURGIRDRAGON.ItemToolUsage": "Tool Usage",
+"RESURGIRDRAGON.ItemVehicleProperties": "Vehicle Properties",
+"RESURGIRDRAGON.ItemView": "View Item",
+"RESURGIRDRAGON.ItemWeaponAttack": "Weapon Attack",
+"RESURGIRDRAGON.ItemWeaponBase": "Base Weapon",
+"RESURGIRDRAGON.ItemWeaponDetails": "Weapon Details",
+"RESURGIRDRAGON.ItemWeaponProperties": "Weapon Properties",
+"RESURGIRDRAGON.ItemWeaponStatus": "Weapon Status",
+"RESURGIRDRAGON.ItemWeaponType": "Weapon Type",
+"RESURGIRDRAGON.ItemWeaponUsage": "Weapon Usage",
+"RESURGIRDRAGON.JackOfAllTrades": "Jack of all Trades",
+"RESURGIRDRAGON.LairAct": "Uses Lair Action",
+"RESURGIRDRAGON.LairActionLabel": "Lair Action",
+"RESURGIRDRAGON.LairActionInitiative": "Lair Action Initiative Count",
+"RESURGIRDRAGON.Languages": "Languages",
+"RESURGIRDRAGON.LanguagesPantano": "Habla del Pantano",
+"RESURGIRDRAGON.LanguagesFormigo": "Fórmigo",
+"RESURGIRDRAGON.LanguagesFelino": "Felino",
+"RESURGIRDRAGON.LanguagesGengo": "Gengo",
+"RESURGIRDRAGON.LanguagesMorlock": "Morlock",
+"RESURGIRDRAGON.LanguagesSaurio": "Saurio",
+"RESURGIRDRAGON.LanguagesArania": "Arania",
+"RESURGIRDRAGON.LanguagesPeregrino": "Peregrino",
+"RESURGIRDRAGON.LanguagesQuelonio": "Quelonio",
+"RESURGIRDRAGON.LanguagesAbyssal": "Abyssal",
+"RESURGIRDRAGON.LanguagesAquan": "Aquan",
+"RESURGIRDRAGON.LanguagesAuran": "Auran",
+"RESURGIRDRAGON.LanguagesCelestial": "Celestial",
+"RESURGIRDRAGON.LanguagesCommon": "Common",
+"RESURGIRDRAGON.LanguagesCommonSign": "Common Sign Language",
+"RESURGIRDRAGON.LanguagesDeepSpeech": "Deep Speech",
+"RESURGIRDRAGON.LanguagesDraconic": "Draconic",
+"RESURGIRDRAGON.LanguagesDruidic": "Druidic",
+"RESURGIRDRAGON.LanguagesDwarvish": "Dwarvish",
+"RESURGIRDRAGON.LanguagesElvish": "Elvish",
+"RESURGIRDRAGON.LanguagesExotic": "Rare Languages",
+"RESURGIRDRAGON.LanguagesExoticLegacy": "Exotic Languages",
+"RESURGIRDRAGON.LanguagesGiant": "Giant",
+"RESURGIRDRAGON.LanguagesGith": "Gith",
+"RESURGIRDRAGON.LanguagesGnoll": "Gnoll",
+"RESURGIRDRAGON.LanguagesGnomish": "Gnomish",
+"RESURGIRDRAGON.LanguagesGoblin": "Goblin",
+"RESURGIRDRAGON.LanguagesHalfling": "Halfling",
+"RESURGIRDRAGON.LanguagesIgnan": "Ignan",
+"RESURGIRDRAGON.LanguagesInfernal": "Infernal",
+"RESURGIRDRAGON.LanguagesOrc": "Orc",
+"RESURGIRDRAGON.LanguagesPrimordial": "Primordial",
+"RESURGIRDRAGON.LanguagesStandard": "Standard Languages",
+"RESURGIRDRAGON.LanguagesSylvan": "Sylvan",
+"RESURGIRDRAGON.LanguagesTerran": "Terran",
+"RESURGIRDRAGON.LanguagesThievesCant": "Thieves' Cant",
+"RESURGIRDRAGON.LanguagesUndercommon": "Undercommon",
+"RESURGIRDRAGON.LegAct": "Legendary Actions",
+"RESURGIRDRAGON.LegActN.one": "1st Legendary Action",
+"RESURGIRDRAGON.LegActN.two": "2nd Legendary Action",
+"RESURGIRDRAGON.LegActN.few": "3rd Legendary Action",
+"RESURGIRDRAGON.LegActN.other": "{n}th Legendary Action",
+"RESURGIRDRAGON.LegActMax": "Maximum Legendary Actions",
+"RESURGIRDRAGON.LegActRemaining": "Remaining Legendary Actions",
+"RESURGIRDRAGON.LegendaryActionLabel": "Legendary Action",
+"RESURGIRDRAGON.LegRes": "Legendary Resistance",
+"RESURGIRDRAGON.LegResN.one": "1st Legendary Resistance",
+"RESURGIRDRAGON.LegResN.two": "2nd Legendary Resistance",
+"RESURGIRDRAGON.LegResN.few": "3rd Legendary Resistance",
+"RESURGIRDRAGON.LegResN.other": "{n}th Legendary Resistance",
+"RESURGIRDRAGON.LegResMax": "Maximum Legendary Resistances",
+"RESURGIRDRAGON.LegResRemaining": "Remaining Legendary Resistances",
+"RESURGIRDRAGON.Level": "Level",
+"RESURGIRDRAGON.LevelPl": "Levels",
+"RESURGIRDRAGON.LevelActionDecrease": "Level Down",
+"RESURGIRDRAGON.LevelActionIncrease": "Level Up",
+"RESURGIRDRAGON.LevelCount": "{ordinal} Level",
+"RESURGIRDRAGON.LevelLimit": {
+  "Label": "Level Limit",
+  "Max": "Maximum Level",
+  "Min": "Minimum Level"
+},
+"RESURGIRDRAGON.LevelNumber": "Level {level}",
+"RESURGIRDRAGON.LevelScaling": "Level Scaling",
+"RESURGIRDRAGON.LimitedUses": "Limited Uses",
+"RESURGIRDRAGON.LimitedUsesAvailable": "Remaining Uses",
+"RESURGIRDRAGON.LimitedUsesMax": "Maximum Uses",
+"RESURGIRDRAGON.LimitedUsesPer": "Use Recovery Mode",
+"RESURGIRDRAGON.LimitedUsesPrompt": "Uses Prompt",
+"RESURGIRDRAGON.LimitedUsesPromptTooltip": "If unchecked, the prompt to consume an available use will be suppressed.",
+"RESURGIRDRAGON.Long": "Long",
+"RESURGIRDRAGON.LongRest": "Long Rest",
+"RESURGIRDRAGON.LongRestNormal": "Long Rest (8 hours)",
+"RESURGIRDRAGON.LongRestGritty": "Long Rest (7 days)",
+"RESURGIRDRAGON.LongRestEpic": "Long Rest (1 hour)",
+"RESURGIRDRAGON.LongRestOvernight": "Long Rest (New Day)",
+"RESURGIRDRAGON.LongRestHint": "Take a long rest? On a long rest you will recover hit points, hit dice, class resources, limited use item charges, and spell slots.",
+"RESURGIRDRAGON.LongRestHintLegacy": "Take a long rest? On a long rest you will recover hit points, half your maximum hit dice, class resources, limited use item charges, and spell slots.",
+"RESURGIRDRAGON.LongRestHintGroup": "Take a long rest? On a long rest group members will recover hit points, hit dice, class resources, limited use item charges, and spell slots.",
+"RESURGIRDRAGON.LongRestHintGroupLegacy": "Take a long rest? On a long rest group members will recover hit points, half of their maximum hit dice, class resources, limited use item charges, and spell slots.",
+"RESURGIRDRAGON.LongRestRecovery": "Recovers after Long Rest",
+"RESURGIRDRAGON.LongRestResult": "{name} takes a long rest and recovers {health} Hit Points and {dice} Hit Dice.",
+"RESURGIRDRAGON.LongRestResultHitDice": "{name} takes a long rest and recovers {dice} Hit Dice.",
+"RESURGIRDRAGON.LongRestResultHitPoints": "{name} takes a long rest and recovers {health} Hit Points.",
+"RESURGIRDRAGON.LongRestResultShort": "{name} takes a long rest.",
+"RESURGIRDRAGON.MagicalBonus": "Magical Bonus",
+"RESURGIRDRAGON.Materials": "Materials",
+"RESURGIRDRAGON.Max": "Max",
+"RESURGIRDRAGON.MaxCharacterLevelExceededWarn": "Character cannot be advanced past level {max}.",
+"RESURGIRDRAGON.MaxClassLevelExceededWarn": "Class cannot be advanced past level {max}.",
+"RESURGIRDRAGON.MaxClassLevelMinimumWarn": "Class must have at least one level.",
+"RESURGIRDRAGON.Maximum": "Maximum",
+"RESURGIRDRAGON.Minimum": "Minimum",
+"RESURGIRDRAGON.Modifier": "Modifier",
+"RESURGIRDRAGON.ModuleArtConfigH": "Configure which module-provided art should be used.",
+"RESURGIRDRAGON.ModuleArtConfigL": "Configure Art",
+"RESURGIRDRAGON.ModuleArtConfigN": "Module-provided Art",
+"RESURGIRDRAGON.ModuleArtConfigPortraits": "Portraits",
+"RESURGIRDRAGON.ModuleArtConfigTokens": "Tokens",
+"RESURGIRDRAGON.ModuleArtPriorityDecrease": "Decrease Priority",
+"RESURGIRDRAGON.ModuleArtPriorityHint": "Use the arrows to adjust the priority of the art sources. When a single Actor has art provided from multiple sources, the one with the highest priority will be used.",
+"RESURGIRDRAGON.ModuleArtPriorityIncrease": "Increase Priority",
+"RESURGIRDRAGON.Multiple": "Multiple",
+"RESURGIRDRAGON.Multiplier": "Multiplier",
+"RESURGIRDRAGON.MythicActionLabel": "Mythic Action",
+"RESURGIRDRAGON.Name": "Character Name",
+"RESURGIRDRAGON.NameUnidentified": "Unidentified Name",
+"RESURGIRDRAGON.NoCharges": "No Charges",
+"RESURGIRDRAGON.None": "None",
+"RESURGIRDRAGON.NoneActionLabel": "None",
+"RESURGIRDRAGON.Normal": "Normal",
+"RESURGIRDRAGON.NotProficient": "Not Proficient",
+"RESURGIRDRAGON.Notes": "Notes",
+"RESURGIRDRAGON.NPC": "NPC",
+"RESURGIRDRAGON.Number": "Number",
+"RESURGIRDRAGON.OtherFormula": "Other Formula",
+"RESURGIRDRAGON.PactMagic": "Pact Magic",
+"RESURGIRDRAGON.Passive": "Passive",
+"RESURGIRDRAGON.PassivePerception": "Passive Perception",
+"RESURGIRDRAGON.Period": "Period",
+"RESURGIRDRAGON.PersonalityTraits": "Personality Traits",
+"RESURGIRDRAGON.Polymorph": "Polymorph",
+"RESURGIRDRAGON.PolymorphAcceptSettings": "Custom Settings",
+"RESURGIRDRAGON.PolymorphAddTemp": "Add the target's HP as temporary HP",
+"RESURGIRDRAGON.PolymorphCustomTransformation": "Custom Transformation",
+"RESURGIRDRAGON.PolymorphEffectTransformation": "Effect Transformation",
+"RESURGIRDRAGON.PolymorphKeepAE": "Keep all effects (overrides other effect retention options).",
+"RESURGIRDRAGON.PolymorphKeepBackgroundAE": "Keep effects that originate from your background?",
+"RESURGIRDRAGON.PolymorphKeepBio": "Keep biography",
+"RESURGIRDRAGON.PolymorphKeepClass": "Keep proficiency bonus (leaves class items in sheet)",
+"RESURGIRDRAGON.PolymorphKeepClassAE": "Keep effects that originate from your class or subclass?",
+"RESURGIRDRAGON.PolymorphKeepEquipmentAE": "Keep effects that originate from your equipment?",
+"RESURGIRDRAGON.PolymorphKeepFeats": "Keep features",
+"RESURGIRDRAGON.PolymorphKeepFeatureAE": "Keep effects that originate from your features?",
+"RESURGIRDRAGON.PolymorphKeepHP": "Keep HP & HD",
+"RESURGIRDRAGON.PolymorphKeepItems": "Keep equipment",
+"RESURGIRDRAGON.PolymorphKeepMental": "Keep mental ability scores (Int, Wis, Cha)",
+"RESURGIRDRAGON.PolymorphKeepOriginAE": "Keep effects that originate from this actor (i.e. effects not attached to features, items, spells)",
+"RESURGIRDRAGON.PolymorphKeepOtherOriginAE": "Keep effects that originate from a different actor?",
+"RESURGIRDRAGON.PolymorphKeepPhysical": "Keep physical ability scores (Str, Dex, Con)",
+"RESURGIRDRAGON.PolymorphKeepSaves": "Keep saving throw proficiencies",
+"RESURGIRDRAGON.PolymorphKeepSelf": "Keep self (just change image and size i.e. for spells like Disguise Self)",
+"RESURGIRDRAGON.PolymorphKeepSkills": "Keep skill proficiencies",
+"RESURGIRDRAGON.PolymorphKeepSpellAE": "Keep effects that originate from your spells?",
+"RESURGIRDRAGON.PolymorphKeepSpells": "Keep spells",
+"RESURGIRDRAGON.PolymorphKeepType": "Keep creature type",
+"RESURGIRDRAGON.PolymorphKeepVision": "Keep vision (character and token)",
+"RESURGIRDRAGON.PolymorphMergeSaves": "Merge saving throw proficiencies (take the highest)",
+"RESURGIRDRAGON.PolymorphMergeSkills": "Merge skill proficiencies (take the highest)",
+"RESURGIRDRAGON.PolymorphPromptTitle": "Transforming Actor",
+"RESURGIRDRAGON.PolymorphRestoreTransformation": "Restore Transformation",
+"RESURGIRDRAGON.PolymorphRevertNoOriginalActorWarn": "No original actor was found with reference '{reference}'",
+"RESURGIRDRAGON.PolymorphRevertWarn": "You do not have permission to revert this Actor's polymorphed state.",
+"RESURGIRDRAGON.PolymorphSelf": "Appearance Only",
+"RESURGIRDRAGON.PolymorphTmpClass": "Temporary Class",
+"RESURGIRDRAGON.PolymorphTokens": "Transform all linked tokens?",
+"RESURGIRDRAGON.PolymorphWarn": "You are not allowed to polymorph this actor!",
+"RESURGIRDRAGON.PolymorphWildShape": "Wild Shape",
+"RESURGIRDRAGON.Portrait": "Portrait",
+"RESURGIRDRAGON.Prepared": "Prepared",
+"RESURGIRDRAGON.Prerequisites": {
+  "Header": "Feature Prerequisites",
+  "FIELDS": {
+    "prerequisites": {
+      "level": {
+        "label": "Required Level",
+        "hint": "Character or class level required to select this feature when levelling up."
+      }
+    }
+  }
+},
+"RESURGIRDRAGON.Price": "Price",
+"RESURGIRDRAGON.Proficiency": "Proficiency",
+"RESURGIRDRAGON.ProficiencyBonus": "Proficiency Bonus",
+"RESURGIRDRAGON.ProficiencyConfigurationHint": "Configure proficiency and bonuses.",
+"RESURGIRDRAGON.ProficiencyConfigureTitle": "Configure {label}",
+"RESURGIRDRAGON.ProficiencyLevel": "Proficiency Level",
+"RESURGIRDRAGON.ProficiencyOther": "Other",
+"RESURGIRDRAGON.Proficient": "Proficient",
+"RESURGIRDRAGON.Properties": "Properties",
+"RESURGIRDRAGON.PropertyBase": "Base",
+"RESURGIRDRAGON.PropertyTotal": "Total",
+"RESURGIRDRAGON.Public": "Public",
+"RESURGIRDRAGON.Quantity": "Quantity",
+"RESURGIRDRAGON.QuantityAbbr": "Qty",
+"RESURGIRDRAGON.QuantityFormula": "Quantity Formula",
+"RESURGIRDRAGON.QuantityRoll": "Roll Quantities",
+"RESURGIRDRAGON.RacialTraits": "Racial Traits",
+
+"RESURGIRDRAGON.RANGE": {
+  "FIELDS": {
+    "range": {
+      "label": "Range",
+      "long": {
+        "label": "Long Range",
+        "hint": "Far attack range of the weapon, if present on the weapon."
+      },
+      "override": {
+        "label": "Override Range",
+        "hint": "Use these range values instead of the item's when using this activity."
+      },
+      "reach": {
+        "label": "Reach"
+      },
+      "special": {
+        "label": "Special Range",
+        "hint": "Description of any special range details."
+      },
+      "units": {
+        "label": "Range Units",
+        "hint": "Units used to measure range."
+      },
+      "value": {
+        "label": "Range Value",
+        "hint": "Value of the range in the specified units, if applicable."
+      }
+    }
+  }
+},
+
+"RESURGIRDRAGON.Range": "Range",
+"RESURGIRDRAGON.RangeDistance": "Distance",
+"RESURGIRDRAGON.RangeLong": "Long Range",
+"RESURGIRDRAGON.RangeNormal": "Normal Range",
+"RESURGIRDRAGON.RangeUnits": "Range Type or Units",
+"RESURGIRDRAGON.Rarity": "Rarity",
+"RESURGIRDRAGON.Reaction": "Reaction",
+"RESURGIRDRAGON.ReactionAbbr": "R",
+"RESURGIRDRAGON.ReactionPl": "Reactions",
+"RESURGIRDRAGON.Recharge": "Recharge",
+"RESURGIRDRAGON.Recovery": "Recovery",
+"RESURGIRDRAGON.RecoveryFormula": "Recovery Formula",
+"RESURGIRDRAGON.RequiredMaterials": "Required Materials",
+"RESURGIRDRAGON.Requirements": "Requirements",
+"RESURGIRDRAGON.Resistances": "Resistances",
+"RESURGIRDRAGON.Resources": "Resources",
+"RESURGIRDRAGON.ResourceLabel": "Label",
+"RESURGIRDRAGON.ResourceMax": "Resource Maximum",
+"RESURGIRDRAGON.ResourceValue": "Resource Value",
+"RESURGIRDRAGON.ResourcePrimary": "Resource 1",
+"RESURGIRDRAGON.ResourceSecondary": "Resource 2",
+"RESURGIRDRAGON.ResourceTertiary": "Resource 3",
+"RESURGIRDRAGON.Rest": "Rest",
+"RESURGIRDRAGON.RestL": "L. Rest",
+"RESURGIRDRAGON.RestS": "S. Rest",
+"RESURGIRDRAGON.Ritual": "Ritual",
+"RESURGIRDRAGON.RitualAbbr": "R",
+
+"RESURGIRDRAGON.ROLL": {
+  "Range": {
+    "Label": "Roll Range",
+    "Maximum": "Maximum Roll",
+    "Minimum": "Minimum Roll"
+  },
+  "Section": "{label} Rolls"
+},
+
+"RESURGIRDRAGON.Roll": "Roll",
+"RESURGIRDRAGON.RollConfiguration": {
+  "Title": "Configure Roll",
+  "Configuration": "Configuration",
+  "Rolls": "Rolls"
+},
+"RESURGIRDRAGON.RollExample": "e.g. 1d4",
+"RESURGIRDRAGON.RollMode": "Roll Mode",
+"RESURGIRDRAGON.RollSituationalBonus": "Situational Bonus?",
+"RESURGIRDRAGON.Rule": {
+  "Tooltip": "Tooltip",
+  "Type": {
+    "Label": "Rule Type",
+    "Condition": "Condition",
+    "Rule": "Rule"
+  }
+},
+"RESURGIRDRAGON.Movement": "Movement",
+"RESURGIRDRAGON.MovementConfig": "Configure Movement Speed",
+"RESURGIRDRAGON.MovementConfigHint": "Configure movement speed and special movement attributes.",
+"RESURGIRDRAGON.MovementWalk": "Walk",
+"RESURGIRDRAGON.MovementBurrow": "Burrow",
+"RESURGIRDRAGON.MovementClimb": "Climb",
+"RESURGIRDRAGON.MovementHover": "Hover",
+"RESURGIRDRAGON.MovementFly": "Fly",
+"RESURGIRDRAGON.MovementSwim": "Swim",
+"RESURGIRDRAGON.MovementLand": "Land",
+"RESURGIRDRAGON.MovementWater": "Water",
+"RESURGIRDRAGON.MovementAir": "Air",
+"RESURGIRDRAGON.MovementSpeeds": "Movement Speeds",
+"RESURGIRDRAGON.MovementUnits": "Units",
+"RESURGIRDRAGON.NewDay": "Is New Day?",
+"RESURGIRDRAGON.NewDayHint": "Recover limited use abilities which recharge \"per day\"?",
+
+"RESURGIRDRAGON.SAVE": {
+  "Title": {
+    "one": "Save",
+    "other": "Saves"
+  },
+  "FIELDS": {
+    "damage": {
+      "label": "Save Damage",
+      "onSave": {
+        "label": "Damage on Save",
+        "hint": "How much damage should be applied on a successful save?",
+        "Full": "Full Damage",
+        "Half": "Half Damage",
+        "None": "No Damage"
+      },
+      "parts": {
+        "label": "Damage Parts",
+        "hint": "Individual damage parts to include with the roll."
+      }
+    },
+    "effects": {
+      "onSave": {
+        "label": "Always Apply",
+        "hint": "This effect will always be applied, even if the target succeeds on its saving throw."
+      }
+    },
+    "save": {
+      "label": "Save Details",
+      "ability": {
+        "label": "Challenge Abilities",
+        "hint": "Abilities that may be rolled to attempt to save."
+      },
+      "dc": {
+        "label": "Difficulty Class",
+        "calculation": {
+          "label": "DC Calculation",
+          "hint": "Method or ability used to calculate the difficulty class."
+        },
+        "formula": {
+          "label": "DC Formula",
+          "hint": "Custom formula or flat value for defining the save DC."
+        },
+        "CustomFormula": "Custom Formula",
+        "DefaultFormula": "8 + @mod + @prof"
+      }
+    }
+  },
+  "OnSave": "On Save"
+},
+
+"RESURGIRDRAGON.SaveBonus": "Saving Throw Bonus",
+"RESURGIRDRAGON.SaveGlobalBonusHint": "This bonus applies to all saving throws made by this actor.",
+"RESURGIRDRAGON.Scroll": {
+  "CreateFrom": "Create Scroll from {spell}",
+  "CreateScroll": "Create Scroll",
+  "Details": "Scroll Details",
+  "Explanation": {
+    "Label": "Explanation",
+    "Hint": "Amount of the rules on using spell scrolls to include in the created scroll.",
+    "Complete": "Complete",
+    "Reference": "Reference"
+  },
+  "RequiresConcentration": "Requires Concentration",
+  "SaveDC": "Save DC",
+  "Values": "Spell Values"
+},
+"RESURGIRDRAGON.Senses": "Senses",
+"RESURGIRDRAGON.SensesConfig": "Configure Senses",
+"RESURGIRDRAGON.SensesConfigHint": "Configure any special sensory perception abilities that this actor possesses.",
+"RESURGIRDRAGON.SenseDarkvision": "Darkvision",
+"RESURGIRDRAGON.SenseBlindsight": "Blindsight",
+"RESURGIRDRAGON.SenseTremorsense": "Tremorsense",
+"RESURGIRDRAGON.SenseTruesight": "Truesight",
+"RESURGIRDRAGON.SenseUnits": "Units",
+"RESURGIRDRAGON.SenseSpecial": "Special Senses",
+"RESURGIRDRAGON.Shape": "Shape",
+"RESURGIRDRAGON.SheetClassCharacter": "Default 5e Character Sheet",
+"RESURGIRDRAGON.SheetClassClassSummary": "Default 5e Class Summary Sheet",
+"RESURGIRDRAGON.SheetClassContainer": "Default 5e Container Sheet",
+"RESURGIRDRAGON.SheetClassContainerLegacy": "Legacy 5e Container Sheet",
+"RESURGIRDRAGON.SheetClassGroup": "Default 5e Group Sheet",
+"RESURGIRDRAGON.SheetClassItem": "Default 5e Item Sheet",
+"RESURGIRDRAGON.SheetClassItemLegacy": "Legacy 5e Item Sheet",
+"RESURGIRDRAGON.SheetClassJournalEntry": "Default 5e Journal Entry Sheet",
+"RESURGIRDRAGON.SheetClassMapLocation": "Default 5e Map Location Sheet",
+"RESURGIRDRAGON.SheetClassNPC": "Default 5e NPC Sheet",
+"RESURGIRDRAGON.SheetClassNPCLegacy": "Legacy 5e NPC Sheet",
+"RESURGIRDRAGON.SheetClassRule": "Default 5e Rule Sheet",
+"RESURGIRDRAGON.SheetClassSpellList": "Default 5e Spell List Sheet",
+"RESURGIRDRAGON.SheetClassToken": "Default 5e Token Sheet",
+"RESURGIRDRAGON.SheetClassVehicle": "Default 5e Vehicle Sheet",
+"RESURGIRDRAGON.SheetModeEdit": "Edit",
+"RESURGIRDRAGON.SheetModePlay": "Play",
+"RESURGIRDRAGON.SavingThrow": "Saving Throw",
+"RESURGIRDRAGON.SavingThrowDC": "DC {dc} {ability} Saving Throw",
+"RESURGIRDRAGON.SavingThrowRoll": "Roll {ability} Saving Throw",
+"RESURGIRDRAGON.SaveDC": "DC {dc} {ability}",
+"RESURGIRDRAGON.SavePromptTitle": "{ability} Saving Throw",
+"RESURGIRDRAGON.ScalingFormula": "Scaling Formula",
+"RESURGIRDRAGON.ScalingMode": "Scaling Mode",
+"RESURGIRDRAGON.ScalingValue": "Scaling Value",
+"RESURGIRDRAGON.School": "School",
+"RESURGIRDRAGON.SchoolAbj": "Abjuration",
+"RESURGIRDRAGON.SchoolCon": "Conjuration",
+"RESURGIRDRAGON.SchoolDiv": "Divination",
+"RESURGIRDRAGON.SchoolEnc": "Enchantment",
+"RESURGIRDRAGON.SchoolEvo": "Evocation",
+"RESURGIRDRAGON.SchoolIll": "Illusion",
+"RESURGIRDRAGON.SchoolNec": "Necromancy",
+"RESURGIRDRAGON.SchoolTrs": "Transmutation",
+"RESURGIRDRAGON.ShortRest": "Short Rest",
+"RESURGIRDRAGON.ShortRestNormal": "Short Rest (1 hour)",
+"RESURGIRDRAGON.ShortRestGritty": "Short Rest (8 hours)",
+"RESURGIRDRAGON.ShortRestEpic": "Short Rest (5 minutes)",
+"RESURGIRDRAGON.ShortRestOvernight": "Short Rest (New Day)",
+"RESURGIRDRAGON.ShortRestHint": "Take a short rest? On a short rest you may spend remaining Hit Dice and recover item uses.",
+"RESURGIRDRAGON.ShortRestHintGroup": "Take a short rest? On a short rest group members can spend Hit Dice and will recover item uses.",
+"RESURGIRDRAGON.ShortRestNoHD": "No Hit Dice remaining",
+"RESURGIRDRAGON.ShortRestRecovery": "Recovers after Short Rest",
+"RESURGIRDRAGON.ShortRestResult": "{name} takes a short rest spending {dice} Hit Dice to recover {health} Hit Points.",
+"RESURGIRDRAGON.ShortRestResultShort": "{name} takes a short rest.",
+"RESURGIRDRAGON.ShortRestSelect": "Select Dice to Roll",
+"RESURGIRDRAGON.Size": "Size",
+"RESURGIRDRAGON.SizeGargantuan": "Gargantuan",
+"RESURGIRDRAGON.SizeGargantuanAbbr": "Gt",
+"RESURGIRDRAGON.SizeHuge": "Huge",
+"RESURGIRDRAGON.SizeHugeAbbr": "Hg",
+"RESURGIRDRAGON.SizeLarge": "Large",
+"RESURGIRDRAGON.SizeLargeAbbr": "Lg",
+"RESURGIRDRAGON.SizeMedium": "Medium",
+"RESURGIRDRAGON.SizeMediumAbbr": "Md",
+"RESURGIRDRAGON.SizeSmall": "Small",
+"RESURGIRDRAGON.SizeSmallAbbr": "Sm",
+"RESURGIRDRAGON.SizeTiny": "Tiny",
+"RESURGIRDRAGON.SizeTinyAbbr": "Tn",
+
+"RESURGIRDRAGON.SKILL": {
+  "SECTIONS": {
+    "Details": "{label} Details",
+    "Bonuses": {
+      "Label": "{label} Bonuses",
+      "Hint": "These bonuses apply to passive scores & checks made with {label}."
+    },
+    "Global": {
+      "Label": "Global Bonuses",
+      "Hint": "These bonuses apply to checks made with any skill."
+    }
+  }
+},
+
+"RESURGIRDRAGON.Skill": "Skill",
+"RESURGIRDRAGON.Skills": "Skills",
+"RESURGIRDRAGON.SkillAcr": "Acrobatics",
+"RESURGIRDRAGON.SkillAni": "Animal Handling",
+"RESURGIRDRAGON.SkillArc": "Arcana",
+"RESURGIRDRAGON.SkillAth": "Athletics",
+"RESURGIRDRAGON.SkillDec": "Deception",
+"RESURGIRDRAGON.SkillHis": "History",
+"RESURGIRDRAGON.SkillIns": "Insight",
+"RESURGIRDRAGON.SkillInv": "Investigation",
+"RESURGIRDRAGON.SkillItm": "Intimidation",
+"RESURGIRDRAGON.SkillMed": "Medicine",
+"RESURGIRDRAGON.SkillNat": "Nature",
+"RESURGIRDRAGON.SkillPer": "Persuasion",
+"RESURGIRDRAGON.SkillPrc": "Perception",
+"RESURGIRDRAGON.SkillPrf": "Performance",
+"RESURGIRDRAGON.SkillRel": "Religion",
+"RESURGIRDRAGON.SkillSlt": "Sleight of Hand",
+"RESURGIRDRAGON.SkillSte": "Stealth",
+"RESURGIRDRAGON.SkillSur": "Survival",
+"RESURGIRDRAGON.SkillPromptTitle": "{skill} Skill Check",
+"RESURGIRDRAGON.SkillConfigureTitle": "Configure {skill}",
+"RESURGIRDRAGON.SkillConfigure": "Configure Skill",
+"RESURGIRDRAGON.SkillsConfig": "Configure Skills",
+"RESURGIRDRAGON.SkillBonuses": "Skill Bonuses",
+"RESURGIRDRAGON.SkillBonusCheck": "Check Bonus",
+"RESURGIRDRAGON.SkillBonusPassive": "Passive Bonus",
+"RESURGIRDRAGON.SkillConfigurationHint": "Configure skill proficiency and bonuses.",
+"RESURGIRDRAGON.SkillGlobalBonusCheckHint": "This bonus applies to all skill checks made by this actor.",
+"RESURGIRDRAGON.SkillModifierHint": "{skill} Modifier",
+"RESURGIRDRAGON.SkillPassiveHint": "Passive {skill}",
+"RESURGIRDRAGON.SkillPassiveSpecificHint": "Passive {ability} ({skill})",
+"RESURGIRDRAGON.SkillPassiveScore": "Passive {skill} Score",
+"RESURGIRDRAGON.SkillPassives": "Skill Passives",
+"RESURGIRDRAGON.Skin": "Skin",
+"RESURGIRDRAGON.Skip": "Skip",
+
+"RESURGIRDRAGON.SOURCE": {
+  "FIELDS": {
+    "source": {
+      "label": "Source",
+      "book": {
+        "label": "Book"
+      },
+      "custom": {
+        "label": "Custom Label"
+      },
+      "license": {
+        "label": "License"
+      },
+      "page": {
+        "label": "Page/Section"
+      },
+      "revision": {
+        "label": "Revision"
+      },
+      "rules": {
+        "label": "Rules Version"
+      },
+      "uuid": {
+        "label": "Original Source"
+      }
+    }
+  },
+  "Action": {
+    "Configure": "Configure Source"
+  },
+  "Display": {
+    "Full": "{book} {page}",
+    "Page": "pg. {page}"
+  }
+},
+
+"RESURGIRDRAGON.Special": "Special",
+"RESURGIRDRAGON.SpecialHint": "Special values separated by semi-colons.",
+"RESURGIRDRAGON.SpecialTraits": "Special Traits",
+"RESURGIRDRAGON.Species": {
+  "Label": "Species",
+  "Add": "Add Species",
+  "Features": "Species Features",
+  "Name": "Species Name"
+},
+"RESURGIRDRAGON.Speed": "Speed",
+"RESURGIRDRAGON.SpeedConditions": "Speed Conditions",
+"RESURGIRDRAGON.SpeedSpecial": "Special Movement",
+"RESURGIRDRAGON.SpellAbility": "Spellcasting Ability",
+"RESURGIRDRAGON.SpellAbilitySet": "Set as Primary Spellcasting Ability",
+"RESURGIRDRAGON.SpellAdd": "Add Spell",
+"RESURGIRDRAGON.SpellCantrip": "Cantrip",
+"RESURGIRDRAGON.SpellCastConsume": "Consume Spell Slot?",
+"RESURGIRDRAGON.SpellCastNoSlots": "You have no available {level} spell slots with which to cast {name}",
+"RESURGIRDRAGON.SpellCastNoSlotsLeft": "You have no available spell slots with which to cast {name}!",
+"RESURGIRDRAGON.SpellCastTime": "Casting Time",
+"RESURGIRDRAGON.SpellCastUpcast": "Cast at Level",
+"RESURGIRDRAGON.SpellcasterLevel": "Spellcaster Level",
+"RESURGIRDRAGON.SpellCastingHeader": "Spell Casting",
+"RESURGIRDRAGON.Spellcasting": "Spellcasting",
+"RESURGIRDRAGON.SpellcastingClass": "{class} Spellcasting",
+"RESURGIRDRAGON.SpellComponent": "Spell Component",
+"RESURGIRDRAGON.SpellComponents": "Spell Components",
+"RESURGIRDRAGON.SpellCreate": "Create Spell",
+"RESURGIRDRAGON.SpellDC": "Spell DC",
+"RESURGIRDRAGON.SpellDetails": "Spell Details",
+"RESURGIRDRAGON.SpellEffects": "Spell Effects",
+"RESURGIRDRAGON.SpellHeader": {
+  "Formula": "Formula",
+  "Range": "Range",
+  "Roll": "Roll",
+  "School": "School",
+  "Target": "Target",
+  "Time": "Time"
+},
+"RESURGIRDRAGON.SpellLevel": "Spell Level",
+"RESURGIRDRAGON.SpellLevels": "Spell Levels",
+"RESURGIRDRAGON.SpellLevel0": "Cantrip",
+"RESURGIRDRAGON.SpellLevel1": "1st Level",
+"RESURGIRDRAGON.SpellLevel2": "2nd Level",
+"RESURGIRDRAGON.SpellLevel3": "3rd Level",
+"RESURGIRDRAGON.SpellLevel4": "4th Level",
+"RESURGIRDRAGON.SpellLevel5": "5th Level",
+"RESURGIRDRAGON.SpellLevel6": "6th Level",
+"RESURGIRDRAGON.SpellLevel7": "7th Level",
+"RESURGIRDRAGON.SpellLevel8": "8th Level",
+"RESURGIRDRAGON.SpellLevel9": "9th Level",
+"RESURGIRDRAGON.SpellLevelSlot": "{level} ({n} Slots)",
+"RESURGIRDRAGON.SpellLevelPact": "Pact Slot [Level {level}] ({n} Slots)",
+"RESURGIRDRAGON.SpellMaterials": "Spellcasting Materials",
+"RESURGIRDRAGON.SpellMaterialsConsumed": "Consume Materials",
+"RESURGIRDRAGON.SpellMaterialsCost": "Material Cost",
+"RESURGIRDRAGON.SpellMaterialsDescription": "Material Description",
+"RESURGIRDRAGON.SpellMaterialsSupply": "Material Supply",
+"RESURGIRDRAGON.SpellName": "Spell Name",
+"RESURGIRDRAGON.SpellNone": "None",
+"RESURGIRDRAGON.SpellPrepAtWill": "At-Will",
+"RESURGIRDRAGON.SpellPrepInnate": "Innate Spellcasting",
+"RESURGIRDRAGON.SpellPrepRitual": "Ritual Only",
+"RESURGIRDRAGON.SpellPrepPrepared": "Prepared",
+"RESURGIRDRAGON.SpellPrepAlways": "Always Prepared",
+"RESURGIRDRAGON.SpellPreparation": {
+  "Label": "Spell Preparation",
+  "Formula": "Preparation Formula",
+  "Mode": "Spell Preparation Mode"
+},
+"RESURGIRDRAGON.SpellSourceClass": "Source Class",
+"RESURGIRDRAGON.SpellPrepared": "Prepared",
+"RESURGIRDRAGON.SpellProgArt": "Artificer",
+"RESURGIRDRAGON.SpellProgAvailable": "Available slots",
+"RESURGIRDRAGON.SpellProgFull": "Full Caster",
+"RESURGIRDRAGON.SpellProgHalf": "Half Caster",
+"RESURGIRDRAGON.SpellProgLeveled": "Leveled Magic",
+"RESURGIRDRAGON.SpellProgOverride": "Override slots",
+"RESURGIRDRAGON.SpellProgPact": "Pact Magic",
+"RESURGIRDRAGON.SpellProgThird": "Third Caster",
+"RESURGIRDRAGON.SpellProgression": "Spell Progression",
+"RESURGIRDRAGON.SpellsSearch": "Search spells",
+"RESURGIRDRAGON.SpellSchool": "Spell School",
+"RESURGIRDRAGON.SpellScroll": "Spell Scroll",
+"RESURGIRDRAGON.SpellSlotExpended": "Expended Spell Slot",
+"RESURGIRDRAGON.SpellSlotN.one": "{n}st spell slot",
+"RESURGIRDRAGON.SpellSlotN.two": "{n}nd spell slot",
+"RESURGIRDRAGON.SpellSlotN.few": "{n}rd spell slot",
+"RESURGIRDRAGON.SpellSlotN.other": "{n}th spell slot",
+"RESURGIRDRAGON.SpellSlotsN.one": "{n}st Level Slots",
+"RESURGIRDRAGON.SpellSlotsN.two": "{n}nd Level Slots",
+"RESURGIRDRAGON.SpellSlotsN.few": "{n}rd Level Slots",
+"RESURGIRDRAGON.SpellSlotsN.other": "{n}th Level Slots",
+"RESURGIRDRAGON.SpellSlotsPact": "Pact Slots",
+"RESURGIRDRAGON.SpellSlotsConfig": "Configure Spell Slots",
+"RESURGIRDRAGON.SpellTag": "Spell Tag",
+"RESURGIRDRAGON.SpellTarget": "Spell Target",
+"RESURGIRDRAGON.SpellUnprepared": "Unprepared",
+"RESURGIRDRAGON.SpellUsage": "Spell Usage",
+"RESURGIRDRAGON.Spellbook": "Spellbook",
+"RESURGIRDRAGON.Spent": "Spent",
+"RESURGIRDRAGON.StartingEquipment": {
+  "Title": "Starting Equipment",
+  "Action": {
+    "AddEntry": "Add Entry",
+    "Configure": "Configure Starting Equipment",
+    "RemoveEntry": "Remove Entry"
+  },
+  "Choice": {
+    "Armor": "Choose Armor",
+    "Focus": "Choose Spellcasting Focus",
+    "Tool": "Choose Tool",
+    "Weapon": "Choose Weapon"
+  },
+  "DropHint": "Drop item here to link",
+  "IfProficient": "If Proficient",
+  "Operator": {
+    "AND": "All of…",
+    "OR": "One of…"
+  },
+  "RequireProficiency": "Require Proficiency",
+  "SpecificItem": "Specific Item",
+  "Warning": {
+    "Depth": "Only three levels of depth allowed in starting equipment.",
+    "ItemTypeInvalid": "{type} items cannot be added to starting equipment."
+  },
+  "Wealth": {
+    "Label": "Starting Wealth",
+    "Hint": "Formula in GP that can be used in place of starting equipment."
+  }
+},
+"RESURGIRDRAGON.SubclassAdd": "Add Subclass",
+"RESURGIRDRAGON.SubclassIdentifierHint": "This identifier should match the identifier on the parent class to ensure they are properly linked.",
+"RESURGIRDRAGON.SubclassAssignmentError": "{class} already has a subclass. Remove the existing '{subclass}' subclass before adding a new one.",
+"RESURGIRDRAGON.SubclassDuplicateError": "A subclass with the identifier {identifier} already exists on this actor.",
+"RESURGIRDRAGON.SubclassMismatchWarn": "{name} subclass has no matching class with identifier '{class}'.",
+"RESURGIRDRAGON.SubclassName": "Subclass Name",
+"RESURGIRDRAGON.Subtype": "Subtype",
+
+"RESURGIRDRAGON.SUMMON": {
+  "Title": "Summon",
+  "FIELDS": {
+    "bonuses": {
+      "ac": {
+        "label": "Bonus Armor Class",
+        "hint": "Bonus to the Armor Class set on the summoned creature added to what is specified in their statblock."
+      },
+      "attackDamage": {
+        "label": "Bonus Attack Damage",
+        "hint": "Additional damage done by the creature's attacks."
+      },
+      "hd": {
+        "label": "Bonus Hit Dice",
+        "hint": "Additional hit dice added to the creature on top of what is derived from the HP formula in their statblock. Can only be used when summoning NPC actors."
+      },
+      "healing": {
+        "label": "Bonus Healing",
+        "hint": "Additional healing provided by healing abilities."
+      },
+      "hp": {
+        "label": "Bonus Hit Points",
+        "hint": "Additional hit points added to the creature on top of what is specified in their statblock."
+      },
+      "saveDamage": {
+        "label": "Bonus Save Damage",
+        "hint": "Additional damage done by the creature's abilities that require saving throws."
+      }
+    },
+    "creatureSizes": {
+      "label": "Creature Sizes",
+      "hint": "Summoned creature and token will be changed to this size. If more than one size is selected, then the player will be able to choose from these sizes when summoning."
+    },
+    "creatureTypes": {
+      "label": "Creature Types",
+      "hint": "Summoned creature will be changed to this type. If more than one type is selected, then the player will be able to choose from these types when summoning."
+    },
+    "match": {
+      "ability": {
+        "label": "Match Ability",
+        "hint": "Specific ability to use when when matching attacks and save DCs."
+      },
+      "attacks": {
+        "label": "Match Attacks",
+        "hint": "Modify to hit values on the summoned creature's attacks to match that of the summoner."
+      },
+      "proficiency": {
+        "label": "Match Proficiency",
+        "hint": "Modify the summoned creature's proficiency to match that of the summoner."
+      },
+      "saves": {
+        "label": "Match Saves",
+        "hint": "Modify saving throw DCs on the summoned creature's abilities to match that of the summoner."
+      }
+    },
+    "profiles": {
+      "label": "Summons Profiles",
+      "FIELDS": {
+        "count": {
+          "label": "Count"
+        },
+        "cr": {
+          "label": "Challenge Rating",
+          "abbr": "CR",
+          "hint": "Maximum CR of the summoned creature."
+        },
+        "level": {
+          "label": "Level Limit",
+          "hint": "Range of levels required to use this profile.",
+          "max": {
+            "label": "Maximum Level"
+          },
+          "min": {
+            "label": "Minimum Level"
+          }
+        },
+        "name": {
+          "label": "Display Name",
+          "hint": "Name of the profile displayed in the usage dialog."
+        },
+        "types": {
+          "label": "Creature Types",
+          "hint": "List of creature types from which the summoned creature can be selected."
+        },
+        "uuid": {
+          "label": "Linked Creature"
+        }
+      }
+    },
+    "summon": {
+      "label": "Summoning Details",
+      "identifier": {
+        "label": "Class Identifier",
+        "hint": "Identifier used to determine whether the character level or a specific class level should be used for profile level limits."
+      },
+      "mode": {
+        "label": "Mode",
+        "hint": "Sets how the creatures that are to be summoned are specified.",
+        "CR": "By Challenge Rating & Type",
+        "Direct": "By Direct Link"
+      },
+      "prompt": {
+        "label": "Summon Prompt",
+        "hint": "Should the player be prompted to place the summons? Players will still be able to summon from the chat card if prompt is disabled."
+      }
+    }
+  },
+  "SECTIONS": {
+    "Changes": "Changes",
+    "Profiles": "Profiles",
+    "Summoning": "Summoning"
+  },
+  "Action": {
+    "Place": "Place Summons",
+    "Summon": "Summon",
+    "View": "View Summon"
+  },
+  "CreatureChanges": {
+    "Label": "Creature Changes",
+    "Hint": "Changes that will be made to the creature being summoned. Any @ references used in the following formulas will be based on the summoner's stats. Summoned creatures' stats can be referenced using @summon (e.g. @summon.attributes.hd.max to reference the creature's hit dice count)."
+  },
+  "ItemChanges": {
+    "Label": "Item Changes",
+    "Hint": "Changes made to items on the summoned creature."
+  },
+  "Profile": {
+    "Label": "Summons Profile",
+    "Action": {
+      "Create": "Create Profile",
+      "Delete": "Delete Profile"
+    },
+    "ChallengeRatingLabel": "Challenge Rating of {cr} or lower",
+    "DropHint": "Drop creature here",
+    "Empty": "Click the <i class=\"fas fa-plus\"></i> button above to create a profile.",
+    "EmptyDrop": "Click the <i class=\"fas fa-plus\"></i> button above to create a profile or drop a creature to summon here."
+  },
+  "Warning": {
+    "CreateActor": "You must have 'Create New Actors' permission in order to summon directly from a compendium.",
+    "CRV11": "Summoning based on creature challenge rating only works in Foundry V12 or higher.",
+    "NoActor": "Actor cannot be found with UUID '{uuid}' to summon.",
+    "NoOwnership": "You must have ownership of '{actor}' in order to summon it.",
+    "NoProfile": "Cannot find summoning profile {profileId} on '{item}'.",
+    "Wildcard": "You must have 'Use File Browser' permissions to summon creatures with wildcard artwork."
+  }
+},
+
+"RESURGIRDRAGON.Summoning": {
+  "Label": "Summoning"
+},
+"RESURGIRDRAGON.Supply": "Supply",
+"RESURGIRDRAGON.Suppressed": "Suppressed",
+
+"RESURGIRDRAGON.TARGET": {
+  "FIELDS": {
+    "target": {
+      "label": "Targeting",
+      "affects": {
+        "label": "Affected Targets",
+        "choice": {
+          "label": "Choose Targets",
+          "hint": "When targeting an area, can the user choose who it affects?"
+        },
+        "count": {
+          "label": "Target Count",
+          "hint": "Number of individual targets that can be affected."
+        },
+        "special": {
+          "label": "Special Targeting",
+          "hint": "Description of any special targeting details."
+        },
+        "type": {
+          "label": "Target Type",
+          "hint": "Type of targets that can be affected (e.g. creatures, objects, spaces)."
+        }
+      },
+      "override": {
+        "label": "Override Target",
+        "hint": "Use these target values instead of the item's when using this activity."
+      },
+      "prompt": {
+        "label": "Measured Template Prompt",
+        "hint": "Should the player be prompted to place a measured template? Players will still be able to place templates from the chat card if prompt is disabled."
+      },
+      "template": {
+        "label": "Area of Effect",
+        "contiguous": {
+          "label": "Contiguous Areas",
+          "hint": "Must all created areas be connected to one another?"
+        },
+        "count": {
+          "label": "Area Count",
+          "hint": "Number of distinct areas that can be targeted."
+        },
+        "height": {
+          "label": "Area Height",
+          "hint": "Height of a cylinder affected if applicable."
+        },
+        "size": {
+          "label": "Area Size",
+          "hint": "Size of the area of effect on its primary axis."
+        },
+        "type": {
+          "label": "Area Type",
+          "hint": "Type of area of effect targeted."
+        },
+        "units": {
+          "label": "Area Units",
+          "hint": "Units used to measure the area of effect sizes."
+        },
+        "width": {
+          "label": "Area Width",
+          "hint": "Width of a line affected if applicable."
+        }
+      }
+    }
+  },
+  "Action": {
+    "PlaceTemplate": "Place Measured Template"
+  },
+  "Warning": {
+    "PlaceTemplate": "Failed to place measured template."
+  }
+},
+
+"RESURGIRDRAGON.Target": "Target",
+"RESURGIRDRAGON.TargetPl": "Targets",
+"RESURGIRDRAGON.TargetAlly": "Ally",
+"RESURGIRDRAGON.TargetAny": "Any",
+"RESURGIRDRAGON.TargetCircle": "Circle",
+"RESURGIRDRAGON.TargetCone": "Cone",
+"RESURGIRDRAGON.TargetCreature": "Creature",
+"RESURGIRDRAGON.TargetCreatureOrObject": "Creature or Object",
+"RESURGIRDRAGON.TargetCube": "Cube",
+"RESURGIRDRAGON.TargetCylinder": "Cylinder",
+"RESURGIRDRAGON.TargetEnemy": "Enemy",
+"RESURGIRDRAGON.TargetEvery": "Every",
+"RESURGIRDRAGON.TargetLine": "Line",
+"RESURGIRDRAGON.TargetObject": "Object",
+"RESURGIRDRAGON.TargetRadius": "Emanation",
+"RESURGIRDRAGON.TargetRadiusLegacy": "Radius",
+"RESURGIRDRAGON.TargetSelf": "Self",
+"RESURGIRDRAGON.TargetSpace": "Space",
+"RESURGIRDRAGON.TargetSphere": "Sphere",
+"RESURGIRDRAGON.TargetSquare": "Square",
+"RESURGIRDRAGON.TargetType": "Target Type",
+"RESURGIRDRAGON.TargetTypeArea": "Area",
+"RESURGIRDRAGON.TargetTypeIndividual": "Individual",
+"RESURGIRDRAGON.TargetUnits": "Area of Effect Units",
+"RESURGIRDRAGON.TargetValue": "Target Length or Count",
+"RESURGIRDRAGON.TargetWall": "Wall",
+"RESURGIRDRAGON.TargetWidth": "Line Width",
+"RESURGIRDRAGON.TargetWilling": "Willing Creature",
+"RESURGIRDRAGON.TemplatePrompt": "Template Prompt",
+"RESURGIRDRAGON.TemplatePromptTooltip": "If unchecked, the prompt for placing a Measured Template will be suppressed.",
+"RESURGIRDRAGON.Temp": "Temp",
+"RESURGIRDRAGON.Threshold": "Threshold",
+"RESURGIRDRAGON.TimeDay": "Days",
+"RESURGIRDRAGON.TimeDayAbbr": "d",
+"RESURGIRDRAGON.TimeDisp": "Until Dispelled",
+"RESURGIRDRAGON.TimeDispTrig": "Until Dispelled or Triggered",
+"RESURGIRDRAGON.TimeHour": "Hours",
+"RESURGIRDRAGON.TimeHourAbbr": "h",
+"RESURGIRDRAGON.TimeInst": "Instantaneous",
+"RESURGIRDRAGON.TimeMinute": "Minutes",
+"RESURGIRDRAGON.TimeMinuteAbbr": "m",
+"RESURGIRDRAGON.TimeMonth": "Months",
+"RESURGIRDRAGON.TimePerm": "Permanent",
+"RESURGIRDRAGON.TimeRound": "Rounds",
+"RESURGIRDRAGON.TimeTurn": "Turns",
+"RESURGIRDRAGON.TimeYear": "Years",
+"RESURGIRDRAGON.TMP": "TMP",
+"RESURGIRDRAGON.ToHit": "To Hit",
+"RESURGIRDRAGON.Tokens": {
+  "NoneSelected": "No Tokens Selected",
+  "NoneTargeted": "No Tokens Targeted",
+  "Selected": "Selected",
+  "Targeted": "Targeted"
+},
+"RESURGIRDRAGON.TokenRings": {
+  "BackgroundColor": "Background Color",
+  "Effects": {
+    "Label": "Effects",
+    "BackgroundWave": "Background Wave",
+    "RingGradient": "Ring Gradient",
+    "RingPulse": "Ring Pulse"
+  },
+  "Enabled": "Use Dynamic Ring",
+  "RingColor": "Ring Color",
+  "ScaleCorrection": "Scale Correction",
+  "Subject": {
+    "Label": "Subject Path",
+    "Hint": "Explicitly specify a path for the artwork placed over the dynamic token ring. If not provided, the subject image will be set to the normal token artwork."
+  },
+  "Title": "Dynamic Ring"
+},
+"RESURGIRDRAGON.ToggleDescription": "Toggle Description",
+
+"RESURGIRDRAGON.TOOL": {
+  "SECTIONS": {
+    "Details": "{label} Details",
+    "Bonuses": {
+      "Label": "{label} Bonuses",
+      "Hint": "These bonuses apply to checks made with {label}."
+    },
+    "Global": {
+      "Label": "Global Bonuses",
+      "Hint": "These bonuses apply to checks made with any tool."
+    }
+  }
+},
+
+"RESURGIRDRAGON.ToolArtisans": "Artisan's Tools",
+"RESURGIRDRAGON.ToolBonuses": "Tool Bonuses",
+"RESURGIRDRAGON.ToolCheck": "Tool Check",
+"RESURGIRDRAGON.ToolConfigure": "Configure Tool Proficiency",
+"RESURGIRDRAGON.ToolDisguiseKit": "Disguise Kit",
+"RESURGIRDRAGON.ToolForgeryKit": "Forgery Kit",
+"RESURGIRDRAGON.ToolGamingSet": "Gaming Set",
+"RESURGIRDRAGON.ToolHerbalismKit": "Herbalism Kit",
+"RESURGIRDRAGON.ToolMusicalInstrument": "Musical Instrument",
+"RESURGIRDRAGON.ToolNavigators": "Navigator's Tools",
+"RESURGIRDRAGON.ToolPoisonersKit": "Poisoner's Kit",
+"RESURGIRDRAGON.ToolPromptTitle": "{tool} Check",
+"RESURGIRDRAGON.ToolThieves": "Thieves' Tools",
+"RESURGIRDRAGON.ToolVehicle": "Vehicles",
+"RESURGIRDRAGON.TraitAll": "All {category}",
+"RESURGIRDRAGON.TraitArmorPlural.one": "Armor Training",
+"RESURGIRDRAGON.TraitArmorPlural.other": "Armor Training",
+"RESURGIRDRAGON.TraitArmorProf": "Armor Training",
+"RESURGIRDRAGON.TraitArmorLegacyPlural.one": "Armor Proficiency",
+"RESURGIRDRAGON.TraitArmorLegacyPlural.other": "Armor Proficiencies",
+"RESURGIRDRAGON.TraitArmorLegacyProf": "Armor Proficiencies",
+"RESURGIRDRAGON.TraitCIPlural.one": "Condition Immunity",
+"RESURGIRDRAGON.TraitCIPlural.other": "Condition Immunities",
+"RESURGIRDRAGON.TraitConfig": "Configure {trait}",
+"RESURGIRDRAGON.TraitConfigChooseAnyCounted": "any {count} {type}",
+"RESURGIRDRAGON.TraitConfigChooseAnyUncounted": "any {type}",
+"RESURGIRDRAGON.TraitConfigChooseList": "{count} from {list}",
+"RESURGIRDRAGON.TraitConfigChooseOther": "{count} other {type}",
+"RESURGIRDRAGON.TraitConfigChooseWrapper": "Choose {choices}",
+"RESURGIRDRAGON.TraitDIPlural.one": "Damage Immunity",
+"RESURGIRDRAGON.TraitDIPlural.other": "Damage Immunities",
+"RESURGIRDRAGON.TraitDMPlural.one": "Damage Modification",
+"RESURGIRDRAGON.TraitDMPlural.other": "Damage Modifications",
+"RESURGIRDRAGON.TraitDRPlural.one": "Damage Resistance",
+"RESURGIRDRAGON.TraitDRPlural.other": "Damage Resistances",
+"RESURGIRDRAGON.TraitDVPlural.one": "Damage Vulnerability",
+"RESURGIRDRAGON.TraitDVPlural.other": "Damage Vulnerabilities",
+"RESURGIRDRAGON.TraitGenericPlural.one": "Trait",
+"RESURGIRDRAGON.TraitGenericPlural.other": "Traits",
+"RESURGIRDRAGON.TraitLanguagesPlural.one": "Language",
+"RESURGIRDRAGON.TraitLanguagesPlural.other": "Languages",
+"RESURGIRDRAGON.TraitSave": "Update",
+"RESURGIRDRAGON.TraitSavesPlural.one": "Saving Throw Proficiency",
+"RESURGIRDRAGON.TraitSavesPlural.other": "Saving Throw Proficiencies",
+"RESURGIRDRAGON.TraitSelectorSpecial": "Special (Split with Semi-Colon)",
+"RESURGIRDRAGON.TraitSkillsPlural.one": "Skill Proficiency",
+"RESURGIRDRAGON.TraitSkillsPlural.other": "Skill Proficiencies",
+"RESURGIRDRAGON.TraitToolPlural.one": "Tool Proficiency",
+"RESURGIRDRAGON.TraitToolPlural.other": "Tool Proficiencies",
+"RESURGIRDRAGON.TraitToolProf": "Tool Proficiencies",
+"RESURGIRDRAGON.TraitWeaponPlural.one": "Weapon Proficiency",
+"RESURGIRDRAGON.TraitWeaponPlural.other": "Weapon Proficiencies",
+"RESURGIRDRAGON.TraitWeaponProf": "Weapon Proficiencies",
+"RESURGIRDRAGON.Traits": "Traits",
+"RESURGIRDRAGON.TraitsChosen": "Chosen Traits",
+"RESURGIRDRAGON.Trigger": "Trigger",
+"RESURGIRDRAGON.Type": "Type",
+"RESURGIRDRAGON.Uncrewed": "Uncrewed",
+"RESURGIRDRAGON.Unequipped": "Not Equipped",
+"RESURGIRDRAGON.Unidentified.DefaultName": "Unidentified {name}",
+"RESURGIRDRAGON.Unidentified.Notice": "You must identify this item to learn its details.",
+"RESURGIRDRAGON.Unidentified.Title": "Unidentified",
+"RESURGIRDRAGON.Unidentified.Value": "???",
+"RESURGIRDRAGON.Unknown": "Unknown",
+"RESURGIRDRAGON.Unlimited": "Unlimited",
+
+"RESURGIRDRAGON.USAGE": {
+  "SECTION": {
+    "Consumption": "Consumption",
+    "Creation": "Creation",
+    "Scaling": "Scaling"
+  }
+},
+
+"RESURGIRDRAGON.Usage": "Usage",
+"RESURGIRDRAGON.Use": "Use",
+"RESURGIRDRAGON.UseItem": "Use {item}",
+"RESURGIRDRAGON.Uses": "Uses",
+"RESURGIRDRAGON.UsesAvailable": "Available Uses",
+"RESURGIRDRAGON.UsesMax": "Maximum Uses",
+"RESURGIRDRAGON.UsesPeriod": "Recovery Period",
+"RESURGIRDRAGON.UsesPeriods": {
+  "AtWill": "At Will",
+  "Charges": "Charges",
+  "ChargesAbbreviation": "Charges",
+  "Dawn": "Dawn",
+  "DawnAbbreviation": "Dawn",
+  "Day": "Day",
+  "DayAbbreviation": "Day",
+  "Dusk": "Dusk",
+  "DuskAbbreviation": "Dusk",
+  "Lr": "Long Rest",
+  "LrAbbreviation": "LR",
+  "Never": "Never",
+  "Sr": "Short Rest",
+  "SrAbbreviation": "SR"
+},
+
+"RESURGIRDRAGON.USES": {
+  "FIELDS": {
+    "uses": {
+      "label": "Uses",
+      "max": {
+        "label": "Maximum Uses",
+        "hint": "Formula for the maximum number of uses."
+      },
+      "recovery": {
+        "label": "Use Recovery",
+        "hint": "Recovery profiles for this activity's uses.",
+        "FIELDS": {
+          "period": {
+            "label": "Recovery Period",
+            "hint": "Time when this recovery will occur."
+          },
+          "type": {
+            "label": "Recovery Type",
+            "hint": "How uses are recovered."
+          },
+          "formula": {
+            "label": "Recovery Formula",
+            "hint": "Formula used to determine how many uses are recovered."
+          }
+        }
+      },
+      "spent": {
+        "label": "Spent Uses",
+        "hint": "Number of uses that have been spent."
+      }
+    }
+  },
+  "Recovery": {
+    "Action": {
+      "Create": "Create Recovery Profile",
+      "Delete": "Delete Recovery Profile"
+    },
+    "Recharge": {
+      "Label": "Recharge",
+      "Range": "Recharge {range}"
+    },
+    "Type": {
+      "Formula": "Custom Formula",
+      "LoseAll": "Lose All Uses",
+      "RecoverAll": "Recover All Uses"
+    }
+  }
+},
+
+"RESURGIRDRAGON.UTILITY": {
+  "Title": "Utility",
+  "FIELDS": {
+    "roll": {
+      "label": "Utility Roll",
+      "formula": {
+        "label": "Roll Formula",
+        "hint": "Formula for an arbitrary roll."
+      },
+      "name": {
+        "label": "Roll Label",
+        "hint": "Display name for the rolling button."
+      },
+      "prompt": {
+        "label": "Utility Roll Prompt",
+        "hint": "Should the roll configuration dialog be displayed when rolling?"
+      },
+      "visible": {
+        "label": "Visible to All",
+        "hint": "Should the rolling button be visible to all players?"
+      }
+    }
+  }
+},
+
+"RESURGIRDRAGON.Value": "Value",
+"RESURGIRDRAGON.Vehicle": "Vehicle",
+"RESURGIRDRAGON.VehicleActions": "Actions",
+"RESURGIRDRAGON.VehicleActionsHint": "Actions taken with full crew complement",
+"RESURGIRDRAGON.VehicleActionMax": "Maximum Actions",
+"RESURGIRDRAGON.VehicleActionStations": "Action Stations",
+"RESURGIRDRAGON.VehicleActionThresholds": "Action Thresholds",
+"RESURGIRDRAGON.VehicleActionThresholdsFull": "Full Crew Complement",
+"RESURGIRDRAGON.VehicleActionThresholdsMid": "Partial Crew Complement",
+"RESURGIRDRAGON.VehicleActionThresholdsMin": "Minimum Crew Complement",
+"RESURGIRDRAGON.VehicleCargo": "Cargo",
+"RESURGIRDRAGON.VehicleCargoCapacity": "Cargo Capacity",
+"RESURGIRDRAGON.VehicleCargoCrew": "Cargo & Crew",
+"RESURGIRDRAGON.VehicleCreatureCapacity": "Creature Capacity",
+"RESURGIRDRAGON.VehicleCrew": "Crew",
+"RESURGIRDRAGON.VehicleCrewPassengers": "Crew & Passengers",
+"RESURGIRDRAGON.VehicleCrewed": "Crewed",
+"RESURGIRDRAGON.VehicleCrewAction": "Crew Action",
+"RESURGIRDRAGON.VehicleEquipment": "Vehicle Equipment",
+"RESURGIRDRAGON.VehicleMishap": "Mishap",
+"RESURGIRDRAGON.VehicleMishapThreshold": "Mishap Threshold",
+"RESURGIRDRAGON.VehiclePassengers": "Passengers",
+"RESURGIRDRAGON.VehiclePassengerName": "Passenger Name or Type",
+"RESURGIRDRAGON.VehiclePassengerQuantity": "Passenger Quantity",
+"RESURGIRDRAGON.VehicleType": "Vehicle Type",
+"RESURGIRDRAGON.VehicleTypeAir": "Air Vehicle",
+"RESURGIRDRAGON.VehicleTypeLand": "Land Vehicle",
+"RESURGIRDRAGON.VehicleTypeSpace": "Space Vehicle",
+"RESURGIRDRAGON.VehicleTypeWater": "Water Vehicle",
+"RESURGIRDRAGON.VehicleUncrewed": "Uncrewed",
+"RESURGIRDRAGON.Versatile": "Versatile",
+"RESURGIRDRAGON.VersatileDamage": "Versatile Damage",
+"RESURGIRDRAGON.VsDC": "vs DC.",
+"RESURGIRDRAGON.Vulnerabilities": "Vulnerabilities",
+"RESURGIRDRAGON.WarnBadACFormula": "The provided AC formula \"{formula}\" could not be evaluated.",
+"RESURGIRDRAGON.WarnCantAddMultipleAdvancements": "It is not currently possible to add multiple items with advancements to an actor at the same time. Please add them individually.",
+"RESURGIRDRAGON.WarnMultipleArmor": "More than one suit of armor equipped, AC calculation may be incorrect.",
+"RESURGIRDRAGON.WarnMultipleShields": "More than one shield equipped, AC calculation may be incorrect.",
+
+"RESURGIRDRAGON.WEAPON": {
+  "FIELDS": {
+    "ammunition": {
+      "type": {
+        "label": "Ammunition Type"
+      }
+    },
+    "damage": {
+      "hint": "Intrinsic damage dice from the weapon. Ability modifier and additional damage parts will be provided automatically when attacking."
+    },
+    "mastery": {
+      "label": "Mastery",
+      "hint": "Special weapon ability unlocked for characters who have Weapon Mastery or a related feature."
+    }
+  },
+  "Mastery": {
+    "Label": "Weapon Mastery",
+    "Flavor": "Mastery",
+    "Cleave": "Cleave",
+    "Graze": "Graze",
+    "Nick": "Nick",
+    "Push": "Push",
+    "Sap": "Sap",
+    "Slow": "Slow",
+    "Topple": "Topple",
+    "Vex": "Vex"
+  }
+},
+
+"RESURGIRDRAGON.WeaponCategory": "{category} Weapon",
+"RESURGIRDRAGON.WeaponImprov": "Improvised",
+"RESURGIRDRAGON.WeaponMartialM": "Martial Melee",
+"RESURGIRDRAGON.WeaponMartialProficiency": "Martial",
+"RESURGIRDRAGON.WeaponMartialR": "Martial Ranged",
+"RESURGIRDRAGON.WeaponNatural": "Natural",
+"RESURGIRDRAGON.WeaponSiege": "Siege Weapon",
+"RESURGIRDRAGON.WeaponSimpleM": "Simple Melee",
+"RESURGIRDRAGON.WeaponSimpleProficiency": "Simple",
+"RESURGIRDRAGON.WeaponSimpleR": "Simple Ranged",
+"RESURGIRDRAGON.Weight": "Weight",
+"RESURGIRDRAGON.WeightUnit": {
+  "Label": "Weight Units",
+  "Kilograms": {
+    "Label": "Kilograms",
+    "Abbreviation": "kg"
+  },
+  "Megagrams": {
+    "Label": "Tonnes",
+    "Abbreviation": "t"
+  },
+  "Pounds": {
+    "Label": "Pounds",
+    "Abbreviation": "lb"
+  },
+  "Tons": {
+    "Label": "Tons",
+    "Abbreviation": "tn"
+  }
+},
+"RESURGIRDRAGON.WhisperedTo": "Whispered to",
+"RESURGIRDRAGON.Wiki": "Wiki",
+"RESURGIRDRAGON.available": "available",
+"RESURGIRDRAGON.description": "A system for playing the fifth edition of the worlds most popular roleplaying game in the Foundry Virtual Tabletop environment.",
+"RESURGIRDRAGON.of": "of",
+"RESURGIRDRAGON.per": "per",
+"RESURGIRDRAGON.spell": "spell",
+
+"EDITOR.RESURGIRDRAGON.Inline": {
+  "ApplyStatus": "Apply Status to Selected Tokens",
+  "AwardEach": "{award} each",
+  "CheckShort": "{check}",
+  "CheckLong": "{check} check",
+  "DamageShort": "{formula} {type}",
+  "DamageLong": "{average} ({formula}) {type}",
+  "DC": "DC {dc} {check}",
+  "DCPassiveShort": "DC {dc} passive {check}",
+  "DCPassiveLong": "passive {check} score of {dc} or higher",
+  "NoActorWarning": "No selected or assigned actor could be found to execute this roll.",
+  "RequestRoll": "Request Roll",
+  "RollRequest": "Roll Request",
+  "SaveShort": "{save}",
+  "SaveLong": "{save} saving throw",
+  "SpecificCheck": "{ability} ({type})",
+  "Warning": {
+    "NoActivityOnItem": "{item} on {actor} does not have an Activity with name {activity}.",
+    "NoActor": "No selected or assigned actor could be found to execute this roll.",
+    "NoItemOnActor": "{actor} does not have an Item with name {item}."
+  }
+},
+
+"EFFECT.RESURGIRDRAGON": {
+  "StatusBleeding": "Bleeding",
+  "StatusBloodied": "Bloodied",
+  "StatusBurning": "Burning",
+  "StatusBurrowing": "Burrowing",
+  "StatusConcentrating": "Concentrating",
+  "StatusCursed": "Cursed",
+  "StatusDead": "Dead",
+  "StatusDehydration": "Dehydration",
+  "StatusDodging": "Dodging",
+  "StatusEncumbered": "Encumbered",
+  "StatusEthereal": "Ethereal",
+  "StatusExceedingCarryingCapacity": "Exceeding Carrying Capacity",
+  "StatusFalling": "Falling",
+  "StatusFlying": "Flying",
+  "StatusHalfCover": "Half Cover",
+  "StatusHeavilyEncumbered": "Heavily Encumbered",
+  "StatusHiding": "Hiding",
+  "StatusHovering": "Hovering",
+  "StatusMalnutrition": "Malnutrition",
+  "StatusMarked": "Marked",
+  "StatusSilenced": "Silenced",
+  "StatusSleeping": "Sleeping",
+  "StatusStable": "Stable",
+  "StatusSuffocation": "Suffocation",
+  "StatusSurprised": "Surprised",
+  "StatusThreeQuartersCover": "Three-Quarters Cover",
+  "StatusTotalCover": "Total Cover",
+  "StatusTransformed": "Transformed"
+},
+
+"TYPES.JournalEntryPage.class": "Class Summary",
+"TYPES.JournalEntryPage.map": "Map Location",
+"TYPES.JournalEntryPage.rule": "Rule",
+"TYPES.JournalEntryPage.spells": "Spell List",
+"TYPES.JournalEntryPage.subclass": "Subclass Summary",
+"JOURNALENTRYPAGE.RESURGIRDRAGON": {
+  "Class": {
+    "FIELDS": {
+      "description": {
+        "additionalEquipment": {
+          "label": "Additional Equipment Description",
+          "hint": "Additional descriptive text displayed beneath the starting equipment section."
+        },
+        "additionalHitPoints": {
+          "label": "Additional Hit Points Description",
+          "hint": "Additional descriptive text displayed beneath the auto-generated hit points section."
+        },
+        "additionalTraits": {
+          "label": "Additional Proficiencies Description",
+          "hint": "Additional descriptive text displayed beneath list of proficiencies granted by this class."
+        },
+        "subclass": {
+          "label": "Subclass Introduction",
+          "hint": "Introduction that will be displayed before this class's subclasses."
+        },
+        "value": {
+          "label": "Introduction",
+          "hint": "Primary description of the class that will appear first."
+        }
+      },
+      "item": {
+        "label": "Selected Class"
+      },
+      "style": {
+        "label": "Style",
+        "hint": "Force the page style to use modern or legacy formatting, rather than what is specified by the class."
+      },
+      "subclassHeader": {
+        "label": "Subclass Header"
+      },
+      "subclassItems": {
+        "label": "Subclasses"
+      }
+    },
+    "EquipmentHeader": "Equipment",
+    "EquipmentDescription": "You start with the following equipment, in addition to the equipment granted by your background:",
+    "Features": {
+      "DescriptionLegacy": "As a {lowercaseName}, you gain the following class features, which are summarized in the {name} table.",
+      "DescriptionModern": "As a {name}, you gain the following class features when you reach the specified {name} levels. These features are listed in the {name} Features table.",
+      "Header": "Class Features",
+      "Name": "Level {level}: {name}"
+    },
+    "HitPoints": {
+      "Header": "Hit Points",
+      "HitDiceLegacy": "<strong>Hit Dice:</strong> {dice} per {class} level",
+      "HitDiceModern": "{dice} per {class} level",
+      "Level1": "<strong>Hit Points at 1st Level:</strong> {max} + your Constitution modifier",
+      "LevelX": "<strong>Hit Points at Higher Levels:</strong> {dice} (or {average}) + your Constitution modifier per {class} level after 1st"
+    },
+    "ItemHint": "Drop a class here",
+    "NoValidClass": "No valid class selected, press the edit button to add a class.",
+    "OptionalFeaturesCaption": "Optional Class Features",
+    "OptionalFeaturesDescription": "The following section contains options {class} features. These features are not granted automatically, and you can choose one, some, or all of them at your DM's discretion.",
+    "SpellSlotLevel": "Slot Level",
+    "SpellSlots": "Spell Slots",
+    "SpellSlotsPerSpellLevel": "—Spell Slots per Spell Level—",
+    "Style": {
+      "Inferred": "Inferred from Source",
+      "Legacy": "Legacy",
+      "Modern": "Modern"
+    },
+    "SubclassHint": "Drop subclasses here",
+    "TableCaption": "The {class}",
+    "TableOptionalCaption": "Optional {class} Features",
+    "Traits": {
+      "Caption": "Core {class} Traits",
+      "Header": "Proficiencies"
+    }
+  },
+  "EditDescription": "Edit",
+  "TableTOC": "Table: {caption}",
+  "SpellList": {
+    "DropHint": "Drop spells or folders of spells here to add to the list",
+    "Grouping": {
+      "Label": "Grouping Mode",
+      "Hint": "Controls how the spells will be grouped by default in the spell list.",
+      "Alphabetical": "By First Letter",
+      "Level": "By Level",
+      "None": "No Grouping",
+      "School": "By School"
+    },
+    "IdentifierHint": "Identifier should match that defined on the associated document, if applicable. For example, when creating a spell list for the Wizard class, the identifier should be 'wizard'.",
+    "Type": {
+      "Label": "Spell List Type",
+      "Other": "Uncategorized"
+    },
+    "UnlinkedSpells": {
+      "Label": "Unlinked Spells",
+      "Add": "Add Unlinked Spell",
+      "Configuration": "Spell Configuration",
+      "Edit": "Edit Unlinked Spell"
+    }
+  },
+  "Subclass": {
+    "FIELDS": {
+      "description": {
+        "value": {
+          "label": "Introduction",
+          "hint": "Description of the subclass that will appear before any listed features."
+        }
+      },
+      "item": {
+        "label": "Selected Subclass"
+      },
+      "style": {
+        "label": "Style",
+        "hint": "Force the page style to use modern or legacy formatting, rather than what is specified by the subclass."
+      }
+    },
+    "ItemHint": "Drop a subclass here",
+    "NoValidSubclass": "No valid subclass selected, press the edit button to add a subclass."
+  }
+},
+
+"KEYBINDINGS.RESURGIRDRAGON.SkipDialogNormal": "Skip Dialog",
+"KEYBINDINGS.RESURGIRDRAGON.SkipDialogAdvantage": "Skip Dialog (roll with Advantage/Critical)",
+"KEYBINDINGS.RESURGIRDRAGON.SkipDialogDisadvantage": "Skip Dialog (roll with Disadvantage)",
+
+"MACRO.5eMissingTargetWarn": "Your controlled actor '{actor}' does not have an {type} with name '{name}'.",
+"MACRO.5eMultipleTargetsWarn": "Your controlled actor '{actor}' has more than one {type} with name '{name}'. The first match will be chosen.",
+"MACRO.5eNoActorSelected": "No selected or assigned actor could be found to target with macro.",
+"MACRO.5eUnownedWarn": "You can only create macro buttons for owned Items",
+
+"MIGRATION.5eBegin": "Applying D&D 5e System Migration for version {version}. Please be patient and do not close your game or shut down your server.",
+"MIGRATION.5eComplete": "D&D 5e System Migration to version {version} completed!",
+"MIGRATION.5eVersionTooOldWarning": "Your D&D 5e system data is from too old a Foundry version and cannot be reliably migrated to the latest version. The process will be attempted, but errors may occur.",
+
+"SETTINGS.5eAllowPolymorphingL": "Allow players to polymorph their own actors.",
+"SETTINGS.5eAllowPolymorphingN": "Allow Polymorphing",
+"SETTINGS.5eAutoCollapseCardL": "Automatically collapse Item Card descriptions in the Chat Log",
+"SETTINGS.5eAutoCollapseCardN": "Collapse Item Cards in Chat",
+"SETTINGS.5eAutoSpellTemplateL": "When a spell is cast, defaults to begin the process to create the corresponding Measured Template if any (requires TRUSTED or higher player role)",
+"SETTINGS.5eAutoSpellTemplateN": "Always place Spell Template",
+"SETTINGS.5eAttackRollVisibility": {
+  "Name": "Attack Result Visibility",
+  "Hint": "Control visibility of attack roll results in chat cards for players.",
+  "All": "Show results & target ACs",
+  "HideAC": "Show only results",
+  "None": "Hide all"
+},
+"SETTINGS.5eChallengeVisibility": {
+  "Name": "Challenge Visibility",
+  "Hint": "Control what roll DCs are visible to the players and whether successes/failures are highlighted.",
+  "All": "Show all",
+  "None": "Hide all",
+  "Player": "Show only from other players"
+},
+"SETTINGS.5eCriticalMaxDiceN": "Critical Damage Maximize Dice",
+"SETTINGS.5eCriticalMaxDiceL": "Make critical hits more deadly by maximizing the values of base damage dice.",
+"SETTINGS.5eCriticalModifiersN": "Critical Damage Multiply Modifiers",
+"SETTINGS.5eCriticalModifiersL": "Make critical hits more deadly by multiplying non-dice modifiers in addition to rolled dice.",
+"SETTINGS.5eCurWtL": "Carried currency affects character encumbrance following the rules on PHB pg. 143.",
+"SETTINGS.5eCurWtN": "Apply Currency Weight",
+"SETTINGS.5eDiagEuclidean": "Euclidean (7.07 ft. Diagonal)",
+"SETTINGS.5eDiagL": "Configure which diagonal movement rule should be used for games within this system.",
+"SETTINGS.5eDiagN": "Diagonal Movement Rule",
+"SETTINGS.5eDiagPHB": "PHB: Equidistant (5/5/5)",
+"SETTINGS.5eDiagDMG": "DMG: Alternating (5/10/5)",
+"SETTINGS.5eEncumbrance": {
+  "Hint": "Enable automatic tracking of encumbrance and the application of status effects for characters carrying too much.",
+  "Name": "Encumbrance Tracking",
+  "None": "None",
+  "Normal": "Normal (max carrying capacity)",
+  "Variant": "Variant (encumbered & heavily encumbered)"
+},
+"SETTINGS.5eFeatsL": "Allow players to choose a feat rather than taking an ability score improvement during class advancement.",
+"SETTINGS.5eFeatsN": "Allow Feats",
+"SETTINGS.5eHonorL": "Enable the use of the optional Honor ability score. Requires the world to be reloaded.",
+"SETTINGS.5eHonorN": "Honor Ability Score",
+"SETTINGS.5eInitTBL": "Append the raw Dexterity ability score to break ties in Initiative.",
+"SETTINGS.5eInitTBN": "Initiative Dexterity Tiebreaker",
+"SETTINGS.5eMetricN": "Use Metric Weight Units",
+"SETTINGS.5eMetricL": "Replaces all reference to lbs with kgs and updates the encumbrance calculations to use metric weight units.",
+"SETTINGS.5eNoAdvancementsN": "Disable level-up automation",
+"SETTINGS.5eNoAdvancementsL": "Do not prompt for level-up or character creation choices.",
+"SETTINGS.5eNoConcentrationN": "Disable concentration tracking",
+"SETTINGS.5eNoConcentrationL": "Disable the system's automated tracking of concentration.",
+"SETTINGS.5eProfBonus": "PHB: Bonus (+2, +3, +4, +5, +6)",
+"SETTINGS.5eProfDice": "DMG: Dice (1d4, 1d6, 1d8, 1d10, 1d12)",
+"SETTINGS.5eProfL": "Configure proficiency modifier to use a fixed bonus or a dice roll. Reloading the world is required for this change to take effect.",
+"SETTINGS.5eProfN": "Proficiency Variant",
+"SETTINGS.5eReset": "Reset",
+"SETTINGS.5eRestL": "Configure which rest variant should be used for games within this system.",
+"SETTINGS.5eRestN": "Rest Variant",
+"SETTINGS.5eRestPHB": "Player's Handbook (LR: 8 hours, SR: 1 hour)",
+"SETTINGS.5eRestGritty": "Gritty Realism (LR: 7 days, SR: 8 hours)",
+"SETTINGS.5eRestEpic": "Epic Heroism (LR: 1 hour, SR: 1 min)",
+"SETTINGS.5eGridAlignedSquareTemplatesL": "When square templates are created as the result of casting a spell or using an item, they will be locked to the grid alignment and unable to be rotated.",
+"SETTINGS.5eGridAlignedSquareTemplatesN": "Grid-Aligned Square Templates",
+"SETTINGS.5eSanityL": "Enable the use of the optional Sanity ability score. Requires the world to be reloaded.",
+"SETTINGS.5eSanityN": "Sanity Ability Score",
+"SETTINGS.5eUndoChanges": "Undo Changes",
+"SETTINGS.5eTokenRings": {
+  "Name": "Disable Dynamic Token Rings",
+  "Hint": "Disabling the token ring animations can improve performance."
+},
+"SETTINGS.RESURGIRDRAGON": {
+  "ALLOWSUMMONING": {
+    "Name": "Allow Summoning",
+    "Hint": "Allow players to use summoning abilities to summon actors. Players must also have the Create Token core permission for this to work."
+  },
+  "BLOODIED": {
+    "Name": "Bloodied Status",
+    "Hint": "Configure whether the bloodied status is tracked automatically and its visibility.",
+    "All": "Display for Allies & Enemies",
+    "Player": "Only Display for Allies",
+    "None": "Never Display"
+  },
+  "COLLAPSETRAYS": {
+    "Name": "Collapse Trays in Chat",
+    "Hint": "Automatically collapse damage, hit, and effect trays that appear in chat cards.",
+    "Always": "Collapse All",
+    "Older": "Collapse Older Trays",
+    "Never": "Expand All"
+  },
+  "DEFAULTSKILLS": {
+    "Name": "Default Skills",
+    "Hint": "The default skills that appear on NPC sheets regardless of level of proficiency."
+  },
+  "LEVELING": {
+    "Name": "Leveling Mode",
+    "Hint": "Determine how the players gain new levels.",
+    "NoXP": "Level Advancement without XP",
+    "XP": "Experience Points",
+    "XPBoons": "Experience Points with Epic Boons"
+  },
+  "THEME": {
+    "Name": "Theme",
+    "Hint": "Theme that will apply to the UI and all sheets by default. Automatic will be determined by your browser or operating system settings."
+  },
+  "RULESVERSION": {
+    "Name": "Rules Version",
+    "Hint": "Change handling of various rules between the 2024 and 2014 rule sets.",
+    "Legacy": "Legacy Rules (2014)",
+    "Modern": "Modern Rules (2024)"
+  }
+},
+
+"SHEETS.RESURGIRDRAGON": {
+  "THEME": {
+    "Label": "Theme",
+    "Automatic": "Automatic",
+    "Dark": "Dark Mode",
+    "Light": "Light Mode"
+  }
+},
+
+"SOURCE.BOOK.ERDD": "El Resurgir del Dragón",
+"SOURCE.BOOK.PIONEROS": "Pioneros de Voldor",
+"SOURCE.BOOK.VINDUSAN": "La Ciudad de Vindusan",
+"SOURCE.BOOK.ESPOLON": "El Espolón",
+"SOURCE.BOOK.BOSQUE": "El Bosque de Ámbar",
+"SOURCE.BOOK.SANANDA": "Las Llanuras de Sananda",
+"SOURCE.BOOK.MISTERIO": "El Misterio de la Torre Negra de Sragonaz",
+"SIDEBAR.SortModePriority": "SorOrdenar por Prioridad"
+}

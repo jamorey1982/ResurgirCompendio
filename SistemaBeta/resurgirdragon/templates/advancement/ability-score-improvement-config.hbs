@@ -1,0 +1,21 @@
+<form autocomplete="off" data-id="{{ _id }}" data-type="{{ type }}">
+    {{> "resurgirdragon.advancement-controls" }}
+    <div class="form-group">
+        <label>{{ localize "RESURGIRDRAGON.ADVANCEMENT.AbilityScoreImprovement.FIELDS.cap.label" }}</label>
+        <div class="form-fields">
+            <input type="number" name="configuration.cap" value="{{ configuration.cap }}" min="1" step="1"
+                         placeholder="{{ localize 'None' }}">
+        </div>
+        <p class="hint">{{ localize "RESURGIRDRAGON.ADVANCEMENT.AbilityScoreImprovement.FIELDS.cap.hint" }}</p>
+    </div>
+
+    <ul class="ability-scores">
+        {{> "resurgirdragon.advancement-ability-score-control" points canAdjust=true }}
+        <li class="hint">
+            {{ localize "RESURGIRDRAGON.ADVANCEMENT.AbilityScoreImprovement.FIELDS.points.hint" }}
+        </li>
+        {{#each abilities}}
+        {{> "resurgirdragon.advancement-ability-score-control" this canAdjust=true canLock=true }}
+        {{/each}}
+    </ul>
+</form>

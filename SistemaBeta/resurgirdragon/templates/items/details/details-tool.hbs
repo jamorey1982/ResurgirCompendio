@@ -1,0 +1,54 @@
+<fieldset>
+    <legend>{{ localize "RESURGIRDRAGON.ItemToolProperties" }}</legend>
+
+    {{!-- Tool Type --}}
+    {{ formField fields.type.fields.value value=source.type.value choices=config.toolTypes label="RESURGIRDRAGON.ItemToolType"
+                 blank="" localize=true }}
+
+    {{!-- Base Tool --}}
+    {{#if baseItems}}
+    {{ formField fields.type.fields.baseItem value=source.type.baseItem choices=baseItems label="RESURGIRDRAGON.ItemToolBase"
+                 blank="" localize=true }}
+    {{/if}}
+
+    {{!-- Tool Properties --}}
+    {{ formField fields.properties options=properties.options label="RESURGIRDRAGON.ItemToolProperties" localize=true
+                 input=inputs.createMultiCheckboxInput stacked=true classes="checkbox-grid checkbox-grid-3" }}
+
+    {{!-- Ability Check --}}
+    <div class="form-group">
+        <label>{{ localize "RESURGIRDRAGON.ActionAbil" }}</label>
+        <div class="form-fields">
+
+            {{!-- Proficiency --}}
+            {{ formField fields.proficient value=source.proficient choices=config.proficiencyLevels
+                         label="RESURGIRDRAGON.Proficiency" blank="RESURGIRDRAGON.Automatic" localize=true classes="label-top" }}
+
+            {{!-- Ability --}}
+            {{ formField fields.ability value=source.ability choices=config.abilities labelAttr="label"
+                         label="RESURGIRDRAGON.Ability" blank="RESURGIRDRAGON.Default" localize=true classes="label-top" }}
+        </div>
+    </div>
+
+    {{!-- Tool Bonus --}}
+    {{ formField fields.bonus value=source.bonus localize=true }}
+
+    {{!-- Attunement --}}
+    {{#if properties.object.mgc}}
+    <div class="form-group">
+        <label>{{ localize "RESURGIRDRAGON.Attunement" }}</label>
+        <div class="form-fields">
+
+            {{!-- Attuned --}}
+            {{#if source.attunement}}
+            {{ formInput fields.attuned value=source.attuned input=inputs.createCheckboxInput
+                         ariaLabel=(localize "RESURGIRDRAGON.Attuned") dataset=(resurgirdragon-object tooltip="RESURGIRDRAGON.Attuned") }}
+            {{/if}}
+
+            {{!-- Attunement --}}
+            {{ formInput fields.attunement value=source.attunement choices=config.attunementTypes
+                         blank="RESURGIRDRAGON.AttunementNone" localize=true }}
+        </div>
+    </div>
+    {{/if}}
+</fieldset>

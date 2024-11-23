@@ -1,0 +1,24 @@
+children: {
+      common: "RESURGIRDRAGON.LanguagesCommon",
+      draconic: "RESURGIRDRAGON.LanguagesDraconic",
+      dwarvish: "RESURGIRDRAGON.LanguagesDwarvish",
+      elvish: "RESURGIRDRAGON.LanguagesElvish",
+      giant: "RESURGIRDRAGON.LanguagesGiant",
+      gnomish: "RESURGIRDRAGON.LanguagesGnomish",
+      goblin: "RESURGIRDRAGON.LanguagesGoblin",
+      halfling: "RESURGIRDRAGON.LanguagesHalfling",
+      orc: "RESURGIRDRAGON.LanguagesOrc",
+      sign: "RESURGIRDRAGON.LanguagesCommonSign",
+      pantano: "RESURGIRDRAGON.LanguagesPantano",
+      formigo: "RESURGIRDRAGON.LanguagesFormigo",
+      felino: "RESURGIRDRAGON.LanguagesFelino",
+      gengo: "RESURGIRDRAGON.LanguagesGengo",
+      morlock: "RESURGIRDRAGON.LanguagesMorlock",
+      saurio: "RESURGIRDRAGON.LanguagesSaurio",
+      arania: "RESURGIRDRAGON.LanguagesArania",
+      peregrino: "RESURGIRDRAGON.LanguagesPeregrino",
+      quelonio: "RESURGIRDRAGON.LanguagesQuelonio"
+
+
+
+Borrado aarakocra: "RESURGIRDRAGON.LanguagesAarakocra",

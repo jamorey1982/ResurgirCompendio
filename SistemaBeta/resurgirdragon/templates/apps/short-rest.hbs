@@ -1,0 +1,46 @@
+<form id="short-rest-hd" class="dialog-content" onsubmit="event.preventDefault();">
+    <p>
+        {{#if isGroup}}{{ localize "RESURGIRDRAGON.ShortRestHintGroup" }}
+        {{else}}{{ localize "RESURGIRDRAGON.ShortRestHint" }}{{/if}}
+    </p>
+
+    {{#if availableHD}}
+    <div class="form-group">
+        <label>{{ localize "RESURGIRDRAGON.ShortRestSelect" }}</label>
+        <div class="form-fields">
+            <select name="hd">
+                {{ selectOptions hdOptions selected=denomination }}
+            </select>
+            <button id="roll-hd" {{#unless canRoll}}disabled{{/unless}}>
+                <i class="fas fa-dice-d20"></i> {{ localize "RESURGIRDRAGON.Roll" }}
+            </button>
+        </div>
+        {{#unless canRoll}}
+        <p class="notes">{{ localize "RESURGIRDRAGON.ShortRestNoHD" }}</p>
+        {{/unless}}
+    </div>
+    {{else}}
+    <div class="form-group">
+        <label>{{ localize "RESURGIRDRAGON.HitDiceAutoSpend.Label" }}</label>
+        <input type="checkbox" name="autoHD">
+        <p class="hint">{{localize "RESURGIRDRAGON.HitDiceAutoSpend.Hint" }}</p>
+    </div>
+    {{/if}}
+
+    {{#if promptNewDay}}
+    <div class="form-group">
+        <label>{{ localize "RESURGIRDRAGON.NewDay" }}</label>
+        <input type="checkbox" name="newDay" {{checked newDay}}>
+        <p class="hint">{{ localize "RESURGIRDRAGON.NewDayHint" }}</p>
+    </div>
+    {{/if}}
+
+    <div class="dialog-buttons">
+        {{#each buttons as |button id|}}
+        <button class="dialog-button" data-button="{{id}}">
+            {{{button.icon}}}
+            {{{button.label}}}
+        </button>
+        {{/each}}
+    </div>
+</form>

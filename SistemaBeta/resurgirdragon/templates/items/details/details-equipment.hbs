@@ -1,0 +1,82 @@
+<fieldset>
+    <legend>{{ localize "RESURGIRDRAGON.ItemEquipmentDetails" }}</legend>
+
+    {{!-- Equipment Type --}}
+    {{ formField fields.type.fields.value value=source.type.value label="RESURGIRDRAGON.ItemEquipmentType" blank=""
+                 localize=true options=equipmentTypes }}
+
+    {{!-- Equipment Base --}}
+    {{#if baseItems}}
+    {{ formField fields.type.fields.baseItem value=source.type.baseItem label="RESURGIRDRAGON.ItemEquipmentBase" blank=""
+                 localize=true choices=baseItems }}
+    {{/if}}
+
+    {{!-- Proficiency --}}
+    {{ formField fields.proficient value=source.proficient blank="RESURGIRDRAGON.Automatic" localize=true
+                 choices=config.weaponAndArmorProficiencyLevels }}
+
+    {{!-- Armor --}}
+    {{#if system.isArmor}}
+    <div class="form-group split-group">
+        <label>{{ localize "RESURGIRDRAGON.Armor" }}</label>
+        <div class="form-fields">
+
+            {{!-- Value --}}
+            {{ formField fields.armor.fields.value value=source.armor.value step=1 label="RESURGIRDRAGON.AC" localize=true
+                         classes="label-top" }}
+
+            {{!-- Max Dex --}}
+            {{#if hasDexModifier}}
+            {{ formField fields.armor.fields.dex value=source.armor.dex label="RESURGIRDRAGON.ItemEquipmentDexModAbbr"
+                         placeholder="∞" localize=true classes="label-top" }}
+            {{/if}}
+
+            {{!-- Strength Requirement --}}
+            {{#if system.isArmor}}
+            {{ formField fields.strength value=source.strength label="RESURGIRDRAGON.AbilityStr" placeholder="—" localize=true
+                         classes="label-top" }}
+            {{/if}}
+        </div>
+    </div>
+    {{/if}}
+
+    {{!-- Properties --}}
+    {{ formField fields.properties options=properties.options label="RESURGIRDRAGON.ItemEquipmentProperties" localize=true
+                 input=inputs.createMultiCheckboxInput stacked=true classes="checkbox-grid checkbox-grid-3" }}
+
+    {{!-- Magical Properties --}}
+    {{#if properties.object.mgc}}
+    <div class="form-group split-group">
+        <label>{{ localize "RESURGIRDRAGON.Item.Property.Magical" }}</label>
+        <div class="form-fields">
+
+            {{!-- Attunement --}}
+            {{#unless system.isMountable}}
+            <div class="form-group label-top">
+                <label>{{ localize "RESURGIRDRAGON.Attunement" }}</label>
+                <div class="form-fields">
+
+                    {{!-- Attuned --}}
+                    {{#if source.attunement}}
+                    {{ formInput fields.attuned value=source.attuned input=inputs.createCheckboxInput
+                                 ariaLabel=(localize "RESURGIRDRAGON.Attuned") dataset=(resurgirdragon-object tooltip="RESURGIRDRAGON.Attuned") }}
+                    {{/if}}
+
+                    {{!-- Attunement --}}
+                    {{ formInput fields.attunement value=source.attunement choices=config.attunementTypes
+                                 blank="RESURGIRDRAGON.AttunementNone" localize=true }}
+                </div>
+            </div>
+            {{/unless}}
+
+            {{!-- Magical Bonus --}}
+            {{ formField fields.armor.fields.magicalBonus value=source.armor.magicalBonus step=1 placeholder="0"
+                         label="RESURGIRDRAGON.Bonus" localize=true classes="label-top" }}
+        </div>
+    </div>
+    {{/if}}
+</fieldset>
+
+{{#if system.isMountable}}
+    {{> "resurgirdragon.details-mountable" }}
+{{/if}}

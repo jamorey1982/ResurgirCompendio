@@ -1,0 +1,26 @@
+<section>
+    {{~#if hasScaling}}
+    <fieldset>
+        <legend>{{ localize "RESURGIRDRAGON.USAGE.SECTION.Scaling" }}</legend>
+        {{#if spellSlots}}
+        {{ formField spellSlots.field name=spellSlots.name value=spellSlots.value options=spellSlots.options }}
+        {{/if}}
+        {{#if scaling}}
+        <div class="form-group scaling-fields">
+            <label>{{ localize "RESURGIRDRAGON.ScalingValue" }}</label>
+            <div class="form-fields">
+                {{#if scaling.showRange}}
+                <range-picker name="{{ scaling.name }}" value="{{ scaling.value }}" min="1" max="{{ scaling.max }}"
+                              step="1"></range-picker>
+                {{else}}
+                {{ formInput scaling.field name=scaling.name value=scaling.value }}
+                {{/if}}
+                <span class="separator">/</span>
+                <span class="max">{{ resurgirdragon-numberFormat scaling.max }}</span>
+            </div>
+        </div>
+        {{/if}}
+    </fieldset>
+    {{> "resurgirdragon.activity-usage-notes" }}
+    {{/if~}}
+</section>

@@ -1,0 +1,5 @@
+<fieldset>
+    <legend>{{ localize "RESURGIRDRAGON.HEAL.FIELDS.healing.label" }}</legend>
+    {{> "resurgirdragon.field-damage" fields=fields.healing.fields source=source.healing prefix="healing." heal=true
+        types=typeOptions canScale=activity.canScaleDamage }}
+</fieldset>

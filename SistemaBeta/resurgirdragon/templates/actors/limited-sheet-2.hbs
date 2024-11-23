@@ -1,0 +1,57 @@
+<form class="{{ cssClass }} flexcol" autocomplete="off">
+
+    {{!-- Header --}}
+    <header class="sheet-header">
+
+        {{!-- Portrait --}}
+        <div class="portrait {{#if portrait.token}}token{{/if}}">
+            <img src="{{ portrait.src }}" alt="{{ actor.name }}">
+        </div>
+
+        {{!-- Name --}}
+        <div class="document-name">{{ actor.name }}</div>
+
+        {{#if isNPC}}
+
+        {{{ enriched.public }}}
+
+        {{/if}}
+
+    </header>
+
+    {{#if isCharacter}}
+
+    {{!-- Body --}}
+    <section class="sheet-body">
+
+        {{!-- Main Content --}}
+        <div class="main-content">
+
+            {{!-- Tabbed Content --}}
+            <section class="tab-body">
+
+                {{!-- Biography --}}
+                <div class="tab biography active" data-group="primary" data-tab="biography">
+
+                    {{!-- Biography --}}
+                    <div class="bottom">
+                        <h3 class="icon">
+                            <i class="fas fa-feather"></i>
+                            <resurgirdragon-icon src="systems/resurgirdragon/icons/svg/ink-pot.svg"></resurgirdragon-icon>
+                            <span class="roboto-upper">{{ localize "RESURGIRDRAGON.Biography" }}</span>
+                        </h3>
+                        {{ editor biographyHTML target="system.details.biography.value" button=false
+                                  editable=@root.editable engine="prosemirror" collaborate=false }}
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
+
+    </section>
+
+    {{/if}}
+
+</form>

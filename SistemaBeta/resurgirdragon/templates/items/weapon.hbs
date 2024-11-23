@@ -1,0 +1,167 @@
+<form class="{{cssClass}} flexcol" autocomplete="off">
+
+    {{!-- Item Sheet Header --}}
+    <header class="sheet-header flexrow">
+        <img class="profile" src="{{item.img}}" data-tooltip="{{item.name}}" data-edit="img">
+
+        <div class="header-details flexrow">
+            <h1 class="charname">
+                {{#if system.identified}}
+                <input name="name" type="text" value="{{item.name}}" placeholder="{{ localize 'RESURGIRDRAGON.ItemName' }}">
+                {{else}}
+                <input name="system.unidentified.name" type="text" value="{{system.unidentified.name}}"
+                       placeholder="{{ localize 'RESURGIRDRAGON.NameUnidentified' }}">
+                {{/if}}
+            </h1>
+
+            <div class="item-subtitle">
+                <h4 class="item-type">{{itemType}}</h4>
+                <label class="equipped">
+                    <input type="checkbox" name="system.equipped" {{checked system.equipped}}>
+                    {{#if system.equipped}}
+                        {{ localize "RESURGIRDRAGON.Equipped" }}
+                        {{#if editable}}<i class="fa-solid fa-toggle-on"></i>{{/if}}
+                    {{else}}
+                        {{ localize "RESURGIRDRAGON.Unequipped" }}
+                        {{#if editable}}<i class="fa-solid fa-toggle-off"></i>{{/if}}
+                    {{/if}}
+                </label>
+                <label class="identified">
+                    <input type="checkbox" name="system.identified" {{checked system.identified}}>
+                    {{#if system.identified}}
+                        {{ localize "RESURGIRDRAGON.Identified" }}
+                        {{#if editable}}<i class="fa-solid fa-toggle-on"></i>{{/if}}
+                    {{else}}
+                        {{ localize "RESURGIRDRAGON.Unidentified.Title" }}
+                        {{#if editable}}<i class="fa-solid fa-toggle-off"></i>{{/if}}
+                    {{/if}}
+                </label>
+            </div>
+
+            <ul class="summary flexrow">
+                <li>{{ system.type.label }}</li>
+                <li>
+                    {{#if concealDetails}}
+                    <span>{{ localize "RESURGIRDRAGON.Unidentified.Title" }}</span>
+                    {{else}}
+                    <select name="system.rarity" {{~#if concealDetails}} inert{{/if}}>
+                        {{selectOptions config.itemRarity selected=system.rarity blank=""}}
+                    </select>
+                    {{/if}}
+                </li>
+                <li>
+                    {{> "resurgirdragon.item-source"}}
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    {{!-- Item Sheet Navigation --}}
+    <nav class="sheet-navigation tabs" data-group="primary">
+        <a class="item active" data-tab="description">{{ localize "RESURGIRDRAGON.Description" }}</a>
+        <a class="item" data-tab="details">{{ localize "RESURGIRDRAGON.Details" }}</a>
+        <a class="item" data-tab="effects">{{ localize "RESURGIRDRAGON.Effects" }}</a>
+    </nav>
+
+    {{!-- Item Sheet Body --}}
+    <section class="sheet-body">
+
+        {{!-- Description Tab --}}
+        {{> "resurgirdragon.item-description"}}
+
+        {{!-- Details Tab --}}
+        <div class="tab details" data-group="primary" data-tab="details">
+            {{#resurgirdragon-concealSection concealDetails}}
+
+            <h3 class="form-header">{{ localize "RESURGIRDRAGON.ItemWeaponDetails" }}</h3>
+
+            {{!-- Weapon Type --}}
+            <div class="form-group">
+                <label>{{ localize "RESURGIRDRAGON.ItemWeaponType" }}</label>
+                <select name="system.type.value">
+                    {{selectOptions config.weaponTypes selected=system.type.value}}
+                </select>
+            </div>
+
+            {{#if baseItems}}
+            <div class="form-group">
+                <label>{{ localize "RESURGIRDRAGON.ItemWeaponBase" }}</label>
+                <select name="system.type.baseItem">
+                    {{selectOptions baseItems selected=system.type.baseItem blank=""}}
+                </select>
+            </div>
+            {{/if}}
+
+            {{#unless system.isMountable}}
+            <div class="form-group input-select">
+                <label>{{localize "RESURGIRDRAGON.Attunement"}}</label>
+                <div class="form-fields">
+                    <input type="checkbox" name="system.attuned" {{ checked system.attuned }}
+                           {{ disabled (not system.attunement) }}
+                           data-tooltip="RESURGIRDRAGON.Attuned" aria-label="{{ localize 'RESURGIRDRAGON.Attuned' }}">
+                    <select name="system.attunement">
+                        {{selectOptions config.attunementTypes selected=system.attunement
+                                        blank=(localize "RESURGIRDRAGON.AttunementNone")}}
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label>{{localize "RESURGIRDRAGON.Proficiency"}}</label>
+                <select name="system.proficient" data-dtype="Number">
+                    {{selectOptions config.weaponAndArmorProficiencyLevels selected=system.proficient
+                                    blank=(localize "RESURGIRDRAGON.Automatic")}}
+                </select>
+            </div>
+            {{/unless}}
+
+            {{!-- Weapon Properties --}}
+            <div class="form-group stacked weapon-properties">
+                <label>{{ localize "RESURGIRDRAGON.ItemWeaponProperties" }}</label>
+                {{#each properties}}
+                <label class="checkbox">
+                    <input type="checkbox" name="system.properties.{{ @key }}" {{ checked selected }}>
+                    {{ label }}
+                </label>
+                {{/each}}
+            </div>
+
+            {{#if system.isMountable}}
+            <div class="form-group">
+                <label>{{localize 'RESURGIRDRAGON.ArmorClass'}}</label>
+                <div class="form-fields">
+                    {{numberInput system.armor.value name="system.armor.value"}}
+                </div>
+            </div>
+
+            {{> "resurgirdragon.item-mountable"}}
+            {{/if}}
+
+            {{#if properties.mgc.selected}}
+            <div class="form-group">
+                <label>{{ localize "RESURGIRDRAGON.MagicalBonus" }}</label>
+                <div class="form-fields">
+                    {{ numberInput system.magicalBonus name="system.magicalBonus" min="0" step="1" placeholder="0" }}
+                </div>
+            </div>
+            {{/if}}
+
+            <h3 class="form-header">{{ localize "RESURGIRDRAGON.ItemWeaponUsage" }}</h3>
+
+            {{!-- Item Activation Template --}}
+            {{> "resurgirdragon.item-activation"}}
+
+            <h3 class="form-header">{{ localize "RESURGIRDRAGON.ItemWeaponAttack" }}</h3>
+
+            {{!-- Item Action Template --}}
+            {{> "resurgirdragon.item-action"}}
+
+            {{/resurgirdragon-concealSection}}
+        </div>
+
+        {{!-- Effects Tab --}}
+        <div class="tab effects flexcol" data-group="primary" data-tab="effects">
+            {{> "resurgirdragon.active-effects"}}
+        </div>
+    </section>
+</form>

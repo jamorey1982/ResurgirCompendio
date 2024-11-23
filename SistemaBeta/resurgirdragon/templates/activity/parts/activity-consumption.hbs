@@ -1,0 +1,71 @@
+<section class="tab activity-{{ tab.id }} {{ tab.cssClass }}" data-tab="{{ tab.id }}" data-group="{{ tab.group }}">
+    <fieldset>
+        <legend>
+            <span>{{ localize "RESURGIRDRAGON.CONSUMPTION.FIELDS.consumption.label" }}</span>
+            <button type="button" class="unbutton control-button" data-action="addConsumption"
+                    data-tooltip="RESURGIRDRAGON.CONSUMPTION.Action.Create"
+                    aria-label="{{ localize "RESURGIRDRAGON.CONSUMPTION.Action.Create" }}">
+                <i class="fas fa-plus" inert></i>
+            </button>
+        </legend>
+
+        {{#if showConsumeSpellSlot}}
+        {{ formField fields.consumption.fields.spellSlot value=source.consumption.spellSlot
+                     input=inputs.createCheckboxInput }}
+        {{/if}}
+
+        {{#each consumptionTargets}}
+        <div class="form-group split-group full-width card" data-index="{{ @index }}">
+            <div class="form-fields field-groups">
+                <div class="field-group">
+                    {{ formField fields.type name=(concat prefix "type") value=data.type label="RESURGIRDRAGON.Type"
+                                 localize=true hint=false options=typeOptions classes="label-top" }}
+                    {{ formField fields.value name=(concat prefix "value") value=data.value label="RESURGIRDRAGON.Amount"
+                                 localize=true classes="label-top" }}
+                </div>
+                {{#if showTargets}}
+                <div class="field-group">
+                    {{ formField fields.target name=(concat prefix "target") value=data.target options=validTargets
+                                 placeholder=targetPlaceholder label="RESURGIRDRAGON.Target" localize=true hint=false
+                                 classes="label-top" }}
+                </div>
+                {{/if}}
+                <div class="field-group">
+                    {{#if scalingModes}}
+                    {{ formField fields.scaling.fields.mode name=(concat prefix "scaling.mode") value=data.scaling.mode
+                                 label="RESURGIRDRAGON.CONSUMPTION.FIELDS.consumption.scaling.abbr" localize=true hint=false
+                                 options=scalingModes classes="label-top" }}
+                    {{#if data.scaling.mode}}
+                    {{ formField fields.scaling.fields.formula name=(concat prefix "scaling.formula")
+                                 value=data.scaling.formula placeholder=(localize "RESURGIRDRAGON.CONSUMPTION.Scaling.Automatic")
+                                 label="RESURGIRDRAGON.Formula" localize=true hint=false classes="label-top"}}
+                    {{/if}}
+                    {{/if}}
+                </div>
+                <button type="button" class="unbutton control-button" data-action="deleteConsumption"
+                        data-tooltip="RESURGIRDRAGON.CONSUMPTION.Action.Delete"
+                        aria-label="{{ localize "RESURGIRDRAGON.CONSUMPTION.Action.Delete" }}">
+                    <i class="fas fa-minus" inert></i>
+                </button>
+            </div>
+        </div>
+        {{else}}
+        <div class="empty">{{ localize "RESURGIRDRAGON.None" }}</div>
+        {{/each}}
+    </fieldset>
+
+    {{#if showScaling}}
+    {{#with fields.consumption.fields.scaling.fields as |fields|}}
+    <fieldset>
+        <legend>{{ localize "RESURGIRDRAGON.CONSUMPTION.FIELDS.consumption.scaling.label" }}</legend>
+        {{ formField fields.allowed value=../activity.consumption.scaling.allowed
+                     input=@root.inputs.createCheckboxInput }}
+        {{#if ../activity.consumption.scaling.allowed}}
+        {{ formField fields.max value=../activity.consumption.scaling.max placeholder="∞" }}
+        {{/if}}
+    </fieldset>
+    {{/with}}
+    {{/if}}
+
+    {{> "resurgirdragon.field-uses" hasLimitedUses=true }}
+</section>
